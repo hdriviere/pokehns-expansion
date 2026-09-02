@@ -17,13 +17,14 @@ SaffronCity_House1_EventScript_MrPsychicAfter::
 	end
 
 MrPsychic_Text_1:
-	.string "…\p"
-	.string "…\p"
-	.string "…\p"
-	.string "…I got it!\p"
-	.string "You wanted this!$"
+	.string "...\p"
+	.string "....\p"
+	.string ".....\p"
+	.string "...... Je sais!\p"
+	.string "Tu veux ça!$"
 
 MrPsychic_Text_2:
-	.string "TM29 is PSYCHIC.\p"
-	.string "It may lower the target's\n"
-	.string "SP.DEF.$"
+	.string "Tu le sais déjà... La CT29\n"
+	.string "contient Psyko.\p"
+	.string "... Ça peut baisser la Défense\n"
+	.string "Spéciale de l’ennemi!$"

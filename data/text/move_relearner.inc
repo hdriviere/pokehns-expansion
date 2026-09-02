@@ -1,58 +1,64 @@
 MoveRelearner_Text_WouldLearnNewMoves:
-	.string "Hi, I'm the Move Relearner.\n"
-	.string "Would you like to learn new moves?$"
+	.string "Salut, je suis le Maître des\n"
+	.string "Capacités.\p"
+	.string "Est-ce que tu veux que\n"
+	.string "j'enseigne à ton équipe de\p"
+	.string "nouvelles capacités?$"
 
 MoveRelearner_Text_LevelUpMoves:
-	.string "Level Up Moves$"
+	.string "Cap. Niveau$"
 
 MoveRelearner_Text_EggMoves:
-	.string "Egg Moves$"
+	.string "Cap. Œuf$"
 
 MoveRelearner_Text_TMMoves:
-	.string "TM Moves$"
+	.string "Cap. CT$"
 
 MoveRelearner_Text_TutormoveMoves:
-	.string "Tutor Moves$"
+	.string "Cap. Apprises$"
 
 MoveRelearner_Text_SeeYa:
-	.string "See ya!$"
+	.string "A plus!$"
 
 MoveRelearner_Text_AnythingElse:
-	.string "Is there anything else I may do for you?$"
+	.string "Que puis-je faire d'autre pour\n"
+	.string "toi?$"
 
 MoveRelearner_Text_ChoosePkmn:
-	.string "Please choose your Pokémon.$"
+	.string "Choisis un Pokémon.$"
 
 MoveRelearner_Text_HaveNoPkmn:
-	.string "You have no Pokémon.$"
+	.string "Tu n'as pas de Pokémon.$"
 
 MoveRelearner_Text_CantTeachMoveToEgg:
-	.string "Sorry…\n"
-	.string "But an Egg can't learn moves.$"
+	.string "Navré… Un Œuf ne peut pas\n"
+	.string "apprendre de capacités.$"
 
 MoveRelearner_Text_CantTeachMoveToPkmn:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that Pokémon.$"
+	.string "Navré…\p"
+	.string "Il ne semble pas que j'aie une\n"
+	.string "capacité que je puisse enseigner\p"
+	.string "à ce Pokémon.$"
 
 MoveRelearner_Text_LevelUpMoveLWR::
-	.string "level up move$"
+	.string "cap. niveau$"
 
 MoveRelearner_Text_EggMoveLWR::
-	.string "egg move$"
+	.string "cap. œuf$"
 
 MoveRelearner_Text_TMMoveLWR::
-	.string "TM move$"
+	.string "cap. CT$"
 
 MoveRelearner_Text_TutorMoveLWR::
-	.string "tutor move$"
+	.string "cap. apprises$"
 
 MoveRelearner_Text_MoveLWR::
-	.string "move$"
+	.string "cap.$"
 
 MoveRelearner_Text_WhichXmoveShouldTeach:
-	.string "Which {STR_VAR_3} should I teach?$"
+	.string "Quelle {STR_VAR_3} devrais-je\n"
+	.string "enseigner?$"
 
 MoveRelearner_Text_ThankYouComeAgain:
-	.string "Thank you for using our services.\n"
-	.string "Please come again!$"
+	.string "Je te remercie de tes services.\n"
+	.string "Reviens me voir!$"

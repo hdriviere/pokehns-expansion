@@ -36,44 +36,50 @@ Route33_EventScript_Lass::
 	end
 
 Route33_Text_HikerAnthony2Seen:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "J'ai traversé le tunnel, mais il\n"
+	.string "me\p"
+	.string "reste encore pas mal d'énergie.$"
 
 Route33_Text_HikerAnthony2Beaten:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "Ah! Il te restait plus d’énergie\n"
+	.string "qu’à moi!$"
 
 Route33_Text_HikerAnthony2After:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "Nous, les\n"
+	.string "Montagnards, on\p"
+	.string "est plein d’énergie\n"
+	.string "dans la montagne!$"
 
 Route33_Text_AnthonyRegister:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "Nous, les\n"
+	.string "Montagnards, on\p"
+	.string "est plein d’énergie\n"
+	.string "dans la montagne!$"
 
 Route33_Text_AnthonyRematchIntro:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "J'ai traversé le tunnel, mais il\n"
+	.string "me\p"
+	.string "reste encore pas mal d'énergie.$"
 
 Route33_Text_AnthonyRematchDefeat:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "Ah! Il te restait plus d’énergie\n"
+	.string "qu’à moi!$"
 
 Route33_Text_AnthonyPostRematch:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "Nous, les\n"
+	.string "Montagnards, on\p"
+	.string "est plein d’énergie\n"
+	.string "dans la montagne!$"
 
 Route33_Text_HikerAnthonyDunsparce:
-	.string "Hey, did you get a DUNSPARCE?\p"
-	.string "I caught one too.\p"
-	.string "Take a look at it in the light.\n"
-	.string "It's got a funny face!$"
+	.string "Hé! As-tu chopé un INSOLOURDO?\p"
+	.string "Moi ouais.\p"
+	.string "Regarde-le bien! Il a une bonne\n"
+	.string "bouille, hein?$"
 
 Route33_Text_Lass:
-	.string "Pant, pant…\p"
-	.string "That cave was bigger than\n"
-	.string "I'd expected.\p"
-	.string "I got too tired exploring\n"
-	.string "for MARILL, so I came outside.$"
+	.string "Pouf, pouf…\p"
+	.string "Cette grotte était plus grande\n"
+	.string "que prévu.\p"
+	.string "J'étais épuisée de chercher\n"
+	.string "MARILL, alors je suis sortie.$"

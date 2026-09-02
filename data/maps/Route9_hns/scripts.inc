@@ -46,73 +46,76 @@ Route9_EventScript_Item_Flash_Cannon::
     end
 
 Route9_Text_CamperDeanSeen:
-	.string "I came to explore ROCK TUNNEL.$"
+	.string "Je viens pour explorer la\n"
+	.string "GROTTE.$"
 
 Route9_Text_CamperDeanBeaten:
-	.string "Whoa! Danger, man.$"
+	.string "Whoa! Danger!$"
 
 Route9_Text_CamperDeanAfter:
-	.string "My POKéMON were hurt before even\n"
-	.string "entering ROCK TUNNEL.\p"
-	.string "I'd better take them to a POKéMON\n"
-	.string "CENTER right away.$"
+	.string "Mes Pokémon ont été blessés\n"
+	.string "avant\p"
+	.string "d'entrer dans la GROTTE.\p"
+	.string "Je devrais les amener à un\n"
+	.string "CENTRE Pokémon...$"
 
 Route9_Text_PicnickerHeidiSeen:
-	.string "Have you ever been to a picnic?\p"
-	.string "They're so much fun!$"
+	.string "Tu aimes les pique-niques? C'est\n"
+	.string "trop cool!$"
 
 Route9_Text_PicnickerHeidiBeaten:
 	.string "Ohhhh!$"
 
 Route9_Text_PicnickerHeidiAfter:
-	.string "We bake lots of goodies and share\n"
-	.string "them all around.\p"
-	.string "They're delicious!$"
+	.string "On mange comme des truies et on\p"
+	.string "fait des miettes. C'est mortel!$"
 
 Route9_Text_CamperSidSeen:
-	.string "Hey, you! Don't litter!$"
+	.string "Toi, là! C’est interdit de jeter\n"
+	.string "des déchets ici!$"
 
 Route9_Text_CamperSidBeaten:
-	.string "I was just pointing out…$"
+	.string "Je pensais bien faire...$"
 
 Route9_Text_CamperSidAfter:
-	.string "Sorry. You weren't littering. It\n"
-	.string "was my mistake.$"
+	.string "Je me suis trompé, je m’excuse.$"
 
 Route9_Text_PicnickerEdnaSeen:
-	.string "People shouldn't leave any litter\n"
-	.string "behind.$"
+	.string "Pour protéger\n"
+	.string "l’environnement,\p"
+	.string "il faut ramener ses\n"
+	.string "déchets à la maison.$"
 
 Route9_Text_PicnickerEdnaBeaten:
-	.string "Ohh… I lost…$"
+	.string "Ohh...pas glop.$"
 
 Route9_Text_PicnickerEdnaAfter:
-	.string "Conserving energy is important,\n"
-	.string "but the environment is even more\l"
-	.string "vital.$"
+	.string "Il faut économiser l’énergie. Et\n"
+	.string "protéger l’environnement!$"
 
 Route9_Text_HikerTimSeen:
-	.string "She'll be coming 'round MT.SILVER\n"
-	.string "when she comes…\p"
-	.string "MT.SILVER is in JOHTO, right?$"
+	.string "Elle descend du MONT ARGENT à\n"
+	.string "cheval... La la la la la...\p"
+	.string "Le MONT ARGENT est à JOHTO, non?$"
 
 Route9_Text_HikerTimBeaten:
-	.string "I was too busy singing…$"
+	.string "C'est trop bien de chanter.$"
 
 Route9_Text_HikerTimAfter:
-	.string "Battles are about concentration.$"
+	.string "La concentration est pourtant la\n"
+	.string "clé!$"
 
 Route9_Text_HikerSidneySeen:
-	.string "I'll tell you a secret.\p"
-	.string "But first, we battle!$"
+	.string "J'ai un secret pour toi.\p"
+	.string "Mais d'abord... Combat!$"
 
 Route9_Text_HikerSidneyBeaten:
-	.string "Oh, dang! I lost that…$"
+	.string "Zut de flûte! Perdu!$"
 
 Route9_Text_HikerSidneyAfter:
-	.string "The POWER PLANT is across a small\n"
-	.string "river.$"
+	.string "La CENTRALE est de l'autre côté\n"
+	.string "d'une rivière.$"
 
 Route9_Text_Sign:
 	.string "ROUTE 9\p"
-	.string "CERULEAN CITY - ROCK TUNNEL$"
+	.string "AZURIA GROTTE$"

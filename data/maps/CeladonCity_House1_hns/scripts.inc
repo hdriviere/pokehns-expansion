@@ -54,47 +54,57 @@ CeladonCity_House1_EventScript_Sign::
 	end
 
 CeladonCity_House1_Text_ChefEatathon:
-	.string "Hi!\p"
-	.string "We're holding an eatathon contest.\p"
-	.string "We can't serve you right now.\n"
-	.string "Sorry.$"
+	.string "Bienvenue!\p"
+	.string "... Du moins,\n"
+	.string "j’aimerais bien\p"
+	.string "vous dire ça, mais\n"
+	.string "on est en plein\p"
+	.string "concours de gloutonnerie...\p"
+	.string "Si ça vous\n"
+	.string "intéresse, vous\p"
+	.string "pouvez regarder les\n"
+	.string "concurrents manger.$"
 
 CeladonCity_House1_Text_Fisher1Snarfle:
-	.string "…Snarfle, chew…$"
+	.string "...(tousse)... ...(crache)...$"
 
 CeladonCity_House1_Text_Fisher1Concentration:
-	.string "Don't talk to me!\p"
-	.string "You'll break my concentration!$"
+	.string "Me parle pas!\p"
+	.string "J'vais perdre ma concentration!$"
 
 CeladonCity_House1_Text_Fisher2GulpChew:
-	.string "…Gulp… Chew…$"
+	.string "...(tousse)... ...(mâche)...$"
 
 CeladonCity_House1_Text_Fisher2Quantity:
-	.string "I take quantity over quality!\p"
-	.string "I'm happy when I'm full!$"
+	.string "Bouffer! Bouuuuuffer!\p"
+	.string "J'vais m'faire exploser\n"
+	.string "l'ventre!$"
 
 CeladonCity_House1_Text_Fisher3MunchMunch:
-	.string "Munch, munch…$"
+	.string "Miam...(bouffe)...$"
 
 CeladonCity_House1_Text_Fisher3GoldenrodIsBest:
-	.string "The food is good here, but\n"
-	.string "GOLDENROD has the best food\l"
-	.string "anywhere.$"
+	.string "Ici la nourriture est\n"
+	.string "bonne mais celle de\p"
+	.string "DOUBLONVILLE est la\n"
+	.string "meilleure de toutes.$"
 
 CeladonCity_House1_Text_TeacherCrunchCrunch:
-	.string "Crunch… Crunch…$"
+	.string "(mâche), (croque).$"
 
 CeladonCity_House1_Text_TeacherNoCoinCase:
-	.string "Nobody here will give you a COIN\n"
-	.string "CASE. You should look in JOHTO.$"
+	.string "Personne ne te donnera de BOITE\p"
+	.string "JETON, ici. Va voir à JOHTO.$"
 
 CeladonCity_House1_Text_TeacherKeepEating:
-	.string "Crunch… Crunch…\p"
-	.string "I can keep eating!\p"
-	.string "More, CHEF!$"
+	.string "MIOM MIOM MIOM!\p"
+	.string "Je peux encore manger!\p"
+	.string "Chef! Une autre!$"
 
 CeladonCity_House1_Text_EatathonContestPoster:
-	.string "Eatathon Contest! No time limit!\p"
-	.string "A battle without end! The biggest\n"
-	.string "muncher gets it all for free!$"
+	.string "Concours de Bouffe! Pas de\p"
+	.string "temps limite! Une\n"
+	.string "joie sans fin!\p"
+	.string "Et c'est gratuit\n"
+	.string "pour le vainqueur!$"
 

@@ -51,36 +51,36 @@ MountMortar4_EventScript_KiyoAfter::
 
 
 MountMortar4_Text_KiyoIntro:
-	.string "Hey!\p"
-	.string "I am the KARATE KING!\n"
-	.string "I train alone here in the dark!\p"
-	.string "You! Battle with me!\n"
-	.string "Hwaaarggh!$"
+	.string "Hé!\p"
+	.string "Je suis le ROI du KARATE!\p"
+	.string "Je m'entraîne seul dans le noir!\p"
+	.string "Toi! Moi! Combat!\p"
+	.string "Yaaaaaah!$"
 
 MountMortar4_Text_KiyoWin:
-	.string "Waaaarggh!\n"
-	.string "I'm beaten!$"
+	.string "Waaaarggh! Perdu!$"
 
 MountMortar4_Text_KiyoTyrogueReward:
-	.string "I... I'm crushed...\p"
-	.string "My training is still not\n"
-	.string "enough...\p"
-	.string "But a loss is a loss.\n"
-	.string "I admit it.\p"
-	.string "As proof that you defeated me,\n"
-	.string "I'll give you a rare fighting\l"
-	.string "POKéMON.$"
+	.string "J'suis...mauvais.\p"
+	.string "Mon entraînement n'est pas\n"
+	.string "encore suffisant.\p"
+	.string "Mais j'admets ma défaite.\p"
+	.string "En gage de récompense, je vais\n"
+	.string "te\p"
+	.string "donner un Pokémon de combat\n"
+	.string "rare.$"
 
 MountMortar4_Text_ReceiveTyrogue:
-	.string "{PLAYER} received TYROGUE.$"
+	.string "{PLAYER} reçoit DEBUGANT.$"
 
 MountMortar4_Text_KiyoGotTyrogue:
-	.string "TYROGUE is a FIGHTING-type.\p"
-	.string "It evolves into a tougher\n"
-	.string "POKéMON.\p"
-	.string "Keep up the hard work.\n"
-	.string "I'll keep training too.\p"
-	.string "Farewell!$"
+	.string "DEBUGANT est du type COMBAT.\p"
+	.string "Il évolue en un puissant\n"
+	.string "Pokémon.\p"
+	.string "Alors fais comme moi...\n"
+	.string "Entraîne-toi!\p"
+	.string "Adieu!$"
 
 MountMortar4_Text_KiyoFullParty:
-	.string "You have no room in your party!$"
+	.string "Ghh... Ton équipe est au\n"
+	.string "complet!$"

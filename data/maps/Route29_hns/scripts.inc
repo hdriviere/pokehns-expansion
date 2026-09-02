@@ -34,7 +34,7 @@ Route29_Trigger_Monview::
 	end
 
 Route29_Text_PressAorB:
-	.string "Press A or B to stop viewing.$"
+	.string "Appuie sur A ou B pour arrêter.$"
 
 Route29_EventScript_OldMan::
 	lock
@@ -158,89 +158,94 @@ Route29_EventScript_ItemPotion::
 	end
 
 Route29_Text_OldMan1:
-	.string "POKéMON hide in the grass.\n"
-	.string "Who knows when they'll pop out…$"
+	.string "Les Pokémon se cachent dans\p"
+	.string "l'herbe. Ils surgissent d'un\n"
+	.string "coup. Pouf!$"
 
 Route29_Text_OldMan2:
-	.string "I've seen you a couple times.\n"
-	.string "How many POKéMON have you caught?\p"
-	.string "Would you like me to tell you\n"
-	.string "how to catch POKéMON?$"
+	.string "J'te connais toi. Combien de\n"
+	.string "Pokémon as-tu attrapés?\p"
+	.string "Veux-tu que je te montre comment\n"
+	.string "attraper des Pokémon?$"
 
 Route29_Text_OldManExplanation:
-	.string "If you weaken them first,\n"
-	.string "POKéMON are easier to catch.\p"
-	.string "Then, throw a ball at them from\n"
-	.string "your bag! Any ball will do.\p"
-	.string "If you want to learn more,\n"
-	.string "go to the ACADEMY in VIOLET CITY!\p"
-	.string "The students there know a lot\n"
-	.string "about POKéMON.$"
+	.string "Affaiblis d'abord les Pokémon\n"
+	.string "pour mieux les attraper.\p"
+	.string "Puis lance-leur une Ball depuis\n"
+	.string "ton Sac! N'importe laquelle.\p"
+	.string "Pour en savoir plus, va à\n"
+	.string "l'Académie Pokémon de MAUVILLE!\p"
+	.string "Les élèves s'y connaissent bien\n"
+	.string "en Pokémon.$"
 
 Route29_Text_OldManDeclined:
-	.string "Oh. Fine, then.\p"
-	.string "Check every route to find\n"
-	.string "different types of POKéMON.\p"
-	.string "Your POKéDEX shows where you can\n"
-	.string "find them too!\p"
-	.string "If you want to learn more,\n"
-	.string "go to the ACADEMY in VIOLET CITY!\p"
-	.string "The students know a lot about\n"
-	.string "POKéMON.$"
+	.string "Oh. Très bien.\p"
+	.string "Explore les routes pour trouver\n"
+	.string "différents types de Pokémon.\p"
+	.string "Ton Pokédex indique aussi où les\n"
+	.string "trouver!\p"
+	.string "Pour en savoir plus, va à\n"
+	.string "l'Académie Pokémon de MAUVILLE!\p"
+	.string "Les élèves s'y connaissent bien\n"
+	.string "en Pokémon.$"
 
 Route29_Text_Youngster:
-	.string "Yo. How are your POKéMON?\p"
-	.string "If they're weak and not ready\n"
-	.string "for battle, keep out of the grass.$"
+	.string "Salut. Comment vont tes Pokémon?\p"
+	.string "S'ils sont fatigués ou\n"
+	.string "incapables\p"
+	.string "de combattre, évite l'herbe!$"
 
 Route29_Text_Lass:
-	.string "See those ledges?\n"
-	.string "It's scary to jump off them.\p"
-	.string "But you can go to NEW BARK\n"
-	.string "without walking through the grass.$"
+	.string "Tu vois ce mur? Sauter de là\n"
+	.string "doit faire peur.\p"
+	.string "Mais tu peux aller à BOURG GEON\n"
+	.string "sans\p"
+	.string "marcher dans les hautes herbes.$"
 
 Route29_Text_Girl:
-	.string "I wanted to take a break,\n"
-	.string "so I saved to record my progress.$"
+	.string "Si tu veux faire\n"
+	.string "une pause, n’oublie\p"
+	.string "pas de sauvegarder\n"
+	.string "ta partie.$"
 
 Route29_Text_Boy_WaitingForDay:
-	.string "I'm waiting for POKéMON that\n"
-	.string "appear only later in the day.$"
+	.string "J'attends les Pokémon qui\n"
+	.string "n'apparaissent qu'en journée.$"
 
 Route29_Text_Boy_WaitingForNight:
-	.string "I'm waiting for POKéMON that\n"
-	.string "appear only at night.$"
+	.string "J'attends les Pokémon qui\n"
+	.string "n'apparaissent que la nuit.$"
 
 Route29_Text_MeetTuscany:
-	.string "TUSCANY: I do believe that this\n"
-	.string "is the first time we've met?\p"
-	.string "I'm TUSCANY of the WEEKDAY FAMILY.\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "MARIE: Il me semble que c'est\n"
+	.string "notre première rencontre?\p"
+	.string "Je suis MARIE, de la FAMILLE\n"
+	.string "DE LA SEMAINE.\p"
+	.string "Devine mon jour préféré et je te\n"
+	.string "donnerai une récompense.$"
 
 Route29_Text_TuscanyNope:
-	.string "Not quite!$"
+	.string "Pas tout à fait!$"
 
 Route29_Text_TuscanyGivesGift:
-	.string "Yes! By way of introduction,\n"
-	.string "please accept this gift, a SILK\l"
-	.string "SCARF.$"
+	.string "Oui! Pour fêter notre rencontre,\n"
+	.string "accepte ce MOUCHOIR SOIE.$"
 
 Route29_Text_TuscanyGaveGift:
-	.string "TUSCANY: Wouldn't you agree\n"
-	.string "that it is most adorable?\p"
-	.string "It strengthens NORMAL-type\n"
-	.string "moves.\p"
-	.string "I am certain it will be of use.$"
+	.string "MARIE: C'est ravissant, tu ne\n"
+	.string "trouves pas?\p"
+	.string "Il améliore les capacités de\n"
+	.string "type NORMAL.\p"
+	.string "Je suis sûre qu'il te sera\n"
+	.string "utile.$"
 
 Route29_Text_TuscanyTuesday:
-	.string "TUSCANY: Have you met MONICA,\n"
-	.string "my older sister?\p"
-	.string "Or my younger brother, WESLEY?\p"
-	.string "I am the third of seven\n"
-	.string "children.$"
+	.string "MARIE: As-tu rencontré LUCIE, ma\n"
+	.string "grande soeur?\p"
+	.string "Ou mon petit frère HOMER?\p"
+	.string "Je suis la deuxième des sept\n"
+	.string "enfants.$"
 
 Route29_Text_Sign1:
 	.string "ROUTE 29\p"
-	.string "CHERRYGROVE CITY - NEW BARK TOWN$"
-
+	.string "VILLE GRIOTTE BOURG GEON$"

@@ -105,168 +105,168 @@ Route45_EventScript_Item_Nugget::
 	end
 
 Route45_Text_HikerErikSeen:
-    .string "Be prepared for anything!\p"
-    .string "Let me see if your POKéMON have\n"
-    .string "been raised properly!$"
+    .string "Rien à craindre\n"
+    .string "quand on est préparé!\p"
+    .string "Voyons, ton équipe\n"
+    .string "est bien entraînée?$"
 
 Route45_Text_HikerErikBeaten:
-    .string "Oh, I lost that!$"
+    .string "Oh! Perdu!$"
 
 Route45_Text_HikerErikAfter:
-    .string "I'll head back to BLACKTHORN's\n"
-    .string "ICE PATH and train some more.$"
+    .string "Je retourne à la Route de Glace\n"
+    .string "d’Ebènelle pour m’entraîner.$"
 
 Route45_Text_HikerMichaelSeen:
-    .string "Yo! You're spunky! But you know\n"
-    .string "what?\p"
-    .string "When it comes to sheer\n"
-    .string "spunkiness, I'm the man!$"
+    .string "Toi, tu crains! Tu le sais, ça?\p"
+    .string "Alors il faut se battre. Parce\n"
+    .string "que j't'aime pas!$"
 
 Route45_Text_HikerMichaelBeaten:
-    .string "My POKéMON weren't spunky enough!$"
+    .string "Bien joué!$"
 
 Route45_Text_HikerMichaelAfter:
-    .string "Boy, do I love HP UP! Mmmm, yum!\p"
-    .string "I keep drinking my POKéMON's!\p"
-    .string "I can't help it!$"
+    .string "Moi j’aime les PV Plus! Mmmh!\p"
+    .string "C’est pour les Pokémon mais j’en\n"
+    .string "bois quand même! C’est trop bon!$"
 
 Route45_Text_HikerParrySeen:
-    .string "My POKéMON are power packed!$"
+    .string "J'ai super boosté mes Pokémon!$"
 
 Route45_Text_HikerParryBeaten:
-    .string "Wahahah! I'm the big loser!$"
+    .string "Wahahah! J’ai perdu!$"
 
 Route45_Text_HikerParryAfter:
-    .string "I'm not much good at thinking,\n"
-    .string "see?\p"
-    .string "So, I just plow ahead with power!$"
+    .string "Réfléchir, c'est pas mon truc.\p"
+    .string "Alors, je cogne.$"
 
 Route45_Text_ParryRegister:
-    .string "I'm not much good at thinking,\n"
-    .string "see?\p"
-    .string "So, I just plow ahead with power!$"
+    .string "Réfléchir, c'est pas mon truc.\p"
+    .string "Alors, je cogne.$"
 
 Route45_Text_ParryRematchIntro:
-    .string "My POKéMON are power packed!$"
+    .string "J'ai super boosté mes Pokémon!$"
 
 Route45_Text_ParryRematchDefeat:
-    .string "Wahahah! I'm the big loser!$"
+    .string "Wahahah! J’ai perdu!$"
 
 Route45_Text_ParryPostRematch:
-    .string "I'm not much good at thinking,\n"
-    .string "see?\p"
-    .string "So, I just plow ahead with power!$"
+    .string "Réfléchir, c'est pas mon truc.\p"
+    .string "Alors, je cogne.$"
 
 Route45_Text_HikerTimothySeen:
-    .string "Why do I climb mountains?\p"
-    .string "Because they're there.\p"
-    .string "Why do I train POKéMON?\p"
-    .string "Because they're there!$"
+    .string "Pourquoi j'aime l'escalade?\p"
+    .string "Parce que j'aime la montagne.\p"
+    .string "Pourquoi j'aime les Pokémon?\p"
+    .string "Parce que j'aime combattre!$"
 
 Route45_Text_HikerTimothyBeaten:
-    .string "Losses… They're there too!$"
+    .string "Mais... J'aime pas perdre!$"
 
 Route45_Text_HikerTimothyAfter:
-    .string "The best thing to ever happen to\n"
-    .string "me was discovering POKéMON.$"
+    .string "Découvrir le monde merveilleux\n"
+    .string "des\p"
+    .string "Pokémon a été un grand bonheur.$"
 
 Route45_Text_HikerParryGivesIron:
-    .string "I just can't find a way to win!\p"
-    .string "Keep it up!\p"
-    .string "Oh, and take this -- it's the\n"
-    .string "gift you couldn't take when we\n"
-    .string "last met.$"
+    .string "Je n'arrive pas à gagner!\p"
+    .string "Courage!\p"
+    .string "Oh, prends ça... C'est le truc\n"
+    .string "que\p"
+    .string "tu ne pouvais pas prendre la\n"
+    .string "dernière fois.$"
 
 Route45_Text_BlackbeltKenjiSeen:
-    .string "I was training here alone.\p"
-    .string "Behold the fruits of my labor!$"
+    .string "Je m'entraîne en solitaire.\p"
+    .string "Et voilà le résultat!$"
 
 Route45_Text_BlackbeltKenjiBeaten:
     .string "Waaaargh!$"
 
 Route45_Text_BlackbeltKenjiAfter:
-    .string "This calls for extreme measures.\p"
-    .string "I must take to the hills and train\n"
-    .string "in solitude.$"
+    .string "Tu m’obliges à m’entraîner en\n"
+    .string "ermite!$"
 
 Route45_Text_KenjiRegister:
-    .string "This calls for extreme measures.\p"
-    .string "I must take to the hills and train\n"
-    .string "in solitude.$"
+    .string "Tu m’obliges à m’entraîner en\n"
+    .string "ermite!$"
 
 Route45_Text_KenjiRematchIntro:
-    .string "I was training here alone.\p"
-    .string "Behold the fruits of my labor!$"
+    .string "Je m'entraîne en solitaire.\p"
+    .string "Et voilà le résultat!$"
 
 Route45_Text_KenjiRematchDefeat:
     .string "Waaaargh!$"
 
 Route45_Text_KenjiPostRematch:
-    .string "This calls for extreme measures.\p"
-    .string "I must take to the hills and train\n"
-    .string "in solitude.$"
+    .string "Tu m’obliges à m’entraîner en\n"
+    .string "ermite!$"
 
 Route45_Text_KenjiHasItem:
-    .string "Hey! I'm taking a break from\n"
-    .string "training.\p"
-    .string "I found something good while I\n"
-    .string "was out. Here, take it!$"
+    .string "Hé! Je fais une pause dans mon\n"
+    .string "entraînement.\p"
+    .string "J'ai trouvé quelque chose de\n"
+    .string "bien en chemin. Tiens, prends!$"
 
 Route45_Text_KenjiGaveItem:
-    .string "Use it well!\p"
-    .string "I need to get back to my\n"
-    .string "training. Oooooaaarrrgh!$"
+    .string "Fais-en bon usage!\p"
+    .string "Je dois reprendre mon\n"
+    .string "entraînement. Oooooaaarrrgh!$"
 
 Route45_Text_KenjiNoRoom:
-    .string "Hmm, your BAG is full.\p"
-    .string "Come back when you have room.$"
+    .string "Hmm, ton SAC est plein.\p"
+    .string "Reviens quand tu auras de la\n"
+    .string "place.$"
 
 Route45_Text_BlackbeltKenjiMorning:
-    .string "I'm going to train a bit more\n"
-    .string "before I break for lunch.$"
+    .string "Je vais encore m'entraîner avant\n"
+    .string "de bouffer.$"
 
 Route45_Text_BlackbeltKenjiNight:
-    .string "We had plenty of rest at lunch, so\p"
-    .string "now we're all ready to go again!\p"
-    .string "We're going to train again!$"
+    .string "On a tous bouffé comme des\n"
+    .string "malades!\p"
+    .string "On a la super pêche!\p"
+    .string "On va encore s'entraîner!$"
 
 Route45_Text_CooltrainermRyanSeen:
-    .string "What are your thoughts on\n"
-    .string "raising POKéMON?$"
+    .string "Comment tu fais pour entraîner\n"
+    .string "ton équipe?$"
 
 Route45_Text_CooltrainermRyanBeaten:
-    .string "You've won my respect.$"
+    .string "Respect. Bravo!$"
 
 Route45_Text_CooltrainermRyanAfter:
-    .string "I see you're raising your POKéMON\n"
-    .string "with care.\p"
-    .string "The bond you build will save you\n"
-    .string "in tough situations.$"
+    .string "Je vois que tu prends soin de\n"
+    .string "ton équipe de Pokémon.\p"
+    .string "Votre amitié vous sauvera.$"
 
 Route45_Text_CooltrainerfKellySeen:
-    .string "What is your battle strategy?\p"
-    .string "It is foolish to use strong moves\n"
-    .string "indiscriminately.$"
+    .string "Quelle est ta stratégie?\p"
+    .string "Utiliser des\n"
+    .string "capacités puissantes\p"
+    .string "au hasard ne\n"
+    .string "sert à rien.$"
 
 Route45_Text_CooltrainerfKellyBeaten:
-    .string "Fine. I lost.$"
+    .string "Bien. Perdu.$"
 
 Route45_Text_CooltrainerfKellyAfter:
-    .string "I'm not in favor of overly\n"
-    .string "powerful moves.\p"
-    .string "I want to win, but I also don't\n"
-    .string "want to harm POKéMON.$"
+    .string "Moi j'aime pas les attaques\n"
+    .string "puissantes.\p"
+    .string "Ca ne me fait pas plaisir de\n"
+    .string "faire mal aux Pokémon.$"
 
 Route45_Text_CamperQuentinSeen:
-    .string "I'm really, really tough!$"
+    .string "Trop de la balle!$"
 
 Route45_Text_CamperQuentinBeaten:
-    .string "I was tough at the TRAINER HILL…$"
+    .string "J'étais fort au MONT DRESSEURS…$"
 
 Route45_Text_CamperQuentinAfter:
-    .string "Have you been to the TRAINER HILL?\p"
-    .string "I never, ever lose there, but…$"
+    .string "Tu es allé au MONT DRESSEURS?\p"
+    .string "Là-bas, je ne perds jamais,\n"
+    .string "mais alors jamais…$"
 
 Route45_Text_Sign:
-    .string "ROUTE 45\n"
-    .string "MOUNTAIN RD. AHEAD$"
+    .string "ROUTE 45 CHEMIN de MONTAGNE Tout\n"
+    .string "droit$"

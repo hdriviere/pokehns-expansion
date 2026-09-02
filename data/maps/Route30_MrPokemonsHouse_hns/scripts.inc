@@ -149,116 +149,127 @@ MrPokemonHouse_Movement_MrPokemon_Leave:
 	step_end
 
 MrPokemonHouse_Text_Intro1:
-	.string "Hello, hello! You must be\n"
-	.string "{PLAYER}.\p"
-	.string "PROF.ELM said that you would\n"
-	.string "visit.$"
+	.string "Bonjour! Tu dois être {PLAYER}.\p"
+	.string "Le PROF.ORME a dit que tu\n"
+	.string "viendrais.$"
 
 MrPokemonHouse_Text_Intro2:
-	.string "This is what I want PROF.ELM\n"
-	.string "to examine.$"
+	.string "Voilà ce que je voudrais que le\n"
+	.string "PROF.ORME examine.$"
 
 MrPokemonHouse_Text_GotEgg:
-	.string "{PLAYER} received MYSTERY EGG.$"
+	.string "{PLAYER} reçoit l'OEUF MYSTERE.$"
 
 MrPokemonHouse_Text_Intro3:
-	.string "I know a couple who run a\n"
-	.string "POKéMON DAY-CARE service.\p"
-	.string "They gave me that EGG.\p"
-	.string "I was intrigued, so I sent\n"
-	.string "mail to PROF.ELM.\p"
-	.string "For POKéMON evolution,\n"
-	.string "PROF.ELM is the authority.$"
+	.string "Je connais un couple d'amis qui\n"
+	.string "dirige une PENSION pour Pokémon.\p"
+	.string "Ils m'ont donné cet OEUF.\p"
+	.string "Il m'a paru louche alors j'ai\n"
+	.string "écrit au PROF.ORME.\p"
+	.string "En ce qui concerne\n"
+	.string "les évolutions de\p"
+	.string "Pokémon, le PROF.ORME\n"
+	.string "est incollable.$"
 
 
 MrPokemonHouse_Text_Intro4:
-	.string "Even PROF.OAK here recognizes\n"
-	.string "that.$"
+	.string "Même le PROF.CHEN le reconnaît.$"
 
 MrPokemonHouse_Text_Intro5:
-	.string "If my assumption is correct,\n"
-	.string "PROF.ELM will know it.$"
+	.string "A mon avis, le PROF.ORME aura\n"
+	.string "une explication.$"
 
 MrPokemonHouse_Text_Heal:
-	.string "You are returning to PROF.ELM?\p"
-	.string "Here. Your POKéMON should have\n"
-	.string "some rest.$"
+	.string "Tu retournes voir le PROF.ORME?\p"
+	.string "Tiens. Tes Pokémon devraient se\n"
+	.string "reposer.$"
 
 MrPokemonHouse_Text_DependingOnYou:
-	.string "I'm depending on you!$"
+	.string "Je compte sur toi!$"
 
 MrPokemonHouse_Text_AlwaysNewDiscoveries:
-	.string "Life is delightful!\n"
-	.string "Always, new discoveries to be made.$"
+	.string "C'est beau la vie! Il y a\n"
+	.string "toujours\p"
+	.string "quelque chose à découvrir!$"
 
 MrPokemonHouse_Text_OakIntro:
-	.string "OAK: Aha! So you're {PLAYER}!\p"
-	.string "I'm OAK! A POKéMON researcher.\p"
-	.string "I was just visiting my old friend\n"
-	.string "MR. POKéMON.\p"
-	.string "I heard you were running an errand\n"
-	.string "for PROF.ELM, so I waited here.\p"
-	.string "Oh! What's this? A rare POKéMON!\p"
-	.string "Let's see…\n"
-	.string "Hm, I see!\p"
-	.string "I understand why PROF.ELM gave\n"
-	.string "you a POKéMON for this errand.\p"
-	.string "To researchers like PROF.ELM and\n"
-	.string "I, POKéMON are our friends.\p"
-	.string "He saw that you would treat your\n"
-	.string "POKéMON with love and care.\p"
-	.string "…Ah!\p"
-	.string "You seem to be dependable. How\n"
-	.string "would you like to help me out?\p"
-	.string "See? This is the latest version of\n"
-	.string "the POKéDEX.\p"
-	.string "It automatically records data on\n"
-	.string "POKéMON you've seen or caught.\p"
-	.string "It's a hi-tech encyclopedia!\p"
-	.string "It shows their habitats, how\n"
-	.string "they evolve, and their moves.$"
+	.string "CHEN: Ahaa! C'est toi {PLAYER}!\p"
+	.string "Moi c'est CHEN! Je suis un\n"
+	.string "chercheur Pokémon.\p"
+	.string "Je suis venu rendre visite à mon\n"
+	.string "vieil ami... M.Pokémon!\p"
+	.string "On m'a dit que tu rendais\n"
+	.string "service au\p"
+	.string "PROF.ORME, alors je t'attendais.\p"
+	.string "Oh! C'est quoi ça? Un Pokémon\n"
+	.string "rare!\p"
+	.string "Voyons...\p"
+	.string "Hmm... Je vois!\p"
+	.string "Je comprends pourquoi le\n"
+	.string "PROF.ORME\p"
+	.string "t'a confié un Pokémon pour cette\n"
+	.string "mission.\p"
+	.string "Pour des chercheurs comme moi\p"
+	.string "et le PROF.ORME, les Pokémon\n"
+	.string "sont des amis.\p"
+	.string "Il a tout de suite compris que\n"
+	.string "tu\p"
+	.string "ferais attention à ton Pokémon.\p"
+	.string "...Ah!\p"
+	.string "On peut te faire confiance.\p"
+	.string "Ca te dirait de me rendre\n"
+	.string "service?\p"
+	.string "Regarde ça: c'est une nouvelle\n"
+	.string "version du Pokédex.\p"
+	.string "Il enregistre automatiquement\n"
+	.string "les\p"
+	.string "données sur les Pokémon vus ou\n"
+	.string "pris.\p"
+	.string "C'est une encyclopédie moderne!$"
 
 MrPokemonHouse_Text_GetDex:
-	.string "{PLAYER} received POKéDEX!$"
+	.string "{PLAYER} reçoit le Pokédex!$"
 
 MrPokemonHouse_Text_OakParting:
-	.string "Go meet many kinds of POKéMON and\n"
-	.string "complete that POKéDEX!\p"
-	.string "But I've stayed too long.\p"
-	.string "I have to get to GOLDENROD\n"
-	.string "for my usual radio show.\p"
-	.string "{PLAYER}, I'm counting on you!$"
+	.string "Rencontre un maximum de Pokémon\n"
+	.string "et\p"
+	.string "complète le Pokédex!\p"
+	.string "Bon. Je dois y aller.\p"
+	.string "J'ai une émission de radio à\n"
+	.string "faire à DOUBLONVILLE.\p"
+	.string "{PLAYER}, je compte sur toi!$"
 
 MrPokemonHouse_Text_GimmeTheScale:
-	.string "Hm? That SCALE! What's that?\n"
-	.string "A red GYARADOS?\p"
-	.string "That's rare! I, I want it…\p"
-	.string "{PLAYER}, would you care to\n"
-	.string "trade it?\p"
-	.string "I can offer this EXP.SHARE\n"
-	.string "that I got from PROF.OAK.$"
+	.string "Oh? Cette ECAILLE! C'est quoi?\n"
+	.string "Un LEVIATOR rouge?\p"
+	.string "C'est dingue! Je la veux...\p"
+	.string "{PLAYER}, veux-tu l'échanger?\p"
+	.string "Je peux te donner le MULTI EXP\n"
+	.string "du PROF.CHEN.$"
 
 MrPokemonHouse_Text_Disappointed:
-	.string "That's disappointing.\n"
-	.string "That happens to be very rare.$"
+	.string "Quel dommage! Une chose aussi\n"
+	.string "rare...$"
 
 MrPokemonHouse_Text_ExpShare:
-	.string "I also have a special item\n"
-	.string "for you.$"
+	.string "J'ai aussi un objet spécial\n"
+	.string "pour toi.$"
 
 MrPokemonHouse_Text_ForeignMagazines:
-	.string "It's packed with foreign\n"
-	.string "magazines.\p"
-	.string "Can't even read their titles…$"
+	.string "Il y a plein de magazines du\n"
+	.string "monde entier!\p"
+	.string "... Les titres sont\n"
+	.string "illisibles...$"
 
 MrPokemonHouse_Text_BrokenComputer:
-	.string "It's a big computer.\n"
-	.string "Hmm. It's broken.$"
+	.string "Un gros ordinateur! ... Il a\n"
+	.string "l’air cassé...$"
 
 MrPokemonHouse_Text_StrangeCoins:
-	.string "A whole pile of strange coins!\p"
-	.string "Maybe they're from another\n"
-	.string "country…$"
+	.string "Un tas de pièces\n"
+	.string "jamais vues! Elles\p"
+	.string "sont peut-être\n"
+	.string "d’un autre pays?$"
 
 MrPokemonHouse_Text_GotExpShare:
-	.string "{PLAYER} received EXP. SHARE!$"
+	.string "{PLAYER} reçoit le MULTI EXP!$"

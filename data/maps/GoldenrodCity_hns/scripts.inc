@@ -289,25 +289,25 @@ GoldenrodCity_EventScript_Beauty::
 	end
 
 GoldenrodCity_Text_Beauty:
-	.string "This is the GOLDENROD GYM!\p"
-	.string "Our leader WHITNEY is not here\n"
-	.string "right now. She might be at the\l"
-	.string "RADIO TOWER.$"
+	.string "Voici l'ARENE de DOUBLONVILLE!\p"
+	.string "Notre Championne BLANCHE n'est\n"
+	.string "pas là pour le moment.\p"
+	.string "Elle doit être à la TOUR RADIO.$"
 
 GoldenrodCity_Text_Woman:
-	.string "I used to train in WHITNEY's GYM,\n"
-	.string "but all her crying gave me a\l"
-	.string "headache.$"
+	.string "Je m'entraînais dans l'ARENE de\n"
+	.string "BLANCHE, mais ses pleurs me\p"
+	.string "donnaient mal à la tête.$"
 
 GoldenrodCity_Text_HikerDay:
-	.string "When I went into the GAME CORNER\n"
-	.string "it was night time... How long was I\l"
-	.string "in there?!$"
+	.string "Il faisait nuit à mon entrée\n"
+	.string "au CASINO…\p"
+	.string "Combien de temps suis-je resté?!$"
 
 GoldenrodCity_Text_HikerNight:
-	.string "When I went into the GAME CORNER\n"
-	.string "it was day time... How long was I\l"
-	.string "in there?!$"
+	.string "Il faisait jour à mon entrée\n"
+	.string "au CASINO…\p"
+	.string "Combien de temps suis-je resté?!$"
 
 GoldenrodCity_Text_Snubbull:
 	.string "SNUBBULL: SNUUUBUUUULL!$"
@@ -316,158 +316,175 @@ GoldenrodCity_Text_MrMime:
 	.string "............................$"
 
 GoldenrodCity_Text_ElmName:
-	.string "PROF.ELM$"
+	.string "PROF. ORME$"
 
 GoldenrodCity_Text_ElmCall:
-	.string "PROF.ELM: Hello, {PLAYER}?\n"
-	.string "Has that EGG hatched yet?\p"
-	.string "Once it hatches, don't forget to\n"
-	.string "bring it by the lab! I need to\l"
-	.string "see it!$"
+	.string "PROF.ORME: Allô, {PLAYER}?\p"
+	.string "Cet OEUF a-t-il déjà éclos?\p"
+	.string "Quand il éclora, n'oublie pas de\n"
+	.string "l'apporter au Labo!\p"
+	.string "Je dois absolument le voir!$"
 
 GoldenrodCity_Text_PokefanM:
-	.string "They built the new RADIO TOWER\n"
-	.string "to replace the old creaky one.$"
+	.string "Ils ont construit une nouvelle\n"
+	.string "TOUR\p"
+	.string "RADIO pour remplacer l'ancienne.$"
 
 GoldenrodCity_Text_Youngster1:
-	.string "I know there's a new BIKE SHOP,\n"
-	.string "but I can't find it anywhere.$"
+	.string "Je sais qu’il y a un nouveau\n"
+	.string "Cycles à Gogo, mais où?\p"
+	.string "Je n’arrive pas à le trouver...$"
 
 GoldenrodCity_Text_CooltrainerF1:
-	.string "Is that man in black dressed up\n"
-	.string "like a TEAM ROCKET member?\p"
-	.string "How silly!$"
+	.string "Ce type habillé\n"
+	.string "en noir, tu crois\p"
+	.string "qu’il joue au membre\n"
+	.string "de la Team Rocket?\p"
+	.string "Quel idiot!$"
 
 GoldenrodCity_Text_CooltrainerF1_Cleared:
-	.string "Was that man in black really part\n"
-	.string "of TEAM ROCKET? I can't believe it!$"
+	.string "Ce type habillé\n"
+	.string "en noir était\p"
+	.string "vraiment un membre\n"
+	.string "de la Team Rocket?!\p"
+	.string "J’arrive toujours pas à le\n"
+	.string "croire!$"
 
 GoldenrodCity_Text_CooltrainerF2:
-	.string "The RADIO TOWER in GOLDENROD CITY\n"
-	.string "is quite the landmark.\p"
-	.string "They're running a campaign now.\p"
-	.string "They'll give you a shiny new\n"
-	.string "RADIO if you can pass their quiz.$"
+	.string "La TOUR RADIO de DOUBLONVILLE\n"
+	.string "est un monument célèbre.\p"
+	.string "Une campagne est en cours.\p"
+	.string "Une RADIO toute neuve sera à toi\n"
+	.string "si tu réussis leur quiz.$"
 
 GoldenrodCity_Text_CooltrainerF2_GotCard:
-	.string "Oh, your POKéGEAR already works\n"
-	.string "as a radio!$"
+	.string "Oh, ton Pokématos fait déjà\n"
+	.string "office de radio!$"
 
 GoldenrodCity_Text_Youngster2:
-	.string "E-he-he-he…\p"
-	.string "I got in trouble for playing in\n"
-	.string "the DEPT.STORE basement.$"
+	.string "Hé-hé-hé…\p"
+	.string "J'ai eu des ennuis en jouant\n"
+	.string "le sous-sol du GRAND MAGASIN.$"
 
 GoldenrodCity_Text_Lass:
-	.string "That man inside rates your\n"
-	.string "POKéMON nicknames.\p"
-	.string "He can even rename them.$"
+	.string "L'homme à l'intérieur juge les\n"
+	.string "surnoms de tes Pokémon.\p"
+	.string "Il peut même les renommer.$"
 
 GoldenrodCity_Text_Gramps:
-	.string "Whew! This town is so big,\n"
-	.string "I can't find anything at all.$"
+	.string "Ouf! Cette ville est immense.\p"
+	.string "Je ne trouve plus rien.$"
 
 GoldenrodCity_Text_RocketScout1:
-	.string "So this is the RADIO TOWER…$"
+	.string "C’est ici, la Tour Radio...$"
 
 GoldenrodCity_Text_RocketScout2:
-	.string "What do you want, pest?\n"
-	.string "Scram already!$"
+	.string "Tu veux quoi, vermine?\n"
+	.string "Dégage!$"
 
 GoldenrodCity_Text_Rocket1:
-	.string "Stay out of the way!\n"
-	.string "Beat it, kid!$"
+	.string "Hors de mon chemin!\n"
+	.string "Dégage, gamin!$"
 
 GoldenrodCity_Text_Rocket2:
-	.string "Take over the RADIO TOWER…\p"
-	.string "What? It's none of your business!$"
+	.string "On va prendre la Tour d’assaut,\n"
+	.string "et...\p"
+	.string "Hein? Ça concerne pas les\n"
+	.string "enfants! Ouste!$"
 
 GoldenrodCity_Text_Rocket3:
-	.string "POKéMON? They're just tools\n"
-	.string "we use to make money!$"
+	.string "Les Pokémon? Ce sont juste des\n"
+	.string "outils pour gagner de l'argent!$"
 
 GoldenrodCity_Text_Rocket4:
-	.string "Our dream will soon come true…\p"
-	.string "It was a long, hard struggle…$"
+	.string "Notre rêve va bientôt aboutir…\p"
+	.string "La lutte fut longue et rude…$"
 
 GoldenrodCity_Text_Rocket5:
-	.string "Hey, brat! You don't belong here!\n"
-	.string "Get lost already!$"
+	.string "Hé, morveux! Tu n'as rien à\n"
+	.string "faire ici! Dégage!$"
 
 GoldenrodCity_Text_Rocket6:
-	.string "Come and taste the terror of\n"
+	.string "Viens goûter à la terreur de la\n"
 	.string "TEAM ROCKET!$"
 
 GoldenrodCity_Text_StationSign:
-	.string "GOLDENROD CITY STATION$"
+	.string "STATION de DOUBLONVILLE$"
 
 GoldenrodCity_Text_RadioTowerSign:
-	.string "GOLDENROD CITY RADIO TOWER$"
+	.string "TOUR RADIO de DOUBLONVILLE$"
 
 GoldenrodCity_Text_DeptStoreSign:
-	.string "Full Selection of POKéMON Goods!\p"
-	.string "GOLDENROD CITY DEPT.STORE$"
+	.string "Marchandises de premier choix\n"
+	.string "pour Pokémon!\p"
+	.string "CENTRE COMMERCIAL de\n"
+	.string "DOUBLONVILLE$"
 
 GoldenrodCity_Text_GymSign:
-	.string "GOLDENROD CITY POKéMON GYM\n"
-	.string "LEADER: WHITNEY\p"
-	.string "The Incredibly Pretty Girl!$"
+	.string "Arène de Doublonville\p"
+	.string "Champion: Blanche Une jolie\n"
+	.string "fille qu’en a à revendre!$"
 
 GoldenrodCity_Text_CitySign:
-	.string "GOLDENROD CITY\p"
-	.string "The Festive City of Opulent Charm$"
+	.string "DOUBLONVILLE\p"
+	.string "La ville festive qui fleure bon\n"
+	.string "la bonne humeur$"
 
 GoldenrodCity_Text_BikeShopSign:
-	.string "The World is a Cycle Path!\n"
-	.string "BIKE SHOP$"
+	.string "Dans la vie pour avancer faut\n"
+	.string "pédaler! CYCLES A GOGO$"
 
 GoldenrodCity_Text_GameCornerSign:
-	.string "Your Playground!\p"
-	.string "GOLDENROD CITY GAME CORNER$"
+	.string "Votre espace de jeux!\p"
+	.string "CASINO de DOUBLONVILLE$"
 
 GoldenrodCity_Text_NameRaterSign:
-	.string "NAME RATER\p"
-	.string "Get Your POKéMON Nicknames Rated$"
+	.string "Maison du Spécialiste\n"
+	.string "des Noms Je sais\p"
+	.string "tout sur les\n"
+	.string "noms des Pokémon$"
 
 GoldenrodCity_Text_UndergroundNorthSign:
-	.string "UNDERGROUND ENTRANCE$"
+	.string "ENTREE du SOUTERRAIN$"
 
 GoldenrodCity_Text_UndergroundSouthSign:
-	.string "UNDERGROUND ENTRANCE$"
+	.string "ENTREE du SOUTERRAIN$"
 
 
 GoldenrodCity_Text_FlowerShopSign:
-	.string "Blooming Beautiful FLOWER SHOP$"
+	.string "Une fleur, la vie! FLEURISTE$"
 
 GoldenrodCity_Text_MoveTutorAsk:
-	.string "I can teach your POKéMON some\n"
-	.string "amazing moves!\p"
-	.string "Should I teach one?$"
+	.string "Je peux enseigner des capacités\n"
+	.string "incroyables à tes Pokémon!\p"
+	.string "Veux-tu que j'en enseigne une?$"
 
 GoldenrodCity_Text_MoveTutorCost:
-	.string "It'll cost you 1000 coins.\n"
-	.string "Okay?$"
+	.string "Cela te coûtera 1 000 Jetons.\n"
+	.string "D'accord?$"
 
 GoldenrodCity_Text_MoveTutorDecline:
-	.string "Aww… But these moves are great!$"
+	.string "Oh… Mais elles sont géniales!$"
 
 GoldenrodCity_Text_MoveTutorWhich:
-	.string "Wahahah! You won't regret it!\p"
-	.string "Which move should I teach?$"
+	.string "Wahahah! Tu ne le regretteras\n"
+	.string "pas!\p"
+	.string "Quelle capacité veux-tu\n"
+	.string "apprendre?$"
 
 GoldenrodCity_Text_MoveTutorNoCash:
-	.string "Too bad. Guess I'll need to\n"
-	.string "get some cash from home…$"
+	.string "Dommage. Je vais devoir demander\n"
+	.string "de l'argent à la maison…$"
 
 GoldenrodCity_Text_MoveTutorUnderstand:
-	.string "If you understand this move,\n"
-	.string "you've made it as a trainer.$"
+	.string "Si tu comprends cette capacité,\n"
+	.string "tu es devenu un vrai Dresseur.$"
 
 GoldenrodCity_Text_MoveTutorFarewell:
-	.string "Wahahah! Farewell, kid!$"
+	.string "Wahahah! Adieu!$"
 
 GoldenrodCity_Text_MoveTutorBut:
-	.string "B-but…$"
+	.string "M...mais!$"
 
 GoldenrodCity_Text_MoveTutorNotEnoughCoins:
-	.string "…You don't have enough coins…$"
+	.string "…Tu n'as pas assez de Jetons…$"

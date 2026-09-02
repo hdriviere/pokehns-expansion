@@ -42,84 +42,84 @@ BattleFrontier_Lounge5_EventScript_LittleBoy_hns::
 	end
 
 BattleFrontier_Lounge5_Text_NatureGirlGreeting_hns::
-	.string "Ehehe!\n"
-	.string "I can tell what POKéMON are thinking!\p"
-	.string "Please!\n"
-	.string "Can I see your POKéMON?$"
+	.string "Hé, hé, hé! Je sais ce que les\n"
+	.string "POKéMON pensent!\p"
+	.string "S’il te plaît! Je peux voir tes\n"
+	.string "POKéMON?$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNoneShown_hns::
-	.string "Boo!\n"
-	.string "Cheapie!$"
+	.string "Bouh! C’est pas sympa!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAttackHighAttackLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+	.string "Hmm...\p"
+	.string "Il dit aimer combattre! Il se\n"
+	.string "battra même avec beaucoup de\p"
+	.string "bobos!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAttackHighDefenseLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "Hmm...\p"
+	.string "Il dit aimer combattre! Mais\n"
+	.string "avec assez de bobos, il se\p"
+	.string "souciera de lui-même!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAttackHighSupportLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "Hmm...\p"
+	.string "Il dit aimer combattre! Mais\n"
+	.string "avec assez de bobos, il\p"
+	.string "deviendra sournois!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighAttackLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "Hmm...\p"
+	.string "Il dit prendre soin de lui! Mais\n"
+	.string "avec assez de bobos, il\p"
+	.string "ripostera!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighDefenseLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself whether\l"
-	.string "or not it has a lot of ouchies!$"
+	.string "Hmm...\p"
+	.string "Il dit prendre soin de lui! Avec\n"
+	.string "ou sans bobos, il se soucie\p"
+	.string "toujours de lui-même!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighSupportLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "Hmm...\p"
+	.string "Il dit prendre soin de lui! Mais\n"
+	.string "avec assez de bobos, il\p"
+	.string "deviendra sournois!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighAttackLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "Hmm...\p"
+	.string "Il dit aimer la ruse! Mais avec\n"
+	.string "assez de bobos, il ripostera!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighDefenseLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "Hmm...\p"
+	.string "Il dit aimer la ruse! Mais avec\n"
+	.string "assez de bobos, il se souciera\p"
+	.string "de lui-même!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow_hns::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "Hmm...\p"
+	.string "Il dit aimer la ruse! Même avec\n"
+	.string "beaucoup de bobos, il restera\p"
+	.string "sournois!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlEgg_hns::
-	.string "That's silly! An EGG is asleep!\n"
-	.string "I can't talk to it!$"
+	.string "C’est n’importe quoi! Comment tu\n"
+	.string "veux que je parle avec un\p"
+	.string "OEUF!?!$"
 
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon_hns::
-	.string "How charming!\n"
-	.string "That little lady claims she can\l"
-	.string "understand POKéMON!$"
+	.string "Comme c’est mignon! Cette jeune\n"
+	.string "fille prétend qu’elle peut\p"
+	.string "comprendre les POKéMON!$"
 
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound_hns::
-	.string "I have this feeling that the little girl\n"
-	.string "is saying something profound.$"
+	.string "J’ai l’impression que cette\n"
+	.string "fille dit quelque chose de\p"
+	.string "profond.$"
 
 BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot_hns::
-	.string "I know something!\p"
-	.string "That little girl plays at the red house\n"
-	.string "a lot!$"
+	.string "J’ai une info!\p"
+	.string "Cette fille joue souvent dans le\n"
+	.string "bâtiment rouge!$"
 

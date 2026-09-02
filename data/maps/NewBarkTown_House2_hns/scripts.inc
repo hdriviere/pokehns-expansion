@@ -19,14 +19,16 @@ NewBarkTown_House2_EventScript_ElmsSon::
 	end
 
 NewBarkTown_House2_Text_ElmsWife:
-	.string "Hi, {PLAYER}! My husband's always\n"
-	.string "so busy--I hope he's OK.\p"
-	.string "When he's caught up in his\n"
-	.string "POKéMON research, he even\l"
-	.string "forgets to eat.$"
+	.string "Ah! {PLAYER}!\p"
+	.string "Mon mari est très occupé... J’ai\n"
+	.string "peur qu’il se surmène!\p"
+	.string "Quand il se plonge\n"
+	.string "dans ses recherches\p"
+	.string "sur les Pokémon, il\n"
+	.string "en oublie de manger!$"
 
 NewBarkTown_House2_Text_ElmsSon:
-	.string "When I grow up, I'm going to\n"
-	.string "help my dad!\p"
-	.string "I'm going to be a great\n"
-	.string "POKéMON professor!$"
+	.string "Moi, quand je serai grand, je\n"
+	.string "veux être l’assistant de papa!\p"
+	.string "Et je serai un super Professeur\n"
+	.string "en Pokémon!$"

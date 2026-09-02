@@ -20,18 +20,22 @@ LakeOfRage_House1_EventScript_HiddenPowerGuyAfter::
 	end
 
 HiddenPowerGuy_Text_Intro:
-    .string "…You have strayed far…\p"
-    .string "Here I have meditated. Inside me,\n"
-    .string "a new power has been awakened.\p"
-    .string "Let me share my power with your\n"
-    .string "POKéMON. Take this, child.$"
+    .string "... Tu as bien voyagé... Moi,\n"
+    .string "j’ai médité...\p"
+    .string "Au fond de moi une nouvelle\n"
+    .string "force s’est réveillée.\p"
+    .string "Laisse-moi partager mon pouvoir\n"
+    .string "avec tes Pokémon.\p"
+    .string "Reçois ceci...$"
 
 HiddenPowerGuy_Text_Explanation:
-    .string "Do you see it? It is HIDDEN POWER!\p"
-    .string "It draws out the power of POKéMON\n"
-    .string "for attacking.\p"
-    .string "Remember this: its type and power\n"
-    .string "depend on the POKéMON using it.$"
+    .string "Tu vois? C’est Puissance Cachée!\p"
+    .string "Elle développe la puissance de\n"
+    .string "tes Pokémon.\p"
+    .string "Mais attention! Cela\n"
+    .string "dépend du type et\p"
+    .string "de la puissance du\n"
+    .string "Pokémon utilisé.$"
 
 HiddenPowerGuy_Text_Meditating:
-    .string "I am meditating…$"
+    .string "Je médite...$"

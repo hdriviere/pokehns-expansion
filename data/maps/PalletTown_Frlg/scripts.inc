@@ -449,100 +449,100 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	end
 
 PalletTown_Text_OakDontGoOut::
-	.string "OAK: Hey! Wait!\n"
-	.string "Don't go out!$"
+	.string "CHEN: Hé, attends! Ne pars pas!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-	.string "OAK: It's unsafe!\n"
-	.string "Wild POKéMON live in tall grass!\p"
-	.string "You need your own POKéMON for\n"
-	.string "your protection.\p"
-	.string "I know!\n"
-	.string "Here, come with me!$"
+	.string "CHEN: C'est très dangereux! Des\n"
+	.string "POKéMON sauvages infestent les\p"
+	.string "hautes herbes!\p"
+	.string "Il te faut un POKéMON pour te\n"
+	.string "protéger… Je sais!\p"
+	.string "Suis-moi!$"
 
 PalletTown_Text_RaisingMonsToo::
-	.string "I'm raising POKéMON, too.\p"
-	.string "When they get strong, they can\n"
-	.string "protect me.$"
+	.string "J'élève des POKéMON, moi aussi!\p"
+	.string "Une fois forts, ils pourront me\n"
+	.string "protéger!$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-	.string "Technology is incredible!\p"
-	.string "You can now store and recall items\n"
-	.string "and POKéMON as data via PC.$"
+	.string "Le progrès… C'est dément!\p"
+	.string "On peut désormais stocker et\n"
+	.string "même retirer des objets ou des\p"
+	.string "POKéMON via un PC!$"
 
 PalletTown_Text_OakPokemonResearchLab::
-	.string "OAK POKéMON RESEARCH LAB$"
+	.string "LABO POKéMON DU PROF. CHEN$"
 
 PalletTown_Text_PlayersHouse::
-	.string "{PLAYER}'s house$"
+	.string "MAISON DE {PLAYER}$"
 
 PalletTown_Text_RivalsHouse::
-	.string "{RIVAL}'s house$"
+	.string "MAISON DE {RIVAL}$"
 
 PalletTown_Text_TownSign::
-	.string "PALLET TOWN\n"
-	.string "Shades of your journey await!$"
+	.string "BOURG PALETTE Un monde de\n"
+	.string "couleurs s'ouvre à vous!$"
 
 PalletTown_Text_OakLetMeSeePokedex::
-	.string "OAK: Ah, {PLAYER}!\n"
-	.string "You're back, are you?\p"
-	.string "How much have you filled in your\n"
-	.string "POKéDEX?\p"
-	.string "May I see it?\p"
-	.string "Let's see…$"
+	.string "CHEN: Ah, {PLAYER}! Tu es de\n"
+	.string "retour?\p"
+	.string "As-tu bien complété ton POKéDEX?\p"
+	.string "Je peux voir?\p"
+	.string "Voyons, voyons…$"
 
 PalletTown_Text_CaughtXPuttingInHonestEffort::
-	.string "You've caught {STR_VAR_2}…\p"
-	.string "Hm, it looks as if you're putting\n"
-	.string "in an honest effort.\p"
-	.string "When you manage to fill it some\n"
-	.string "more, come show me, please.$"
+	.string "Tu as attrapé {STR_VAR_2}\n"
+	.string "POKéMON.\p"
+	.string "Hum, on dirait que tu te donnes\n"
+	.string "du mal.\p"
+	.string "Mais reviens me voir quand tu en\n"
+	.string "auras plus, s'il te plaît.$"
 
 PalletTown_Text_CaughtXImpressiveFollowMe::
-	.string "You've caught… {STR_VAR_2}!?\n"
-	.string "Now, this is impressive!\p"
-	.string "There's something I wanted to ask\n"
-	.string "of you, {PLAYER}.\p"
-	.string "Come.\n"
-	.string "Follow me.$"
+	.string "Tu en as attrapé… {STR_VAR_2}!?\n"
+	.string "C'est vraiment impressionant!\p"
+	.string "Il y a quelque chose que je\n"
+	.string "voudrais te donner, {PLAYER}.\p"
+	.string "Viens. Suis-moi.$"
 
 PalletTown_Text_OakYouEnjoyingTraveling::
-	.string "OAK: Ah, {PLAYER}!\n"
-	.string "You seem to be enjoying traveling.\p"
-	.string "Knowing you, {PLAYER}, I can easily\n"
-	.string "imagine you going out to even more\l"
-	.string "exotic locales.\p"
-	.string "Good for you, good for you.\n"
+	.string "CHEN: Ah, {PLAYER}! Tu sembles\n"
+	.string "apprécier ton voyage.\p"
+	.string "Te connaissant, je t'imagine\n"
+	.string "facilement partir vers des\p"
+	.string "contrées encore plus exotiques.\p"
+	.string "C'est très bien, très bien.\n"
 	.string "Hohoho.$"
 
 @ For the NPC in Pallet Town that talks about the Trainer Tips sign
 PalletTown_Text_HmmIsThatRight::
-	.string "Hmm…\n"
-	.string "Is that right…$"
+	.string "Hum… C'est donc ça…$"
 
 PalletTown_Text_OhLookLook::
-	.string "Oh!\n"
-	.string "Look, look!$"
+	.string "Oh! Regarde, regarde!$"
 
 PalletTown_Text_ReadItReadIt::
-	.string "Read it, read it!$"
+	.string "Lis-le, lis-le!$"
 
 @ Used by sign
 PalletTown_Text_PressStartToOpenMenu::
-	.string "TRAINER TIPS\p"
-	.string "Press START to open the MENU!$"
+	.string "ASTUCE DRESSEUR\p"
+	.string "Appuie sur START pour ouvrir le\n"
+	.string "MENU!$"
 
 PalletTown_Text_SignsAreUsefulArentThey::
-	.string "Signs are useful, aren't they?$"
+	.string "Les panneaux sont utiles, pas\n"
+	.string "vrai?$"
 
 PalletTown_Text_LookCopiedTrainerTipsSign::
-	.string "Look, look!\p"
-	.string "I copied what it said on one of\n"
-	.string "those TRAINER TIPS signs!$"
+	.string "Regarde, regarde!\p"
+	.string "J'ai recopié ce qui était écrit\n"
+	.string "sur un panneau ASTUCE DRESSEUR!$"
 
 @ Used by NPC
 PalletTown_Text_PressStartToOpenMenuCopy::
-	.string "TRAINER TIPS!\p"
-	.string "Press START to open the MENU!$"
+	.string "ASTUCE DRESSEUR!\p"
+	.string "Appuie sur START pour ouvrir le\n"
+	.string "MENU!$"
 
 

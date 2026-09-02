@@ -182,7 +182,7 @@ ALIGNED(4) const u8 gFontNormalLatinGlyphWidths[] = {
 
 ALIGNED(4) const u16 gFontNarrowerLatinGlyphs[] = INCBIN_U16("graphics/fonts/narrower.latfont");
 ALIGNED(4) const u8 gFontNarrowerLatinGlyphWidths[] = {
-    3,  4,  4,  4,  4,  4,  4,  4,  4,  4,  3,  4,  4,  4,  4,  4,
+    1,  4,  4,  4,  4,  4,  4,  4,  4,  4,  3,  4,  4,  4,  4,  4,
     8,  4,  4,  4,  5,  5,  4,  4,  3,  4,  4,  4,  4,  4,  4,  3,
     4,  4,  4,  4,  4,  6,  4,  4,  4,  5,  4,  5,  8,  6,  6,  3,
     3,  3,  3,  3,  8,  8,  2,  3,  7,  3,  3,  3,  3,  3,  3,  3,
@@ -218,7 +218,7 @@ ALIGNED(4) const u8 gFontNarrowerLatinGlyphWidths[] = {
 
 ALIGNED(4) const u16 gFontSmallNarrowerLatinGlyphs[] = INCBIN_U16("graphics/fonts/small_narrower.latfont");
 ALIGNED(4) const u8 gFontSmallNarrowerLatinGlyphWidths[] = {
-    3,  4,  4,  4,  4,  4,  4,  4,  4,  4,  3,  4,  4,  4,  4,  4,
+    1,  4,  4,  4,  4,  4,  4,  4,  4,  4,  3,  4,  4,  4,  4,  4,
     5,  4,  4,  4,  5,  4,  4,  4,  3,  4,  4,  4,  4,  4,  3,  3,
     4,  4,  4,  4,  4,  6,  4,  4,  4,  5,  4,  4,  7,  5,  6,  3,
     3,  3,  3,  3,  8,  0,  2,  3,  7,  3,  3,  3,  3,  3,  3,  3,

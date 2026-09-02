@@ -47,7 +47,7 @@ SaffronCity_FightingDojo_EventScript_BattleLickilicky_EV_HP::
 	end
 	
 SaffronCity_FightingDojo_Text_Lickilicky:
-	.string "LICKILICKY: LIIIIICK!$"
+	.string "COUDLANGUE: Laaaangue!$"
 
 SaffronCity_FightingDojo_EventScript_Machamp_EV_Attack::
 	lock
@@ -75,7 +75,7 @@ SaffronCity_FightingDojo_EventScript_BattleMachamp_EV_Attack::
 	end
 
 SaffronCity_FightingDojo_Text_Machamp:
-	.string "MACHAMP: CHAMP!$"
+	.string "MACKOGNEUR: Kogneur!$"
 
 SaffronCity_FightingDojo_EventScript_Steelix_EV_Defense::
 	lock
@@ -159,7 +159,7 @@ SaffronCity_FightingDojo_EventScript_BattleSlowking_EV_SpecialDefense::
 	end
 
 SaffronCity_FightingDojo_Text_Slowking:
-	.string "SLOWKING: HMMM...$"
+	.string "ROIGADA: Hmm...$"
 
 SaffronCity_FightingDojo_EventScript_Pidgeot_EV_Speed::
 	lock
@@ -187,38 +187,42 @@ SaffronCity_FightingDojo_EventScript_BattlePidgeot_EV_Speed::
 	end
 
 SaffronCity_FightingDojo_Text_Pidgeot:
-	.string "PIDGEOT: GEEEE!$"
+	.string "ROUCARNAGE: Roooou!$"
 
 SaffronCity_FightingDojo_Text_HP:
-	.string "HP$"
+	.string "PV$"
 SaffronCity_FightingDojo_Text_Attack:
-	.string "ATK$"
+	.string "ATQ$"
 SaffronCity_FightingDojo_Text_Defense:
-	.string "DEF$"
+	.string "DÉF$"
 SaffronCity_FightingDojo_Text_SpecialAttack:
-	.string "SP.ATK$"
+	.string "ATQ.SPÉ$"
 SaffronCity_FightingDojo_Text_SpecialDefense:
-	.string "SP.DEF$"
+	.string "DÉF.SPÉ$"
 SaffronCity_FightingDojo_Text_Speed:
-	.string "SPD$"
+	.string "VIT$"
 
 SaffronCity_FightingDojo_Text_WouldYouLikeToBattle:
-	.string "Battle {STR_VAR_1} for 3 {STR_VAR_2} EVs?$"
+	.string "Affronter {STR_VAR_1}\n"
+	.string "pour gagner 3 EV en {STR_VAR_2}?$"
 
 SaffronCity_FightingDojo_Text_BlackBelt:
-	.string "You enter the FIGHTING DOJO!\p"
-	.string "Here, you may hone the stats of\n"
-	.string "of your POKéMON by battle!$"
+	.string "Bienvenue au DOJO DE COMBAT!\p"
+	.string "Ici, tu peux améliorer les stats\n"
+	.string "de tes Pokémon en combattant!$"
 
 SaffronCity_FightingDojo_Text_Sign1:
-	.string "Left: HP, DEFENSE, SPECIAL DEFENSE$"
+	.string "GAUCHE: PV, DÉFENSE,\n"
+	.string "DÉF. SPÉCIALE$"
 
 SaffronCity_FightingDojo_Text_Sign2:
-	.string "RIGHT: ATTACK, SPECIAL ATTACK, SPEED$"
+	.string "DROITE: ATTAQUE, ATQ. SPÉCIALE,\n"
+	.string "VITESSE$"
 
 SaffronCity_FightingDojo_Text_Cooltrainer::
-	.string "Only trainers with all KANTO badges\n"
-	.string "may enter the VIP lounge.$"
+	.string "Seuls les Dresseurs ayant tous\n"
+	.string "les Badges de KANTO peuvent\l"
+	.string "entrer dans le salon VIP.$"
 
 @Ability swapper
 
@@ -284,31 +288,36 @@ SaffronCity_FightingDojo_Ability_Finish:
 	end
 
 SaffronCity_FightingDojo_Ability_Finish_Text:
-	.string "That's it! You're welcome!$"
+	.string "Et voilà! Tout le plaisir\n"
+	.string "est pour moi!$"
 
 SaffronCity_FightingDojo_Ability_Text1:
-	.string "Welcome! I'm the ABILITY EXPERT!\p"
-	.string "I can swap POKéMON's abilities in\n"
-	.string "a heartbeat, only for 25.000¥!\p"
-	.string "Would you like me to swap any\n"
-	.string "POKéMON's ability?$"
+	.string "Bienvenue! Je suis l'EXPERT\n"
+	.string "des TALENTS!\p"
+	.string "Je peux changer le talent d'un\n"
+	.string "Pokémon en un instant, pour\l"
+	.string "seulement 25 000¥!\p"
+	.string "Voulez-vous changer le talent\n"
+	.string "d'un Pokémon?$"
 
 SaffronCity_FightingDojo_Ability_Text_No:
-	.string "Sure. I'll be here if you need me.$"
+	.string "Entendu. Je serai ici si vous\n"
+	.string "avez besoin de moi.$"
 
 SaffronCity_FightingDojo_Ability_Text_Cant:
-	.string "I cannot do that. This POKéMON\n"
-	.string "does not have a second ABILITY!$"
+	.string "C'est impossible. Ce Pokémon\n"
+	.string "n'a pas de second talent!$"
 
 SaffronCity_FightingDojo_Ability_Text_NoChampion:
-	.string "Welcome! I'm the ABILITY EXPERT!\p"
-	.string "I can swap POKéMON's abilities\n"
-	.string "in a heartbeat.\p"
-	.string "Unfortunately, my back hurts and\n"
-	.string "I can't work today.\p"
-	.string "Come again later!$"
+	.string "Bienvenue! Je suis l'EXPERT\n"
+	.string "des TALENTS!\p"
+	.string "Je peux changer le talent d'un\n"
+	.string "Pokémon en un instant.\p"
+	.string "Malheureusement, j'ai mal au dos\n"
+	.string "et je ne peux pas travailler\l"
+	.string "aujourd'hui.\p"
+	.string "Revenez plus tard!$"
 
 SaffronCity_FightingDojo_SetZeroTextNoMoney:
-	.string "You don't have enough money.\p"
-	.string "Come back when you have.$"
-
+	.string "Vous n'avez pas assez d'argent.\p"
+	.string "Revenez quand vous en aurez.$"

@@ -148,119 +148,137 @@ JaggedPass_EventScript_Autumn::
 	end
 
 JaggedPass_Text_EricIntro:
-	.string "MT. CHIMNEY's JAGGED PASS…\p"
-	.string "Now this is what I've always wanted\n"
-	.string "in a mountain.\p"
-	.string "This jagged bumpiness…\n"
-	.string "It rocks my soul!$"
+	.string "Le SENTIER SINUROC du MONT\n"
+	.string "CHIMNEE…\p"
+	.string "J’ai toujours rêvé d’un endroit\n"
+	.string "pareil…\p"
+	.string "Ce relief accidenté… J’adore ça!$"
 
 JaggedPass_Text_EricDefeat:
-	.string "Losing left me bitter!$"
+	.string "La défaite me laisse amer!$"
 
 JaggedPass_Text_EricPostBattle:
-	.string "Yes, I did lose at POKéMON…\p"
-	.string "But, when it comes to the love of\n"
-	.string "the mountains, I have you beat!$"
+	.string "Oui, je peux perdre avec les\n"
+	.string "POKéMON…\p"
+	.string "Mais s’il s’agissait de notre\n"
+	.string "amour pour la montagne, je te\p"
+	.string "battrais!$"
 
 JaggedPass_Text_DianaIntro:
-	.string "This place isn't your casual hike.\n"
-	.string "It's not suited for a picnic.$"
+	.string "Tu n’te promènes pas ici par\n"
+	.string "hasard. T’es pas là pour\p"
+	.string "pique-niquer!$"
 
 JaggedPass_Text_DianaDefeat:
-	.string "Ohhh, no!\n"
-	.string "The ground is too bumpy…$"
+	.string "Oooh, non! Ce sol est trop\n"
+	.string "bosselé…$"
 
 JaggedPass_Text_DianaPostBattle:
-	.string "Did you know?\p"
-	.string "Some people cleverly ride their\n"
-	.string "bicycles up this horribly bumpy pass.$"
+	.string "Tu savais ça?\p"
+	.string "Les plus habiles utilisent leur\n"
+	.string "VELO pour passer ce col très\p"
+	.string "accidenté.$"
 
 JaggedPass_Text_DianaRegister:
-	.string "Will you ever be back in this area?\n"
-	.string "If you do return, I'd like a rematch.$"
+	.string "Tu reviendras un jour par ici?\n"
+	.string "Si c’est le cas, j’aimerais bien\p"
+	.string "refaire un match avec toi.$"
 
 JaggedPass_Text_DianaRematchIntro:
-	.string "Picnics are fun wherever you go.\n"
-	.string "Just like POKéMON!$"
+	.string "Un pique-nique, c’est toujours\n"
+	.string "sympa. Exactement comme les\p"
+	.string "POKéMON!$"
 
 JaggedPass_Text_DianaRematchDefeat:
-	.string "I only lost because the ground is\n"
-	.string "too bumpy!$"
+	.string "Si j’ai perdu, c’est juste à\n"
+	.string "cause de ce sol trop bosselé!$"
 
 JaggedPass_Text_DianaPostRematch:
-	.string "I'll forget about losing and just\n"
-	.string "enjoy this bumpy hike.$"
+	.string "Je vais oublier ma défaite et\n"
+	.string "apprécier cette randonnée à\p"
+	.string "travers les bosses.$"
 
 JaggedPass_Text_EthanIntro:
-	.string "JAGGED PASS is hard to walk on.\n"
-	.string "It's a good place for training.$"
+	.string "C’est dur de marcher sur le\n"
+	.string "SENTIER SINUROC.\p"
+	.string "Mais c’est super pour\n"
+	.string "s’entraîner!$"
 
 JaggedPass_Text_EthanDefeat:
-	.string "It was all over while we were still\n"
-	.string "trying to find a good footing…$"
+	.string "On essayait encore de trouver\n"
+	.string "une bonne prise, alors que tout\p"
+	.string "était déjà terminé.$"
 
 JaggedPass_Text_EthanPostBattle:
-	.string "If I had an ACRO BIKE, I'd be able to\n"
-	.string "jump ledges.$"
+	.string "Si j’avais un VELO CROSS, je\n"
+	.string "pourrais sauter sur ces rebords\p"
+	.string "rocheux.$"
 
 JaggedPass_Text_EthanRegister:
-	.string "When I get more used to this bumpiness,\n"
-	.string "I'll be sure to win!\p"
-	.string "Can you register me in your POKéNAV?$"
+	.string "J’arriverai à te battre quand je\n"
+	.string "me serai habitué à ces bosses!\p"
+	.string "Tu peux m’enregistrer dans ton\n"
+	.string "POKéNAV?$"
 
 JaggedPass_Text_EthanRematchIntro:
-	.string "I got used to this bumpiness.\n"
-	.string "I sing while I climb now.$"
+	.string "Je suis habitué à toutes ces\n"
+	.string "bosses. Maintenant, je chante en\p"
+	.string "grimpant.$"
 
 JaggedPass_Text_EthanRematchDefeat:
-	.string "It's still not easy to battle on this\n"
-	.string "bumpy ground…$"
+	.string "C’est quand même pas facile de\n"
+	.string "se battre sur ce sol tout\p"
+	.string "bosselé…$"
 
 JaggedPass_Text_EthanPostRematch:
-	.string "I should get an ACRO BIKE from RYDEL\n"
-	.string "in MAUVILLE CITY…$"
+	.string "Il faudrait que j’aille à\n"
+	.string "LAVANDIA pour que RODOLPHE me\p"
+	.string "donne un VELO CROSS.$"
 
 JaggedPass_Text_GruntIntro:
-	.string "Wah!\n"
-	.string "What are you doing here?\p"
-	.string "What am I doing in a place like this?\p"
-	.string "What business is it of yours?$"
+	.string "Quoi? Qu’est-ce que tu fais là?\p"
+	.string "Qu’est-ce que je fais dans un\n"
+	.string "endroit pareil?\p"
+	.string "Ça te regarde?$"
 
 JaggedPass_Text_GruntDefeat:
 	.string "Urrrgh…\p"
-	.string "I should've ducked into our HIDEOUT\n"
-	.string "right away…$"
+	.string "J’aurais dû rester caché dans la\n"
+	.string "PLANQUE…$"
 
 JaggedPass_Text_GoWhereverYouWant:
-	.string "Okay, oh-kay!\n"
-	.string "I admit it--you're strong!\p"
-	.string "Don't worry about me.\n"
-	.string "Go wherever you want!$"
+	.string "OK, OK… Je dois l’avouer, tu\n"
+	.string "sais te battre!\p"
+	.string "Ne t’inquiète pas pour moi. Tu\n"
+	.string "peux aller où tu veux!$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
-	.string "Oh! This boulder is shaking in response\n"
-	.string "to the MAGMA EMBLEM!$"
+	.string "Oh! Ce rocher semble réagir à la\n"
+	.string "présence du SCEAU MAGMA!$"
 
 JaggedPass_Text_JulioIntro:
-	.string "Aiyeeh! It's awfully scary to shoot\n"
-	.string "down the mountain in one go!$"
+	.string "Ça fait super peur de descendre\n"
+	.string "la montagne d’un coup!$"
 
 JaggedPass_Text_JulioDefeat:
-	.string "I feel like I'm falling apart…$"
+	.string "J’ai l’impression de tomber en\n"
+	.string "morceaux…$"
 
 JaggedPass_Text_JulioPostBattle:
-	.string "My bicycle bounced around so much,\n"
-	.string "my rear end's sore…$"
+	.string "Mon vélo s’est pris tellement de\n"
+	.string "bosses que je ne sens plus mon\p"
+	.string "dos.$"
 
 JaggedPass_Text_AutumnIntro:
-	.string "I climb this hill every day.\n"
-	.string "I have confidence in my strength!$"
+	.string "Je gravis cette colline chaque\n"
+	.string "jour. J’ai confiance en ma\p"
+	.string "force!$"
 
 JaggedPass_Text_AutumnDefeat:
-	.string "Hmm…\n"
-	.string "What went wrong?$"
+	.string "Hum… Qu’est-ce qui s’est passé?$"
 
 JaggedPass_Text_AutumnPostBattle:
-	.string "What is that odd rock protrusion\n"
-	.string "a little up the hill from here?$"
+	.string "Est-ce que tu sais ce qu’est\n"
+	.string "cette étrange avancée rocheuse\p"
+	.string "un peu plus loin?$"
 

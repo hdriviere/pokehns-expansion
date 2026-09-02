@@ -222,11 +222,11 @@ static void ConfirmSell(u8);
 static void CancelSell(u8);
 static void Task_FadeAndCloseBagMenuIfMulch(u8 taskId);
 
-static const u8 sText_Var1CantBeHeldHere[] = _("The {STR_VAR_1} can't be held\nhere.");
-static const u8 sText_DepositHowManyVar1[] = _("Deposit how many\n{STR_VAR_1}?");
-static const u8 sText_DepositedVar2Var1s[] = _("Deposited {STR_VAR_2}\n{STR_VAR_1}.");
-static const u8 sText_NoRoomForItems[] = _("There's no room to\nstore items.");
-static const u8 sText_CantStoreImportantItems[] = _("Important items\ncan't be stored in\nthe PC!");
+static const u8 sText_Var1CantBeHeldHere[] = _("Impossible de tenir {STR_VAR_1} ici.");
+static const u8 sText_DepositHowManyVar1[] = _("Vous voulez en\ndéposer combien?");
+static const u8 sText_DepositedVar2Var1s[] = _("{STR_VAR_1}:\ndéposé {STR_VAR_2}.");
+static const u8 sText_NoRoomForItems[] = _("Plus de place pour\nstocker des objets.");
+static const u8 sText_CantStoreImportantItems[] = _("Objets importants\nimpossibles à\nstocker sur le PC!");
 
 static void Task_LoadBagSortOptions(u8 taskId);
 static void ItemMenu_SortByName(u8 taskId);
@@ -294,7 +294,7 @@ static const struct ListMenuTemplate sItemListMenu =
     .cursorKind = CURSOR_BLACK_ARROW
 };
 
-static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+static const u8 sText_NothingToSort[] = _("Il n'y a rien à trier!");
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,                {ItemMenu_UseOutOfBattle}},
     [ACTION_TOSS]              = {gMenuText_Toss,               {ItemMenu_Toss}},
@@ -302,20 +302,20 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_GIVE]              = {gMenuText_Give,               {ItemMenu_Give}},
     [ACTION_CANCEL]            = {gText_Cancel2,                {ItemMenu_Cancel}},
     [ACTION_BATTLE_USE]        = {gMenuText_Use,                {ItemMenu_UseInBattle}},
-    [ACTION_CHECK]             = {COMPOUND_STRING("CHECK"),     {ItemMenu_UseOutOfBattle}},
-    [ACTION_WALK]              = {COMPOUND_STRING("WALK"),      {ItemMenu_UseOutOfBattle}},
-    [ACTION_DESELECT]          = {COMPOUND_STRING("DESELECT"),  {ItemMenu_CheckWhichRegister}},
-    [ACTION_CHECK_TAG]         = {COMPOUND_STRING("CHECK TAG"), {ItemMenu_CheckTag}},
+    [ACTION_CHECK]             = {COMPOUND_STRING("VOIR"),     {ItemMenu_UseOutOfBattle}},
+    [ACTION_WALK]              = {COMPOUND_STRING("MARCHER"),      {ItemMenu_UseOutOfBattle}},
+    [ACTION_DESELECT]          = {COMPOUND_STRING("DÉSÉLECT."),  {ItemMenu_CheckWhichRegister}},
+    [ACTION_CHECK_TAG]         = {COMPOUND_STRING("LIRE ETIQUETTE"), {ItemMenu_CheckTag}},
     [ACTION_CONFIRM]           = {gMenuText_Confirm,            {Task_FadeAndCloseBagMenu}},
-    [ACTION_SHOW]              = {COMPOUND_STRING("SHOW"),      {ItemMenu_Show}},
+    [ACTION_SHOW]              = {COMPOUND_STRING("MONTRER"),      {ItemMenu_Show}},
     [ACTION_GIVE_FAVOR_LADY]   = {gMenuText_Give2,              {ItemMenu_GiveFavorLady}},
     [ACTION_CONFIRM_QUIZ_LADY] = {gMenuText_Confirm,            {ItemMenu_ConfirmQuizLady}},
-    [ACTION_BY_NAME]           = {COMPOUND_STRING("NAME"),      {ItemMenu_SortByName}},
+    [ACTION_BY_NAME]           = {COMPOUND_STRING("NOM"),      {ItemMenu_SortByName}},
     [ACTION_BY_TYPE]           = {COMPOUND_STRING("TYPE"),      {ItemMenu_SortByType}},
-    [ACTION_BY_AMOUNT]         = {COMPOUND_STRING("AMOUNT"),    {ItemMenu_SortByAmount}},
+    [ACTION_BY_AMOUNT]         = {COMPOUND_STRING("QUANTITÉ"),    {ItemMenu_SortByAmount}},
     [ACTION_BY_INDEX]          = {COMPOUND_STRING("INDEX"),     {ItemMenu_SortByIndex}},
-    [ACTION_REGISTER_TAP]      = {COMPOUND_STRING("TAP"),      {ItemMenu_Register}},
-    [ACTION_REGISTER_HOLD]     = {COMPOUND_STRING("HOLD"),     {ItemMenu_RegisterHold}},
+    [ACTION_REGISTER_TAP]      = {COMPOUND_STRING("APPUYER"),      {ItemMenu_Register}},
+    [ACTION_REGISTER_HOLD]     = {COMPOUND_STRING("MAINTENIR"),     {ItemMenu_RegisterHold}},
     [ACTION_DUMMY]             = {gText_EmptyString2, {NULL}}
 };
 
@@ -335,7 +335,7 @@ static const u8 sRegisterOptions[] = {
     ACTION_REGISTER_TAP, ACTION_REGISTER_HOLD,
 };
 
-static const u8 sText_RegisterHow[] = _("Register this\nitem by tapping or\nholding SELECT?");
+static const u8 sText_RegisterHow[] = _("Enregistrer cet objet\nen appuyant ou maintenant\nSELECT?");
 
 static const u8 sContextMenuItems_BallsPocket[] = {
     ACTION_USE,         ACTION_GIVE,
@@ -467,9 +467,9 @@ static const struct WindowTemplate sDefaultBagWindows[] =
     [WIN_DESCRIPTION] = {
         .bg = 0,
         .tilemapLeft = 0,
-        .tilemapTop = 13,
+        .tilemapTop = 12,
         .width = 14,
-        .height = 6,
+        .height = 7,
         .paletteNum = 1,
         .baseBlock = 0x117,
     },
@@ -1072,7 +1072,7 @@ static void PrintItemDescription(int itemIndex)
         str = gStringVar4;
     }
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
-    BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 1, 0, 0, 0, COLORID_NORMAL);
+    BagMenu_Print(WIN_DESCRIPTION, FONT_SMALL_NARROWER, str, 3, 4, 0, 0, 0, COLORID_NORMAL);
 }
 
 static void BagMenu_PrintCursor(u8 listTaskId, u8 colorIndex)
@@ -1324,7 +1324,7 @@ static void Task_BagMenu_HandleInput(u8 taskId)
             {
                 if ((gBagMenu->numItemStacks[gBagPosition.pocket] - 1) <= 1) //can't sort with 0 or 1 item in bag
                 {
-                    static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+                    static const u8 sText_NothingToSort[] = _("Il n'y a rien à trier!");
                     PlaySE(SE_FAILURE);
                     DisplayItemMessage(taskId, 1, sText_NothingToSort, HandleErrorMessage);
                     break;
@@ -2188,7 +2188,7 @@ static void ItemMenu_Cancel(u8 taskId)
     ReturnToItemList(taskId);
 }
 
-static const u8 sText_NoItemsInBattle[] = _("Battle items are not allowed\nunder current rules!");
+static const u8 sText_NoItemsInBattle[] = _("Les objets de combat sont interdits\npar les règles actuelles!");
 
 static void ItemMenu_UseInBattle(u8 taskId)
 {
@@ -2842,13 +2842,13 @@ static void PrintTMHMMoveData(enum Item itemId)
     }
 }
 
-static const u8 sText_SortItemsHow[] = _("Sort items how?");
-static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
+static const u8 sText_SortItemsHow[] = _("Trier de quelle manière?");
+static const u8 sText_ItemsSorted[] = _("Objets triés par {STR_VAR_1}!");
 static const u8 *const sSortTypeStrings[] =
 {
-    [SORT_ALPHABETICALLY] = COMPOUND_STRING("NAME"),
+    [SORT_ALPHABETICALLY] = COMPOUND_STRING("NOM"),
     [SORT_BY_TYPE] = COMPOUND_STRING("TYPE"),
-    [SORT_BY_AMOUNT] = COMPOUND_STRING("AMOUNT"),
+    [SORT_BY_AMOUNT] = COMPOUND_STRING("QUANTITÉ"),
     [SORT_BY_INDEX] = COMPOUND_STRING("INDEX")
 };
 

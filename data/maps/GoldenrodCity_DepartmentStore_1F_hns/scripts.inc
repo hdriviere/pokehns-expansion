@@ -39,28 +39,31 @@ GoldenrodDeptStore1_EventScript_Directory::
 	end
 
 GoldenrodDeptStor1_Text_Receptionist:
-    .string "Welcome to GOLDENROD DEPT.STORE.$"
+    .string "Bienvenue au CENTRE COMMERCIAL\n"
+    .string "de DOUBLONVILLE.$"
 
 GoldenrodDeptStore1_Text_Gentleman:
-    .string "The DEPT.STORE has a decent\n"
-    .string "selection.\p"
-    .string "But some items are only available\n"
-    .string "as GAME CORNER prizes.$"
+    .string "Le CENTRE COMMERCIAL a un tas de\n"
+    .string "bons produits.\p"
+    .string "Mais certains objets ne sont\p"
+    .string "disponibles qu'en prix à gagner\n"
+    .string "au CASINO.$"
 
 GoldenrodDeptStore1_Text_PokefanF:
-    .string "I'm raring to shop again today!$"
+    .string "Je vais encore faire plein de\n"
+    .string "shopping aujourd’hui!$"
 
 GoldenrodDeptStore1_Text_BugCatcher:
-    .string "Mom's good at bargain hunting.\p"
-    .string "She always buys stuff at lower\n"
-    .string "prices.$"
+    .string "Maman est la reine des courses!\p"
+    .string "Elle achète toujours les trucs\n"
+    .string "un peu moins chers!$"
 
 GoldenrodDeptStore1_Text_Directory:
-    .string "1F SERVICE COUNTER\n"
-	.string "YOU ARE HERE.\p"
-    .string "2F TRAINER'S MARKET\p"
-    .string "3F BATTLE COLLECTION\p"
-    .string "4F MEDICINE BOX\p"
-    .string "5F TM CORNER\p"
-    .string "6F TRANQUIL SQUARE\p"
-    .string "ROOFTOP LOOKOUT$"
+	.string "RDC ACCUEIL\n"
+	.string "VOUS ETES ICI.\p"
+	.string "1ER MARCHE DES DRESSEURS\p"
+	.string "2E COLLECTION COMBAT\p"
+	.string "3E BOITE A PHARMACIE\p"
+	.string "4E COIN DES CT\p"
+	.string "5E PLACE TRANQUILLE\p"
+	.string "TOIT PANORAMIQUE$"

@@ -80,63 +80,74 @@ Route39_FarmHouse_EventScript_FarmerM_NotEnough::
 	end
 
 Route39_Text_FarmerMSickCow:
-	.string "My MILTANK ain't givin' me\n"
-	.string "milk no more.\p"
-	.string "This here FARM's got famous milk.\p"
-	.string "Most everyone wants a drink.\p"
-	.string "It'll give me lots o' milk if'n\n"
-	.string "I feed it lots o' BERRIES,\l"
-	.string "I reckon.$"
+	.string "Ma chtite ECREMEUH m'donne plus\n"
+	.string "eud' lait.\p"
+	.string "Et pourtant qu'il était bien bon\n"
+	.string "not'lait d'ici.\p"
+	.string "Et tout eul'monde y veut à\n"
+	.string "boire.\p"
+	.string "Si j'en avais des BAIES à lui\n"
+	.string "donner\p"
+	.string "elle m'donnerait aussi du lait,\n"
+	.string "par le fait.$"
 
 Route39_Text_FarmerMBuyMilk:
-	.string "How'd you like my MOOMOO MILK?\p"
-	.string "It's my pride and joy, there.\p"
-	.string "Give it to POKéMON to restore HP!\p"
-	.string "I'll give it to ya fer just\n"
-	.string "¥500.$"
+	.string "Ca te dit du bon LAIT MEUMEU?\p"
+	.string "C'est ma fierté et ma joie,\n"
+	.string "poussin.\p"
+	.string "Donnes-en à tes Pokémon pour en\n"
+	.string "gagner des PV!\p"
+	.string "Pour juste\n"
+	.string "500¥\p"
+	.string "je te l'offre.\n"
+	.string "Pour sûr!$"
 
 Route39_Text_FarmerMGotMilk:
-	.string "Here ya go!\n"
-	.string "Drink up'n enjoy!$"
+	.string "A la tienne!$"
 
 Route39_Text_FarmerMNoMoney:
-	.string "Sorry, there.\n"
-	.string "No cash, no sale!$"
+	.string "Ayayaïe, t’as pas assez!$"
 
 Route39_Text_FarmerMNoRoom:
-	.string "I reckon yer PACK's full.$"
+	.string "T'as pas de place, mon poussin.$"
 
 Route39_Text_FarmerMNoSale:
-	.string "You don't want it?\n"
-	.string "Come again, hear?$"
+	.string "T’en veux pas? Bah, reviens plus\n"
+	.string "tard!$"
 
 Route39FarmHouse_Text_WouldYouLikeAnother:
-	.string "How bout another?$"
+	.string "Tu en veux une autre?$"
 
 Route39_Text_GotMilk:
-	.string "{PLAYER} got MOOMOO MILK.$"
+	.string "{PLAYER} obtient du LAIT MEUMEU.$"
 
 Route39_Text_FarmerMMilking:
-	.string "I best go do my milkin'.$"
+	.string "Bon, c’est l’heure de la\n"
+	.string "traite...$"
 
 Route39_Text_FarmerFInTrouble:
-	.string "Our milk even goes out to\n"
-	.string "KANTO.\p"
-	.string "So if our own MILTANK won't\n"
-	.string "give us any milk, we're in trouble.$"
+	.string "Notre lait est très à la mode à\n"
+	.string "Kanto...\p"
+	.string "Alors c’est\n"
+	.string "un problème si\p"
+	.string "l’ECREMEUH ne nous\n"
+	.string "en donne plus...$"
 
 Route39_Text_FarmerFHealedMiltank:
-	.string "You fixed our MILTANK, hon.\n"
-	.string "Now it gives MOOMOO MILK again.\p"
-	.string "Here's somethin' fer your trouble.$"
+	.string "C’est grâce à toi\n"
+	.string "que l’ECREMEUH\p"
+	.string "a recommencé à\n"
+	.string "donner du bon lait!\p"
+	.string "Tiens, en remerciement!$"
 
 Route39_Text_FarmerFSnatchSpeech:
-	.string "That there's SNATCH.\p"
-	.string "It's a tricky move that lets\n"
-	.string "a POKéMON steal a foe's move\l"
-	.string "right before it's used.\p"
-	.string "If more than one POKéMON use\n"
-	.string "SNATCH, only the slowest one\l"
-	.string "will end up stealing the move.\p"
-	.string "Use it smart, hon. Timing is\n"
-	.string "everything.$"
+	.string "Ça, c'est SAISIE.\p"
+	.string "Cette capacité permet\n"
+	.string "à un Pokémon de voler\l"
+	.string "une capacité adversel"
+	.string "juste avant son utilisation.\p"
+	.string "Si plusieurs Pokémon utilisent\n"
+	.string "SAISIE, seul le plus lent finira\l"
+	.string "par voler la capacité.\p"
+	.string "Utilise-la bien, mon chou.\n"
+	.string "Tout est dans le timing.$"

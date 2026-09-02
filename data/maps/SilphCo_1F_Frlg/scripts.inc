@@ -15,11 +15,10 @@ SilphCo_1F_EventScript_FloorSign::
 	end
 
 SilphCo_1F_Text_WelcomePresidentInBoardroom::
-	.string "Welcome.\p"
-	.string "The PRESIDENT is in the boardroom\n"
-	.string "on 11F.$"
+	.string "Bienvenue!\p"
+	.string "Le PRESIDENT est dans la salle\n"
+	.string "du conseil, au 10ème étage!$"
 
 SilphCo_1F_Text_FloorSign::
-	.string "SILPH CO. HEAD OFFICE\n"
-	.string "1F$"
+	.string "SYLPHE SARL. RDC.$"
 

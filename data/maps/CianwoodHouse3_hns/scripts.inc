@@ -70,66 +70,74 @@ CianwoodCity_EventScript_KirkReturnedShuckie::
 	end
 
 CianwoodCity_Text_ManiacAskShuckle:
-	.string "I, I'm in shock!\p"
-	.string "A guy about your age with piercing\n"
-	.string "eyes and long hair came in.\p"
-	.string "He scared me into giving him my\n"
-	.string "prized POKéMON!\p"
-	.string "I still have one left, but what if\n"
-	.string "he comes back?\p"
-	.string "You look strong. Could you look\n"
-	.string "after my POKéMON for a while?$"
+	.string "Je suis choqué!\p"
+	.string "Un garnement de ton âge avec\p"
+	.string "l'oeil mauvais et des cheveux\n"
+	.string "longs, s'est infiltré chez moi.\p"
+	.string "Il m'a fait grandpeur et\n"
+	.string "chapardé mon Pokémon adoré!\p"
+	.string "Il m'en reste un mais que faire\n"
+	.string "s'il revient?\p"
+	.string "Tu as l'air fort. Peux-tu\p"
+	.string "t'occuper de mon Pokémon un\n"
+	.string "petit moment?$"
 
 CianwoodCity_Text_ManiacTakeCareShuckle:
-	.string "Oh, thank you!\p"
-	.string "Take good care of it, please!$"
+	.string "Je, je te fais confiance!\n"
+	.string "Prends-en soin!$"
 
 CianwoodCity_Text_ManiacGotShuckle:
-	.string "{PLAYER} received a POKéMON.$"
+	.string "{PLAYER} reçoit un Pokémon.$"
 
 CianwoodCity_Text_ManiacPartyFull:
-	.string "Your POKéMON party is full.$"
+	.string "Tu as trop de Pokémon...$"
 
 CianwoodCity_Text_ManiacIfHeComesBack:
-	.string "Oh, no… What'll I do if he comes\n"
-	.string "back?$"
+	.string "Oh, oh non... Comment je vais\n"
+	.string "faire s’il revient?$"
 
 CianwoodCity_Text_ManiacHowsdoing:
-	.string "Hi! How's my POKéMON?$"
+	.string "Mon Pokémon va bien?$"
 
 CianwoodCity_Text_ManiacAskReturn:
-	.string "Hi! How's my POKéMON?\p"
-	.string "I think I'm safe now, so may I\n"
-	.string "have it back?$"
+	.string "Salut! Comment va mon Pokémon?\p"
+	.string "Je pense être en\n"
+	.string "sécurité maintenant,\p"
+	.string "serait-il possible\n"
+	.string "de le récupérer?$"
 
 CianwoodCity_Text_ManiacThankYou:
-	.string "Thank you!$"
+	.string "Merci!$"
 
 CianwoodCity_Text_ManiacShuckleNotThere:
-	.string "Hey, you don't have my POKéMON\n"
-	.string "with you.$"
+	.string "Hé, tu n'as pas mon Pokémon avec\n"
+	.string "toi.$"
 
 CianwoodCity_Text_ManiacShuckleLikesYou:
-	.string "My POKéMON has come to like you.\p"
-	.string "All right, you should keep it.\p"
-	.string "But promise to be good to it!$"
+	.string "Mon Pokémon s’est attaché à\n"
+	.string "toi... Compris! Je te le donne!\p"
+	.string "En échange, tu devras en prendre\n"
+	.string "soin!$"
 
 CianwoodCity_Text_ManiacRobbed:
-	.string "Huh, something's not right.$"
+	.string "Hein? Quelque chose cloche.$"
 
 CianwoodCity_Text_ManiacRobbed2:
-	.string "Oh, no, no… That's the same as\n"
-	.string "being robbed.$"
+	.string "C’est... C’est vrai?! Alors tu\n"
+	.string "es semblable à mon agresseur!$"
 
 CianwoodCity_Text_ManiacHappinessSpeech:
-	.string "For POKéMON, happiness is being\n"
-	.string "with a person who treats them well.$"
+	.string "Ce qui est important\n"
+	.string "pour un Pokémon,\p"
+	.string "c’est d’être avec\n"
+	.string "une personne qui\p"
+	.string "l’aime et prend soin de lui.$"
 
 CianwoodCity_Text_ManiacLastMon:
-	.string "If I take my POKéMON back,\n"
-	.string "what are you going to use\n"
-	.string "in battle?$"
+	.string "Si je reprends mon Pokémon, avec\n"
+	.string "quoi\p"
+	.string "vas-tu pouvoir combattre?$"
 
 
 CianwoodCity_Text_ManiacReturnedMon:
-	.string "{PLAYER} returned SHUCKIE.$"
+	.string "{PLAYER} rend CARAT.$"

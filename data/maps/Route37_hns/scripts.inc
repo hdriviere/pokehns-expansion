@@ -81,76 +81,77 @@ Route37_EventScript_Sign::
 	end
 
 Route37_Text_TwinsAnnAndAnne1_Seen:
-	.string "ANN: ANNE and I are in this\n"
-	.string "together!$"
+	.string "TEA: LEA et moi sommes\n"
+	.string "inséparables!$"
 
 Route37_Text_TwinsAnnAndAnne1_Beaten:
-	.string "ANN & ANNE: Nnn… A little too\n"
-	.string "strong.$"
+	.string "TEA&LEA: ... Pas possible.$"
 
 Route37_Text_TwinsAnnAndAnne1_After:
-	.string "ANN: I can tell what my sister and\n"
-	.string "my POKéMON are thinking.$"
+	.string "TEA: Je pense comme ma soeur et\p"
+	.string "comme mes Pokémon.$"
 
 Route37_Text_TwinsAnnAndAnne2_Seen:
-	.string "ANNE: ANN and I are in this\n"
-	.string "together!$"
+	.string "LEA: TEA et moi sommes\n"
+	.string "inséparables!$"
 
 Route37_Text_TwinsAnnAndAnne2_Beaten:
-	.string "ANN & ANNE: Nnn… A little too\n"
-	.string "strong.$"
+	.string "TEA&LEA: ... Pas possible.$"
 
 Route37_Text_TwinsAnnAndAnne2_After:
-	.string "ANNE: We share the same feelings as\n"
-	.string "our POKéMON.$"
+	.string "LEA: Nous ressentons les mêmes\n"
+	.string "choses que nos Pokémon.$"
 
 Route37_Text_PsychicGreg_Seen:
-	.string "POKéMON can't do a thing if they are\n"
-	.string "asleep.\p"
-	.string "I'll show you how scary that is!$"
+	.string "Les Pokémon endormis ne peuvent\n"
+	.string "plus rien faire.\p"
+	.string "Tu vas voir quel effet ça fait!$"
 
 Route37_Text_PsychicGreg_Beaten:
-	.string "I lost. That's pretty sad…$"
+	.string "Perdu. C'est pas cool, ça...$"
 
 Route37_Text_PsychicGreg_After:
-	.string "Putting POKéMON to sleep or paralyz-\n"
-	.string "ing them are good battle techniques.$"
+	.string "Endormir ou\n"
+	.string "paralyser les\p"
+	.string "Pokémon est super\n"
+	.string "utile en combat.$"
 
 Route37_Text_Sunny_Meet:
-	.string "SUNNY: Hi!\p"
-	.string "I'm SUNNY of the WEEKDAY family!\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "DIMITRI: Salut!\p"
+	.string "Moi, c'est DIMITRI de la fratrie\n"
+	.string "des jours de la semaine!\p"
+	.string "Devine mon jour préféré et je te\n"
+	.string "donnerai une récompense.$"
 
 Route37_Text_Sunny_GiveGift1:
-	.string "I was told to give you this if I saw\n"
-	.string "you!$"
+	.string "On m'a dit de te donner ça!$"
 
 Route37_Text_Sunny_GiveGift2:
-	.string "I was told to give you this if I saw\n"
-	.string "you!$"
+	.string "On m'a dit de te donner ça!$"
 
 Route37_Text_Sunny_GaveGift:
-	.string "SUNNY: That thing…\p"
-	.string "Um…\p"
-	.string "… What was it now…\p"
-	.string "…\p"
-	.string "Oh! I remember now!\p"
-	.string "A POKéMON that knows electric\n"
-	.string "moves should hold it.\p"
-	.string "My sis MONICA said it powers up\n"
-	.string "electric moves!$"
+	.string "DIMITRI: Ca...\p"
+	.string "Heu...\p"
+	.string "...C'est...\p"
+	.string "...\p"
+	.string "Oh! Je me  souviens!\p"
+	.string "C'est pour un Pokémon à\n"
+	.string "capacités électriques.\p"
+	.string "Ma soeur LUCIE dit que ça les\n"
+	.string "améliore!$"
 
 Route37_Text_Sunny_Sunday:
-	.string "SUNNY: My sisters and brothers are\n"
-	.string "MONICA, TUSCANY, WESLEY, ARTHUR,\l"
-	.string "FRIEDA and SANTOS.\p"
-	.string "They're all older than me!$"
+	.string "DIMITRI: Mes frères\n"
+	.string "et soeurs sont LUCIE,\p"
+	.string "MARIE, HOMER, JEROME,\n"
+	.string "VANESSA et SAMUEL.\p"
+	.string "Ils sont tous plus vieux que\n"
+	.string "moi!$"
 
 Route37_Text_Sunny_NotSunday:
-	.string "SUNNY: Isn't today Sunday?\n"
-	.string "Um… I forgot!$"
+	.string "DIMITRI: On est pas dimanche?\n"
+	.string "Heu! Je sais plus!$"
 
 Route37_Text_Sign:
 	.string "ROUTE 37\n"
-	.string "ECRUTEAK CITY AHEAD$"
+	.string "ROSALIA DROIT DEVANT$"

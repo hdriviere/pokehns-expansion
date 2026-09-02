@@ -49,15 +49,16 @@ BurnedTower_Movement_Eusine2:
 
 
 BurnedTower_1FEusineIntroText:
-	.string "EUSINE: My name's EUSINE.\p"
-	.string "I'm on the trail of a POKéMON\n"
-	.string "called SUICUNE.\p"
-	.string "And you are...?\p"
-	.string "{PLAYER}? Glad to meet you!\p"
-	.string "I heard SUICUNE might be in\n"
-	.string "this BURNED TOWER, so I came\l"
-	.string "to check it out.\p"
-	.string "But where exactly could it be?$"
+	.string "EUSINE: Mon nom est EUSINE.\p"
+	.string "Je suis sur la piste d'un\n"
+	.string "Pokémon appelé SUICUNE.\p"
+	.string "Et toi, tu es...?\p"
+	.string "{PLAYER}? Ravi de te connaître!\p"
+	.string "J'ai entendu dire que SUICUNE\n"
+	.string "se trouvait dans cette TOUR\l"
+	.string "CENDREE.\p"
+	.string "Je suis donc venu voir.\p"
+	.string "Mais où peut-il bien être?$"
 
 BurnedTower_1F_EventScript_Item_HpUp::
 	finditem ITEM_HP_UP
@@ -84,19 +85,20 @@ BurnedTower_1F_EventScript_Morty::
 	end
 
 BurnedTower_1FEusineText:
-	.string "EUSINE: I heard SUICUNE might\n"
-	.string "be in this BURNED TOWER, so I\l"
-	.string "came to check it out.\p"
-	.string "But where exactly could it be?$"
+	.string "EUSINE: J'ai entendu dire que\n"
+	.string "SUICUNE se trouvait dans cette\l"
+	.string "TOUR CENDREE.\p"
+	.string "Je suis donc venu voir.\p"
+	.string "Mais où peut-il bien être?$"
 
 BurnedTower_1FMortyText:
-	.string "MORTY: ECRUTEAK's GYM LEADER\n"
-	.string "has to study what are said to\l"
-	.string "be the legendary POKéMON--\l"
-	.string "SUICUNE, ENTEI and RAIKOU.\p"
-	.string "EUSINE is here, so I've\n"
-	.string "decided to investigate the\l"
-	.string "TOWER with him.$"
+	.string "MORTIMER: Le CHAMPION de ROSALIA\p"
+	.string "doit étudier les\n"
+	.string "Pokémon légendaires:\p"
+	.string "SUICUNE, ENTEI\n"
+	.string "et RAIKOU.\p"
+	.string "EUSINE est ici. J'ai décidé de\p"
+	.string "fouiller la TOUR avec lui.$"
 
 BurnedTower_1F_EventScript_Silver::
 	lock
@@ -152,37 +154,41 @@ BurnedTower_1F_Silver_Battle_Chikorita::
 
 BurnedTowerSilver_BeforeText:
 	.string "..............................\p"
-	.string "...Oh, it's you.\p"
-	.string "I came looking for some\n"
-	.string "legendary POKéMON they say\l"
-	.string "roost here.\p"
-	.string "But there's nothing here!\p"
-	.string "Nothing, after all the effort\n"
-	.string "of coming to this dump?\l"
-	.string "No way!\p"
-	.string "It's all your fault!$"
+	.string "...Oh, c'est toi.\p"
+	.string "Je suis venu chercher les\n"
+	.string "Pokémonl"
+	.string "légendaires qui, paraît-il,\l"
+	.string "nichent ici.\p"
+	.string "Mais il n'y a rien!\p"
+	.string "J'ai fait tout ce chemin jusqu'à\n"
+	.string "ce trou pour ne rien trouver?\p"
+	.string "Pas question!\p"
+	.string "Tout est de ta faute!$"
 
 BurnedTowerSilver_WinText:
-	.string "...Humph!\p"
-	.string "I only lost because my\n"
-	.string "POKéMON are incredibly weak.\p"
-	.string "How pathetic.$"
+	.string "...Pfff!\p"
+	.string "J'ai perdu uniquement parce que\n"
+	.string "mes Pokémon sont beaucoup\n"
+	.string "trop faibles.\p"
+	.string "C'est minable.$"
 
 BurnedTowerSilver_AfterText1:
-	.string "...Aw, whatever.\p"
-	.string "You'd never be able to catch\n"
-	.string "a legendary POKéMON anyway.$"
+	.string "Pff...minable.\p"
+	.string "T'auras jamais un Pokémon\n"
+	.string "légendaire\p"
+	.string "de toute façon. T'es zéro.$"
 
 BurnedTowerSilver_LossText:
-	.string "...Humph!\p"
-	.string "This is why I hate battling\n"
-	.string "wimps. It's a waste of time.$"
+	.string "...Pfff!\p"
+	.string "Voilà pourquoi je déteste\n"
+	.string "affronter les nuls.\p"
+	.string "C'est une perte de temps.$"
 
 BurnedTowerSilver_AfterText2:
-	.string "Humph!\p"
-	.string "What are you doing falling\n"
-	.string "into a hole? Some genius!\p"
-	.string "Serves you right!$"
+	.string "...Pfff!\p"
+	.string "Tu tombes dans les trous?\p"
+	.string "T'es pas trop bête, c'est bien.\p"
+	.string "Minable!$"
 
 BurnedTower_1F_EventScript_Nard::
 	trainerbattle_single TRAINER_NARD_HNS, BurnedTower_Text_NardSeen, BurnedTower_Text_NardBeaten
@@ -195,23 +201,26 @@ BurnedTower_1F_EventScript_Richardo::
 	end
 
 BurnedTower_Text_NardSeen:
-	.string "Don't worry!\p"
-	.string "We fire-breathers know the true\n"
-	.string "power of fire better than anyone!$"
+	.string "Ne t’inquiète pas!\n"
+	.string "Nous les Crache-Feu\p"
+	.string "on connaît mieux\n"
+	.string "que quiconque les\p"
+	.string "dangers du feu!$"
 BurnedTower_Text_NardBeaten:
-	.string "Thanks for such a heated battle!$"
+	.string "Merci pour ce combat chaleureux!$"
 BurnedTower_Text_NardAfter:
-	.string "The reason this tower's burned is\n"
-	.string "that it was hit by lightning.\p"
-	.string "The fire I'm breathing is tiny\n"
-	.string "in comparison...$"
+	.string "Cette tour a brûlé\n"
+	.string "à cause d’un orage.\p"
+	.string "Aucune chance\n"
+	.string "que ça arrive\p"
+	.string "avec mes petites flammes.$"
 
 BurnedTower_Text_RichardoSeen:
-	.string "I'm practicing my stealing in the\n"
-	.string "BURNED TOWER! Don't try\l"
-	.string "this at home!$"
+	.string "Je m'entraîne à voler dans la\n"
+	.string "TOUR CENDREE! N'essaie pas ça\l"
+	.string "chez toi!$"
 BurnedTower_Text_RichardoBeaten:
 	.string "Pfffffffffffffff.$"
 BurnedTower_Text_RichardoAfter:
-	.string "Maybe a life of crime isn't for\n"
-	.string "me...$"
+	.string "La vie de criminel n'est\n"
+	.string "peut-être pas faite pour moi...$"

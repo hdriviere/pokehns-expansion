@@ -5,140 +5,80 @@ const struct HelpWindow gHelpWindowInfo[] =
 {
     [HELP_DEMO_WINDOW] =
     {
-        .header = COMPOUND_STRING("Information: Help Windows"),
-        .desc = COMPOUND_STRING("This is a help window. You can put\n"
-                                "lots of text on the screen that\n"
-                                "players won't read!\n\nIsn't that great!"
-                            ),
+        .header = COMPOUND_STRING("Information : fenêtres d'aide"),
+        .desc = COMPOUND_STRING("Ceci est une fenêtre d'aide. Elle peut\nafficher beaucoup de texte à l'écran,\nque personne ne lira !\n\nFormidable, non ?"),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_NORMAL,
         .headerColor = {0, 4, 5},
     },
     [HELP_GAMESTART_WINDOW] =
     {
-        .header = COMPOUND_STRING("Information: More Options"),
-        .desc = COMPOUND_STRING("The clock can be changed from any\n"
-                                "POKéMON CENTER with no penalty.\n"
-                                "Make sure to check your BAG's KEY ITEMS\n"
-                                "and your OPTIONS MENU for even more\n"
-                                "ways to customize your experience.\n"
-                                "Enjoy!"
-                            ),
+        .header = COMPOUND_STRING("Information : autres options"),
+        .desc = COMPOUND_STRING("L'horloge peut être réglée gratuitement\ndans n'importe quel CENTRE POKéMON.\nConsultez les OBJETS RARES du SAC et le\nmenu OPTIONS pour découvrir encore plus\nde réglages personnalisables.\nAmusez-vous bien !"),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_NORMAL,
         .headerColor = {0, 8, 3},
     },
     [HELP_TRADE_WINDOW] =
     {
-        .header = COMPOUND_STRING("WARNING: COMPATIBILITY"),
-        .desc = COMPOUND_STRING("Attempting to link with a game\n"
-                                "that is not Heart & Soul may result\n"
-                                "in permanent damage to your save file.\n"
-                                "Only continue if you are linking with\n"
-                                "a copy of Heart & Soul that is on the\n"
-                                "same version as your current copy."
-                            ),
+        .header = COMPOUND_STRING("ATTENTION : COMPATIBILITÉ"),
+        .desc = COMPOUND_STRING("Une connexion avec un jeu autre que\nHeart & Soul peut endommager votre\nsauvegarde de façon irréversible.\nNe continuez qu'avec une copie de\nHeart & Soul utilisant exactement\nla même version que la vôtre."),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_NORMAL,
         .headerColor = {0, 4, 5},
     },
     [HELP_TELEPORTER_WINDOW] =
     {
-        .header = COMPOUND_STRING("OPTIONAL BONUS CONTENT: TELEPORTER"),
-        .desc = COMPOUND_STRING("The TELEPORTER can PERMANENTLY change\n"
-                                "POKéMON into their GALARIAN forms.\n"
-                                "GALARIAN forms are NOT required\n"
-                                "for story progression or\n"
-                                "NATIONAL POKéDEX completion.\n"
-                            ),
+        .header = COMPOUND_STRING("CONTENU BONUS : TÉLÉPORTEUR"),
+        .desc = COMPOUND_STRING("Le TÉLÉPORTEUR peut transformer\nDÉFINITIVEMENT des POKéMON en leur\nforme de Galar. Ces formes ne sont\nnécessaires ni pour progresser dans\nl'histoire, ni pour terminer le\nPOKéDEX NATIONAL."),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_NORMAL,
         .headerColor = {0, 8, 3},
     },
     [HELP_SINJOH_WINDOW] =
     {
-        .header = COMPOUND_STRING("OPTIONAL BONUS CONTENT: SINJOH"),
-        .desc = COMPOUND_STRING("This NPC grants access to optional\n"
-                                "bonus content: SINJOH.\n"
-                                "It is NOT required for story\n"
-                                "or NATIONAL POKéDEX completion.\n"
-                                "\n"
-                                "It's just a bonus. If you want it."
-                            ),
+        .header = COMPOUND_STRING("CONTENU BONUS : SINJOH"),
+        .desc = COMPOUND_STRING("Ce personnage donne accès au contenu\nfacultatif de SINJOH. Il n'est requis\nni pour l'histoire, ni pour terminer\nle POKéDEX NATIONAL.\n\nCe n'est qu'un bonus, si vous le voulez."),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_NORMAL,
         .headerColor = {0, 8, 3},
     },
     [HELP_ALOLA_WINDOW] =
     {
-        .header = COMPOUND_STRING("OPTIONAL BONUS CONTENT: ISLES"),
-        .desc = COMPOUND_STRING("This NPC grants access to optional\n"
-                                "bonus content: ISLES.\n"
-                                "It is NOT required for story\n"
-                                "or NATIONAL POKéDEX completion.\n"
-                                "\n"
-                                "It's just a bonus. If you want it."
-                            ),
+        .header = COMPOUND_STRING("CONTENU BONUS : ÎLES"),
+        .desc = COMPOUND_STRING("Ce personnage donne accès au contenu\nfacultatif des ÎLES. Il n'est requis\nni pour l'histoire, ni pour terminer\nle POKéDEX NATIONAL.\n\nCe n'est qu'un bonus, si vous le voulez."),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_NORMAL,
         .headerColor = {0, 8, 3},
     },
     [HELP_DAYCARE1_WINDOW] =
     {
-        .header = COMPOUND_STRING("BABY POKéMON ABILITIES"),
-        .desc = COMPOUND_STRING("PICHU's ability is STATIC.\n"
-                                "CLEFFA's ability is CUTE CHARM.\n"
-                                "IGGLYBUFF's ability is CUTE CHARM.\n"
-                                "TYROGUE's ability is GUTS.\n"
-                                "SMOOCHUM's ability is OBLIVIOUS.\n"
-                                "ELEKID's ability is STATIC.\n"
-                                "MAGBY's ability is FLAME BODY."
-                            ),
+        .header = COMPOUND_STRING("TALENTS DES BÉBÉS POKéMON"),
+        .desc = COMPOUND_STRING("Le talent de PICHU est STATIK.\nCelui de MÉLO est JOLI SOURIRE.\nCelui de TOUDOUDOU est JOLI SOURIRE.\nCelui de DEBUGANT est CRAN.\nCelui de LIPPOUTI est BENÊT.\nCelui d'ÉLEKID est STATIK.\nCelui de MAGBY est CORPS ARDENT."),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_SMALL,
         .headerColor = {0, 8, 3},
     },
     [HELP_DAYCARE2_WINDOW] =
     {
-        .header = COMPOUND_STRING("BABY POKéMON TYPES"),
-        .desc = COMPOUND_STRING("PICHU is ELECTRIC type.\n"
-                                "CLEFFA is NORMAL type.\n"
-                                "IGGLYBUFF is NORMAL type.\n"
-                                "TYROGUE is FIGHTING type.\n"
-                                "SMOOCHUM is ICE type.\n"
-                                "ELEKID is ELECTRIC type.\n"
-                                "MAGBY is FIRE type."
-                            ),
+        .header = COMPOUND_STRING("TYPES DES BÉBÉS POKéMON"),
+        .desc = COMPOUND_STRING("PICHU est de type ÉLECTRIK.\nMÉLO est de type NORMAL.\nTOUDOUDOU est de type NORMAL.\nDEBUGANT est de type COMBAT.\nLIPPOUTI est de type GLACE.\nÉLEKID est de type ÉLECTRIK.\nMAGBY est de type FEU."),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_SMALL,
         .headerColor = {0, 8, 3},
     },
     [HELP_DAYCARE3_WINDOW] =
     {
-        .header = COMPOUND_STRING("BABY POKéMON CRIES"),
-        .desc = COMPOUND_STRING("PICHU says WAAAH.\n"
-                                "CLEFFA says EEK.\n"
-                                "IGGLYBUFF says LALALA.\n"
-                                "TYROGUE says HIYAH.\n"
-                                "SMOOCHUM says EHEHE.\n"
-                                "ELEKID says OI, OI, OI.\n"
-                                "MAGBY says TCH."
-                            ),
+        .header = COMPOUND_STRING("CRIS DES BÉBÉS POKéMON"),
+        .desc = COMPOUND_STRING("PICHU crie OUIIIIN.\nMÉLO crie HII.\nTOUDOUDOU chante LALALA.\nDEBUGANT crie HIYAH.\nLIPPOUTI rit HÉHÉHÉ.\nÉLEKID crie OHÉ, OHÉ, OHÉ.\nMAGBY crie TCH."),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_SMALL,
         .headerColor = {0, 8, 3},
     },
     [HELP_DAYCARE4_WINDOW] =
     {
-        .header = COMPOUND_STRING("BABY POKéMON ACTIONS"),
-        .desc = COMPOUND_STRING("PICHU likes to PLAY all day.\n"
-                                "CLEFFA LOOKS at the moon.\n"
-                                "IGGLYBUFF puts them to SLEEP.\n"
-                                "TYROGUE TRAINS constantly.\n"
-                                "SMOOCHUM likes to SHOW off.\n"
-                                "ELEKID STORES up charge.\n"
-                                "MAGBY often ANGERS."
-                            ),
+        .header = COMPOUND_STRING("ACTIONS DES BÉBÉS POKéMON"),
+        .desc = COMPOUND_STRING("PICHU aime JOUER toute la journée.\nMÉLO REGARDE la lune.\nTOUDOUDOU les ENDORT.\nDEBUGANT S'ENTRAÎNE sans arrêt.\nLIPPOUTI aime se MONTRER.\nÉLEKID emmagasine de l'énergie.\nMAGBY se met souvent EN COLÈRE."),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_SMALL,
         .headerColor = {0, 8, 3},

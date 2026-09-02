@@ -62,56 +62,63 @@ Route2_EventScript_Nugget::
     end
 
 Route2_Text_RobRegister:
-	.string "Let me get your number!$"
+	.string "Donne-moi ton numéro!$"
 
 Route2_Text_RobRematchIntro:
-	.string "I've caught even more bugs!\n"
-	.string "Check them out!$"
+	.string "J'ai attrapé plus d'insectes!\n"
+	.string "Regarde-les!$"
 
 Route2_Text_RobRematchDefeat:
-	.string "I need better bugs!$"
+	.string "Il me faut de meilleurs\n"
+	.string "insectes!$"
 
 Route2_Text_RobPostRematch:
-	.string "I caught every bug in VIRIDIAN.\n"
-	.string "Is there a better FOREST somewhere?$"
+	.string "J'ai tous les insectes\n"
+	.string "de JADIELLE.\p"
+	.string "Existe-t-il une meilleure FORÊT\l"
+	.string "ailleurs?$"
 
 Route2_Text_BugCatcherRob_Seen:
-	.string "My bug POKéMON are tough. Prepare to\n"
-	.string "lose!$"
+	.string "Mes Pokémon insecte sont forts.\n"
+	.string "Tu vas perdre!$"
 
 Route2_Text_BugCatcherRob_Beaten:
-	.string "I was whipped…$"
+	.string "Tout perdu!$"
 
 Route2_Text_BugCatcherRob_AfterBattle:
-	.string "I'm going to look for stronger bug\n"
-	.string "POKéMON.$"
+	.string "Je vais chercher des Pokémon\n"
+	.string "Insecte plus forts!$"
 
 Route2_Text_BugCatcherEd_Seen:
-	.string "If you walk in tall grass wearing\n"
-	.string "shorts, do you get nicks and cuts?$"
+	.string "Ça pique de se\n"
+	.string "balader en short dans\p"
+	.string "les hautes herbes,\n"
+	.string "tu trouves pas?$"
 
 Route2_Text_BugCatcherEd_Beaten:
-	.string "Ouch, ouch, ouch!$"
+	.string "Aïeuuu!$"
 
 Route2_Text_BugCatcherEd_AfterBattle:
-	.string "They'll really sting when you take a\n"
-	.string "bath.$"
+	.string "Ouille, ça va piquer quand je\n"
+	.string "prendrai un bain!$"
 
 Route2_Text_BugCatcherDoug_Seen:
-	.string "Why don't girls like bug POKéMON?$"
+	.string "Pourquoi les filles\n"
+	.string "n'aiment pas les\p"
+	.string "Pokémon insecte? C'est\n"
+	.string "quoi cette question?$"
 
 Route2_Text_BugCatcherDoug_Beaten:
-	.string "No good!$"
+	.string "Naaaaan!$"
 
 Route2_Text_BugCatcherDoug_AfterBattle:
-	.string "Bug POKéMON squish like plush toys\n"
-	.string "when you squeeze their bellies.\p"
-	.string "I love how they feel!$"
+	.string "Les insectes ça fait chprouit\p"
+	.string "quand tu appuies dessus.\p"
+	.string "Et ça c'est super mignon, non?$"
 
 Route2_Text_Sign:
 	.string "ROUTE 2\p"
-	.string "VIRIDIAN CITY - PEWTER CITY$"
+	.string "JADIELLE ARGENTA$"
 
 Route2_Text_DiglettsCaveSign:
-	.string "DIGLETT'S CAVE$"
-
+	.string "CAVE TAUPIQUEUR$"

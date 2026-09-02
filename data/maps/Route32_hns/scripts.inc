@@ -357,232 +357,240 @@ Route32_Movement_SlowpokeRight::
 	step_end
 
 Route32_Text_CooltrainerM_WhatsTheHurry:
-	.string "Wait up!\n"
-	.string "What's the hurry?$"
+	.string "Hé!! On se calme, la jeunesse!$"
 
 Route32_Text_CooltrainerM_AideIsWaiting:
-	.string "{PLAYER}, right?\n"
-	.string "Some guy wearing glasses\p"
-	.string "was looking for you.\p"
-	.string "See for yourself. He's waiting for\n"
-	.string "you at the POKéMON CENTER.$"
+	.string "{PLAYER}, c'est ça? Un type avec\n"
+	.string "des\p"
+	.string "lunettes te cherchait.\p"
+	.string "Il t'attend au CENTRE Pokémon.$"
 
 Route32_Text_CooltrainerM_SproutTower:
-	.string "Have you gone to SPROUT TOWER?\n"
-	.string "If you ever visit VIOLET CITY,\p"
-	.string "they'll expect you to train there.\n"
-	.string "That's basic for trainers.\p"
-	.string "Go to SPROUT TOWER!$"
+	.string "As-tu visité la TOUR CHETIFLOR?\p"
+	.string "Si tu vas à MAUVILLE, tu dois\p"
+	.string "aller t'y entraîner.\p"
+	.string "C'est le devoir de tout\n"
+	.string "dresseur!$"
 
 Route32_Text_CooltrainerM_VioletGym:
-	.string "Have you gone to the POKéMON GYM?\n"
-	.string "You can test your POKéMON and\p"
-	.string "yourself there.\n"
-	.string "It's a rite of passage for all\p"
-	.string "trainers!$"
+	.string "As-tu visité l'ARENE Pokémon?\p"
+	.string "Tu peux y mettre tes compétences\n"
+	.string "à l'épreuve.\p"
+	.string "Tous les dresseurs doivent y\n"
+	.string "aller!$"
 
 Route32_Text_CooltrainerM_HaveThisSeed:
-	.string "You have some good POKéMON there.\n"
-	.string "It must be from the training you\p"
-	.string "gave them around VIOLET CITY.\n"
-	.string "The training at the GYM must have\p"
-	.string "been especially helpful. As a\n"
-	.string "souvenir of VIOLET CITY, take this.\p"
-	.string "It increases the power of GRASS-\n"
-	.string "type moves.$"
+	.string "Tu as de bons Pokémon, tu sais.\p"
+	.string "Ils ont dû s'entraîner autour de\n"
+	.string "MAUVILLE.\p"
+	.string "Les combats dans l'ARENE t'ont\p"
+	.string "donné de l'expérience, non?\p"
+	.string "En souvenir de MAUVILLE, accepte\n"
+	.string "ceci.\p"
+	.string "Cela améliore les capacités du\n"
+	.string "type PLANTE.$"
 
 Route32_Text_CooltrainerM_Experiences:
-	.string "Your experiences in VIOLET CITY\n"
-	.string "should be useful for your journey.$"
+	.string "Ta visite à Mauville te servira\n"
+	.string "dans ton voyage.$"
 
 Route32_Text_SlowpokeTailOffer:
-	.string "How would you like to have this\n"
-	.string "tasty, nutritious SLOWPOKETAIL?\p"
-	.string "For you right now, just\n"
-	.string "¥1,000,000!\p"
-	.string "You'll want this!$"
+	.string "Hé toi! Ca te dit une bonne\n"
+	.string "QUEUERAMOLOS?\p"
+	.string "J'te fais un prix: 1000000¥!\p"
+	.string "C'est pour toi!$"
 
 Route32_Text_ThoughtKidsLoaded:
-	.string "Tch! I thought kids\n"
-	.string "these days were loaded…$"
+	.string "T’as pas assez d’argent!\p"
+	.string "Tss! Et moi qui pensais\n"
+	.string "que les enfants de\p"
+	.string "nos jours étaient\n"
+	.string "pleins de tunes...$"
 
 Route32_Text_RefusedSlowpokeTail:
-	.string "You don't want it?\n"
-	.string "Then scram. Shoo!$"
+	.string "T’en veux pas? Alors dégage!\n"
+	.string "Dégage!$"
 
 Route32_Text_FisherJustin_Seen:
-	.string "Whoa!\p"
-	.string "You made me lose that fish!$"
+	.string "Ouah!\p"
+	.string "Tu m’as fait peur et j’ai lâché\n"
+	.string "ma proie!$"
 
 Route32_Text_FisherJustin_Beaten:
-	.string "Sploosh!$"
+	.string "Splash!$"
 
 Route32_Text_FisherJustin_After:
-	.string "Calm, collected… The essence of\n"
-	.string "fishing and POKéMON is the same.$"
+	.string "L’essence de\n"
+	.string "la pêche et du\p"
+	.string "combat de Pokémon,\n"
+	.string "c’est le calme.$"
 
 Route32_Text_FisherRalph1_Seen:
-	.string "I'm really good at both\n"
-	.string "fishing and POKéMON.\p"
-	.string "I'm not about to lose to any kid!$"
+	.string "La pêche et les Pokémon, c'est\n"
+	.string "de la balle.\p"
+	.string "J'suis pas du genre à perdre!$"
 
 Route32_Text_FisherRalph1_Beaten:
-	.string "Tch! I tried to rush\n"
-	.string "things…$"
+	.string "J’ai été trop rapide...$"
 
 Route32_Text_FisherRalph1_After:
-	.string "Fishing is a lifelong\n"
-	.string "passion.\p"
-	.string "POKéMON are lifelong friends!$"
+	.string "La pêche, c’est la\n"
+	.string "passion d’une vie.\p"
+	.string "Les Pokémon, c’est\n"
+	.string "des amis pour la vie.$"
 
 Route32_Text_RalphRegister:
-	.string "Fishing is a lifelong\n"
-	.string "passion.\p"
-	.string "POKéMON are lifelong friends!$"
+	.string "La pêche, c’est la\n"
+	.string "passion d’une vie.\p"
+	.string "Les Pokémon, c’est\n"
+	.string "des amis pour la vie.$"
 
 Route32_Text_RalphRematchIntro:
-	.string "I'm really good at both\n"
-	.string "fishing and POKéMON.\p"
-	.string "I'm not about to lose to any kid!$"
+	.string "La pêche et les Pokémon, c'est\n"
+	.string "de la balle.\p"
+	.string "J'suis pas du genre à perdre!$"
 
 Route32_Text_RalphRematchDefeat:
-	.string "Tch! I tried to rush\n"
-	.string "things…$"
+	.string "J’ai été trop rapide...$"
 
 Route32_Text_RalphPostRematch:
-	.string "Fishing is a lifelong\n"
-	.string "passion.\p"
-	.string "POKéMON are lifelong friends!$"
+	.string "La pêche, c’est la\n"
+	.string "passion d’une vie.\p"
+	.string "Les Pokémon, c’est\n"
+	.string "des amis pour la vie.$"
 
 Route32_Text_FisherHenry_Seen:
-	.string "My POKéMON? Freshly caught!$"
+	.string "Mes Pokémon? Frais pêchés du\n"
+	.string "matin!$"
 
 Route32_Text_FisherHenry_Beaten:
-	.string "SPLASH?$"
+	.string "Splash!$"
 
 Route32_Text_FisherHenry_After:
-	.string "Freshly caught POKéMON are\n"
-	.string "no match for properly raised ones.$"
+	.string "Les Pokémon bien\n"
+	.string "entraînés sont\p"
+	.string "plus forts que ceux\n"
+	.string "fraîchement attrapés.$"
 
 Route32_Text_YoungsterAlbert_Seen:
-	.string "I haven't seen you around before.\n"
-	.string "So you think you are pretty tough?$"
+	.string "On s'connaît? Tu veux crâner?\p"
+	.string "On va voir ça!$"
 
 Route32_Text_YoungsterAlbert_Beaten:
-	.string "You're strong!$"
+	.string "T'es balèze!$"
 
 Route32_Text_YoungsterAlbert_After:
-	.string "I'm going to try to be the\n"
-	.string "best with my favorites.\p"
-	.string "I'm not using the same tough\n"
-	.string "POKéMON as everyone else.$"
+	.string "Je serai le plus fort avec mes\n"
+	.string "Pokémon favoris.\p"
+	.string "Je n'utilise pas les\n"
+	.string "gros Pokémon super\p"
+	.string "balèzes que tout\n"
+	.string "le monde choisit.$"
 
 Route32_Text_YoungsterGordon_Seen:
-	.string "I found some good POKéMON\n"
-	.string "in the grass!\p"
-	.string "I think they'll do it for me!$"
+	.string "J’ai trouvé des\n"
+	.string "super Pokémon dans\p"
+	.string "les hautes herbes!\n"
+	.string "Regarde-moi ça!$"
 
 Route32_Text_YoungsterGordon_Beaten:
-	.string "Darn. I thought I could win.$"
+	.string "Et ben ça alors.$"
 
 Route32_Text_YoungsterGordon_After:
-	.string "The grass is full of\n"
-	.string "clingy things.$"
+	.string "Y'a plein de trucs dans l'herbe.$"
 
 Route32_Text_CamperRoland_Seen:
-	.string "That glance… It's intriguing.$"
+	.string "Ce regard... Tu m’intrigues.$"
 
 Route32_Text_CamperRoland_Beaten:
-	.string "Hmmm. This is disappointing.$"
+	.string "Hmm, dommage.$"
 
 Route32_Text_CamperRoland_After:
-	.string "If you don't want to battle,\n"
-	.string "just avoid eye contact.$"
+	.string "Evite les regards si tu ne veux\n"
+	.string "pas te battre.$"
 
 Route32_Text_PicnickerLiz1_Seen:
-	.string "Uh-huh. Yeah, and you know…\p"
-	.string "Pardon? Battle? I'm on the phone.\n"
-	.string "Oh, all right. But make it fast.$"
+	.string "Ah-ha. Ouais. Vers midi.\p"
+	.string "Quoi? Combat? J'suis au tél!\p"
+	.string "Bon d'accord. Mais rapide.$"
 
 Route32_Text_PicnickerLiz1_Beaten:
-	.string "Oh! I've got to relieve\n"
-	.string "my anger!$"
+	.string "Oh! Il faut que je me calme!$"
 
 Route32_Text_PicnickerLiz1_After:
-	.string "I was having a nice chat too.$"
+	.string "J'avais une copine au téléphone.$"
 
 Route32_Text_LizRegister:
-	.string "I was having a nice chat too.$"
+	.string "J'avais une copine au téléphone.$"
 
 Route32_Text_LizRematchIntro:
-	.string "Uh-huh. Yeah, and you know…\p"
-	.string "Pardon? Battle? I'm on the phone.\n"
-	.string "Oh, all right. But make it fast.$"
+	.string "Ah-ha. Ouais. Vers midi.\p"
+	.string "Quoi? Combat? J'suis au tél!\p"
+	.string "Bon d'accord. Mais rapide.$"
 
 Route32_Text_LizRematchDefeat:
-	.string "Oh! I've got to relieve\n"
-	.string "my anger!$"
+	.string "Oh! Il faut que je me calme!$"
 
 Route32_Text_LizPostRematch:
-	.string "I was having a nice chat too.$"
+	.string "J'avais une copine au téléphone.$"
 
 Route32_Text_BirdKeeperPeter_Seen:
-	.string "That BADGE! It's from VIOLET CITY!\n"
-	.string "You beat FALKNER?$"
+	.string "Ce BADGE! Il vient de MAUVILLE!\p"
+	.string "T'as battu ALBERT?$"
 
 Route32_Text_BirdKeeperPeter_Beaten:
-	.string "I know what my weaknesses are.$"
+	.string "Hum... Je ne suis pas encore\n"
+	.string "prêt.$"
 
 Route32_Text_BirdKeeperPeter_After:
-	.string "I should train again at the\n"
-	.string "GYM in VIOLET CITY.$"
+	.string "Je vais encore m’entraîner dans\n"
+	.string "l’Arène de Mauville.$"
 
 Route32_Text_RoarIntro:
-	.string "WROOOOAR! PEOPLE RUN WHEN I\n"
-	.string "ROAR! BUT YOU CAME LOOKING!\p"
-	.string "THAT PLEASES ME! NOW TAKE THIS!$"
+	.string "GROAAARH!!!\p"
+	.string "LES GENS S’ENFUIENT QUAND JE\n"
+	.string "CRIE, MAIS TOI TU T’APPROCHES!\p"
+	.string "T’ES SUPER! VOILA POUR TOI!!!$"
 
 Route32_Text_RoarOutro:
-	.string "WROOOOAR! IT'S ROAR!\p"
-	.string "EVEN POKéMON RUN FROM A GOOD\n"
-	.string "ROAR!$"
+	.string "GRAAAAAH! C'EST HURLEMENT!\p"
+	.string "CA FAIT PEUR AUX Pokémon!$"
 
 Route32_Text_MeetFrieda:
-	.string "FRIEDA: Yahoo!\p"
-	.string "I'm FRIEDA of the WEEKDAY FAMILY!\n"
-	.string "Nice to meet you!\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "VANESSA: Ouaiis!\p"
+	.string "Je suis VANESSA, de la FAMILLE\n"
+	.string "DE LA SEMAINE! Enchantée!\p"
+	.string "Devine mon jour préféré et je te\n"
+	.string "donnerai une récompense.$"
 
 Route32_Text_FriedaGivesGift:
-	.string "Here's a POISON BARB for you!$"
+	.string "Voilà un PIC VENIN pour toi!$"
 
 Route32_Text_FriedaGaveGift:
-	.string "FRIEDA: Give it to a POKéMON\n"
-	.string "that has POISON-type moves.\p"
+	.string "VANESSA: Donne-le\n"
+	.string "à un Pokémon qui\p"
+	.string "a des capacités\n"
+	.string "du type POISON.\p"
 	.string "Oh!\p"
-	.string "It's wicked!\p"
-	.string "You'll be shocked how good it\n"
-	.string "makes poison moves!$"
+	.string "C'est terrible!\p"
+	.string "Tu verras à quel point ça peut\n"
+	.string "les améliorer!$"
 
 Route32_Text_FriedaFriday:
-	.string "FRIEDA: Hiya! What day do\n"
-	.string "you like?\p"
-	.string "I love Friday. No doubt about\n"
-	.string "it!\p"
-	.string "Don't you think it's great too?$"
+	.string "Vanessa: Ouais! Quel est le\n"
+	.string "meilleur jour de la semaine?\p"
+	.string "Moi j’aime le vendredi, hé oui!\p"
+	.string "T’es pas d’accord?$"
 
 Route32_Text_FriedaNope:
-	.string "FRIEDA: Not that one!$"
+	.string "VANESSA: Pas celui-là!$"
 
 Route32_Text_Sign1:
 	.string "ROUTE 32\p"
-	.string "VIOLET CITY - AZALEA TOWN$"
+	.string "MAUVILLE ECORCIA$"
 
 Route32_Text_Sign2:
-	.string "RUINS OF ALPH\n"
-	.string "EAST ENTRANCE$"
+	.string "Ruines d’Alpha Entrée Est$"
 
 Route32_Text_Sign3:
-	.string "UNION CAVE\n"
-	.string "AHEAD$"
+	.string "Direction Caves Jumelles$"

@@ -660,7 +660,7 @@ static const u8 *const sActionStringTable[] =
     [PARTY_MSG_ALREADY_HOLDING_ONE]    = gText_AlreadyHoldingOne,
     [PARTY_MSG_WHICH_APPLIANCE]        = gText_WhichAppliance,
     [PARTY_MSG_CHOOSE_SECOND_FUSION]   = gText_NextFusionMon,
-    [PARTY_MSG_NO_POKEMON]             = COMPOUND_STRING("You have no POKéMON."),
+    [PARTY_MSG_NO_POKEMON]             = COMPOUND_STRING("Vous n'avez aucun POKéMON."),
     [PARTY_MSG_CHOOSE_MON_FOR_BOX]     = gText_SendWhichMonToPC,
     [PARTY_MSG_MOVE_ITEM_WHERE]        = gText_MoveItemWhere,
 };
@@ -690,7 +690,7 @@ static const u16 sUnusedData[] =
     0x0121, 0x013b, 0x000f, 0x0013, 0x0039, 0x0046, 0x0094, 0x00f9, 0x007f, 0x0123,
 };
 
-static const u8 sText_Trade4[] = _("TRADE");
+static const u8 sText_Trade4[] = _("ECHANGE");
 
 struct
 {
@@ -698,40 +698,40 @@ struct
     TaskFunc func;
 } static const sCursorOptions[MENU_FIELD_MOVES] =
 {
-    [MENU_SUMMARY]         = {COMPOUND_STRING("SUMMARY"),         CursorCb_Summary},
-    [MENU_SWITCH]          = {COMPOUND_STRING("SWITCH"),          CursorCb_Switch},
+    [MENU_SUMMARY]         = {COMPOUND_STRING("RÉSUMÉ"),          CursorCb_Summary},
+    [MENU_SWITCH]          = {COMPOUND_STRING("ÉCHANGER"),        CursorCb_Switch},
     [MENU_CANCEL1]         = {gText_Cancel2,                      CursorCb_Cancel1},
-    [MENU_ITEM]            = {COMPOUND_STRING("ITEM"),            CursorCb_Item},
+    [MENU_ITEM]            = {COMPOUND_STRING("OBJET"),            CursorCb_Item},
     [MENU_GIVE]            = {gMenuText_Give,                     CursorCb_Give},
-    [MENU_TAKE_ITEM]       = {COMPOUND_STRING("TAKE"),            CursorCb_TakeItem},
-    [MENU_MOVE_ITEM]       = {COMPOUND_STRING("MOVE"),            CursorCb_MoveItem},
-    [MENU_MAIL]            = {COMPOUND_STRING("MAIL"),            CursorCb_Mail},
-    [MENU_TAKE_MAIL]       = {COMPOUND_STRING("TAKE"),            CursorCb_TakeMail},
-    [MENU_READ]            = {COMPOUND_STRING("READ"),            CursorCb_Read},
+    [MENU_TAKE_ITEM]       = {COMPOUND_STRING("PRENDRE"),         CursorCb_TakeItem},
+    [MENU_MOVE_ITEM]       = {COMPOUND_STRING("DÉPLACER"),        CursorCb_MoveItem},
+    [MENU_MAIL]            = {COMPOUND_STRING("LETTRE"),          CursorCb_Mail},
+    [MENU_TAKE_MAIL]       = {COMPOUND_STRING("PRENDRE"),         CursorCb_TakeMail},
+    [MENU_READ]            = {COMPOUND_STRING("LIRE"),            CursorCb_Read},
     [MENU_CANCEL2]         = {gText_Cancel2,                      CursorCb_Cancel2},
-    [MENU_SHIFT]           = {COMPOUND_STRING("SHIFT"),           CursorCb_SendMon},
-    [MENU_SEND_OUT]        = {COMPOUND_STRING("SEND OUT"),        CursorCb_SendMon},
-    [MENU_ENTER]           = {COMPOUND_STRING("ENTER"),           CursorCb_Enter},
-    [MENU_NO_ENTRY]        = {COMPOUND_STRING("NO ENTRY"),        CursorCb_NoEntry},
-    [MENU_STORE]           = {COMPOUND_STRING("STORE"),           CursorCb_Store},
+    [MENU_SHIFT]           = {COMPOUND_STRING("CHANGER"),         CursorCb_SendMon},
+    [MENU_SEND_OUT]        = {COMPOUND_STRING("ENVOYER"),        CursorCb_SendMon},
+    [MENU_ENTER]           = {COMPOUND_STRING("INSCRIRE"),        CursorCb_Enter},
+    [MENU_NO_ENTRY]        = {COMPOUND_STRING("RETIRER"),        CursorCb_NoEntry},
+    [MENU_STORE]           = {COMPOUND_STRING("STOCKER"),         CursorCb_Store},
     [MENU_REGISTER]        = {gText_Register,                     CursorCb_Register},
     [MENU_TRADE1]          = {sText_Trade4,                       CursorCb_Trade1},
     [MENU_TRADE2]          = {sText_Trade4,                       CursorCb_Trade2},
     [MENU_TOSS]            = {gMenuText_Toss,                     CursorCb_Toss},
-    [MENU_LEVEL_UP_MOVES]  = {COMPOUND_STRING("LEVEL MOVES"),     CursorCb_ChangeLevelUpMoves},
-    [MENU_EGG_MOVES]       = {COMPOUND_STRING("EGG MOVES"),       CursorCb_ChangeEggMoves},
-    [MENU_TM_MOVES]        = {COMPOUND_STRING("TM MOVES"),        CursorCb_ChangeTMMoves},
-    [MENU_TUTOR_MOVES]     = {COMPOUND_STRING("TUTOR MOVES"),     CursorCb_ChangeTutorMoves},
-    [MENU_SUB_MOVES]       = {COMPOUND_STRING("LEARN MOVES"),     CursorCb_LearnMovesSubMenu},
-    [MENU_CATALOG_BULB]    = {COMPOUND_STRING("Light bulb"),      CursorCb_CatalogBulb},
-    [MENU_CATALOG_OVEN]    = {COMPOUND_STRING("Microwave oven"),  CursorCb_CatalogOven},
-    [MENU_CATALOG_WASHING] = {COMPOUND_STRING("Washing machine"), CursorCb_CatalogWashing},
-    [MENU_CATALOG_FRIDGE]  = {COMPOUND_STRING("Refrigerator"),    CursorCb_CatalogFridge},
-    [MENU_CATALOG_FAN]     = {COMPOUND_STRING("Electric fan"),    CursorCb_CatalogFan},
-    [MENU_CATALOG_MOWER]   = {COMPOUND_STRING("Lawn mower"),      CursorCb_CatalogMower},
-    [MENU_CHANGE_FORM]     = {COMPOUND_STRING("Change form"),     CursorCb_ChangeForm},
-    [MENU_CHANGE_ABILITY]  = {COMPOUND_STRING("Change Ability"),  CursorCb_ChangeAbility},
-    [MENU_PKMN_FOLLOWER]   = {COMPOUND_STRING("{PKMN} FOLLOWER"), CursorCb_PkmnFollower},
+    [MENU_LEVEL_UP_MOVES]  = {COMPOUND_STRING("CAPA. DE NIVEAU"), CursorCb_ChangeLevelUpMoves},
+    [MENU_EGG_MOVES]       = {COMPOUND_STRING("CAPA. PAR OEUF"),  CursorCb_ChangeEggMoves},
+    [MENU_TM_MOVES]        = {COMPOUND_STRING("CAPACITÉS CT"),    CursorCb_ChangeTMMoves},
+    [MENU_TUTOR_MOVES]     = {COMPOUND_STRING("CAPA. DU MAÎTRE"), CursorCb_ChangeTutorMoves},
+    [MENU_SUB_MOVES]       = {COMPOUND_STRING("APPRENDRE CAPA."), CursorCb_LearnMovesSubMenu},
+    [MENU_CATALOG_BULB]    = {COMPOUND_STRING("Ampoule"),         CursorCb_CatalogBulb},
+    [MENU_CATALOG_OVEN]    = {COMPOUND_STRING("Four à micro-ondes"), CursorCb_CatalogOven},
+    [MENU_CATALOG_WASHING] = {COMPOUND_STRING("Machine à laver"), CursorCb_CatalogWashing},
+    [MENU_CATALOG_FRIDGE]  = {COMPOUND_STRING("Réfrigérateur"),   CursorCb_CatalogFridge},
+    [MENU_CATALOG_FAN]     = {COMPOUND_STRING("Ventilateur"),     CursorCb_CatalogFan},
+    [MENU_CATALOG_MOWER]   = {COMPOUND_STRING("Tondeuse"),        CursorCb_CatalogMower},
+    [MENU_CHANGE_FORM]     = {COMPOUND_STRING("Changer la forme"), CursorCb_ChangeForm},
+    [MENU_CHANGE_ABILITY]  = {COMPOUND_STRING("Changer le talent"), CursorCb_ChangeAbility},
+    [MENU_PKMN_FOLLOWER]   = {COMPOUND_STRING("POKéMON SUIVEUR"), CursorCb_PkmnFollower},
 };
 
 static const u8 sPartyMenuAction_SummarySwitchCancel[] = {MENU_SUMMARY, MENU_SWITCH, MENU_CANCEL1};

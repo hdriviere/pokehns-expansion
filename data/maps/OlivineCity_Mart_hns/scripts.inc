@@ -18,14 +18,16 @@ OlivineCity_EventScript_Lass::
 	end
 
 OlivineCity_Text_MartCooltrainerF:
-	.string "Do your POKéMON already know\n"
-	.string "the move for carrying people\l"
-	.string "across water?$"
+	.string "Est-ce que ton Pokémon connait\p"
+	.string "la capacité\n"
+	.string "qui permet de\p"
+	.string "transporter des\n"
+	.string "personnes sur l'eau?$"
 
 OlivineCity_Text_MartLass:
-	.string "My BUTTERFREE came from my\n"
-	.string "boyfriend overseas.\p"
-	.string "It carried some MAIL from him.\p"
-	.string "Want to know what it says?\p"
-	.string "Let's see... Nope! It's a\n"
-	.string "secret!$"
+	.string "Le PAPILUSION que j’ai reçu de\n"
+	.string "mon chéri qui est à l’étranger\p"
+	.string "tenait une Lettre!\p"
+	.string "Tu veux savoir ce qui est écrit?\n"
+	.string "Hé bien...\p"
+	.string "C’est un S.E.C.R.E.T.!$"

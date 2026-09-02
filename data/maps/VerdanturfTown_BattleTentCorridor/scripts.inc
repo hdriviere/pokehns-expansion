@@ -43,32 +43,35 @@ VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor:
 @ Leftover text from when this was a Contest Hall in R/S
 @ Unused
 VerdanturfTown_ContestHall_Text_WhichContestYouEntering:
-	.string "Which CONTEST are you entering?\n"
-	.string "Want a piece of advice?\p"
-	.string "In any CONTEST, for example, a CUTE\n"
-	.string "CONTEST, I don't think they judge you\l"
-	.string "only on cuteness in the first round.\p"
-	.string "You need to work out ways for raising\n"
-	.string "POKéMON better.$"
+	.string "À quel CONCOURS participez-vous?\n"
+	.string "Vous voulez un conseil?\p"
+	.string "Dans un CONCOURS de BEAUTE, par\n"
+	.string "exemple, la beauté n'est\p"
+	.string "sûrement pas le seul critère du\n"
+	.string "premier tour.\p"
+	.string "Il faut trouver comment mieux\n"
+	.string "élever ses POKéMON.$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
-	.string "I raised my POKéMON to be cute.\p"
-	.string "I found out you can put POKéMON in\n"
-	.string "a CONTEST for cuteness!\p"
-	.string "I'm so glad I raised my POKéMON with\n"
-	.string "loving care…$"
+	.string "J'ai élevé mon POKéMON pour\n"
+	.string "qu'il soit beau.\p"
+	.string "J'ai découvert qu'il pouvait\n"
+	.string "participer à un CONCOURS de\p"
+	.string "BEAUTE!\p"
+	.string "Je suis si heureux de l'avoir\n"
+	.string "élevé avec amour…$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_MyMonRules:
-	.string "My POKéMON rules!\p"
-	.string "It's cool, tough yet beautiful, cute,\n"
-	.string "and smart. It's complete!\p"
-	.string "I may as well go for wins in every\n"
-	.string "single CONTEST.$"
+	.string "Mon POKéMON est imbattable!\p"
+	.string "Il est cool, robuste, beau,\n"
+	.string "gracieux et intelligent. Il est\p"
+	.string "parfait!\p"
+	.string "Je pourrais aussi bien viser la\n"
+	.string "victoire dans tous les CONCOURS.$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_NormalRankStage:
-	.string "POKéMON CONTESTS\n"
-	.string "NORMAL RANK STAGE!$"
-
+	.string "CONCOURS POKéMON\n"
+	.string "SCENE DE RANG NORMAL!$"

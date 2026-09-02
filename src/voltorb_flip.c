@@ -147,8 +147,8 @@ struct VoltorbFlipState
 
 EWRAM_DATA static struct Vflip *sVflip = NULL;
 
-static const u8 sText_Level[] = _("Lv.");
-static const u8 sText_QuitTheGame[] = _("Quit the game?");
+static const u8 sText_Level[] = _("N. ");
+static const u8 sText_QuitTheGame[] = _("Quitter la partie?");
 
 static void MainCB2(void);
 static void Task_VoltorbFlipFadeIn(u8);
@@ -1253,7 +1253,7 @@ static void ShowAllCards(void)
 }
 
 static const u8 sTextWhite[] = _("{COLOR WHITE}{SHADOW DARK_GRAY}");
-static const u8 sTextGrey[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}");
+static const u8 sTextGrey[] = _("{COLOR 3}{SHADOW 2}");
 
 static void PrintRowInfo(u8 window, u8 totalValue, u8 totalVoltorbs)
 {

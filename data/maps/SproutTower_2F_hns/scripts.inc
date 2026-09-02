@@ -28,27 +28,36 @@ SproutTower_2F_EventScript_Xdefend::
 	end
 
 SproutTower_Text_SageNico_Seen:
-	.string "However hard we battle,\n"
-	.string "the TOWER will stand strong.$"
+	.string "Toutefois, la TOUR\n"
+	.string "ne cédera pas même\p"
+	.string "lors d'un grand\n"
+	.string "et rude combat.$"
 
 SproutTower_Text_SageNico_Beaten:
-	.string "I fought hard but I'm too weak.$"
+	.string "J'ai perdu... Je suis faible.$"
 
 SproutTower_Text_SageNico_AfterBattle:
-	.string "The flexible pillar protects the\n"
-	.string "TOWER, even from earthquakes.$"
+	.string "Le pilier flexible protège la\n"
+	.string "TOUR de\p"
+	.string "tout, même des séismes.$"
 
 SproutTower_Text_SageEdmond_Seen:
-	.string "…Sway like leaves in the wind…$"
+	.string "Volez comme vents et feuilles!\n"
+	.string "Combat!$"
 
 SproutTower_Text_SageEdmond_Beaten:
-	.string "Oh, I'm weak!$"
+	.string "Mais qu’est-ce que ça veut dire!$"
 
 SproutTower_Text_SageEdmond_AfterBattle:
-	.string "I tried to copy BELLSPROUT's\n"
-	.string "gentle movements for battle…\p"
-	.string "But I didn't train well enough.$"
+	.string "J’ai essayé de\n"
+	.string "copier les gracieux\p"
+	.string "mouvements de\n"
+	.string "CHETIFLOR en combat...\p"
+	.string "Mais je manque encore\n"
+	.string "d’entraînement.$"
 
 SproutTower_Text_2F_Statue:
-	.string "A POKéMON statue…\p"
-	.string "It looks very distinguished.$"
+	.string "C’est le Pokémon\n"
+	.string "vénéré ici...\p"
+	.string "Cette seule pensée\n"
+	.string "impose le respect.$"

@@ -60,29 +60,32 @@ Alola_Akala_BattleRaichu_3:
 
 
 Alola_AkalaForest_TrainerBattleBugCatcher1_Text_0:
-	.string "Look at all the cool bugs here on the \nISLES!$"
+	.string "Regarde tous ces insectes\n"
+	.string "géniaux sur les ÎLES!$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher1_Text_1:
-	.string "Ouch, that stung!$"
+	.string "Aïe, ça pique!$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher1_Text_2:
-	.string "The ISLES are far away from other land,\n"
-	.string "so Bug-type POKéMON here must have\l"
-	.string "adapted to the environment.$"
+	.string "Les ÎLES sont loin de toute\n"
+	.string "autre terre. Les POKéMON Insecte\p"
+	.string "d'ici ont donc dû s'adapter à\n"
+	.string "leur environnement.$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher2_Text_0:
-	.string "Look at what I caught!$"
+	.string "Regarde ce que j'ai attrapé!$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher2_Text_1:
-	.string "Awh, that bites!$"
+	.string "Oh, ça fait mal!$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher2_Text_2:
-	.string "The climate is a bit different on the\n"
-	.string "ALOLA ISLES…\p"
-	.string "I'm sure that's why there are some\n"
-	.string "unique Bug-type POKéMON here.$"
+	.string "Le climat est un peu différent\n"
+	.string "sur les ÎLES D'ALOLA...\p"
+	.string "C'est sûrement pour cela qu'on y\n"
+	.string "trouve des POKéMON Insecte\p"
+	.string "uniques.$"
 
 
 Alola_Akala_BattleRaichu_Text_0:
-	.string "Gaaah!$"
+	.string "Yaaah!$"
 

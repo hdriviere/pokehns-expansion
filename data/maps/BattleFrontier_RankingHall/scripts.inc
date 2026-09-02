@@ -101,34 +101,38 @@ BattleFrontier_RankingHall_EventScript_Boy::
 	end
 
 BattleFrontier_RankingHall_Text_ExplainRankingHall:
-	.string "This is the RANKING HALL.\p"
-	.string "This is where we recognize the immortal\n"
-	.string "TRAINERS who left great records in\l"
-	.string "BATTLE FRONTIER events.$"
+	.string "Voici le HALL DE CLASSEMENT.\p"
+	.string "Ici, nous immortalisons les\n"
+	.string "DRESSEURS qui ont obtenu les\p"
+	.string "meilleurs résultats dans la ZONE\n"
+	.string "DE COMBAT.$"
 
 BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
-	.string "BATTLE DOME, BATTLE PIKE,\n"
-	.string "and BATTLE FACTORY Records$"
+	.string "Records du DOME DE COMBAT, du\n"
+	.string "REPTILE DE COMBAT et de l’USINE\p"
+	.string "DE COMBAT.$"
 
 BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords:
-	.string "BATTLE PALACE, BATTLE ARENA,\n"
-	.string "and BATTLE PYRAMID Records$"
+	.string "Records du PALACE DE COMBAT, du\n"
+	.string "DOJO DE COMBAT et de la PYRAMIDE\p"
+	.string "DE COMBAT.$"
 
 BattleFrontier_RankingHall_Text_IsYourNameOnThisList:
-	.string "Hi, is your name on this list?$"
+	.string "Salut, ton nom est sur la liste?$"
 
 BattleFrontier_RankingHall_Text_WowThatsSuper:
-	.string "Wow, that's super!\n"
-	.string "I'll have to try harder, too!$"
+	.string "La chance!!! Moi, il faut que je\n"
+	.string "m’entraîne plus!$"
 
 BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName:
-	.string "Oh, is that right?\p"
-	.string "If you saw your friend's name up here,\n"
-	.string "I bet it would make you work harder!$"
+	.string "Ah oui?\p"
+	.string "Si tu voyais le nom de tes amis\n"
+	.string "ici, tu ferais sûrement plus\p"
+	.string "d’efforts!$"
 
 BattleFrontier_RankingHall_Text_MyNamesNotUpThere:
-	.string "Hmm…\n"
-	.string "My name's not up there…\p"
-	.string "Well, it's only natural since I haven't\n"
-	.string "taken any challenges yet.$"
+	.string "Hum… Y a pas mon nom…\p"
+	.string "Faut dire que j’ai participé à\n"
+	.string "aucun défi, donc c’est plutôt\p"
+	.string "normal…$"
 

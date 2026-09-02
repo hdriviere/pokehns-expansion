@@ -18,10 +18,11 @@ CherrygroveCity_House3_EventScript_Girl::
 	end
 
 CherrygroveCity_EvolutionHouse_Text_Youngster:
-	.string "POKéMON gain experience in\n"
-	.string "battle and change their form.$"
+	.string "En combattant, les\n"
+	.string "Pokémon gagnent\p"
+	.string "de l’expérience\n"
+	.string "et évoluent.$"
 
 CherrygroveCity_EvolutionHouse_Text_Lass:
-	.string "POKéMON change?\p"
-	.string "I would be shocked if one did\n"
-	.string "that!$"
+	.string "Les Pokémon évoluent?\p"
+	.string "Je serais curieuse de voir ça!$"

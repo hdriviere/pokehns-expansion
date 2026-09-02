@@ -32,77 +32,83 @@ VictoryRoad_B2F_EventScript_Dianne::
 	end
 
 VictoryRoad_B2F_Text_VitoIntro:
-	.string "I trained together with my whole family,\n"
-	.string "every one of us!\l"
-	.string "I'm not losing to anyone!$"
+	.string "On s’entraîne tous ensemble,\n"
+	.string "avec les membres de ma famille!\p"
+	.string "Je ne perds contre personne!$"
 
 VictoryRoad_B2F_Text_VitoDefeat:
-	.string "Better than my family?!\n"
-	.string "Is that possible?!$"
+	.string "Tu as un meilleur niveau que ma\n"
+	.string "famille?! Est-ce possible?!$"
 
 VictoryRoad_B2F_Text_VitoPostBattle:
-	.string "I was better than everyone in my\n"
-	.string "family. I've never lost before…\p"
-	.string "I've lost my confidence…\n"
-	.string "Maybe I'll go home…$"
+	.string "J’ai toujours été le meilleur de\n"
+	.string "la famille. Je n’avais encore\p"
+	.string "jamais perdu…\p"
+	.string "J’ai perdu confiance en moi… Je\n"
+	.string "vais peut-être rentrer chez moi…$"
 
 VictoryRoad_B2F_Text_OwenIntro:
-	.string "I'd heard that there was a tough\n"
-	.string "little kid around. Do they mean you?$"
+	.string "On m’avait dit qu’il y avait un\n"
+	.string "môme très fort. C’est de toi\p"
+	.string "qu’ils parlaient?$"
 
 VictoryRoad_B2F_Text_OwenDefeat:
-	.string "The little shrimp is tough!$"
+	.string "La demi-portion est forte!$"
 
 VictoryRoad_B2F_Text_OwenPostBattle:
-	.string "The rumors I heard, that tough little\n"
-	.string "kid is from PETALBURG CITY.$"
+	.string "D’après les rumeurs, le p’tit\n"
+	.string "môme très fort viendrait de\p"
+	.string "CLEMENTI-VILLE.$"
 
 VictoryRoad_B2F_Text_CarolineIntro:
-	.string "You must be getting a little tired.$"
+	.string "Tu dois commencer à fatiguer.$"
 
 VictoryRoad_B2F_Text_CarolineDefeat:
-	.string "No signs of tiring at all!$"
+	.string "Aucun signe de fatigue du tout!$"
 
 VictoryRoad_B2F_Text_CarolinePostBattle:
-	.string "VICTORY ROAD and the POKéMON LEAGUE\n"
-	.string "are long and grueling challenges.\l"
-	.string "Beware of fatigue!$"
+	.string "La ROUTE VICTOIRE et la LIGUE\n"
+	.string "POKéMON sont des défis épuisants\p"
+	.string "et de longue haleine. Gare à la\n"
+	.string "fatigue!$"
 
 VictoryRoad_B2F_Text_JulieIntro:
-	.string "You shouldn't get complacent just\n"
-	.string "because you have a lot of GYM BADGES.\p"
-	.string "There's always going to be someone\n"
-	.string "who's better than you!$"
+	.string "Avoir beaucoup de BADGES ne\n"
+	.string "suffit pas.\p"
+	.string "Il y aura toujours quelqu’un de\n"
+	.string "plus fort que toi!$"
 
 VictoryRoad_B2F_Text_JulieDefeat:
-	.string "You're better than me!$"
+	.string "Tu as un meilleur niveau que\n"
+	.string "moi!$"
 
 VictoryRoad_B2F_Text_JuliePostBattle:
-	.string "Gaze on your collected BADGES and\n"
-	.string "remember the TRAINERS you've faced.$"
+	.string "Regarde bien tes BADGES et\n"
+	.string "rappelle- toi quels DRESSEURS tu\p"
+	.string "as affrontés.$"
 
 VictoryRoad_B2F_Text_FelixIntro:
-	.string "I've come this far, but the tension's\n"
-	.string "giving me awful stomach pain…$"
+	.string "Je suis arrivé jusqu’ici, mais\n"
+	.string "le stress me donne des maux\p"
+	.string "d’estomac…$"
 
 VictoryRoad_B2F_Text_FelixDefeat:
-	.string "Ooh…\n"
-	.string "It hurts…$"
+	.string "Oooh… Ça fait mal…$"
 
 VictoryRoad_B2F_Text_FelixPostBattle:
-	.string "I can't help getting all tense knowing\n"
-	.string "that I'm nearing the POKéMON LEAGUE.\p"
-	.string "It's all I can do to feign calm.$"
+	.string "Je ne peux pas m’empêcher de\n"
+	.string "stresser en sachant que la LIGUE\p"
+	.string "POKéMON est si proche.\p"
+	.string "J’arrive à peine à me détendre.$"
 
 VictoryRoad_B2F_Text_DianneIntro:
-	.string "The elite among the elite gather in\n"
-	.string "this cave.\p"
-	.string "How are you finding it?$"
+	.string "L’élite de l’élite se réunit\n"
+	.string "dans cette grotte.\p"
+	.string "T’en penses quoi?$"
 
 VictoryRoad_B2F_Text_DianneDefeat:
-	.string "Not rattled in the least bit!$"
+	.string "Pas une seule fausse note!$"
 
 VictoryRoad_B2F_Text_DiannePostBattle:
-	.string "You do have guts! I like that!\n"
-	.string "Keep it going!$"
+	.string "T’as du cran, continue comme ça!$"
 

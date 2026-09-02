@@ -14,14 +14,13 @@ SafariZone_East_EventScript_AreaSign::
 	end
 
 SafariZone_East_Text_RestHouse::
-	.string "REST HOUSE$"
+	.string "ABRI$"
 
 SafariZone_East_Text_TimeDeclinesOnlyWhileYouWalk::
-	.string "TRAINER TIPS\p"
-	.string "The remaining time declines only\n"
-	.string "while you walk.$"
+	.string "ASTUCE\p"
+	.string "Le temps s'écoule en fonction\n"
+	.string "des pas!$"
 
 SafariZone_East_Text_AreaSign::
-	.string "AREA 1\n"
-	.string "WEST: CENTER AREA$"
+	.string "PARC 1 OUEST: PARC CENTRAL$"
 

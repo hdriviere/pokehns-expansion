@@ -23,12 +23,13 @@ FiveIsland_PokemonCenter_1F_EventScript_CooltrainerF::
 	end
 
 FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal::
-	.string "I'm on my way to prepare a meal\n"
-	.string "for a certain high-society person.$"
+	.string "Je vais préparer un dîner\n"
+	.string "spécial pour une personne très\p"
+	.string "importante!$"
 
 FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon::
-	.string "You're on a quest to catch every\n"
-	.string "single kind of POKéMON?\p"
-	.string "…How incredible. Please tell me if\n"
-	.string "you catch a strong one!$"
+	.string "Tu veux attraper tous les types\n"
+	.string "de POKéMON qui existent?\p"
+	.string "Incroyable! Viens me prévenir si\n"
+	.string "tu en attrapes un fort.$"
 

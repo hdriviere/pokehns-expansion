@@ -34,35 +34,32 @@ SilphCo_10F_EventScript_Grunt::
 	end
 
 SilphCo_10F_Text_GruntIntro::
-	.string "Welcome to 10F!\n"
-	.string "So good of you to join me!$"
+	.string "Bienvenue au 9ème étage! C'est\n"
+	.string "sympa de passer!$"
 
 SilphCo_10F_Text_GruntDefeat::
-	.string "I'm stunned!$"
+	.string "Aïe! Bobo!$"
 
 SilphCo_10F_Text_GruntPostBattle::
-	.string "Nice try, but the boardroom is up\n"
-	.string "one more floor.$"
+	.string "Bien joué, mais la salle du\n"
+	.string "conseil est au-dessus!$"
 
 SilphCo_10F_Text_TravisIntro::
-	.string "Enough of your silly games!$"
+	.string "Maintenant… Fini de jouer!$"
 
 SilphCo_10F_Text_TravisDefeat::
-	.string "No continues left!$"
+	.string "Oh! Partie terminée!$"
 
 SilphCo_10F_Text_TravisPostBattle::
-	.string "Are you satisfied with beating me?\n"
-	.string "Then go on home!$"
+	.string "T'as gagné! Alors retourne chez\n"
+	.string "toi!$"
 
 SilphCo_10F_Text_WaaaImScared::
-	.string "Waaaaa!\n"
-	.string "I'm scared!$"
+	.string "Waaaaa! Mamaaaan!$"
 
 SilphCo_10F_Text_KeepMeCryingASecret::
-	.string "About me crying…\n"
-	.string "Please keep it a secret.$"
+	.string "Ne raconte à personne que j'ai\n"
+	.string "pleuré!$"
 
 SilphCo_10F_Text_FloorSign::
-	.string "SILPH CO. HEAD OFFICE\n"
-	.string "10F$"
-
+	.string "SYLPHE SARL. 9ème étage.$"

@@ -120,30 +120,34 @@ BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom_hns:
 	step_end
 
 BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame_hns:
-	.string "People and POKéMON, they are but\n"
-	.string "the same…\p"
-	.string "Their individual nature makes them\n"
-	.string "good at certain things, and not good\l"
-	.string "at others.$"
+	.string "Les gens et les POKéMON, c’est\n"
+	.string "pareil…\p"
+	.string "Leur nature fait qu’ils sont\n"
+	.string "très doués pour certaines choses\p"
+	.string "et beaucoup moins pour d’autres.$"
 
 BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes_hns:
-	.string "Rather than trying to make a POKéMON\n"
-	.string "do what it dislikes, try to let it do\l"
-	.string "what it likes and is good at doing.\p"
-	.string "Put yourself in the POKéMON's position\n"
-	.string "and consider what moves it would like.$"
+	.string "Au lieu de forcer un POKéMON à\n"
+	.string "faire ce qu’il n’aime pas,\p"
+	.string "essayez de lui faire faire des\n"
+	.string "choses qu’il aime.\p"
+	.string "Mettez-vous dans la peau de\n"
+	.string "votre POKéMON pour comprendre ce\p"
+	.string "qu’il aime.$"
 
 BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered_hns:
-	.string "A POKéMON's nature is a remarkable\n"
-	.string "thing…\p"
-	.string "Some POKéMON behave in a completely\n"
-	.string "different way when they are cornered.$"
+	.string "La nature d’un POKéMON, c’est\n"
+	.string "quelque chose de fascinant…\p"
+	.string "Certains POKéMON changent\n"
+	.string "totalement d’attitude s’ils se\p"
+	.string "sentent coincés.$"
 
 BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature_hns:
-	.string "Are you beginning to understand how\n"
-	.string "a POKéMON's nature makes it behave?$"
+	.string "Commencez-vous à comprendre\n"
+	.string "l’influence qu’a la nature des\p"
+	.string "POKéMON?$"
 
 BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons_hns:
-	.string "Ah… I see a strong, heartfelt bond\n"
-	.string "between you and your POKéMON…$"
+	.string "Ah… Un lien fort et sincère vous\n"
+	.string "unit à vos POKéMON…$"
 

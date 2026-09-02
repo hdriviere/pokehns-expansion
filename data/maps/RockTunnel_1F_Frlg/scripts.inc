@@ -46,85 +46,78 @@ RockTunnel_1F_EventScript_Dana::
 	end
 
 RockTunnel_1F_Text_LennyIntro::
-	.string "This tunnel goes a long way, kid!$"
+	.string "Il est long ce tunnel, oh oui!$"
 
 RockTunnel_1F_Text_LennyDefeat::
-	.string "Doh!\n"
-	.string "You win!$"
+	.string "Rôooh! T'as gagné!$"
 
 RockTunnel_1F_Text_LennyPostBattle::
-	.string "Watch for ONIX.\n"
-	.string "They appear only occasionally.\p"
-	.string "High-level ones can put the\n"
-	.string "squeeze on you!$"
+	.string "Attention aux ONIX! Ils\n"
+	.string "apparaissent souvent ici.\p"
+	.string "Ils pourraient facilement\n"
+	.string "t'écrabouiller, fais attention!$"
 
 RockTunnel_1F_Text_OliverIntro::
-	.string "Hmm.\n"
-	.string "Maybe I'm lost in here…$"
+	.string "Bon, bon, bon, je suis perdu…$"
 
 RockTunnel_1F_Text_OliverDefeat::
-	.string "Ease up!\n"
-	.string "What am I doing?\l"
-	.string "Which way is out?$"
+	.string "Hein? Par où je sors maintenant?$"
 
 RockTunnel_1F_Text_OliverPostBattle::
-	.string "That sleeping POKéMON on ROUTE 12\n"
-	.string "forced me to take this detour.$"
+	.string "Ce POKéMON endormi sur la route\n"
+	.string "12 m'a obligé à faire un détour.$"
 
 RockTunnel_1F_Text_LucasIntro::
-	.string "Outsiders like you need to show me\n"
-	.string "some respect!$"
+	.string "Un profane comme toi me doit le\n"
+	.string "respect!$"
 
 RockTunnel_1F_Text_LucasDefeat::
-	.string "I give!$"
+	.string "Perdu!$"
 
 RockTunnel_1F_Text_LucasPostBattle::
-	.string "You're talented enough to hike!$"
+	.string "Tu as le niveau des meilleurs\n"
+	.string "montagnards!$"
 
 RockTunnel_1F_Text_AshtonIntro::
-	.string "POKéMON fight!\n"
-	.string "Ready, go!$"
+	.string "Baston POKéMON! C'est parti!$"
 
 RockTunnel_1F_Text_AshtonDefeat::
-	.string "Game over!$"
+	.string "Partie terminée!$"
 
 RockTunnel_1F_Text_AshtonPostBattle::
-	.string "Oh well, I'll get a ZUBAT as I go!$"
+	.string "Bon, il me faut un NOSFERAPTI!$"
 
 RockTunnel_1F_Text_LeahIntro::
-	.string "Eek!\p"
-	.string "Don't try anything funny in the\n"
-	.string "dark!$"
+	.string "Hep!\p"
+	.string "Dans le noir, fais gaffe où tu\n"
+	.string "mets les pieds!$"
 
 RockTunnel_1F_Text_LeahDefeat::
-	.string "It was too dark…$"
+	.string "J'ai rien compris!$"
 
 RockTunnel_1F_Text_LeahPostBattle::
-	.string "I saw a MACHOP in this tunnel.$"
+	.string "J'ai vu un MACHOC dans ce\n"
+	.string "tunnel!$"
 
 RockTunnel_1F_Text_DanaIntro::
-	.string "I came this far looking for wild\n"
-	.string "POKéMON.$"
+	.string "Je viens de loin pour ces\n"
+	.string "POKéMON sauvages!$"
 
 RockTunnel_1F_Text_DanaDefeat::
-	.string "I'm out of POKéMON!$"
+	.string "Oh! Plus de POKéMON!$"
 
 RockTunnel_1F_Text_DanaPostBattle::
-	.string "You looked cute and harmless.\n"
-	.string "Was I ever wrong!$"
+	.string "Dire que je pensais que tu ne\n"
+	.string "savais pas te battre.$"
 
 RockTunnel_1F_Text_ArianaIntro::
-	.string "You have POKéMON!\n"
-	.string "Let's start!$"
+	.string "T'as des POKéMON! OK, bastooonn!$"
 
 RockTunnel_1F_Text_ArianaDefeat::
-	.string "You play hard!$"
+	.string "T'es coriace toi!$"
 
 RockTunnel_1F_Text_ArianaPostBattle::
-	.string "Whew!\n"
-	.string "I'm all sweaty now.$"
+	.string "Hé ben! Me voilà en sueur!$"
 
 RockTunnel_1F_Text_RouteSign::
-	.string "ROCK TUNNEL\n"
-	.string "CERULEAN CITY - LAVENDER TOWN$"
-
+	.string "GROTTE AZURIA - LAVANVILLE$"

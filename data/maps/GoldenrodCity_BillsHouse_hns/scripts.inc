@@ -60,71 +60,79 @@ GoldenrodCity_BillsHouse_EventScript_Bill_Refused::
 	end
 
 BillHouse_Text_TakeThisEevee:
-    .string "BILL: Hi, {PLAYER}! Do us a favor and\n"
-    .string "take this EEVEE.\p"
-    .string "It was left in our care while\n"
-    .string "I was away working on my system.\p"
-    .string "Someone has to take care of it,\n"
-    .string "but I don't like being outside.\p"
-    .string "Can I count on you to play with it,\n"
-    .string "{PLAYER}?$"
+	.string "LEO: Salut, {PLAYER}! Rends-nous\n"
+	.string "service et prends cet EVOLI.\p"
+	.string "On nous l'a confié tandis que je\n"
+	.string "travaillais sur mon système.\p"
+	.string "Quelqu'un doit s'en occuper.\p"
+	.string "Mais je n'aime pas sortir.\p"
+	.string "Peux-tu jouer avec lui,\n"
+	.string "{PLAYER}?$"
 
 BillHouse_Text_CountingOnYou:
-    .string "BILL: I knew you'd come through!\p"
-    .string "Way to go! You're the real deal!\p"
-    .string "OK, I'm counting on you.\p"
-    .string "Take good care of it!$"
+    .string "LEO: Je savais que je pouvais\p"
+    .string "compter sur toi! T'es trop chou!\p"
+    .string "Prends-en soin!$"
 
 BillHouse_Text_ReceivedEevee:
-    .string "{PLAYER} received EEVEE!$"
+    .string "{PLAYER} reçoit EVOLI!$"
 
 BillHouse_Text_EeveeMayEvolve:
-    .string "BILL: PROF.ELM claims EEVEE may\n"
-    .string "evolve in new and unknown ways.$"
+    .string "LEO: Le PROF.ORME affirme que\n"
+    .string "les\p"
+    .string "EVOLI pourraient évoluer en des\n"
+    .string "formes encore inconnues.$"
 
 BillHouse_Text_PartyFull:
-    .string "Whoa, wait. You can't carry any\n"
-    .string "more POKéMON.$"
+    .string "Ah, c’est pas possible, tu ne\n"
+    .string "peux pas transporter\p"
+    .string "plus de Pokémon...$"
 
 BillHouse_Text_NoEevee:
-    .string "Oh… Now what to do?$"
+    .string "Ah bon...$"
 
 BillHouse_Text_PopWontWork:
-    .string "BILL: My pop, he won't work. All he\n"
-    .string "does is goof off all day long.\p"
-    .string "He's getting to be a real headache…$"
+    .string "LEO: Mon papa... Il fait rien de\n"
+    .string "la journée.\p"
+    .string "On peut dire que c'est un\n"
+    .string "flemmard!$"
 
 BillHouse_Text_MomBeforeEcruteak:
-    .string "Oh, you collect POKéMON? My son\n"
-    .string "BILL is an expert.\p"
-    .string "He just got called to the POKéMON\n"
-    .string "CENTER in ECRUTEAK CITY.\p"
-    .string "My husband went off to the GAME\n"
-    .string "CORNER without being called…$"
+    .string "Tu collectionnes les Pokémon?\n"
+    .string "Mon fils LEO est un expert.\p"
+    .string "Il est allé au CENTRE Pokémon de\n"
+    .string "ROSALIA.\p"
+    .string "Mon mari en revanche est au\p"
+    .string "CASINO... Ne cherche pas à\n"
+    .string "comprendre...$"
 
 BillHouse_Text_MomAfterEcruteak:
-    .string "My husband was once known as a\n"
-    .string "POKéMANIAC.\p"
-    .string "BILL must have taken after his\n"
-    .string "father.$"
+	.string "Mon mari était autrefois connu\n"
+	.string "comme Pokémaniac.\p"
+	.string "LEO tient sûrement de son père.$"
 
 BillHouse_Text_SisterUsefulNumber:
-    .string "Are you a TRAINER?\p"
-    .string "I've got a useful phone number\n"
-    .string "for you.$"
+    .string "Es-tu dresseur?\p"
+    .string "J'ai un numéro de téléphone\n"
+    .string "utile pour toi.$"
 
 BillHouse_Text_RecordedBillsNumber:
-    .string "{PLAYER} recorded BILL's number.$"
+    .string "{PLAYER} enregistre le numéro de\n"
+    .string "téléphone de LEO.$"
 
 BillHouse_Text_SisterRefusedNumber:
-    .string "My brother made the PC POKéMON\n"
-    .string "storage system.\p"
-    .string "I was going to give you BILL's\n"
-    .string "number…$"
+    .string "Mon frère a créé\n"
+    .string "un système de\p"
+    .string "stockage pour les\n"
+    .string "Pokémon par PC.\p"
+    .string "J'allais te donner le numéro de\n"
+    .string "téléphone de LEO...$"
 
 BillHouse_Text_SisterPhoneFull:
-    .string "You can't record any more numbers.$"
+    .string "Mais tu ne peux plus enregistrer\n"
+    .string "de numéros!$"
 
 BillHouse_Text_SisterStorageSystem:
-    .string "My big brother BILL made the PC\n"
-    .string "POKéMON storage system.$"
+    .string "Mon grand frère LEO a fait un\p"
+    .string "super système de stockage de\n"
+    .string "Pokémon par PC.$"

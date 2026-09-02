@@ -12,25 +12,26 @@ SSAqua_RoomNNE_EventScript_Carol::
 	end
 
 SSAqua_RoomNNE_Text_CooltrainermSeanSeen:
-    .string "I'm going to KANTO\n"
-    .string "to test my skills.$"
+    .string "Je vais à KANTO pour\n"
+    .string "m'entraîner.$"
 
 SSAqua_RoomNNE_Text_CooltrainermSeanBeaten:
-    .string "I wanted to win!$"
+    .string "J'voulais gagner!$"
 
 SSAqua_RoomNNE_Text_CooltrainermSeanAfterBattle:
-    .string "Trainers from JOHTO\n"
-    .string "can battle with KANTO\l"
-    .string "GYM LEADERS.$"
+    .string "Les Dresseurs de\n"
+    .string "Johto peuvent eux\p"
+    .string "aussi affronter\n"
+    .string "les Champions\p"
+    .string "de Kanto!$"
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolSeen:
-    .string "I'm training to\n"
-    .string "become the CHAMP!$"
+    .string "J'm'entraîne pour être la\n"
+    .string "meilleure!$"
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolBeaten:
-    .string "What's so different\n"
-    .string "between us?$"
+    .string "Mais où réside la différence\n"
+    .string "entre toi et moi?$"
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolAfterBattle:
-    .string "I'm going to beat\n"
-    .string "you someday!$"
+    .string "Je te battrai un jour! Oh oui!$"

@@ -391,107 +391,103 @@ VioletCity_EventScript_GymSign::
 	end
 
 VioletCity_Text_LiquidJustice:
-	.string "Look around!\p"
-	.string "It's easy to see what POKéMON\n"
-	.string "you can catch in an area without\l"
-	.string "having to run around in tall\l"
-	.string "grass all day!$"
+	.string "Regarde autour de toi!\p"
+	.string "Tu peux facilement voir quels\n"
+	.string "Pokémon vivent dans une zone,\p"
+	.string "sans courir toute la journée\n"
+	.string "dans les hautes herbes!$"
 
 VioletCity_Text_EarlAsksIfYouBeatFalkner:
-	.string "Hello!\n"
-	.string "You are trainer?\p"
-	.string "Battle GYM LEADER,\n"
-	.string "win you did?$"
+	.string "Salut! T'es dresseur?\p"
+	.string "Une vraie baston, ça te dit?$"
 
 VioletCity_Text_VeryNiceIndeed:
-	.string "Ooh, la la!\n"
-	.string "Very indeed nice!$"
+	.string "C’est très bravo!$"
 
 VioletCity_Text_FollowEarl:
-	.string "Is that so? Then study shall\n"
-	.string "you! Follow me!$"
+	.string "Ah bon! Alors il faut! étudier.\n"
+	.string "Suis-moi!$"
 
 VioletCity_Text_HereTeacherIAm:
-	.string "Here, teacher I am.\n"
-	.string "Good it is you study here!$"
+	.string "Je suis le professeur du coin!\n"
+	.string "Tu peux étudier ici!$"
 
 VioletCity_Text_Lass:
-	.string "Ghosts are rumored to appear\n"
-	.string "in SPROUT TOWER.\p"
-	.string "They say that GHOST-type\n"
-	.string "moves can bypass the defenses\p"
-	.string "of tough POKéMON like ONIX\n"
-	.string "and GEODUDE.$"
+	.string "On raconte que des fantômes\n"
+	.string "hantent la TOUR CHETIFLOR.\p"
+	.string "Les capacités de type SPECTRE\n"
+	.string "peuvent contourner les défenses\p"
+	.string "de Pokémon robustes comme ONIX\n"
+	.string "et RACAILLOU.$"
 
 VioletCity_Text_Boy:
-	.string "Hey, you're a POKéMON trainer?\p"
-	.string "If you head to the ACADEMY,\n"
-	.string "you might learn something new!$"
+	.string "Hé, tu es Dresseur de Pokémon?\p"
+	.string "Va à l'Académie, tu y apprendras\n"
+	.string "peut-être quelque chose!$"
 
 VioletCity_Text_Gramps:
-	.string "FALKNER, from the VIOLET\n"
-	.string "POKéMON GYM, is a fine trainer!\p"
-	.string "He inherited his father's gym\n"
-	.string "and has done a great job with\l"
-	.string "it.$"
+	.string "ALBERT de l'ARENE Pokémon de\p"
+	.string "MAUVILLE est un dresseur sympa!\p"
+	.string "Il a hérité de l'ARENE de son\p"
+	.string "père et a fait du bon travail.$"
 
 VioletCity_Text_Youngster:
-	.string "I saw a wiggly tree up ahead!\p"
-	.string "If you touch it, it squirms\n"
-	.string "and dances! Cool!$"
+	.string "J'ai vu un arbre tout cabossé\n"
+	.string "là-bas!\p"
+	.string "Si on le touche, il gigote et\n"
+	.string "smurfe en même temps! Cool!$"
 
 VioletCity_Text_Sign:
-	.string "VIOLET CITY\p"
-	.string "The City of Nostalgic Scents$"
+	.string "Mauville Ville au parfum de\n"
+	.string "nostalgie$"
 
 VioletCity_Text_GymSign:
-	.string "VIOLET CITY POKéMON GYM\p"
-	.string "LEADER: FALKNER, The Elegant\n"
-	.string "Master of Flying POKéMON$"
+	.string "CHAMPION d'ARENE de MAUVILLE:\n"
+	.string "ALBERT\p"
+	.string "Le dresseur de Pokémon volants$"
 
 VioletCity_Text_SproutTowerSign:
-	.string "SPROUT TOWER\p"
-	.string "Experience the Way of POKéMON$"
+	.string "TOUR CHETIFLOR\p"
+	.string "Elle est grande, elle est belle\n"
+	.string "et pleine de Pokémon$"
 
 VioletCity_Text_EarlsAcademySign:
-	.string "EARL'S POKéMON ACADEMY$"
+	.string "ACADEMIE Pokémon de THEOPHILE$"
 
 VioletCity_Text_Pichu:
 	.string "PICHU: Chuuuu!$"
 
 VioletCity_Text_Bellsprout:
-	.string "BELLSPROUT: Sprouuuut.$"
+	.string "CHÉTIFLOR: Chééétiflor.$"
 
 VioletCity_Text_Rattata:
 	.string "RATTATA: RATTATARATTA!$"
 
 VioletCity_Text_ElmName:
-	.string "PROF.ELM$"
+	.string "PROF. ORME$"
 
 VioletCity_Text_Elm_Call:
-	.string "PROF.ELM: Hello, {PLAYER}? We\n"
-	.string "discovered something about the EGG!\p"
-	.string "My assistant is at the POKéMON\n"
-	.string "CENTER in VIOLET CITY.\p"
-	.string "Could you talk to him?$"
+	.string "PROF.ORME: Allô, {PLAYER}?\p"
+	.string "Nous avons fait une découverte\n"
+	.string "sur l'OEUF!\p"
+	.string "Mon assistant est au Centre\n"
+	.string "Pokémon de MAUVILLE.\p"
+	.string "Peux-tu aller lui parler?$"
 
 VioletCity_Text_Kimono_Girl1:
-.string "Me oh my...\n"
-.string "That EGG must be...!$"
+.string "Oh, mais, cet Oeuf...!$"
 
 VioletCity_Text_Kimono_Girl2:
-.string "I see...\p"
-.string "So it was handed from MR. POKéMON\n"
-.string "to PROF.ELM, then from \l"
-.string "PROF.ELM to you.\p"
-.string "Now I get it...$"
+	.string "Je vois…\p"
+	.string "M.Pokémon l'a donc confié au\n"
+	.string "PROF.ORME, qui te l'a remis.\p"
+	.string "Je comprends maintenant…$"
 
 VioletCity_Text_Kimono_Girl3:
-.string "That EGG is truly an important EGG.\p"
-.string "Please do take good care of it\n"
-.string "for me. Is that understood?$"
+.string "C’est un Oeuf d’une importance\n"
+.string "rare. Prends-en un soin infini!\p"
+.string "Puis-je te faire confiance pour\n"
+.string "cela?$"
 
 VioletCity_Text_Kimono_Girl4:
-.string "I am counting on you.$"
-
-
+.string "Parfait, alors!$"

@@ -107,36 +107,41 @@ Route112_EventScript_Shayla::
 	end
 
 Route112_Text_LeaderGoingToAwakenThing:
-	.string "Hey, man, is our leader really going\n"
-	.string "to awaken that thing?$"
+	.string "Euh… Tu crois que notre chef\n"
+	.string "veut vraiment réveiller cette\p"
+	.string "chose?$"
 
 Route112_Text_YeahWeNeedMeteorite:
-	.string "Sounds like it, yeah. But I heard\n"
-	.string "we need a METEORITE to do it.$"
+	.string "En tout cas, ça y ressemble.\n"
+	.string "Mais il va lui falloir une\p"
+	.string "METEORITE, non?$"
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
-	.string "Oh, I get it now. That's why the rest\n"
-	.string "of the crew went out to FALLARBOR.$"
+	.string "Oh, j’ai compris maintenant!\p"
+	.string "C’est pour ça que le reste de la\n"
+	.string "TEAM est parti à AUTEQUIA.$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
-	.string "You got it. And until they come back,\n"
-	.string "we're not to let anyone pass, right.$"
+	.string "T’as compris? Et jusqu’à leur\n"
+	.string "retour, personne ne passe! OK?$"
 
 Route112_Text_NotEasyToGetBackToLavaridge:
-	.string "Eh, I'd like to get to MAUVILLE, but if\n"
-	.string "I went down these ledges, it'd be no\l"
-	.string "easy matter to get back to LAVARIDGE.$"
+	.string "Hé, j’aimerais aller à LAVANDIA,\n"
+	.string "mais si je descends par ce\p"
+	.string "rebord, ça va pas être facile de\n"
+	.string "revenir à VERMILAVA.$"
 
 Route112_Text_MtChimneyCableCarSign:
-	.string "MT. CHIMNEY CABLE CAR\n"
-	.string "“A short walk {UP_ARROW} way!”$"
+	.string "TELEPHERIQUE DU MONT CHIMNEE\n"
+	.string "“{UP_ARROW} Avancez de quelques\p"
+	.string "pas!”$"
 
 Route112_Text_MtChimneySign:
-	.string "MT. CHIMNEY\p"
-	.string "“For LAVARIDGE TOWN or the summit,\n"
-	.string "please take the CABLE CAR.”$"
+	.string "MONT CHIMNEE\p"
+	.string "“Pour VERMILAVA ou le sommet,\n"
+	.string "veuillez prendre le\p"
+	.string "TELEPHERIQUE.”$"
 
 Route112_Text_RouteSignLavaridge:
-	.string "ROUTE 112\n"
-	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
+	.string "ROUTE 112 {LEFT_ARROW} VERMILAVA$"
 

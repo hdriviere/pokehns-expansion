@@ -38,37 +38,42 @@ SSAqua_RoomNW_EventScript_Corey::
 
 
 SSAqua_RoomNW_Text_SailorStanlySeen:
-	.string "Yeah, I'm a sailor, all right.\p"
-	.string "I wasn't goofing off!\p"
-	.string "This cabin was vacant, so I\n"
-	.string "just took a quick nap!\p"
-	.string "Ah, forget it! Let's battle!$"
+	.string "Ouaip. Moi j'suis un marin.\p"
+	.string "Un vrai de vrai. Pur boeuf!\p"
+	.string "J'suis grand. J'suis beau. Je\n"
+	.string "sens le sable chaud.\p"
+	.string "Oh! Tu m'écoutes? ...COMBAT!$"
 
 SSAqua_RoomNW_Text_SailorStanlyBeaten:
-	.string "Sorry! It's all my fault!$"
+	.string "Heu... Comment? De quoi?$"
 
 SSAqua_RoomNW_Text_SailorStanlyAfterBattle:
-	.string "Being a sailor, I have to do\n"
-	.string "physical labor. It's exhausting!$"
+	.string "Dans la mariiine,\n"
+	.string "on n'est pas des\p"
+	.string "p'tites filles!\n"
+	.string "Dans la mariiine!$"
 
 SSAqua_RoomNW_Text_GentlemanEdwardSeen:
-	.string "Oh, no. I've lost something\n"
-	.string "that's very important.$"
+	.string "Hmm... Quel ennui... J’ai perdu\n"
+	.string "une chose très précieuse...$"
 
 SSAqua_RoomNW_Text_GentlemanEdwardBeaten:
-	.string "I… I can't find it…$"
+	.string "J'le...trouve... ...pas!!!$"
 
 SSAqua_RoomNW_Text_GentlemanEdwardAfterBattle:
-	.string "I give up. You don't have to\n"
-	.string "look.\p"
-	.string "Just forget about it!$"
+	.string "Tant pis, j’abandonne. Ne perds\n"
+	.string "pas ton temps, mon enfant!\p"
+	.string "Ce n’est pas la peine de\n"
+	.string "chercher.\p"
+	.string "Oublie!$"
 
 SSAqua_RoomNW_Text_BurglarCoreySeen:
-	.string "Yeehaw! Lucky!$"
+	.string "Ouaiiis! Le bol!$"
 
 SSAqua_RoomNW_Text_BurglarCoreyBeaten:
-	.string "How unlucky! I lost!$"
+	.string "Ooooh! Pas d'bol!$"
 
 SSAqua_RoomNW_Text_BurglarCoreyAfterBattle:
-	.string "I found a pretty coin here.\p"
-	.string "Someone must have lost it…$"
+	.string "J’ai trouvé une belle pièce dans\n"
+	.string "ma chambre.\p"
+	.string "Quelqu’un a dû la perdre...$"

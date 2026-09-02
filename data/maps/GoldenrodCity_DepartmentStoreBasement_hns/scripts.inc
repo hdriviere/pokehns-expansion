@@ -182,27 +182,30 @@ GoldenrodCity_DepartmentStoreBasement_Movement_Boulder3:
 
 
 GoldenrodDeptStore_Text_BlackBeltMove:
-	.string "MACHOKE, help us move that boulder!$"
+	.string "MACHOPEUR, aide-nous à déplacer\n"
+	.string "ce rocher!$"
 
 GoldenrodDeptStore_Text_B1FBlackBelt1:
-    .string "Hey, kid! You're holding us up!\p"
-    .string "Our policy is to work behind the\n"
-    .string "scenes where no one can see us!$"
+    .string "Hé! Tu nous retardes!\p"
+    .string "On doit travailler en cachette\n"
+    .string "là où\p"
+    .string "personne ne peut nous voir!$"
 
 GoldenrodDeptStore_Text_B1FBlackBelt2:
-    .string "I lose my passion for work if\n"
-    .string "someone's watching.\p"
-    .string "Come on, kid, scoot!$"
+    .string "Moi j'aime plus travailler si on\n"
+    .string "me regarde.\p"
+    .string "Allez... Dégage!$"
 
 GoldenrodDeptStore_Text_B1FBlackBelt3:
-    .string "Oohah! Oohah!\p"
-    .string "What do you need kid?\l"
-    .string "I'm working here!$"
+	.string "Oohah! Oohah!\p"
+	.string "Tu veux quoi, gamin?\n"
+	.string "Je travaille, moi!$"
 
 GoldenrodDeptStore_Text_B1FBlackBelt3After:
-    .string "Oohah! Oohah!\p"
-    .string "The stuff on the ground's junk.\p"
-    .string "Take it if you want it!$"
+    .string "Han! Han!\p"
+    .string "On va jeter les trucs sur le\n"
+    .string "sol.\p"
+    .string "Tu peux les avoir si tu veux!$"
 
 GoldenrodDeptStore_Text_B1FMachoke:
-    .string "MACHOKE: Maaacho!$"
+    .string "MACHOPEUR: Maacho!$"

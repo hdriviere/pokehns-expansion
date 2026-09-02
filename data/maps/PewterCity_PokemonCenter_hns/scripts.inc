@@ -15,12 +15,17 @@ PewterCity_PokemonCenter_EventScript_BugCatcher::
 	end
 
 PewterCity_PokemonCenter1F_Text_Teacher:
-	.string "…Yeah, and the GYM in CINNABAR's gone.\p"
-	.string "I was really amazed.\p"
-	.string "…Yes? I'm on the phone. Go away!$"
+	.string "Et puis, tu\n"
+	.string "sais, l’Arène de\p"
+	.string "Cramois’Ile, eh\n"
+	.string "bien elle a disparu!\p"
+	.string "Moi aussi! J’en reviens toujours\n"
+	.string "pas!\p"
+	.string "... Quoi? J’suis au téléphone,\n"
+	.string "là! Fiche-moi la paix!$"
 
 PewterCity_PokemonCenter1F_Text_Jigglypuff:
-	.string "JIGGLYPUFF: Puu pupuu.$"
+	.string "RONDOUDOU: Douu! Doudoudou!$"
 
 PewterCity_PokemonCenter_EventScript_Mondo::
 	lock
@@ -48,29 +53,36 @@ PewterCity_PokemonCenter_EventScript_TradeCompleted::
 	end
 
 PewterCity_PokemonCenter_Text_WantToTrade:
-	.string "I've been traveling all over, looking\n"
-	.string "for a good {STR_VAR_1}.\p"
-	.string "Would you trade one for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "J'ai parcouru le monde à la\n"
+	.string "recherche d'un bon {STR_VAR_1}.\p"
+	.string "Veux-tu en échanger un contre\n"
+	.string "mon {STR_VAR_2}?$"
 
 PewterCity_PokemonCenter_Text_TakeCare:
-	.string "Thanks a bunch!\n"
-	.string "Take good care of my {STR_VAR_1}!$"
+	.string "Merci beaucoup!\n"
+	.string "Prends bien soin de\l"
+	.string "mon {STR_VAR_1}!$"
 
 PewterCity_PokemonCenter_Text_DeclineTrade:
-	.string "No? That's too bad…\n"
-	.string "I think you'd like my HAUNTER.$"
+	.string "Non? C'est dommage...\n"
+	.string "Mon SPECTRUM te plairait,\l"
+	.string "je crois.$"
 
 PewterCity_PokemonCenter_Text_NotRequestedMon:
-	.string "Hmm, that's not a {STR_VAR_1}.\n"
-	.string "That's not what I'm looking for.$"
+	.string "Hmm, ce Pokémon n'est pas\n"
+	.string "un {STR_VAR_1}.\p"
+	.string "Ce n'est pas ce que je cherche.$"
 
 PewterCity_PokemonCenter_Text_TradeCompleted:
-	.string "How's that HAUNTER treating you?\n"
-	.string "It's a real trickster!$"
+	.string "Comment se porte ce SPECTRUM?\n"
+	.string "C'est un vrai farceur!$"
 
 PewterCity_PokemonCenter1F_Text_BugCatcher:
-	.string "Most POKéMON get drowsy if they hear a\n"
-	.string "JIGGLYPUFF singing.\p"
-	.string "There are several moves that can be\n"
-	.string "used only while a POKéMON is asleep.$"
+	.string "La plupart des\n"
+	.string "Pokémon s’endorment\p"
+	.string "en entendant un\n"
+	.string "RONDOUDOU chanter.\p"
+	.string "Et il y a certaines\n"
+	.string "capacités qu’un\p"
+	.string "Pokémon ne peut\n"
+	.string "utiliser qu’en dormant!$"

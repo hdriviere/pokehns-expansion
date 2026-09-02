@@ -56,41 +56,43 @@ PalletTown_House2_EventScript_DaisyGrooming::
 	end
 
 PalletTown_House2_Text_Hello:
-	.string "DAISY: Hi! My kid brother is the\n"
-	.string "GYM LEADER in VIRIDIAN CITY.\p"
-	.string "But he goes out of town so\n"
-	.string "often, it causes problems for\l"
-	.string "the trainers.$"
+	.string "Nina: Mon petit frère est le\n"
+	.string "Champion de l’Arène de Jadielle.\p"
+	.string "Mais il est souvent\n"
+	.string "absent, et ça pose\p"
+	.string "beaucoup de problèmes\n"
+	.string "aux Dresseurs.$"
 
 PalletTown_House2_Text_OfferGrooming:
-	.string "DAISY: Hi! Good timing. I'm about\n"
-	.string "to have some tea.\p"
-	.string "Would you like to join me?\p"
-	.string "Oh, your POKéMON are a bit dirty.\p"
-	.string "Would you like me to groom one?$"
+	.string "NINA: Salut! Ca tombe bien,\n"
+	.string "j'allais faire du thé.\p"
+	.string "En veux-tu?\p"
+	.string "Oh, tes Pokémon sont sales.\p"
+	.string "Tu veux que j'en bichonne un?$"
 
 PalletTown_House2_Text_WhichMon:
-	.string "DAISY: Which one should I groom?$"
+	.string "Nina: Lequel veux-tu me confier?$"
 
 PalletTown_House2_Text_Alright:
-	.string "DAISY: OK, I'll get it looking\n"
-	.string "nice in no time.$"
+	.string "NINA: OK, je vais le faire beau\n"
+	.string "en deux secondes.$"
 
 PalletTown_House2_Text_AllDone:
-	.string "DAISY: There you go! All done.\p"
-	.string "See? Doesn't {STR_VAR_1} look\n"
-	.string "nice?\p"
-	.string "It's such a cute POKéMON.$"
+	.string "NINA: Et voilà! C'est terminé.\p"
+	.string "Tu vois? {STR_VAR_1} n'est-il\n"
+	.string "pas élégant?\p"
+	.string "Quel adorable Pokémon.$"
 
 PalletTown_House2_Text_AlreadyGroomed:
-	.string "DAISY: I always have tea around\n"
-	.string "this time. Come join me.$"
+	.string "Nina: Je me fais toujours du thé\n"
+	.string "à cette heure.\p"
+	.string "Reviens quand tu veux!$"
 
 PalletTown_House2_Text_Refused:
-	.string "DAISY: You don't want to have one\n"
-	.string "groomed?\p"
-	.string "OK, we'll just have tea.$"
+	.string "Nina: Tu ne veux pas que je m’en\n"
+	.string "occupe? Très bien.\p"
+	.string "Une tasse de thé, peut-être?$"
 
 PalletTown_House2_Text_CantGroomEgg:
-	.string "DAISY: Oh, sorry. I honestly can't\n"
-	.string "groom an EGG.$"
+	.string "Nina: Huhuhu... Je ne peux pas\n"
+	.string "m’occuper d’un Oeuf!$"

@@ -39,34 +39,39 @@ PewterCity_Museum_1F_EventScript_Bones::
 	end
 
 PewterCity_Museum_1F_Text_Recptionist:
-	.string "Welcome!\p"
-	.string "Just to let you know, all the large\n"
-	.string "specimens have been taken to the\l"
-	.string "other museums for display.\p"
-	.string "So for now, admission is free of\n"
-	.string "charge!\p"
-	.string "Please go ahead.$"
+	.string "Bienvenue!\p"
+	.string "En ce moment, nos\n"
+	.string "plus belles pièces\p"
+	.string "ont été prêtées à\n"
+	.string "un autre musée...\p"
+	.string "Pour cette raison\n"
+	.string "exceptionnelle,\p"
+	.string "l’entrée de notre\n"
+	.string "musée est gratuite!\p"
+	.string "Je vous en prie, entrez!$"
 
 PewterCity_Museum_1F_Text_FossilWoman:
-	.string "You must be a strong trainer.\p"
-	.string "We don't have much use for the\n"
-	.string "fossils on the counter over there.\p"
-	.string "A strange man with silver hair\n"
-	.string "dropped a ton of them off here.\p"
-	.string "Go ahead and take them if you like.$"
+	.string "Vous devez être un Dresseur\n"
+	.string "aguerri.\p"
+	.string "Nous n'avons guère besoin des\n"
+	.string "fossiles posés sur ce comptoir.\p"
+	.string "Un étrange homme aux cheveux\n"
+	.string "argentés nous en a déposé\l"
+	.string "tout un tas.\p"
+	.string "Prenez-les si vous le souhaitez.$"
 
 PewterCity_Museum_1F_Text_FossilWomanAfter:
-	.string "We often share research with the\n"
-	.string "RUINS OF ALPH researchers.\p"
-	.string "We even share fossils with them\n"
-	.string "through the PC!$"
+	.string "Nous partageons souvent nos\n"
+	.string "recherches avec les savants\l"
+	.string "des RUINES D'ALPHA.\p"
+	.string "Nous échangeons même avec eux\n"
+	.string "des fossiles par PC!$"
 
 PewterCity_Museum_1F_Text_Oldman:
-	.string "I should be grateful for my long\n"
-	.string "life.\p"
-	.string "Never did I think I would get to\n"
-	.string "see the bones of a dragon!$"
+	.string "Quelle joie! Quel honneur!\p"
+	.string "Pouvoir ainsi adorer les\n"
+	.string "ossements des divinités dragons!$"
 
 PewterCity_Museum_1F_Text_Bones:
-	.string "Bones of an ancient dragon\n"
-	.string "POKéMON.$"
+	.string "Ossements d'un ancien Pokémon\n"
+	.string "dragon.$"

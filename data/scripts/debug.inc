@@ -131,8 +131,9 @@ Debug_FlagsNotSetOverworldConfigMessage::
 	goto Debug_MessageEnd
 
 Debug_FlagsNotSetOverworldConfigMessage_Text:
-	.string "Feature unavailable!\n"
-	.string "Please define a usable flag in:\l"
+	.string "Fonctionnalité indisponible!\n"
+	.string "Définissez un flag utilisable\p"
+	.string "dans:\n"
 	.string "'include/config/overworld.h'!$"
 
 Debug_FlagsNotSetBattleConfigMessage::
@@ -140,25 +141,25 @@ Debug_FlagsNotSetBattleConfigMessage::
 	goto Debug_MessageEnd
 
 Debug_FlagsNotSetBattleConfigMessage_Text:
-	.string "Feature unavailable!\n"
-	.string "Please define a usable flag in:\l"
-	.string "'include/config/battle.h'!$"
+	.string "Fonctionnalité indisponible!\n"
+	.string "Définissez un flag utilisable\p"
+	.string "dans: 'include/config/battle.h'!$"
 
 Debug_VarsNotSetBattleConfigMessage::
 	message Debug_VarsNotSetBattleConfigMessage_Text
 	goto Debug_MessageEnd
 
 Debug_VarsNotSetBattleConfigMessage_Text:
-	.string "Feature unavailable!\n"
-	.string "Please define a usable var in:\l"
-	.string "'include/config/battle.h'!$"
+	.string "Fonctionnalité indisponible!\n"
+	.string "Définissez un flag utilisable\p"
+	.string "dans: 'include/config/battle.h'!$"
 
 Debug_BoxFilledMessage::
 	message Debug_BoxFilledMessage_Text
 	goto Debug_MessageEnd
 
 Debug_BoxFilledMessage_Text:
-	.string "Storage boxes filled!$"
+	.string "Boîtes du PC remplies!$"
 
 Debug_EventScript_CheckEVs::
 	lockall
@@ -176,10 +177,14 @@ Debug_EventScript_CheckEVs_End::
 	end
 
 Debug_EventScript_Text_OffensiveEVs:
-	.string "ATK EVs: {STR_VAR_1}, SPATK EVs: {STR_VAR_2}, SPEED EVs: {STR_VAR_3}$"
+	.string "EVs ATK: {STR_VAR_1}, EVs SPATK:\n"
+	.string "{STR_VAR_2}, EVs VIT.:\p"
+	.string "{STR_VAR_3}$"
 
 Debug_EventScript_Text_DefensiveEVs:
-	.string "HP EVs: {STR_VAR_1}, DEF EVs: {STR_VAR_2}, SPDEF EVs: {STR_VAR_3}$"
+	.string "EVs PV: {STR_VAR_1}, EVs DEF:\n"
+	.string "{STR_VAR_2}, EVs SPDEF:\p"
+	.string "{STR_VAR_3}$"
 
 Debug_EventScript_CheckIVs::
 	lockall
@@ -197,10 +202,14 @@ Debug_EventScript_CheckIVs_End::
 	end
 
 Debug_EventScript_Text_OffensiveIVs:
-	.string "ATK IVs: {STR_VAR_1}, SPATK IVs: {STR_VAR_2}, SPEED IVs: {STR_VAR_3}$"
+	.string "IVs ATK: {STR_VAR_1}, IVs SPATK:\n"
+	.string "{STR_VAR_2}, IVs VIT.:\p"
+	.string "{STR_VAR_3}$"
 
 Debug_EventScript_Text_DefensiveIVs:
-	.string "HP IVs: {STR_VAR_1}, DEF IVs: {STR_VAR_2}, SPDEF IVs: {STR_VAR_3}$"
+	.string "IVs PV: {STR_VAR_1}, IVs DEF:\n"
+	.string "{STR_VAR_2}, IVs SPDEF:\p"
+	.string "{STR_VAR_3}$"
 
 Debug_EventScript_Script_1::
 	giveegg SPECIES_TOGEPI
@@ -280,13 +289,15 @@ Debug_EventScript_LanceMultiWin::
 	end
 
 Debug_Text_ArianaDefeat:
-	.string "You haven't seen the last of me!$"
+	.string "Tu n'as pas fini d'entendre\n"
+	.string "parler de moi!$"
 
 Debug_Text_Grunt23Defeat:
-	.string "I won't accept this!$"
+	.string "Je refuse de l'accepter!$"
 
 Debug_Text_LanceMultiVictory:
-	.string "Lance multi battle complete!$"
+	.string "Combat multiple avec LANCE\n"
+	.string "terminé!$"
 
 Debug_EventScript_Silver_Multi::
 	special SavePlayerParty
@@ -330,13 +341,15 @@ Debug_EventScript_SilverMultiWin::
 	end
 
 Debug_Text_SilverMultiVictory:
-	.string "Silver multi battle complete!$"
+	.string "Combat multiple avec SILVER\n"
+	.string "terminé!$"
 
 Debug_Text_Lance3Defeat:
-	.string "You haven't seen the last of me!$"
+	.string "Tu n'as pas fini d'entendre\n"
+	.string "parler de moi!$"
 
 Debug_Text_Clair3Defeat:
-	.string "I won't accept this!$"
+	.string "Je refuse de l'accepter!$"
 
 Debug_CheckSaveBlock::
 	callnative CheckSaveBlock1Size
@@ -351,20 +364,24 @@ Debug_CheckSaveBlock::
 	end
 
 Debug_SaveBlock1Size::
-	.string "SaveBlock1 size: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "Free space: {STR_VAR_3}b.$"
+	.string "Taille du SaveBlock1:\n"
+	.string "{STR_VAR_1}b/{STR_VAR_2}b.\p"
+	.string "Espace libre: {STR_VAR_3}b.$"
 
 Debug_SaveBlock2Size::
-	.string "SaveBlock2 size: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "Free space: {STR_VAR_3}b.$"
+	.string "Taille du SaveBlock2:\n"
+	.string "{STR_VAR_1}b/{STR_VAR_2}b.\p"
+	.string "Espace libre: {STR_VAR_3}b.$"
 
 Debug_SaveBlock3Size::
-	.string "SaveBlock3 size: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "Free space: {STR_VAR_3}b.$"
+	.string "Taille du SaveBlock3:\n"
+	.string "{STR_VAR_1}b/{STR_VAR_2}b.\p"
+	.string "Espace libre: {STR_VAR_3}b.$"
 
 Debug_PokemonStorageSize::
-	.string "{PKMN}Storage size: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "Free space: {STR_VAR_3}b.$"
+	.string "Taille du Stockage {PKMN}:\n"
+	.string "{STR_VAR_1}b/{STR_VAR_2}b.\p"
+	.string "Espace libre: {STR_VAR_3}b.$"
 
 Debug_CheckROMSpace::
 	callnative CheckROMSize
@@ -373,8 +390,9 @@ Debug_CheckROMSpace::
 	end
 
 Debug_ROMSize::
-	.string "ROM size: {STR_VAR_1}MB/32MB.\n"
-	.string "Free space: {STR_VAR_2}MB.$"
+	.string "Taille de la ROM:\n"
+	.string "{STR_VAR_1}MB/32MB. Espace\p"
+	.string "libre: {STR_VAR_2}MB.$"
 
 Debug_HatchAnEgg::
 	lockall
@@ -402,10 +420,10 @@ DebugScript_HatchAnEgg_CantForceHatch::
 	end
 
 DebugScript_Text_EmptyParty::
-	.string "You have no Pokémon nor Eggs.$"
+	.string "Votre équipe est vide.$"
 
 DebugScript_HatchAnEgg_Text_NotAnEgg::
-	.string "That's not a Pokémon Egg.$"
+	.string "Ce n'est pas un Oeuf.$"
 
 DebugScript_ZeroDaycareMons::
 	msgbox DebugText_DaycareNoPokemon, MSGBOX_DEFAULT
@@ -423,13 +441,16 @@ DebugScript_DaycareMonsNotCompatible::
 	end
 
 DebugText_DaycareNoPokemon:
-	.string "You have no Pokémon at Daycare.$"
+	.string "Vous n'avez pas de Pokémon à la\n"
+	.string "Pension.$"
 
 DebugText_DaycareOnePokemon:
-	.string "You have only one Pokémon at Daycare.$"
+	.string "Vous n'avez qu'un Pokémon à la\n"
+	.string "Pension.$"
 
 DebugText_DaycarePokemonNotCompatible:
-	.string "Your Pokémon at Daycare can't\nhave babies together!$"
+	.string "Votre Pokémon à la Pension ne\n"
+	.string "peut pas se reproduire!$"
 
 Debug_ShowExpansionVersion::
 	callnative BufferExpansionVersion
@@ -438,7 +459,8 @@ Debug_ShowExpansionVersion::
 	end
 
 Debug_ExpansionVersion:
-	.string "pokeemerald-expansion {STR_VAR_1}$"
+	.string "pokeemerald-expansion-fr\n"
+	.string "{STR_VAR_1}$"
 
 Debug_Follower_NPC_Not_Enabled::
 	msgbox Debug_Enable_To_Use_Follower_NPCs, MSGBOX_DEFAULT
@@ -446,7 +468,10 @@ Debug_Follower_NPC_Not_Enabled::
 	end
 
 Debug_Enable_To_Use_Follower_NPCs:
-	.string "Feature unavailable.\nSet FNPC_ENABLE_NPC_FOLLOWERS to\lTRUE in 'include/config/follower_npc.h'.$"
+	.string "Fonctionnalité indisponible!\n"
+	.string "Mettez FNPC_ENABLE_NPC_FOLLOWERS\p"
+	.string "à TRUE dans\n"
+	.string "'include/config/follower_npc.h'.$"
 
 Debug_Follower_NPC_Event_Script::
 	lock
@@ -456,7 +481,7 @@ Debug_Follower_NPC_Event_Script::
 	end
 
 Debug_Follower_NPC_Test_Message:
-	.string "This is a Follower NPC test.$"
+	.string "Ceci est un test Follower$"
 
 Debug_EventScript_Steven_Multi::
 	call MossdeepCity_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle
@@ -478,8 +503,9 @@ Debug_BerryPestsDisabled::
 	end
 
 DebugText_BerryPestsDisabled:
-	.string "OW_BERRY_PESTS is disabled.\n"
-	.string "Unable to force pests onto berry trees.$"
+	.string "OW_BERRY_PESTS est désactivé.\n"
+	.string "Impossible de forcer des\p"
+	.string "parasites.$"
 
 Debug_BerryWeedsDisabled::
 	msgbox DebugText_BerryWeedsDisabled, MSGBOX_DEFAULT
@@ -487,8 +513,9 @@ Debug_BerryWeedsDisabled::
 	end
 
 DebugText_BerryWeedsDisabled:
-	.string "OW_BERRY_WEEDS is disabled.\n"
-	.string "Unable to force weeds onto berry trees.$"
+	.string "OW_BERRY_WEEDS est désactivé.\n"
+	.string "Impossible de forcer des\p"
+	.string "mauvaises herbes.$"
 
 Debug_EventScript_InflictStatus1::
 	lockall
@@ -691,85 +718,85 @@ Debug_EventScript_InflictStatus1_Party_Frostbite:
 	end
 
 Debug_EventScript_InflictStatus1_Text_Single:
-	.string "Single$"
+	.string "Solo$"
 
 Debug_EventScript_InflictStatus1_Text_PartyWide:
-	.string "Party-wide$"
+	.string "Toute l'équipe$"
 
 Debug_EventScript_InflictStatus1_Text_Close:
-	.string "Close$"
+	.string "Fermer$"
 
 Debug_EventScript_InflictStatus1_Text_Poison:
 	.string "Poison$"
 
 Debug_EventScript_InflictStatus1_Text_Paralysis:
-	.string "Paralysis$"
+	.string "Paralysie$"
 
 Debug_EventScript_InflictStatus1_Text_Sleep:
-	.string "Sleep$"
+	.string "Sommeil$"
 
 Debug_EventScript_InflictStatus1_Text_Burn:
-	.string "Burn$"
+	.string "Brûlure$"
 
 Debug_EventScript_InflictStatus1_Text_Freeze:
-	.string "Freeze$"
+	.string "Gel$"
 
 Debug_EventScript_InflictStatus1_Text_Frostbite:
-	.string "Frostbite$"
+	.string "Gelure$"
 
 Debug_EventScript_InflictStatus1_Text_KO:
-	.string "KO$"
+	.string "K.O.$"
 
 Debug_EventScript_ChangeNature_Text_Hardy:
-	.string "Hardy$"
+	.string "Hardi$"
 Debug_EventScript_ChangeNature_Text_Lonely:
-	.string "Lonely$"
+	.string "Solo$"
 Debug_EventScript_ChangeNature_Text_Brave:
 	.string "Brave$"
 Debug_EventScript_ChangeNature_Text_Adamant:
-	.string "Adamant$"
+	.string "Rigide$"
 Debug_EventScript_ChangeNature_Text_Naughty:
-	.string "Naughty$"
+	.string "Mauvais$"
 Debug_EventScript_ChangeNature_Text_Bold:
-	.string "Bold$"
+	.string "Assuré$"
 Debug_EventScript_ChangeNature_Text_Docile:
 	.string "Docile$"
 Debug_EventScript_ChangeNature_Text_Relaxed:
-	.string "Relaxed$"
+	.string "Relax$"
 Debug_EventScript_ChangeNature_Text_Impish:
-	.string "Impish$"
+	.string "Malin$"
 Debug_EventScript_ChangeNature_Text_Lax:
-	.string "Lax$"
+	.string "Lache$"
 Debug_EventScript_ChangeNature_Text_Timid:
-	.string "Timid$"
+	.string "Timide$"
 Debug_EventScript_ChangeNature_Text_Hasty:
-	.string "Hasty$"
+	.string "Pressé$"
 Debug_EventScript_ChangeNature_Text_Serious:
-	.string "Serious$"
+	.string "Sérieux$"
 Debug_EventScript_ChangeNature_Text_Jolly:
-	.string "Jolly$"
+	.string "Jovial$"
 Debug_EventScript_ChangeNature_Text_Naive:
-	.string "Naive$"
+	.string "Naif$"
 Debug_EventScript_ChangeNature_Text_Modest:
-	.string "Modest$"
+	.string "Modeste$"
 Debug_EventScript_ChangeNature_Text_Mild:
-	.string "Mild$"
+	.string "Doux$"
 Debug_EventScript_ChangeNature_Text_Quiet:
-	.string "Quiet$"
+	.string "Discret$"
 Debug_EventScript_ChangeNature_Text_Bashful:
-	.string "Bashful$"
+	.string "Pudique$"
 Debug_EventScript_ChangeNature_Text_Rash:
-	.string "Rash$"
+	.string "Foufou$"
 Debug_EventScript_ChangeNature_Text_Calm:
-	.string "Calm$"
+	.string "Calme$"
 Debug_EventScript_ChangeNature_Text_Gentle:
-	.string "Gentle$"
+	.string "Gentil$"
 Debug_EventScript_ChangeNature_Text_Sassy:
-	.string "Sassy$"
+	.string "Malpoli$"
 Debug_EventScript_ChangeNature_Text_Careful:
-	.string "Careful$"
+	.string "Prudent$"
 Debug_EventScript_ChangeNature_Text_Quirky:
-	.string "Quirky$"
+	.string "Bizarre$"
 
 Debug_EventScript_EWRAMCounters::
 	callnative CheckEWRAMCounters
@@ -778,111 +805,85 @@ Debug_EventScript_EWRAMCounters::
 	end
 
 Debug_EventScript_EWRAMCounters_Text::
-	.string "Follower Steps: {STR_VAR_1}.\n"
-	.string "Fishing Chain: {STR_VAR_2}.$"
+	.string "Pas Follower: {STR_VAR_1}.\n"
+	.string "Chaîne de Pêche: {STR_VAR_2}.$"
 
 Debug_EventScript_FontTest_Text_1::
-	.string "{FONT_SMALL_NARROWER}"                 @ Edit this to test your font
-	.string "Angel Adept Blind Bodice Clique\n"
-	.string "Coast Dunce Docile Enact Eosin\l"
-	.string "Furlong Focal Gnome Gondola Human\l"
-	.string "Hoist Inlet Iodine Justin Jocose\l"
-	.string "Knoll Koala Linden Loads Milliner\l"
-	.string "Modal Number Nodule Onset Oddball\l"
-	.string "Pneumo Poncho Quanta Qophs Rhone\l"
-	.string "Roman Snout Sodium Tundra Tocsin\l"
-	.string "Uncle Udder Vulcan Vocal Whale\l"
-	.string "Woman Xmas Xenon Yunnan Young\l"
+	.string "{FONT_SMALL_NARROWER}Angel Adept\n"
+	.string "Blind Bodice Clique Coast Dunce\p"
+	.string "Docile Enact Eosin Furlong Focal\n"
+	.string "Gnome Gondola Human Hoist Inlet\p"
+	.string "Iodine Justin Jocose Knoll Koala\n"
+	.string "Linden Loads Milliner Modal\p"
+	.string "Number Nodule Onset Oddball\n"
+	.string "Pneumo Poncho Quanta Qophs Rhone\p"
+	.string "Roman Snout Sodium Tundra Tocsin\n"
+	.string "Uncle Udder Vulcan Vocal Whale\p"
+	.string "Woman Xmas Xenon Yunnan Young\n"
 	.string "Zloty Zodiac.$"
 
 Debug_EventScript_FontTest_Text_2::
-	.string "{FONT_SMALL_NARROWER}"                 @ Edit this to test your font
-	.string "Angel angel adept for the nuance loads\n"
-	.string "of the arena cocoa and quaalude. Blind\l"
-	.string "blind bodice for the submit oboe of the\l"
-	.string "club snob and abbot. Clique clique\l"
-	.string "coast for the pouch loco of the franc\l"
-	.string "assoc and accede. Dunce dunce docile\l"
-	.string "for the loudness mastodon of the\l"
-	.string "loud statehood and huddle.$"
+	.string "{FONT_SMALL_NARROWER}Ange,\n"
+	.string "abricot, arène et azur. Benoît\p"
+	.string "boit du cacao brûlant. Chloé\n"
+	.string "cache cinq clés près du cœur.\p"
+	.string "Didier décore une drôle de\n"
+	.string "demeure.$"
 
 Debug_EventScript_FontTest_Text_3::
-	.string "{FONT_SMALL_NARROWER}"                 @ Edit this to test your font
-	.string "Enact enact eosin for the quench coed\n"
-	.string "of the pique canoe and bleep. Furlong\l"
-	.string "furlong focal for the genuflect\l"
-	.string "profound of the motif aloof and offers.\l"
-	.string "Gnome gnome gondola for the impugn\l"
-	.string "logos of the unplug analog and smuggle.\l"
-	.string "Human human hoist for the buddhist\l"
-	.string "alcohol of the riyadh caliph and\l"
-	.string "bathhouse.$"
+	.string "{FONT_SMALL_NARROWER}Élise\n"
+	.string "écrit: été, élève, être et Noël.\p"
+	.string "François goûte un gâteau glacé.\n"
+	.string "Hélène habite un hôtel haut\p"
+	.string "perché.$"
 
 Debug_EventScript_FontTest_Text_4::
-	.string "{FONT_SMALL_NARROWER}"                 @ Edit this to test your font
-	.string "Inlet inlet iodine for the quince\n"
-	.string "champion of the ennui scampi and shiite.\l"
-	.string "Justin justin jocose for the djibouti\l"
-	.string "sojourn of the oranj raj and hajjis.\l"
-	.string "Knoll knoll koala for the banknote\l"
-	.string "lookout of the dybbuk outlook and\l"
-	.string "trekked. Linden linden loads for the\l"
-	.string "ulna monolog of the consul menthol and\l"
-	.string "shallot.$"
+	.string "{FONT_SMALL_NARROWER}Isidore\n"
+	.string "imagine une île infinie. Jules\p"
+	.string "joue avec un jouet jaune. Kilian\n"
+	.string "garde un koala près du kiosque.\p"
+	.string "Léon lit un long livre.$"
 
 Debug_EventScript_FontTest_Text_5::
-	.string "{FONT_SMALL_NARROWER}"                 @ Edit this to test your font
-	.string "Milliner milliner modal for the alumna\n"
-	.string "solomon of the album custom and summon.\l"
-	.string "Number number nodule for the unmade\l"
-	.string "economic of the shotgun bison and\l"
-	.string "tunnel. Onset onset oddball for the\l"
-	.string "abandon podium of the antiquo tempo\l"
-	.string "and moonlit. Pneumo pneumo poncho for\l"
-	.string "the dauphin opossum of the holdup\l"
-	.string "bishop and supplies.$"
+	.string "{FONT_SMALL_NARROWER}Mélanie\n"
+	.string "mêle mûres et melon. Ninon note\p"
+	.string "neuf nombres nouveaux. Oscar\n"
+	.string "observe onze oiseaux. Paul\p"
+	.string "prépare plusieurs poèmes.$"
 
 Debug_EventScript_FontTest_Text_6::
-	.string "{FONT_SMALL_NARROWER}"                 @ Edit this to test your font
-	.string "Quanta quanta qophs for the inquest\n"
-	.string "sheqel of the cinq coq and suqqu. Rhone\l"
-	.string "rhone roman for the burnt porous of the\l"
-	.string "lemur clamor and carrot. Snout snout\l"
-	.string "sodium for the ensnare bosom of the\l"
-	.string "genus pathos and missing. Tundra\l"
-	.string "tundra tocsin for the nutmeg isotope\l"
-	.string "of the peasant ingot and ottoman.$"
+	.string "{FONT_SMALL_NARROWER}Quentin\n"
+	.string "quitte le quai à quinze heures.\p"
+	.string "René rêve près de la rivière.\n"
+	.string "Sophie sèche ses souliers. Théo\p"
+	.string "trouve trois trésors.$"
 
 Debug_EventScript_FontTest_Text_7::
-	.string "{FONT_SMALL_NARROWER}"                 @ Edit this to test your font
-	.string "Uncle uncle udder for the dunes cloud\n"
-	.string "of the hindu thou and continuum. Vulcan\l"
-	.string "vulcan vocal for the alluvial ovoid of\l"
-	.string "the yugoslav chekhov and revved. Whale\l"
-	.string "whale woman for the meanwhile blowout\l"
-	.string "of the forepaw meadow and glowworm.\l"
-	.string "Xmas xmas xenon for the bauxite\l"
-	.string "doxology of the tableaux equinox and\l"
-	.string "exxon.$"
+	.string "{FONT_SMALL_NARROWER}Ulysse\n"
+	.string "utilise une flûte usée. Victor\p"
+	.string "voit vingt vélos verts. William\n"
+	.string "voyage avec wagon et wapiti.\p"
+	.string "Xavier examine deux xylophones.$"
 
 Debug_EventScript_FontTest_Text_8::
-	.string "{FONT_SMALL_NARROWER}"                 @ Edit this to test your font
-	.string "Yunnan yunnan young for the dynamo\n"
-	.string "coyote of the obloquy employ and\l"
-	.string "sayyid. Zloty zloty zodiac for the gizmo\l"
-	.string "ozone of the franz laissez and buzzing.$"
+	.string "{FONT_SMALL_NARROWER}Yann joue\n"
+	.string "au yoyo dans l'Yonne. Zoé\p"
+	.string "zigzague près du zoo. À Évry:\n"
+	.string "âne, ça, Noël, où, sûr, île et\p"
+	.string "forêt.$"
 
 
 Debug_EventScript_FontTest_Text_9::                 @ Special thanks to Nintendo for this nice pangram to test other glyphs
-	.string "{FONT_SMALL_NARROWER}"                 @ Edit this to test your font
-	.string "42 × 138 = 5796.\n"
-	.string "Mr Jock, TV quiz PhD: bags 20% fewer\l"
-	.string "lynx at a café; voilà, they're “worth”\l"
-	.string "♂1/♀1 = ¥1. That's 10 + 9 - 8 = 11\l"
-	.string "Nintendo GBA can connect to a Nintendo\l"
-	.string "GameCube console! He claimed-though I don't\l"
-	.string "believe him-to have done so in an eyes-shut\l"
-	.string "state…?$"
+	.string "{FONT_SMALL_NARROWER}42 × 138 =\n"
+	.string "5796. M. Jock, docteur du quiz\p"
+	.string "TV: 20% de lynx en moins au\n"
+	.string "café; voilà, ils “valent” ♂1/♀1\p"
+	.string "= ¥1.\p"
+	.string "Cela fait 10 + 9 - 8 = 11. La\n"
+	.string "Nintendo GBA peut se connecter à\p"
+	.string "une console Nintendo GameCube!\n"
+	.string "Il prétend l'avoir fait les yeux\p"
+	.string "fermés…?$"
 
 Debug_PrintFontTest::
 	msgbox Debug_EventScript_FontTest_Text_1, MSGBOX_DEFAULT
@@ -934,12 +935,14 @@ Debug_EventScript_FakeRTCNotEnabled::
 	return
 
 Debug_EventScript_FakeRTCNotEnabled_Text_0:
-	.string "You currently do not have Fake RTC\nenabled. Please enable it in include/\lconfig/overworld.h$"
+	.string "Vous n'avez pas le faux RTC\n"
+	.string "activé. Activez le dans:\p"
+	.string "include/ config/overworld.h$"
 
 
 Debug_EventScript_TellTheTime_Text_0:
-	.string "Time and date:\n"
-	.string "{STR_VAR_1}, {STR_VAR_2}:{STR_VAR_3}$"
+	.string "Date et heure: {STR_VAR_1},\n"
+	.string "{STR_VAR_2}:{STR_VAR_3}$"
 
 DebugEventScript_PrintWeekday_Text_0:
-	.string "Time of day: {STR_VAR_1}$"
+	.string "Heure du Jour: {STR_VAR_1}$"

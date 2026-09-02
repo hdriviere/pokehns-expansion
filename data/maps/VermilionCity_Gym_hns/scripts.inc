@@ -289,148 +289,149 @@ VermilionCity_Gym_EventScript_Surge_Defeated::
 	end
 
 VermilionGym_Text_LtSurgeIntro:
-	.string "SURGE: Hey, you little tyke!\p"
-	.string "I have to hand it to you.\n"
-	.string "It may not be very smart to\l"
-	.string "challenge me, but it takes guts!\p"
-	.string "When it comes to electric\n"
-	.string "POKéMON, I'm number one!\p"
-	.string "I've never lost on the\n"
-	.string "battlefield.\p"
-	.string "I'll zap you just like I did my\n"
-	.string "enemies in war!$"
+	.string "BOB: Hé toi! Le lutin!\p"
+	.string "On peut dire que tu as du\n"
+	.string "courage\p"
+	.string "de venir me chercher des noises!\p"
+	.string "Moi j'suis le boss des Pokémon\n"
+	.string "électriques!\p"
+	.string "Je n'ai jamais perdu un combat.\p"
+	.string "J'vais te punir! Comme à\n"
+	.string "l'entraînement!$"
 
 VermilionGym_Text_LtSurgeWinLoss:
-	.string "SURGE: Arrrgh! You are strong!\p"
-	.string "OK, kid. You get THUNDERBADGE!$"
+	.string "BOB: Arrrgh! Trop fort!\p"
+	.string "OK. Voilà ton BADGE FOUDRE!$"
 
 VermilionGym_Text_ReceivedThunderBadge:
-	.string "{PLAYER} received THUNDERBADGE.$"
+	.string "{PLAYER} reçoit le BADGE FOUDRE.$"
 
 VermilionGym_Text_ThunderBadgeInfo:
-	.string "SURGE: THUNDERBADGE increases\n"
-	.string "POKéMON's speed.\p"
-	.string "Consider it proof that you\n"
-	.string "defeated me.\p"
-	.string "You wear it proudly, hear?$"
+	.string "BOB: Le BADGE FOUDRE augmente la\n"
+	.string "VITESSE de tes Pokémon.\p"
+	.string "Ce BADGE est la preuve de ta\n"
+	.string "victoire. Porte-le fièrement!!!$"
 
 VermilionGym_Text_LtSurge_GiveTM:
-	.string "And take this TM. It served me\n"
-	.string "well in the war!$"
+	.string "Et prends cette CT.\n"
+	.string "Elle m'a bien servi pendant\l"
+	.string "la guerre!$"
 
 VermilionGym_Text_LtSurge_ExplainTM:
-	.string "It's SHOCK WAVE.\p"
-	.string "A shockingly accurate move\n"
-	.string "which hits every time!$"
+	.string "C'est ONDE DE CHOC.\p"
+	.string "Une capacité d'une précision\n"
+	.string "foudroyante qui touche toujours!$"
 
 VermilionGym_Text_LtSurgeThunderstone:
-	.string "And take this stone. It has real\n"
-	.string "thunder power!$"
+	.string "Et prends cette pierre. Elle\n"
+	.string "renferme la puissance\l"
+	.string "du tonnerre!$"
 
 
 VermilionGym_Text_LtSurgePostBattle:
-	.string "SURGE: Hey, kid! Still slugging\n"
-	.string "and chugging away?\p"
-	.string "My POKéMON and I are still at it!$"
+	.string "BOB: Hé toi! Tu tiens le coup?\p"
+	.string "Moi et mes Pokémon on a la\n"
+	.string "pêche!$"
 
 VermilionGym_Text_SurgeRematch:
-	.string "SURGE: So, you're now KANTO\n"
-	.string "CHAMPION!\p"
-	.string "Impressive work, kid!\n"
-	.string "But don't think I'm done!\p"
-	.string "How about we have a go again?$"
+	.string "BOB: Alors, tu es maintenant\n"
+	.string "MAÎTRE de KANTO!\p"
+	.string "Beau travail, petit!\n"
+	.string "Mais je n'ai pas fini!\p"
+	.string "Que dirais-tu d'une revanche?$"
 
 VermilionGym_Text_SurgeRematchDefeat:
-	.string "SURGE: Arrrgh! You're still just\n"
-	.string "as strong!$"
+	.string "BOB: Arrrgh! Tu es toujours\n"
+	.string "aussi fort!$"
 
 VermilionGym_Text_GentlemanGregorySeen:
-	.string "You're here to defeat LT.SURGE?\p"
-	.string "Not if I can help it!$"
+	.string "Tu viens défier le MAJOR BOB?\p"
+	.string "C'est ce qu'on va voir!$"
 
 VermilionGym_Text_GentlemanGregoryBeaten:
-	.string "Sorry I failed you,\n"
-	.string "LT.SURGE, sir!$"
+	.string "Pardon, MAJOR BOB!$"
 
 VermilionGym_Text_GentlemanGregoryAfter:
-	.string "When I was still in the army,\n"
-	.string "LT.SURGE saved my life.$"
+	.string "A l'armée, le MAJOR BOB m'a\n"
+	.string "sauvé la vie.$"
 
 VermilionGym_Text_GuitaristVincentSeen:
-	.string "LT.SURGE recognized my potential\n"
-	.string "with electric POKéMON.\p"
-	.string "Think you can beat me?$"
+	.string "Le MAJOR BOB a foi en mes\n"
+	.string "talents de\p"
+	.string "dresseur de Pokémon électriques.\p"
+	.string "Tu crois pouvoir me battre?$"
 
 VermilionGym_Text_GuitaristVincentBeaten:
-	.string "Ooh, how shocking!$"
+	.string "Ooh, sous le choc!$"
 
 VermilionGym_Text_GuitaristVincentAfter:
-	.string "Mom told me not to quit my\n"
-	.string "day job, but what am I supposed\l"
-	.string "to do when I'm not finding\l"
-	.string "success there either?$"
+	.string "Maman m'a dit de ne pas quitter\n"
+	.string "mon travail, mais que faire si\l"
+	.string "je n'y réussis pas non plus?$"
 
 VermilionGym_Text_JugglerHortonSeen:
-	.string "I'm going to take you down!\n"
-	.string "Prepare to be shocked!$"
+	.string "J'vais t'allonger! Oh que oui!$"
 
 VermilionGym_Text_JugglerHortonBeaten:
-	.string "Gwaaah! I was overpowered…$"
+	.string "Gwaaah!$"
 
 VermilionGym_Text_JugglerHortonAfter:
-	.string "Don't get too comfortable about\n"
-	.string "beating me…\p"
-	.string "LT.SURGE is tough.$"
+	.string "Ne te réjouis pas trop de\n"
+	.string "m'avoir\p"
+	.string "battu. Le MAJOR BOB, c'est pas\n"
+	.string "la même limonade.$"
 
 VermilionCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "LT. SURGE has a nickname.\p"
-    .string "People refer to him as the\n"
-    .string "Lightning American!\p"
-    .string "He's an expert on electric\n"
-    .string "POKéMON.\p"
-    .string "FLYING/WATER-type POKéMON match\n"
-    .string "poorly against the ELECTRIC type.\p"
-    .string "Beware of paralysis, too.\p"
-    .string "LT. SURGE is very cautious.\p"
-    .string "He's locked himself in, so it won't\n"
-    .string "be easy getting to him.$"
+	.string "Hé! Graine de champion!\p"
+	.string "Le MAJOR BOB a un surnom.\p"
+	.string "On l'appelle l'Américain\n"
+	.string "survolté!\p"
+	.string "C'est un expert des Pokémon\n"
+	.string "électriques.\p"
+	.string "Les Pokémon de types VOL et EAU\n"
+	.string "résistent mal au type ÉLECTRIK.\p"
+	.string "Attention aussi à la paralysie.\p"
+	.string "Le MAJOR BOB est très prudent.\p"
+	.string "Il s'est barricadé, alors il ne\n"
+	.string "sera pas facile de l'atteindre.$"
 
 VermilionCity_Gym_Text_GymGuyPostVictory::
-	.string "Whew! That was an electrifying\n"
-	.string "bout!\p"
-	.string "It sure made me nervous.$"
+	.string "Fouii! C'était une sacrée\n"
+	.string "rencontre!\p"
+	.string "Ca m'a tout retourné.$"
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-	.string "WINNING TRAINERS:\n"
+	.string "ARÈNE POKéMON DE CARMIN\n"
+	.string "CHAMPION: MAJOR BOB\p"
+	.string "DRESSEURS VAINQUEURS:\n"
 	.string "BLUE, RED$"
 
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED, {PLAYER}$"
+	.string "ARÈNE POKéMON DE CARMIN\n"
+	.string "CHAMPION: MAJOR BOB\p"
+	.string "DRESSEURS VAINQUEURS:\n"
+	.string "BLUE, RED, {PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-    .string "Nope!\n"
-    .string "There's only trash here.$"
+	.string "Non!\n"
+	.string "Il n'y a que des déchets.$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-    .string "Hey! There's a switch under the\n"
-    .string "trash! Turn it on!\p"
-    .string "The first electric lock opened!$"
+	.string "Oh! Il y a un interrupteur sous\n"
+	.string "les déchets! Activons-le!\p"
+	.string "Le premier verrou électrique\n"
+	.string "s'est ouvert!$"
 
 VermilionCity_Gym_Text_SecondLockOpened::
-    .string "The second electric lock opened!\n"
-    .string "The motorized door opened!$"
+	.string "Le second verrou électrique\n"
+	.string "s'est ouvert!\p"
+	.string "La porte motorisée\n"
+	.string "s'est ouverte!$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Nope!\n"
-    .string "There's only trash here.\p"
-    .string "Hey!\n"
-    .string "The electric locks were reset!$"
-
+	.string "Non!\n"
+	.string "Il n'y a que des déchets.\p"
+	.string "Oh!\n"
+	.string "Les verrous électriques ont été\l"
+	.string "réinitialisés!$"

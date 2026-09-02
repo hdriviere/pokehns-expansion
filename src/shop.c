@@ -867,9 +867,9 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
     [WIN_ITEM_DESCRIPTION] = {
         .bg = 0,
         .tilemapLeft = 0,
-        .tilemapTop = 13,
+        .tilemapTop = 12,
         .width = 14,
-        .height = 6,
+        .height = 7,
         .paletteNum = 15,
         .baseBlock = 0x0122,
     },
@@ -880,7 +880,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 12,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x0176,
+        .baseBlock = 0x0184,
     },
     [WIN_QUANTITY_PRICE] = {
         .bg = 0,
@@ -889,7 +889,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 10,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x018E,
+        .baseBlock = 0x019C,
     },
     [WIN_MESSAGE] = {
         .bg = 0,
@@ -898,7 +898,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 27,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x01A2,
+        .baseBlock = 0x01B0,
     },
     [WIN_BERRIES] = {
         .bg = 0,
@@ -907,7 +907,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 10,
         .height = 3,
         .paletteNum = 15,
-        .baseBlock = 0x0222,
+        .baseBlock = 0x0230,
     },
     DUMMY_WIN_TEMPLATE
 };
@@ -920,7 +920,7 @@ static const struct WindowTemplate sShopBuyMenuYesNoWindowTemplates =
     .width = 5,
     .height = 4,
     .paletteNum = 15,
-    .baseBlock = 0x020E,
+    .baseBlock = 0x021C,
 };
 
 static const u8 sShopBuyMenuTextColors[][3] =
@@ -1261,7 +1261,17 @@ static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, s
     }
 
     FillWindowPixelBuffer(WIN_ITEM_DESCRIPTION, PIXEL_FILL(0));
-    BuyMenuPrint(WIN_ITEM_DESCRIPTION, description, 3, 1, 0, COLORID_NORMAL);
+    AddTextPrinterParameterized4(
+        WIN_ITEM_DESCRIPTION,
+        FONT_SMALL_NARROWER,
+        3,
+        4,
+        0,
+        0,
+        sShopBuyMenuTextColors[COLORID_NORMAL],
+        0,
+        description
+    );
 }
 
 static void BuyMenuPrintPriceInList(u8 windowId, u32 itemId, u8 y)

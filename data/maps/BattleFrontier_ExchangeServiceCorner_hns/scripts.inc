@@ -87,41 +87,44 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl_hns::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize_hns:
-	.string "Hello, this is the EXCHANGE SERVICE\n"
-	.string "CORNER.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "Bonjour! Vous êtes au SERVICE\n"
+	.string "D’ECHANGE.\p"
+	.string "Nous échangeons vos POINTS DE\n"
+	.string "COMBAT contre de magnifiques\p"
+	.string "prix.\p"
+	.string "Veuillez choisir un objet.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls_hns:
-	.string "Oh, they're so nice!\n"
-	.string "I wish I had them!\l"
-	.string "Cute cushions!\l"
-	.string "Big plush DOLLS!\l"
-	.string "Little plush DOLLS!\l"
-	.string "I wish I had them all!$"
+	.string "Oh, ce que c’est beau!\n"
+	.string "J’aimerais tout avoir! Les jolis\p"
+	.string "COUSSINS! Les grosses POUPEES!\n"
+	.string "Les petites POUPEES! J’aimerais\p"
+	.string "tout avoir!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant_hns:
-	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
-	.string "through anything to get it, honey!$"
+	.string "Dis à maman ce que tu veux.\p"
+	.string "Si tu veux quelque chose, je\n"
+	.string "ferai tout pour te l’offrir, mon\p"
+	.string "chéri!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher_hns:
-	.string "If I can get hold of the items here,\n"
-	.string "my POKéMON will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+	.string "Si j’arrive à me procurer ces\n"
+	.string "objets,  mes POKéMON vont\p"
+	.string "devenir plus forts.\p"
+	.string "Oui, plutôt deux fois qu’une! Il\n"
+	.string "me faut ces objets!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll_hns:
-	.string "Hah?\n"
-	.string "What are you gawking at?\p"
-	.string "I don't like you staring at my plush\n"
-	.string "doll like that.\p"
-	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, SMOOCHUM?$"
+	.string "Tiens? Mais qu’est-ce que tu\n"
+	.string "regardes, là?\p"
+	.string "Arrête de reluquer ma poupée\n"
+	.string "comme ça.\p"
+	.string "Si tu en veux une, tu n’as qu’à\n"
+	.string "l’acheter! Pas vrai, LIPPOUTI?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord_hns:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the BATTLE facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+	.string "Dis, tu savais ça?\p"
+	.string "Si tu rejoues et améliores ton\n"
+	.string "résultat dans un bâtiment de la\p"
+	.string "ZONE DE COMBAT, tu obtiens plus\n"
+	.string "de POINTS DE COMBAT.$"

@@ -76,58 +76,65 @@ Gate_GoldenrodCity_Route35_EventScript_Fisher::
 	end
 
 Route35GoldenrodGate_Text_RandyAskFavor:
-	.string "Excuse me, kid! Can you do a guy\n"
-	.string "a favor?\p"
-	.string "Can you take this POKéMON with MAIL\n"
-	.string "to my friend?\p"
-	.string "He's on ROUTE 31.$"
+	.string "Minute papillon! Tu peux me\n"
+	.string "rendre service?\p"
+	.string "Tu peux apporter ce Pokémon et\n"
+	.string "sa LETTRE à mon pote?\p"
+	.string "Il est sur la ROUTE 31.$"
 
 Route35GoldenrodGate_Text_RandyThanks:
-	.string "You will? Perfect! Thanks, kid!\p"
-	.string "My pal's a chubby guy who snoozes\n"
-	.string "all the time.\p"
-	.string "You'll recognize him right away!$"
+	.string "Tu veux bien? Merci!\p"
+	.string "Mon pote est gras et il pionce\n"
+	.string "tout le temps.\p"
+	.string "Tu vas le reconnaître, c'est\n"
+	.string "sûr!$"
 
 Route35GoldenrodGate_Text_ReceivedMonWithMail:
-	.string "{PLAYER} received a POKéMON with MAIL.$"
+	.string "{PLAYER} reçoit un Pokémon avec\n"
+	.string "une LETTRE.$"
 
 Route35GoldenrodGate_Text_RandyWeirdTree:
-	.string "Make sure to put it at the front of\n"
-	.string "your team when you find my friend!\p"
-	.string "ROUTE 31!\p"
-	.string "Oh, yeah. There was a weird tree\n"
-	.string "blocking the road.\p"
-	.string "I wonder if it's been cleared?$"
+	.string "Place-le en tête de ton équipe\n"
+	.string "quand tu trouveras mon ami!\p"
+	.string "Sur la ROUTE 31!\p"
+	.string "Ah oui. Un arbre étrange\n"
+	.string "bloquait le chemin.\p"
+	.string "Je me demande s'il a été dégagé.$"
 
 Route35GoldenrodGate_Text_CantCarryMoreMon:
-	.string "You can't carry another POKéMON…$"
+	.string "Tu ne peux plus porter de\n"
+	.string "Pokémon!$"
 
 Route35GoldenrodGate_Text_RandyNeverMind:
-	.string "Oh… Never mind, then…$"
+	.string "Bon. Laisse tomber alors...$"
 
 Route35GoldenrodGate_Text_ThanksForDelivery:
-	.string "Thanks, kid! You made the delivery\n"
-	.string "for me!\p"
-	.string "Here's something for your trouble!$"
+	.string "Merci bien! Tu as bien fait la\n"
+	.string "livraison!\p"
+	.string "Voilà pour toi!$"
 
 Route35GoldenrodGate_Text_RandyMyPalSnoozing:
-	.string "My pal was snoozing, right? Heh,\n"
-	.string "what'd I say?$"
+	.string "Mon pote pionce comme un fou,\n"
+	.string "non? Quelle classe!$"
 
 Route35GoldenrodGate_Text_PokefanF_TreeBlocking:
-	.string "A strange tree is blocking the road.\p"
-	.string "It wriggles around if you talk to it.\p"
-	.string "I heard it became wild when someone\n"
-	.string "watered it with a SQUIRTBOTTLE.$"
+	.string "Un arbre bizarre\n"
+	.string "bloque le chemin.\p"
+	.string "Il gigote si on\n"
+	.string "s’en approche.\p"
+	.string "Il paraît qu’il\n"
+	.string "devient dingue si\p"
+	.string "on l’asperge avec\n"
+	.string "un CARAPUCE à O.$"
 
 Route35GoldenrodGate_Text_PokefanF_Lullaby:
-	.string "I like the POKéMON Lullaby they play\n"
-	.string "on the radio.$"
+	.string "J'aime la berceuse Pokémon qui\n"
+	.string "passe à la radio.$"
 
 Route35GoldenrodGate_Text_Fisher:
-	.string "I wonder how many kinds of POKéMON\n"
-	.string "there are in the world.\p"
-	.string "Three years ago, PROF.OAK said that\n"
-	.string "there were 150 different kinds.\p"
-	.string "But recently I heard there's\n"
-	.string "over 400!$"
+	.string "Combien d'espèces de Pokémon\n"
+	.string "existent dans le monde?\p"
+	.string "Il y a trois ans, le PROF.CHEN\n"
+	.string "comptait 150 espèces.\p"
+	.string "Mais récemment, j'ai entendu\n"
+	.string "y en avait plus de 400!$"

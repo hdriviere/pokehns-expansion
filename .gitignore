@@ -3,6 +3,8 @@
 *.i
 *.elf
 *.gba
+*.nds
+*.gbc
 !data/*.gba
 *.sgm
 *.sa1
@@ -29,6 +31,8 @@ tools/agbcc
 *.sa*
 Thumbs.db
 build/
+/translations/reference/hgss/
+/translations/reference/pokeemerald-fr/
 .DS_Store
 *.ddump
 .idea/

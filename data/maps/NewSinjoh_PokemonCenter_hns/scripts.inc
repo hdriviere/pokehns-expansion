@@ -20,22 +20,22 @@ NewSinjoh_EventScript_Artist::
 	end
 
 NewSinjoh_Text_Artist:
-	.string "I've found great inspiration in\n"
-	.string "this hidden town!\p"
-	.string "Don't you think the landscape\n"
-    .string "is breathtaking?$"
+	.string "Cette ville cachée m'inspire\n"
+	.string "énormément!\p"
+	.string "Tu ne trouves pas ce paysage\n"
+    .string "époustouflant?$"
 
 Text_ItemGiveaway:
-	.string "I see!\n"
-	.string "You must be an artist as well!\p"
-	.string "I happen to have an extra something\n"
-	.string "that'll help you notice the tiny\l"
-    .string "details of life!$"
+	.string "Je vois!\n"
+	.string "Tu dois aussi être artiste!\p"
+	.string "J'ai justement un objet en plus\n"
+	.string "qui t'aidera à remarquer les\l"
+    .string "petits détails de la vie!$"
 
 NewSinjoh_Text_Artist_No:
-    .string "You aren't one of those anti-tourist\n"
-    .string "types are you?\n"
-	.string "Beauty is meant to be shared.$"
+    .string "Tu n'es pas anti-touristes,\n"
+    .string "au moins?\p"
+	.string "La beauté doit être partagée.$"
 
 NewSinjoh_EventScript_ZoomLens_No::
 	msgbox NewSinjoh_Text_Artist_No, MSGBOX_DEFAULT
@@ -48,14 +48,15 @@ NewSinjoh_EventScript_ZoomLens_Gotten::
 	end
 
 Text_WasGiven_ZoomLensAlready:
-	.string "I hope you enjoy that lens!$"
+	.string "J'espère que cette lentille te\n"
+	.string "plaît!$"
 
 NewSinjoh_EventScript_FemAce::
 	msgbox NewSinjoh_Text_FemAce, MSGBOX_NPC
 	end
 
 NewSinjoh_Text_FemAce:
-	.string "We don't have many modern\n"
-	.string "commodities in NEW SINJOH.\p"
-	.string "But at least we have this\n"
-	.string "POKéMON CENTER.$"
+	.string "Nous n'avons guère de commodités\n"
+	.string "modernes au NOUVEAU SINJOH.\p"
+	.string "Mais au moins, nous avons ce\n"
+	.string "CENTRE POKéMON.$"

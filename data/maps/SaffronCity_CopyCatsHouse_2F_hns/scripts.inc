@@ -209,64 +209,73 @@ SaffronCity_CopyCatsHouse_2F_EventScript_CopycatAfterDollReturned_Female::
 	end
 
 Copycat_Text_Male_1:
-	.string "{PLAYER}: Hi! Do you like POKéMON?\p"
-	.string "{PLAYER}: Uh, no, I just asked you.\p"
-	.string "{PLAYER}: Huh? You're strange!$"
+	.string "{PLAYER}: Salut! Tu aimes les\n"
+	.string "Pokémon?\p"
+	.string "{PLAYER}: Non, pas moi, toi!\p"
+	.string "{PLAYER}: Hé! Tu fais quoi?!\n"
+	.string "T’es trop bizarre!$"
 
 Copycat_Text_QuickMimicking:
-	.string "COPYCAT: Hmm? Quit mimicking?\p"
-	.string "But that's my favorite hobby!$"
+	.string "COPIEUSE: Hmm? Arrêter de\n"
+	.string "copier?\p"
+	.string "Mais... C'est toute ma vie!$"
 
 Copycat_Text_Male_2:
-	.string "{PLAYER}: Hi! I heard that you\n"
-	.string "lost your favorite POKé DOLL.\p"
-	.string "{PLAYER}: If I find it, you'll give\n"
-	.string "me a rail PASS?\p"
-	.string "{PLAYER}: I'll go find it for you.\p"
-	.string "You think you lost it when you\n"
-	.string "went to VERMILION CITY?$"
+	.string "{PLAYER}: Salut! On dit que tu\n"
+	.string "as\p"
+	.string "perdu ta Poké Poupée préférée.\p"
+	.string "{PLAYER}: Si je la trouves, tu\n"
+	.string "me donnes un PASSE?\p"
+	.string "{PLAYER}: Je vais la chercher.\p"
+	.string "Tu l'as perdue en allant à\n"
+	.string "CARMIN SUR MER?$"
 
 Copycat_Text_Worried:
-	.string "COPYCAT: Pardon?\p"
-	.string "I shouldn't decide what you\n"
-	.string "should do?\p"
-	.string "But I'm really worried… What if\n"
-	.string "someone finds it?$"
+	.string "Copieuse: Pardon?\n"
+	.string "Tu ne veux pas\p"
+	.string "que je prenne des\n"
+	.string "décisions pour toi?\p"
+	.string "Mais j’ai si peur! Et si\n"
+	.string "quelqu’un d’autre la trouve?$"
 
 Copycat_Text_GiveDoll:
-	.string "COPYCAT: Yay! That's my CLEFAIRY\n"
-	.string "POKé DOLL!\p"
-	.string "See the tear where the right leg\n"
-	.string "is sewn on? That's proof!$"
+	.string "COPIEUSE: Hé! C'est ma Poké Poupée\n"
+	.string "MELOFEE!\p"
+	.string "Elle est un peu déchirée près de\p"
+	.string "la jambe! C'est la mienne!$"
 
 Copycat_Text_GivePass:
-	.string "OK. Here's the MAGNET TRAIN PASS\n"
-	.string "like I promised!$"
+	.string "OK. Voilà le PASSE du TRAIN\n"
+	.string "comme promis!$"
 
 Copycat_Text_ExplainPass:
-	.string "COPYCAT: That's the PASS for the\n"
-	.string "MAGNET TRAIN.\p"
-	.string "The rail company man gave me\n"
-	.string "that when they tore down our old\l"
-	.string "house for the STATION.$"
+	.string "COPIEUSE: C'est le PASSE pour le\n"
+	.string "TRAIN MAGNET.\p"
+	.string "On me l'a donné quand ils ont\n"
+	.string "tout\p"
+	.string "cassé ma maison pour construire\n"
+	.string "la STATION.$"
 
 Copycat_Text_Male_3:
-	.string "{PLAYER}: Hi! Thanks a lot for the\n"
-	.string "rail PASS!\p"
+	.string "{PLAYER}: Salut! Merci pour le\n"
+	.string "PASSE!\p"
 	.string "{PLAYER}: Pardon?\p"
-	.string "{PLAYER}: Is it that fun to mimic\n"
-	.string "my every move?$"
+	.string "{PLAYER}: Tu vas t'arrêter de\n"
+	.string "répéter c'que je dis!$"
 
 Copycat_Text_ItsAScream:
-	.string "COPYCAT: You bet! It's a scream!$"
+	.string "Copieuse: Ah! Que c’est drôle\n"
+	.string "d’imiter les gens!$"
 
 Copycat_Text_Dodrio1:
-	.string "DODRIO: Gii giii!$"
+	.string "DODRIO: Driii!$"
 
 Copycat_Text_Dodrio2:
-	.string "MIRROR, MIRROR ON THE WALL,\n"
-	.string "WHO'S THE FAIREST ONE OF ALL?$"
+	.string "MON BEAU MIROIR, QUI EST LA PLUS\p"
+	.string "BELLE DE TOUTES? HEIN? C'EST\n"
+	.string "QUI?$"
 
 Copycat_Text_2FDoll:
-	.string "This is a rare POKéMON! Huh?\p"
-	.string "It's only a doll…$"
+	.string "C'est un Pokémon super rare!\n"
+	.string "Hein?\p"
+	.string "Une poupée...$"

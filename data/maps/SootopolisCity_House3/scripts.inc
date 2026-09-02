@@ -20,23 +20,26 @@ SootopolisCity_House3_EventScript_Girl::
 	end
 
 SootopolisCity_House3_Text_JuanHasManyFansDoYou:
-	.string "You're a POKéMON TRAINER, aren't you?\p"
-	.string "SOOTOPOLIS's JUAN has many fans.\n"
-	.string "Even more than his student WALLACE!\p"
-	.string "Do you have any?$"
+	.string "Tu es DRESSEUR, non?\p"
+	.string "JUAN d’ATALANOPOLIS a de\n"
+	.string "nombreux fans. Encore plus que\p"
+	.string "son élève MARC!\p"
+	.string "Et toi, tu en as?$"
 
 SootopolisCity_House3_Text_YouMustBePrettyStrong:
-	.string "Oh, then you must be pretty strong.$"
+	.string "Oh, quelle puissance tu dois\n"
+	.string "avoir!$"
 
 SootopolisCity_House3_Text_LonesomeTryWorkingHarder:
-	.string "Oh, dear…\n"
-	.string "That's a little lonesome.\p"
-	.string "Try working a little harder to get\n"
-	.string "a fan following.$"
+	.string "Oh, mon p’tit… Tu es un peu\n"
+	.string "solitaire.\p"
+	.string "Essaie de travailler plus dur\n"
+	.string "pour avoir des fans à tes côtés.$"
 
 SootopolisCity_House3_Text_TrainerFanClubWasWild:
-	.string "Dedicated fans come over from even\n"
-	.string "outside of HOENN.\p"
-	.string "It was really wild when I went to the\n"
-	.string "TRAINER FAN CLUB in LILYCOVE.$"
+	.string "Les fans dévoués viennent même\n"
+	.string "d’en dehors de HOENN.\p"
+	.string "C’était la folie quand je suis\n"
+	.string "allée au FAN CLUB DES DRESSEURS\p"
+	.string "à NENUCRIQUE.$"
 

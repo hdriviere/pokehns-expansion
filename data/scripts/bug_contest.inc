@@ -124,80 +124,80 @@ BugContest_EventScript_SideEnd::
 	end
 
 BugContest_Text_Judging0::
-	.string "The contest has now concluded.\n"
-	.string "Please pick the POKéMON you would\l"
-	.string "like to keep and have judged.$"
+	.string "Le concours est maintenant terminé.\n"
+	.string "Choisis le POKéMON que tu souhaites\l"
+	.string "garder et faire juger.$"
 
 BugContest_Text_Judging1::
-	.string "We will now judge the POKéMON\n"
-	.string "you've caught.\p"
+	.string "On va maintenant juger les POKéMON\n"
+	.string "que tu as capturés.\p"
 	.string "...................\n"
 	.string "...................\p"
-	.string "We have chosen the winners! Are\n"
-	.string "ready for this?$"
+	.string "Nous avons choisi les vainqueurs!\n"
+	.string "Tu es prêt?$"
 
 BugContest_Text_WrongChoiceMon:
-	.string "Please pick the POKéMON you would\n"
-	.string "like to keep and have judged.$"
+	.string "Choisis le POKéMON que tu souhaites\n"
+	.string "garder et faire juger.$"
 
 BugContest_Text_DidntCatch:
-	.string "Oh no! You didn't catch a POKéMON.\n"
-	.string "You've forfeited the competition.\p"
-	.string "Your party will now be returned.$"
+	.string "Oh non! Tu n'as capturé aucun POKéMON.\n"
+	.string "Tu as déclaré forfait.\p"
+	.string "Ton équipe va maintenant t'être rendue.$"
 
 BugContest_Text_TimesUp:
-	.string "Ding-dong! Time's up!$"
+	.string "Ding-dong! Le temps est écoulé!$"
 
 BugContest_Text_WhiteOut:
-	.string "{PLAYER} is out of useable POKéMON.\n"
-	.string "{PLAYER} forfeited the contest.$"
+	.string "{PLAYER} n'a plus de POKéMON en état\n"
+	.string "de combattre et déclare forfait.$"
 
 BugContest_Text_First1:
-	.string "Placing third is the COOLTRAINER\n"
-	.string "BELINDA, who caught a wriggling\l"
-	.string "BUTTERFREE!$"
+	.string "En troisième place: la TOPDRESSEUSE\n"
+	.string "BELINDA, qui a capturé un PAPILUSION\l"
+	.string "frétillant!$"
 BugContest_Text_First2:
-	.string "Placing second is the BUGCATCHER\n"
-	.string "SHAUN, who caught a writhing\l"
-	.string "PINSIR!$"
+	.string "En deuxième place: le SCOUT SHAUN,\n"
+	.string "qui a capturé un SCARABRUTE se\l"
+	.string "tortillant!$"
 BugContest_Text_First3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "{PLAYER}, who caught a whopping\n"
+	.string "Le gagnant du Concours de Capture\n"
+	.string "d'insecte est…\p"
+	.string "{PLAYER}, qui a capturé un énorme\n"
 	.string "{STR_VAR_1}!$"
 
 BugContest_Text_Second1:
-	.string "Placing second is the COOLTRAINER\n"
-	.string "BELINDA, who caught a wriggling\l"
-	.string "BUTTERFREE!$"
+	.string "En deuxième place: la TOPDRESSEUSE\n"
+	.string "BELINDA, qui a capturé un PAPILUSION\l"
+	.string "frétillant!$"
 BugContest_Text_Second2:
-	.string "Placing second is {PLAYER}, who\n"
-	.string "caught a writhing {STR_VAR_1}!$"
+	.string "En deuxième place: {PLAYER}, qui a\n"
+	.string "capturé un {STR_VAR_1} se tortillant!$"
 BugContest_Text_Second3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "BUGCATCHER SHAUN, who caught a\n"
-	.string "whopping PINSIR!$"
+	.string "Le gagnant du Concours de Capture\n"
+	.string "d'insecte est…\p"
+	.string "Le SCOUT SHAUN, qui a capturé un\n"
+	.string "énorme SCARABRUTE!$"
 
 BugContest_Text_Third1:
-	.string "Placing third is {PLAYER}, who\n"
-	.string "caught a wriggling {STR_VAR_1}!$"
+	.string "En troisième place: {PLAYER}, qui a\n"
+	.string "capturé un {STR_VAR_1} frétillant!$"
 BugContest_Text_Third2:
-	.string "Placing second is the COOLTRAINER\n"
-	.string "BELINDA, who caught a writhing\l"
-	.string "BUTTERFREE!$"
+	.string "En deuxième place: la TOPDRESSEUSE\n"
+	.string "BELINDA, qui a capturé un PAPILUSION\l"
+	.string "se tortillant!$"
 BugContest_Text_Third3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "BUGCATCHER SHAUN, who caught a\n"
-	.string "whopping PINSIR!$"
+	.string "Le gagnant du Concours de Capture\n"
+	.string "d'insecte est…\p"
+	.string "Le SCOUT SHAUN, qui a capturé un\n"
+	.string "énorme SCARABRUTE!$"
 
 BugContest_Text_TakePartInFuture:
-	.string "Thank you for participating!\n"
-	.string "We hope you'll take part in the\l"
-	.string "future.$"
+	.string "Merci d'avoir participé!\n"
+	.string "Nous espérons te revoir lors d'un\l"
+	.string "prochain concours.$"
 
 BugContest_Text_TransferAndReturn:
-	.string "Your chosen BUG POKéMON will now\n"
-	.string "be sent to the PC and your party\l"
-	.string "will be returned to you.$"
+	.string "Le POKéMON INSECTE choisi va être\n"
+	.string "envoyé au PC et ton équipe va\l"
+	.string "maintenant t'être rendue.$"

@@ -31,19 +31,30 @@ SafariZoneGate_PokemonCenter_Text_Boy::
 	end
 
 SafariZoneGate_PokemonCenter_Text_NPC1:
-	.string "Those who come to a POKéMON CENTER\n"
-	.string "often take good care of their POKéMON.\p"
-	.string "Wouldn't you agree?$"
+	.string "Les gens qui viennent\n"
+	.string "très souvent au\p"
+	.string "Centre Pokémon\n"
+	.string "sont ceux qui\p"
+	.string "s’occupent le mieux de leurs\n"
+	.string "Pokémon!\p"
+	.string "Tu crois pas?$"
 
 SafariZoneGate_PokemonCenter_Text_NPC2:
-	.string "After a long walk in the mountains to\n"
-	.string "find a POKéMON CENTER, when you're\l"
-	.string "just about to fall flat...\p"
-	.string "Then it feels like you are in paradise!$"
+	.string "Quand on est au bord\n"
+	.string "de l’épuisement,\p"
+	.string "après avoir traîné\n"
+	.string "sur un chemin de\p"
+	.string "montagne interminable, voir le\n"
+	.string "toit\p"
+	.string "d’un Centre Pokémon, c’est comme\p"
+	.string "apercevoir une oasis après avoir\p"
+	.string "traversé le désert!$"
 
 SafariZoneGate_PokemonCenter_Text_SafariSong:
-	.string "Safari, safari, it is so much fun.\n"
-	.string "Safari, safari, so interesting, huh!\p"
-	.string "So many POKéMON are waiting for us!\p"
-	.string "...That's a song I made up.\n"
-	.string "I sing it when I am in the SAFARI ZONE.$"
+	.string "Le Parc Safari, on y rit! Le\n"
+	.string "Parc Safari, c’est la vie!\p"
+	.string "... C’est une\n"
+	.string "chanson de ma\p"
+	.string "composition. J’aime\n"
+	.string "la chanter en me\p"
+	.string "promenant dans le parc!$"

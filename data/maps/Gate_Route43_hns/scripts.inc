@@ -70,39 +70,42 @@ Gate_Route43_Rocket_EventScript_Rockets::
 	end
 
 Gate_Route43_Rocket_Text_TollFee:
-    .string "Hold it there, kiddo!\p"
-    .string "The toll is ¥500 to go\n"
-    .string "through.$"
+	.string "Halte-là, gamin!\p"
+	.string "Le péage coûte 500 ¥.$"
 
 Gate_Route43_Rocket_Text_ThankYou:
-    .string "Thank you very much!$"
+    .string "Héhéhé, merci bien!$"
 
 Gate_Route43_Rocket_Text_AllYouGot:
-    .string "Then pay what you have, please.$"
+    .string "Alors donne ce que t'as.$"
 
 Gate_Route43_Rocket_Text_KickOut:
-	.string "Wow!\p"
-	.string "You're totally broke!\p"
-	.string "I almost feel sorry for you.\p"
-	.string "Okay, you can pass...\p"
-	.string "Just don't tell the other guard,\n"
-	.string "okay?$"
+	.string "Waouh!\p"
+	.string "Tu es complètement fauché!\p"
+	.string "J'en aurais presque pitié.\p"
+	.string "Bon, tu peux passer...\p"
+	.string "Mais ne le dis pas\n"
+	.string "à l'autre garde,l"
+	.string "d'accord?$"
 
 Gate_Route43_Rocket_Text_MakingABundle:
-    .string "He-he-he. We're making a bundle.\p"
-    .string "Everyone wants to see what's going\n"
-    .string "on up at LAKE OF RAGE.$"
+    .string "Héhéhé... Tout le\n"
+    .string "monde entend parler\p"
+    .string "de ce qu’il se\n"
+    .string "passe au Lac Colère,\p"
+    .string "et ils payent tous pour aller\n"
+    .string "voir!$"
 
 Route43Gate_Text_OfficerFoundTM:
-    .string "I got chased from my post by these\n"
-    .string "thugs in black.\p"
-    .string "They left this behind.\p"
-    .string "It makes me uncomfortable. Could\n"
-    .string "you take it away?$"
+    .string "Des voyous en noir m'ont fait\n"
+    .string "quitter mon poste.\p"
+    .string "Ils ont oublié ce truc en plus.\p"
+    .string "J'veux pas le garder, moi... Tu\n"
+    .string "le veux?$"
 
 Gate_Route43_Text_ReceivedTM30:
-    .string "{PLAYER} received TM36.$"
+	.string "{PLAYER} reçoit la CT36.$"
 
 Gate_Route43_Text_OfficerAvoidGrass:
-    .string "Use this gate to avoid walking in\n"
-    .string "the grass.$"
+    .string "Emprunte cette porte pour éviter\n"
+    .string "les hautes herbes.$"

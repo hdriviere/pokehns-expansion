@@ -50,38 +50,40 @@ UnionCave_B2F_EventScript_Item_MaxRevive::
 	end
 
 UnionCave_B2F_Text_CooltrainermNickSeen:
-	.string "There are two kinds of people.\p"
-	.string "Those who have style, and those\n"
-	.string "who don't.\p"
-	.string "What kind of person are you?$"
+	.string "Il existe 2 types de personnes.\p"
+	.string "Ceux qui ont la classe, et ceux\n"
+	.string "qui l'ont pas.\p"
+	.string "Toi... T'as la classe?$"
 
 UnionCave_B2F_Text_CooltrainermNickBeaten:
-	.string "You've got dazzling style!$"
+	.string "Eblouissant!$"
 
 UnionCave_B2F_Text_CooltrainermNickAfter:
-	.string "Your POKéMON style is stunning and\n"
-	.string "colorful, I admit.\p"
-	.string "You'll just keep getting better!$"
+	.string "Tes Pokémon ont la super classe!\n"
+	.string "Et c'est bien.\p"
+	.string "Et tu vas encore t'améliorer!$"
 
 UnionCave_B2F_Text_CooltrainerfGwenSeen:
-	.string "I'm in training. Care for a round?$"
+	.string "Je m’entraîne. Ça te tente?$"
 
 UnionCave_B2F_Text_CooltrainerfGwenBeaten:
-	.string "Aww, no! You're too good for me.$"
+	.string "Aaah, ça suffit! T’es trop\n"
+	.string "balèze pour moi!$"
 
 UnionCave_B2F_Text_CooltrainerfGwenAfter:
-	.string "I'm going to train by myself until I\n"
-	.string "improve.$"
+	.string "Je vais continuer à m’entraîner\n"
+	.string "seule!$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaSeen:
-	.string "If the POKéMON I liked were there,\n"
-	.string "I'd go anywhere.\p"
-	.string "That's what a real trainer does.$"
+	.string "J'irais n'importe où avec le\n"
+	.string "Pokémon de mes rêves.\p"
+	.string "C'est ça la beauté d'être\n"
+	.string "dresseur.$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaBeaten:
-	.string "I'd rather pet my babies than this!$"
+	.string "Vive l'amour! Vive les fleurs!$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaAfter:
-	.string "Just once a week, a POKéMON comes to\n"
-	.string "the water's edge.\p"
-	.string "I wanted to see that POKéMON…$"
+	.string "Une fois par semaine, un Pokémon\n"
+	.string "vient au bord de l’eau.\p"
+	.string "Je veux le voir, ce Pokémon!!!$"

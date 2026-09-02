@@ -103,7 +103,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .speciesName = _("??????????"),
         .cryId = CRY_PORYGON,
         .natDexNum = NATIONAL_DEX_NONE,
-        .categoryName = _("Unknown"),
+        .categoryName = _("Inconnu"),
         .height = 0,
         .weight = 0,
         .description = gFallbackPokedexText,
@@ -208,10 +208,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .height = 0,
         .weight = 0,
         .description = COMPOUND_STRING(
-            "This is a newly discovered Pokémon.\n"
-            "It is currently under investigation.\n"
-            "No detailed information is available\n"
-            "at this time."),
+            "Ce POKéMON vient d'être découvert.\n"
+            "Il fait encore l'objet de recherches.\n"
+            "Aucune information détaillée n'est\n"
+            "disponible pour le moment."),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

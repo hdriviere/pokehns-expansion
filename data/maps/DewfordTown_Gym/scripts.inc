@@ -283,177 +283,196 @@ DewfordTown_Gym_EventScript_GymStatue::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
-	.string "FIGHTING-type POKéMON.\p"
-	.string "Going against him with NORMAL-type\n"
-	.string "POKéMON is asking for trouble.\p"
-	.string "FIGHTING POKéMON will lay a serious\n"
-	.string "smack down on NORMAL POKéMON,\l"
-	.string "so be careful!\p"
-	.string "What's worse, the GYM is as dark as\n"
-	.string "the ocean floor.\p"
-	.string "But it will get brighter after defeating\n"
-	.string "the TRAINERS in your way.\p"
-	.string "Hey, okay, go for it!$"
+	.string "Hé, comment ça va, futur MAITRE\n"
+	.string "{PLAYER}?\p"
+	.string "BASTIEN, le CHAMPION D’ARENE de\n"
+	.string "MYOKARA a des POKéMON de type\p"
+	.string "COMBAT.\p"
+	.string "Si tu comptes te battre contre\n"
+	.string "lui avec des POKéMON de type\p"
+	.string "NORMAL, tu risques la déception.\p"
+	.string "Les POKéMON COMBAT infligent de\n"
+	.string "sérieux dégâts aux POKéMON de\p"
+	.string "type NORMAL. Sois prudent!\p"
+	.string "En plus, l’ARENE est plongée\n"
+	.string "dans l’obscurité la plus totale.\p"
+	.string "Mais elle s’illuminera quand tu\n"
+	.string "auras vaincu les DRESSEURS sur\p"
+	.string "ton chemin.\p"
+	.string "Bon, allez, c’est parti!$"
 
 DewfordTown_Gym_Text_GymGuidePostVictory:
-	.string "Whoah! It's turned too bright in here!\p"
-	.string "Your future is bright, too!$"
+	.string "Ouah! Il y a trop de lumière,\n"
+	.string "ici!\p"
+	.string "Toi aussi, tu as l’air d’être\n"
+	.string "une lumière!$"
 
 DewfordTown_Gym_Text_TakaoIntro:
-	.string "Might is right!\n"
-	.string "Come on!$"
+	.string "La puissance est ma raison\n"
+	.string "d’être! Allez, bats-toi!$"
 
 DewfordTown_Gym_Text_TakaoDefeat:
-	.string "Not enough power…$"
+	.string "Pas assez de puissance…$"
 
 DewfordTown_Gym_Text_TakaoPostBattle:
-	.string "Your skill overcame my strength!\n"
-	.string "Your technique is commendable!$"
+	.string "Ta compétence a surpassé ma\n"
+	.string "force! Ta technique est\p"
+	.string "impressionnante!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "There's no need for BRAWLY to be\n"
-	.string "involved!\p"
-	.string "I'll crush you!$"
+	.string "Inutile de déranger BASTIEN! Je\n"
+	.string "vais t’écraser moi-même!$"
 
 DewfordTown_Gym_Text_JocelynDefeat:
-	.string "But… How?\n"
-	.string "How could I lose so easily?$"
+	.string "Mais… Comment? Comment as-tu pu\n"
+	.string "gagner si facilement?$"
 
 DewfordTown_Gym_Text_JocelynPostBattle:
-	.string "I'm not going to waste this loss.\n"
-	.string "I'll use it to motivate me to train!\p"
-	.string "One day I'll become a GYM LEADER…\p"
-	.string "No, I'll become the POKéMON LEAGUE\n"
-	.string "CHAMPION!$"
+	.string "Je ne vais pas rester sur une\n"
+	.string "défaite. Je vais me motiver pour\p"
+	.string "l’entraînement!\p"
+	.string "Un jour, je deviendrai CHAMPION\n"
+	.string "D’ARENE…\p"
+	.string "Non, je deviendrai MAITRE de la\n"
+	.string "LIGUE POKéMON!$"
 
 DewfordTown_Gym_Text_LauraIntro:
-	.string "Don't you dare brush me off!\n"
-	.string "It's not my fault if you cry!$"
+	.string "Comment oses-tu me provoquer?\n"
+	.string "Bon, tu ne viendras pas pleurer!$"
 
 DewfordTown_Gym_Text_LauraDefeat:
-	.string "Waaaaaaah!\n"
-	.string "I lost!$"
+	.string "Ouiiiiiiiiiin! J’ai perdu!$"
 
 DewfordTown_Gym_Text_LauraPostBattle:
-	.string "I battle in the dark to make my heart\n"
-	.string "stronger.\p"
-	.string "But because it's so dark, I can never\n"
-	.string "see BRAWLY's face…$"
+	.string "J’ai l’habitude de me battre\n"
+	.string "dans le noir pour endurcir mon\p"
+	.string "cœur.\p"
+	.string "Mais il fait toujours si noir\n"
+	.string "que je n’ai jamais vu le visage\p"
+	.string "de BASTIEN…$"
 
 DewfordTown_Gym_Text_LilithIntro:
-	.string "Ufufu…\n"
-	.string "Are you stumbling around in the dark?$"
+	.string "Ouh… Fais attention, tu vas\n"
+	.string "tomber!$"
 
 DewfordTown_Gym_Text_LilithDefeat:
-	.string "Oh, you…\n"
-	.string "I don't want to know you!$"
+	.string "Oh, toi… Je n’ai pas envie de te\n"
+	.string "connaître!$"
 
 DewfordTown_Gym_Text_LilithPostBattle:
-	.string "You deserve to stay lost and end up\n"
-	.string "back at the entrance again!$"
+	.string "Je te souhaite de te perdre et\n"
+	.string "de te retrouver à l’entrée!$"
 
 DewfordTown_Gym_Text_BrendenIntro:
-	.string "I'll show you the gumption of\n"
-	.string "a sailing man!$"
+	.string "Tu vas voir! On ne la fait pas à\n"
+	.string "un vieux loup de mer comme moi!$"
 
 DewfordTown_Gym_Text_BrendenDefeat:
-	.string "How'd this happen?\n"
-	.string "It's not like me to lose this way!$"
+	.string "Je t’assure, ce n’est pas mon\n"
+	.string "genre de perdre comme ça!$"
 
 DewfordTown_Gym_Text_BrendenPostBattle:
-	.string "Oh, aye! You're worthy of seeing\n"
-	.string "our GYM LEADER.$"
+	.string "Je crois que tu as bien mérité\n"
+	.string "de voir notre CHAMPION D’ARENE.$"
 
 DewfordTown_Gym_Text_CristianIntro:
-	.string "If you mean to pass, it has to be\n"
-	.string "through me!$"
+	.string "Si tu veux aller plus loin, tu\n"
+	.string "devras d’abord me passer sur le\p"
+	.string "corps!$"
 
 DewfordTown_Gym_Text_CristianDefeat:
-	.string "Grrrrr!\n"
-	.string "Vastly overpowered!$"
+	.string "Grrrrr! Sans commentaire…$"
 
 DewfordTown_Gym_Text_CristianPostBattle:
-	.string "You win!\n"
-	.string "Go after that BADGE!$"
+	.string "Tu as gagné! Va chercher ce\n"
+	.string "BADGE!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-	.string "I'm BRAWLY!\n"
-	.string "DEWFORD's GYM LEADER!\p"
-	.string "I've been churned in the rough waves\n"
-	.string "of these parts, and I've grown tough\l"
-	.string "in the pitch-black cave!\p"
-	.string "So you wanted to challenge me?\n"
-	.string "Let me see what you're made of!$"
+	.string "Je suis BASTIEN! Le CHAMPION\n"
+	.string "D’ARENE de MYOKARA!\p"
+	.string "J’ai résisté aux vagues\n"
+	.string "déchaînées de la région et je me\p"
+	.string "suis endurci dans les cavernes\n"
+	.string "obscures!\p"
+	.string "Alors, comme ça, tu viens me\n"
+	.string "défier? Voyons donc de quoi tu\p"
+	.string "es capable!$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
-	.string "Whoah, wow! You made a much bigger\n"
-	.string "splash than I expected!\p"
-	.string "You swamped me!\p"
-	.string "Okay, you've got me.\n"
-	.string "Take this GYM BADGE!$"
+	.string "Pfffou, bon sang! Tu as fait\n"
+	.string "plus de vagues que je ne\p"
+	.string "l’aurais imaginé!\p"
+	.string "Tu m’as submergé!\p"
+	.string "Je l’admets, tu m’as vaincu.\n"
+	.string "Prends ce BADGE!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER} received the KNUCKLE BADGE\n"
-	.string "from BRAWLY.$"
+	.string "{PLAYER} reçoit le BADGE POING\n"
+	.string "de la part de BASTIEN.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-	.string "The KNUCKLE BADGE makes all POKéMON\n"
-	.string "up to Level 30, even those you get in\l"
-	.string "trades, obey without question.\p"
-	.string "And, you'll be able to use the HM move\n"
-	.string "FLASH outside of battle.\p"
-	.string "If you'd like, use this TECHNICAL\n"
-	.string "MACHINE, too.$"
+	.string "Le BADGE POING oblige tous les\n"
+	.string "POKéMON jusqu’au niveau 30, même\p"
+	.string "ceux échangés, à obéir sans\n"
+	.string "poser de question.\p"
+	.string "Et tu pourras aussi utiliser la\n"
+	.string "CS FLASH en dehors des combats.\p"
+	.string "Si tu veux, tu peux aussi\n"
+	.string "utiliser cette CAPSULE\p"
+	.string "TECHNIQUE.$"
 
 DewfordTown_Gym_Text_ExplainBulkUp:
-	.string "That TM08 contains BULK UP.\p"
-	.string "It's a move that raises both ATTACK\n"
-	.string "and DEFENSE stats.\p"
+	.string "Cette CT08 contient GONFLETTE.\p"
+	.string "C’est une technique qui permet\n"
+	.string "de booster l’ATTAQUE et la\p"
+	.string "DEFENSE.\p"
 	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
-	.string "Registered GYM LEADER BRAWLY\n"
-	.string "in the POKéNAV.$"
+	.string "Vous avez enregistré le CHAMPION\n"
+	.string "D’ARENE BASTIEN dans le POKéNAV.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
-	.string "I can see your talent becoming a giant\n"
-	.string "wave to cause a storm of astonishment\l"
-	.string "among TRAINERS one day!$"
+	.string "Je vois que tes talents ont\n"
+	.string "causé un raz-de-marée\p"
+	.string "d’admiration parmi les\n"
+	.string "DRESSEURS, l’autre jour!$"
 
 DewfordTown_Gym_Text_GymStatue:
-	.string "DEWFORD TOWN POKéMON GYM$"
+	.string "ARENE POKéMON du VILLAGE MYOKARA$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string "DEWFORD TOWN POKéMON GYM\p"
-	.string "BRAWLY'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "ARENE POKéMON du VILLAGE MYOKARA\p"
+	.string "NOUVEAU DRESSEUR RECONNU PAR\n"
+	.string "BASTIEN: {PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
-	.string "BRAWLY: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Show me how much higher\n"
-	.string "you've gone!$"
+	.string "BASTIEN: La vague se retire,\n"
+	.string "mais elle revient toujours sur\p"
+	.string "le rivage.\p"
+	.string "Toi… Une telle vague de talent…\n"
+	.string "Je savais que tu reviendrais!\p"
+	.string "Montre-moi tes progrès!$"
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat:
-	.string "Wow!\n"
-	.string "Swamped again!$"
+	.string "Waouh! Je me suis de nouveau\n"
+	.string "fait submerger!$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-	.string "BRAWLY: Battling is vast and it's deep.\n"
-	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of HOENN!$"
+	.string "BASTIEN: Les combats sont vastes\n"
+	.string "et profonds. On n’en voit pas le\p"
+	.string "fond! Exactement comme la mer de\n"
+	.string "HOENN!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
-	.string "BRAWLY: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Oh? You only have one POKéMON\n"
-	.string "that can battle.\p"
-	.string "I'm sorry, but I'd like you to come back\n"
-	.string "with at least two POKéMON.$"
+	.string "BASTIEN: La vague se replie,\n"
+	.string "mais elle revient toujours sur\p"
+	.string "le rivage.\p"
+	.string "Une telle vague de talent comme\n"
+	.string "toi… Je savais que tu\p"
+	.string "reviendrais!\p"
+	.string "Oh? Tu n’as qu’un POKéMON apte\n"
+	.string "au combat?\p"
+	.string "Je suis désolé, mais je préfère\n"
+	.string "que tu reviennes avec au moins\p"
+	.string "deux POKéMON.$"

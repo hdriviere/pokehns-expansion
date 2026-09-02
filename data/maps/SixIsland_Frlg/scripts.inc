@@ -19,16 +19,17 @@ SixIsland_EventScript_IslandSign::
 	end
 
 SixIsland_Text_IslandSign::
-	.string "SIX ISLAND\n"
-	.string "Fortune Island of Aged Wisdom$"
+	.string "ILE 6 Lîle de la sagesse$"
 
 SixIsland_Text_ThatWayToWaterPathRuinValley::
-	.string "Keep going this way and you'll get\n"
-	.string "to the WATER PATH.\p"
-	.string "Stay on that and you'll get to\n"
-	.string "the RUIN VALLEY.$"
+	.string "En allant par là, tu arriveras à\n"
+	.string "AGUALCANAL.\p"
+	.string "Continue dessus si tu veux voir\n"
+	.string "la VALLEE RUINE.$"
 
 SixIsland_Text_SkyAtNightIsFantastic::
-	.string "When you're this far away from the\n"
-	.string "city, the sky at night is fantastic.$"
+	.string "Quand on est aussi loin des\n"
+	.string "lumières de la ville, la nuit,\p"
+	.string "on peut voir toutes les étoiles\n"
+	.string "dans le ciel.$"
 

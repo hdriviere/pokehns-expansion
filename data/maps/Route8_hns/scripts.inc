@@ -33,64 +33,67 @@ Route8_EventScript_Tom::
 	end
 
 Route8_Text_BikerDwayneSeen:
-	.string "We're the KANTO POKéMON FEDERATION\n"
-	.string "trainer group.\p"
-	.string "We'll drive you under our wheels!$"
+	.string "Nous sommes la “Fédération des\n"
+	.string "Dresseurs de Pokémon de Kanto”.\p"
+	.string "On va te faire ta fête!$"
 
 Route8_Text_BikerDwayneBeaten:
-	.string "S-sorry!$"
+	.string "P-p-pardon!$"
 
 Route8_Text_BikerDwayneAfter:
-	.string "The KANTO POKéMON FEDERATION will\n"
-	.string "never fall!$"
+	.string "La “Fédération\n"
+	.string "des Dresseurs de\p"
+	.string "Pokémon de Kanto”\n"
+	.string "est invincible!$"
 
 Route8_Text_BikerHarrisSeen:
-	.string "The cops shut down our\n"
-	.string "UNDERGROUND PATH!\p"
-	.string "That really fries me!$"
+	.string "La police a fermé notre\n"
+	.string "SOUTERRAIN!\p"
+	.string "C'est injuste! C'est\n"
+	.string "dégueulasse!$"
 
 Route8_Text_BikerHarrisBeaten:
-	.string "F-forgive me!$"
+	.string "P-p-pardon!$"
 
 Route8_Text_BikerHarrisAfter:
-	.string "Wiped out by some punk from\n"
-	.string "JOHTO…$"
+	.string "Battu par quelqu’un de Johto...$"
 
 Route8_Text_BikerZekeSeen:
-	.string "We're the KANTO POKéMON FEDERA-\n"
-	.string "TION!\n"
-	.string "Right on!$"
+	.string "On est la FEDERATION des\n"
+	.string "dresseurs de KANTO. On est cool!$"
 
 Route8_Text_BikerZekeBeaten:
-	.string "Yikes! Sorry!$"
+	.string "Oups! Pardon!$"
 
 Route8_Text_BikerZekeAfter:
-	.string "We'll try not to disturb anyone\n"
-	.string "from now on…$"
+	.string "On va essayer de n'plus\n"
+	.string "déranger... Pardon.$"
 
 Route8_Text_SupernerdSamSeen:
-	.string "How does the MAGNET TRAIN work?$"
+	.string "Comment ça marche un Train\n"
+	.string "Magnétique?$"
 
 Route8_Text_SupernerdSamBeaten:
-	.string "I just want to see the MAGNET\n"
-	.string "TRAIN…$"
+	.string "Moi je veux voir le TRAIN\n"
+	.string "MAGNET...$"
 
 Route8_Text_SupernerdSamAfter:
-	.string "The power of magnets is awesome!$"
+	.string "La puissance magnétique, c'est\n"
+	.string "terrible!$"
 
 Route8_Text_SupernerdTomSeen:
-	.string "Hm… You've got many GYM BADGES.$"
+	.string "Hmm... Tu en as des bô BADGES.$"
 
 Route8_Text_SupernerdTomBeaten:
-	.string "Just as I thought… You're tough!$"
+	.string "Pas mal... Je m'y attendais!$"
 
 Route8_Text_SupernerdTomAfter:
-	.string "GYM BADGES give you advantages in\n"
-	.string "battles.$"
+	.string "Les BADGES donnent l'avantage en\n"
+	.string "combat.$"
 
 Route8_Text_LockedDoor:
-	.string "It's locked…$"
+	.string "C'est fermé...$"
 
 Route8_Text_UndergroundPathSign:
-	.string "The flyer's torn.\p"
-	.string "It's impossible to read…$"
+	.string "L'affiche est déchirée.\p"
+	.string "C'est impossible de la lire...$"

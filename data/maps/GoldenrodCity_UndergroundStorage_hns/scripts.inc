@@ -48,64 +48,74 @@ GoldenrodCity_UndergroundStorage_EventScript_Item_MaxEther::
     end
 
 RadioTowerBasement_Text_GruntM24Seen:
-    .string "How did you get this far?\p"
-    .string "I guess it can't be helped. I'll\n"
-    .string "dispose of you.$"
+    .string "Comment t'as fait pour arriver\n"
+    .string "ici?\p"
+    .string "Bon... Tant pis: je dois me\n"
+    .string "débarrasser de toi.$"
 
 RadioTowerBasement_Text_GruntM24Beaten:
-    .string "I got disposed of…$"
+    .string "J'suis fichu...$"
 
 RadioTowerBasement_Text_GruntM24After:
-    .string "TEAM ROCKET will keep going, waiting\n"
-    .string "for the return of GIOVANNI.\p"
-    .string "We'll do whatever it takes.$"
+    .string "On continuera à\n"
+    .string "faire vivre la Team\p"
+    .string "Rocket jusqu’au\n"
+    .string "retour de notre Boss,\p"
+    .string "Giovanni.\p"
+    .string "On est prêt à tout pour ça!$"
 
 RadioTowerBasement_Text_GruntM14Seen:
-    .string "You're not going any farther!\p"
-    .string "I don't show mercy to my enemies,\n"
-    .string "not even brats!$"
+    .string "Pas un pas de plus!\p"
+    .string "Mes ennemis, j'en fais de la\n"
+    .string "purée. A table!$"
 
 RadioTowerBasement_Text_GruntM14Beaten:
-    .string "Blast it!$"
+    .string "VLAAAAM!$"
 
 RadioTowerBasement_Text_GruntM14After:
-    .string "I lost…\p"
-    .string "Please forgive me, GIOVANNI!$"
+    .string "Perdu... Pardon Boss!$"
 
 RadioTowerBasement_Text_GruntM15Seen:
-    .string "Hyuck-hyuck-hyuck! Look who it is!\p"
-    .string "Ready? I'm really tough now!$"
+    .string "Ha-ha-ha! Regarde qui voilà!\p"
+    .string "Prêt? Je suis vraiment fort!$"
 
 RadioTowerBasement_Text_GruntM15Beaten:
-    .string "Hyuck-hyuck-hyuck! You're so good!\p"
-    .string "This TEAM ROCKET thing is just\n"
-    .string "a job, but I can see it hurts others.\p"
-    .string "That's it, I'm leaving.\p"
-    .string "Thank you so much. Sorry GIOVANNI!$"
+    .string "Ha-ha-ha! Tu es vraiment doué!\p"
+    .string "Ce n'est qu'un boulot pour moi,\n"
+    .string "mais la TEAM ROCKET fait du mal.\p"
+    .string "Ça suffit, je m'en vais.\p"
+    .string "Merci. Désolé, GIOVANNI!$"
 
 RadioTowerBasement_Text_GruntM15After:
-    .string "Hyuck-hyuck-hyuck! That was a blast!\n"
-    .string "I'll remember you!$"
+    .string "Gnyaaaaaak! J'me souviendrai de\n"
+    .string "toi!$"
 
 RadioTowerBasement_Text_DirectorIntro:
-    .string "DIRECTOR: Who? What? You came to\n"
-    .string "rescue me?\p"
-    .string "Thank you!\p"
-    .string "The RADIO TOWER!\p"
-    .string "What's happening there?\p"
-    .string "Taken over by TEAM ROCKET?\p"
-    .string "Here. Take this CARD KEY.$"
+    .string "Directeur: Qui... Qui es-tu? Tu\n"
+    .string "es là pour me sauver?\p"
+    .string "Merci!\p"
+    .string "Mais... Et la Tour Radio? Que se\n"
+    .string "passe-t-il là-bas?\p"
+    .string "Quoi?! La Team Rocket l’a\n"
+    .string "investie? Je vois. Tiens!\p"
+    .string "Prends cette Carte Magnétique.$"
 
 RadioTowerBasement_Text_DirectorCardKey:
-    .string "DIRECTOR: Use that to open the\n"
-    .string "shutters on 3F.$"
+    .string "Directeur: Elle te\n"
+    .string "permettra d’ouvrir\p"
+    .string "la cloison du\n"
+    .string "2{SUPER_E} étage.$"
 
 RadioTowerBasement_Text_DirectorAfter:
-    .string "I'm begging you to help.\p"
-    .string "There's no telling what they'll do if\n"
-    .string "they control the transmitter.\p"
-    .string "They may even be able to control\n"
-    .string "POKéMON using a special signal!\p"
-    .string "You're the only one I can call on.\p"
-    .string "Please save the RADIO TOWER…\p"
-    .string "And all the POKéMON nationwide!$"
+    .string "Je t’en supplie... Aide-nous.\p"
+    .string "Nul ne sait ce qu’ils feront en\n"
+    .string "contrôlant le transmetteur.\p"
+    .string "Ils pourraient\n"
+    .string "même manipuler les\p"
+    .string "Pokémon grâce à\n"
+    .string "un signal spécial!\p"
+    .string "Tu es notre seul espoir.\p"
+    .string "Sauve la Tour Radio!\n"
+    .string "Le sort de tous\p"
+    .string "les Pokémon est\n"
+    .string "entre tes mains!$"

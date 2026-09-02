@@ -23,7 +23,8 @@ MossdeepCity_PokemonCenter_2F_EventScript_Woman5::
 	end
 
 MossdeepCity_PokemonCenter_2F_Text_Woman5:
-	.string "If I win a whole lot of link battles\n"
-	.string "and show everyone how good I am,\l"
-	.string "I might get a fan following!$"
+	.string "Si je gagnais plein de combats\n"
+	.string "en link et démontrais ma force à\p"
+	.string "tout le monde, j’aurais\n"
+	.string "peut-être un fan!$"
 

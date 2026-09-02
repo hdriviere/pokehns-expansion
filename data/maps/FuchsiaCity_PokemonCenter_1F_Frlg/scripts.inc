@@ -27,20 +27,22 @@ FuchsiaCity_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon::
-	.string "You can't become a good TRAINER\n"
-	.string "with just one strong POKéMON.\p"
-	.string "But raising many POKéMON evenly\n"
-	.string "is no easy task, either.$"
+	.string "Un seul POKéMON puissant n'est\n"
+	.string "pas suffisant.\p"
+	.string "Mais tous les faire évoluer de\n"
+	.string "façon égale n'est pas facile.$"
 
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
-	.string "There's a narrow trail west of\n"
-	.string "VIRIDIAN CITY.\p"
-	.string "It goes to the POKéMON LEAGUE HQ.\n"
-	.string "The HQ governs all TRAINERS.$"
+	.string "Il y a un petit passage à\n"
+	.string "l'Ouest de JADIELLE.\p"
+	.string "Il mène au quartier général de\n"
+	.string "la LIGUE POKéMON. Ce QG est la\p"
+	.string "plus haute autorité des\n"
+	.string "DRESSEURS.$"
 
 FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex::
-	.string "If you're working on a POKéDEX,\n"
-	.string "visit the SAFARI ZONE.\p"
-	.string "All sorts of rare POKéMON breed\n"
-	.string "there.$"
+	.string "LE PARC SAFARI regorge de\n"
+	.string "POKéMON.\p"
+	.string "On peut y trouver plein de\n"
+	.string "POKéMON très rares!$"
 

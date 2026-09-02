@@ -22,13 +22,13 @@ ViridianCity_EventScript_OakCall::
 	end
 
 ViridianCity_Text_OakName:
-	.string "OAK$"
+	.string "CHEN$"
 
 ViridianCity_Text_OakCall:
-	.string "OAK: Ah, {PLAYER}!\p"
-	.string "Come and see my at my\n"
-	.string "LAB in PALLET TOWN\l"
-	.string "when you get the chance.$"
+	.string "CHEN: Ah, {PLAYER}!\p"
+	.string "Passe me voir dans mon LABO\n"
+	.string "à BOURG PALETTE quand tu en\l"
+	.string "auras l'occasion.$"
 
 ViridianCity_EventScript_Gramps::
 	lock
@@ -83,77 +83,81 @@ ViridianCity_EventScript_GymSign::
 	end
 
 ViridianCity_Text_CoffeeGramps_Question:
-	.string "Hey, kid! I just had a double shot\n"
-	.string "of espresso, and I am wired!\p"
-	.string "I need to talk to someone, so you'll\n"
-	.string "have to do!\p"
-	.string "I might not look like much now, but\n"
-	.string "I was an expert at catching POKéMON.\p"
-	.string "Do you believe me?$"
+	.string "Hé, toi! Je viens de m'enfiler\p"
+	.string "un double café et j'ai la\n"
+	.string "patate!\p"
+	.string "Faut qu'je parle à quelqu'un\n"
+	.string "alors... Ecoute-moi!\p"
+	.string "J'ai pas l'air mais je suis un\p"
+	.string "expert en capture de Pokémon.\p"
+	.string "Tu me crois, hein?$"
 
 ViridianCity_Text_CoffeeGramps_Believed:
-	.string "Good, good. Yes, I was something\n"
-	.string "out of the ordinary, let me tell\l"
-	.string "you!$"
+	.string "Ouais, hein! Ouais! Tant mieux!$"
 
 ViridianCity_Text_CoffeeGramps_Doubted:
-	.string "What? You little whelp!\p"
-	.string "If I were just a bit younger, I'd\n"
-	.string "show you a thing or two. Humph!$"
+	.string "Quoi? Espèce de sale...\p"
+	.string "Si j’étais plus jeune, hein!\n"
+	.string "J’t’apprendrais! Tu verrais!$"
 
 ViridianCity_Text_GrampsNearGym:
-	.string "This GYM didn't have a LEADER\n"
-	.string "until recently.\p"
-	.string "A young man from PALLET became\n"
-	.string "the LEADER, but he's often away.$"
+	.string "Cette ARENE vient juste d'avoir\n"
+	.string "un CHAMPION officiel.\p"
+	.string "Un jeune homme de PALETTE est\n"
+	.string "devenu\p"
+	.string "le CHAMPION mais il se balade\n"
+	.string "beaucoup.$"
 
 ViridianCity_Text_GrampsNearGym_BlueReturned:
-	.string "Are you going to battle the\n"
-	.string "LEADER?\p"
-	.string "Good luck to you. You'll need it.$"
+	.string "Vas-tu affronter le CHAMPION?\p"
+	.string "Bonne chance. T'en auras besoin.$"
 
 ViridianCity_Text_DreamEaterFisherNew:
-	.string "…Zzzzz…\p" 
-	.string "Yawn!\p"
-	.string "I must have dozed off in the sun.\p"
-	.string "What? I remind you of somebody?\p"
-	.string "I don't know, here, have this.$"
+	.string "...Zzzzz...\p"
+	.string "Bâââille!\p"
+	.string "J'ai dû m'assoupir au soleil.\p"
+	.string "Quoi? Je te rappelle quelqu'un?\p"
+	.string "Je ne sais pas...\n"
+	.string "Tiens, prends ça.$"
 
 
 ViridianCity_Text_DreamEaterFisher_GotTM::
 	.string "…Zzzzz…$"
 
 ViridianCity_Text_DreamEaterFisher:
-	.string "Yawn!\p"
-	.string "I must have dozed off in the sun.\p"
-	.string "…I had this dream about a DROWZEE\n"
-	.string "eating my dream. Weird, huh?\p"
-	.string "Huh? What's this?\p"
-	.string "Where did this TM come from?\p"
-	.string "This is spooky! Here, you can have\n"
-	.string "this TM.$"
+	.string "Waaah... J’ai dormi sous le\n"
+	.string "soleil.\p"
+	.string "... J’ai fait un\n"
+	.string "rêve bizarre. Y’avait\p"
+	.string "un SOPORIFIK qui\n"
+	.string "mangeait mes rêves.\p"
+	.string "... Tiens? C’est quoi? D’où\n"
+	.string "vient cette CT?\p"
+	.string "Hmmm... C’est ta faute!\p"
+	.string "Tiens, prends-la!$"
 
 ViridianCity_Text_DreamEaterFisher_GotDreamEater:
-	.string "TM42 contains DREAM EATER…\p"
-	.string "…Zzzzz…$"
+	.string "CT42 contient DEVOREVE...\p"
+	.string "...Zzzzz...$"
 
 ViridianCity_Text_Youngster:
-	.string "I heard that there are many items\n"
-	.string "on the ground in VIRIDIAN FOREST.$"
+	.string "On dit qu’il y a plein\n"
+	.string "d’objets invisibles\p"
+	.string "qui jonchent le sol\n"
+	.string "de la Forêt de Jade!$"
 
 ViridianCity_Text_Sign:
-	.string "VIRIDIAN CITY\p"
-	.string "The Eternally Green Paradise$"
+	.string "JADIELLE\p"
+	.string "Le paradis vert éternel$"
 
 ViridianCity_Text_GymSign:
-	.string "VIRIDIAN CITY POKéMON GYM\n"
-	.string "LEADER: …\p"
-	.string "The rest of the text is illegible…$"
+	.string "Arène de Jadielle Champion: ...\p"
+	.string "Le reste est illisible...$"
 
 ViridianCity_Text_WelcomeSign:
-	.string "WELCOME TO VIRIDIAN CITY,\p"
-	.string "THE GATEWAY TO INDIGO PLATEAU$"
+	.string "Bienvenue à JADIELLE, la porte\p"
+	.string "vers le PLATEAU INDIGO$"
 
 ViridianCity_Text_TrainerHouseSign:
-	.string "TRAINER HOUSE\p"
-	.string "The Club for Top Trainer Battles$"
+	.string "CLUB des DRESSEURS\p"
+	.string "Réservé aux meilleurs$"

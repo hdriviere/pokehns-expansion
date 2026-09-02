@@ -17,35 +17,31 @@ PokemonTower_4F_EventScript_Jody::
 	end
 
 PokemonTower_4F_Text_PaulaIntro::
-	.string "Ghost! No!\n"
-	.string "Kwaaah!$"
+	.string "Un SPECTRE! Rhaaaaaa!$"
 
 PokemonTower_4F_Text_PaulaDefeat::
-	.string "Where is the ghost?$"
+	.string "Ben! Où est le SPECTRE?$"
 
 PokemonTower_4F_Text_PaulaPostBattle::
-	.string "I must have been dreaming…$"
+	.string "J'ai dû rêver…$"
 
 PokemonTower_4F_Text_LaurelIntro::
-	.string "Be cursed with me!\n"
-	.string "Kwaaah!$"
+	.string "Sois maudit!!!! Kwaaah!$"
 
 PokemonTower_4F_Text_LaurelDefeat::
-	.string "What!$"
+	.string "QUOI!$"
 
 PokemonTower_4F_Text_LaurelPostBattle::
-	.string "We can't determine the identity of\n"
-	.string "the ghosts…$"
+	.string "Nous ne pouvons pas identifier\n"
+	.string "les SPECTRES.$"
 
 PokemonTower_4F_Text_JodyIntro::
-	.string "Huhuhu…\n"
-	.string "Beat me not!$"
+	.string "Huhuhu… Ne me frappe pas!$"
 
 PokemonTower_4F_Text_JodyDefeat::
-	.string "Huh?\n"
-	.string "Who? What?$"
+	.string "Hein? Qui? Quoi?$"
 
 PokemonTower_4F_Text_JodyPostBattle::
-	.string "May the departed POKéMON rest in\n"
-	.string "peace…$"
+	.string "Que les âmes des POKéMON\n"
+	.string "disparus reposent en paix!$"
 

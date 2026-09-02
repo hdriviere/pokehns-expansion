@@ -43,26 +43,29 @@ CeladonDept3_EventScript_Directory::
 	end
 
 CeladonDeptStore3F_Text_Youngster:
-	.string "I can't decide which POKéMON I\n"
-	.string "should use this TM on…$"
+	.string "Sur quel Pokémon je vais\n"
+	.string "utiliser cette CT...? J’hésite!$"
 
 CeladonDeptStore3F_Text_GameboyKid1:
-	.string "Uh-oh! I traded my POKéMON without\n"
-	.string "removing the UPGRADE from it.$"
+	.string "Oh! J'ai échangé mon Pokémon\n"
+	.string "sans\p"
+	.string "lui enlever mon EVOLUTOR!$"
 
 CeladonDeptStore3F_Text_GameboyKid2:
-	.string "Yeah! I'm finally getting a\n"
-	.string "PORYGON!\p"
-	.string "I'm no good at the slots, so I\n"
-	.string "could never get enough coins…\p"
-	.string "…Huh?\p"
-	.string "The traded PORYGON turned into a\n"
-	.string "different POKéMON!$"
+	.string "Ouais! Enfin j'ai un PORYGON!\p"
+	.string "Moi j'aime pas les machines à\n"
+	.string "sous.\p"
+	.string "J'avais jamais assez de\n"
+	.string "jetons...\p"
+	.string "...Hein???\p"
+	.string "Le PORYGON échangé s'est\n"
+	.string "transformé en un autre Pokémon!$"
 
 CeladonDeptStore3F_Text_SuperNerd:
-	.string "The TM SHOP sells some rare moves.$"
+	.string "Le Marché aux CT vend des\n"
+	.string "capacités assez rares.$"
 
 CeladonDeptStore3F_Text_Directory:
-	.string "3F: TM SHOP\p"
-	.string "Make Your POKéMON Stronger!$"
+	.string "2EME: MARCHE AUX       CT\p"
+	.string "Renforcez vos Pokémon!$"
 

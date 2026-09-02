@@ -342,110 +342,125 @@ AzaleaTown_Movement_KurtLeave:
 	step_end
 
 AzaleaTown_Text_RivalBefore:
-	.string "…Tell me something.\p"
-	.string "Is it true that TEAM ROCKET\n"
-	.string "has returned?\p"
-	.string "What? You beat them? Hah! Quit\n"
-	.string "lying.\p"
-	.string "You're not joking?\n"
-	.string "Then let's see how good you are.$"
+	.string "...Dis-moi quelque chose, p'tit\n"
+	.string "bouchon...\p"
+	.string "Est-ce vrai que la TEAM ROCKET\n"
+	.string "est de retour?\p"
+	.string "Quoi? Tu les as battus? Hah!\n"
+	.string "Arrête de mentir.\p"
+	.string "Naan, t'aimes pas crâner, toi!\n"
+	.string "Allez, baston...$"
 
 AzaleaTown_Text_RivalWin:
-	.string "…Humph! Useless POKéMON!\p"
-	.string "Listen, you. You only won because\n"
-	.string "my POKéMON were weak.$"
+	.string "...Humpff! Vilains Pokémon!\p"
+	.string "Ouvre bien tes oreilles mon\n"
+	.string "p'tit\p"
+	.string "chat, t'as gagné parce que mes\n"
+	.string "Pokémon se sont couchés tard...$"
 
 AzaleaTown_Text_RivalAfter:
-	.string "I hate the weak.\p"
-	.string "POKéMON, trainers. It doesn't\n"
-	.string "matter who or what.\p"
-	.string "I'm going to be strong and wipe\n"
-	.string "out the weak.\p"
-	.string "That goes for TEAM ROCKET too.\p"
-	.string "They act big and tough in a group.\p"
-	.string "But get them alone, and they're weak.\n"
-	.string "I hate them all.\p"
-	.string "You stay out of my way. A weakling\n"
-	.string "like you is only a distraction.$"
+	.string "Je déteste les minus.\p"
+	.string "Pokémon ou dresseur, c'est du\n"
+	.string "kif-kif.\p"
+	.string "Je vais devenir surpuissant et\n"
+	.string "balayer les minus.\p"
+	.string "Et c'est pareil pour la TEAM\n"
+	.string "ROCKET.\p"
+	.string "Ils sont redoutés\n"
+	.string "parce qu'ils agissent\p"
+	.string "en groupe, mais un par\n"
+	.string "un ils sont faibles.\p"
+	.string "Je les déteste tous!\p"
+	.string "Hors de ma vue minus! Quelqu'un\p"
+	.string "comme toi ne peut rien\n"
+	.string "m'apporter...$"
 
 AzaleaTown_Text_RivalLoss:
-	.string "…Humph! I knew you were lying.$"
+	.string "Pfff! J’étais sûr que c’était du\n"
+	.string "bluff...$"
 
 AzaleaTown_Text_Rocket1:
-	.string "It's unsafe to go in there,\n"
-	.string "so I'm standing guard.\p"
-	.string "Aren't I a good Samaritan?$"
+	.string "C'est dangereux d'entrer ici, je\n"
+	.string "monte la garde.\p"
+	.string "J'suis trop cool, tu ne trouves\n"
+	.string "pas?$"
 
 AzaleaTown_Text_Rocket2:
-	.string "Do you know about SLOWPOKETAIL?\n"
-	.string "I heard it's tasty!\p"
-	.string "Aren't you glad I told you that?$"
+	.string "T’as entendu parler\n"
+	.string "des Queues de\p"
+	.string "RAMOLOSS? Il paraît\n"
+	.string "que c’est bon...\p"
+	.string "J’suis un bon gars, tu trouves\n"
+	.string "pas?$"
 
 AzaleaTown_Text_GrampsBefore:
-	.string "The SLOWPOKE have disappeared\n"
-	.string "from town…\p"
-	.string "I heard their TAILS are being\n"
-	.string "sold somewhere.$"
+	.string "Les RAMOLOSS ont déserté la\n"
+	.string "ville.\p"
+	.string "Il paraît que des\n"
+	.string "gens vendent des\p"
+	.string "Queues de RAMOLOSS,\n"
+	.string "alors forcément...$"
 
 AzaleaTown_Text_GrampsAfter:
-	.string "The SLOWPOKE have returned.\p"
-	.string "Knowing them, they could've just\n"
-	.string "been goofing off somewhere.$"
+	.string "Les RAMOLOSS sont de retour.\p"
+	.string "A mon avis, ils devaient traîner\n"
+	.string "quelque part.$"
 
 AzaleaTown_Text_Teacher:
-	.string "Did you come to get KURT to make\n"
-	.string "some BALLS?\p"
-	.string "A lot of people do just that.$"
+	.string "Es-tu ici pour FARGAS, celui qui\n"
+	.string "fabrique les BALLS?\p"
+	.string "Il n'y a pas que toi.$"
 
 AzaleaTown_Text_Youngster:
-	.string "Cut through AZALEA and you'll be\n"
-	.string "in ILEX FOREST.\p"
-	.string "But these skinny trees make it\n"
-	.string "impossible to get through.\p"
-	.string "The CHARCOAL MAN's POKéMON\n"
-	.string "can CUT down trees.$"
+	.string "Traverse Ecorcia et tu trouveras\n"
+	.string "le Bois aux Chênes.\p"
+	.string "Mais de petits arbustes bloquent\n"
+	.string "le passage.\p"
+	.string "Heureusement, le Pokémon du\n"
+	.string "charbonnier peut les couper!$"
 
 AzaleaTown_Text_Slowpoke1:
-	.string "SLOWPOKE:..........\p"
-	.string "...............YAWN?$"
+	.string "RAMOLOSS:..........\p"
+	.string "...............BÂILLE?$"
 
 AzaleaTown_Text_Kurt1:
-	.string "ILEX FOREST is restless!\p"
-	.string "What is going on?$"
+	.string "Le BOIS AUX CHENES est agité!\p"
+	.string "Que se passe-t-il?$"
 
 AzaleaTown_Text_Kurt2:
-	.string "{PLAYER}, here's your GS BALL back!$"
+	.string "{PLAYER}, voilà ta GS BALL!$"
 
 AzaleaTown_Text_Kurt3:
-	.string "Could you go see why ILEX FOREST\n"
-	.string "is so restless?$"
+	.string "Peux-tu voir pourquoi le BOIS\n"
+	.string "AUX CHENES est si agité?$"
 
 AzaleaTown_Text_Sign:
-	.string "AZALEA TOWN\n"
-	.string "Where People and POKéMON Live in\l"
-	.string "Happy Harmony.$"
+	.string "ECORCIA La ville où les\p"
+	.string "gens et les petits Pokémon sont\n"
+	.string "bien contents d'habiter$"
 
 AzaleaTown_Text_KurtsHouseSign:
-	.string "KURT'S HOUSE$"
+	.string "MAISON DE FARGAS$"
 
 AzaleaTown_Text_GymSign:
-	.string "AZALEA TOWN\n"
-	.string "POKéMON GYM\p"
-	.string "LEADER: BUGSY\p"
-	.string "The Walking Bug POKéMON\n"
-	.string "Encyclopedia$"
+	.string "Arène d’Ecorcia Champion: Hector\p"
+	.string "Maestro des Pokémon Insecte$"
 
 AzaleaTown_Text_SlowpokeWellSign:
-	.string "SLOWPOKE WELL\p"
-	.string "Also known as the RAINMAKER WELL.\p"
-	.string "Locals believe that a SLOWPOKE's\n"
-	.string "yawn summons rain.\p"
-	.string "Records show that a SLOWPOKE's\n"
-	.string "yawn ended a drought 400 years ago.$"
+	.string "PUITS RAMOLOSS\p"
+	.string "Aussi connu sous le nom de...\n"
+	.string "PUITS de PLUIE.\p"
+	.string "Les gens du coin\n"
+	.string "pensent que le\p"
+	.string "baillement du RAMOLOSS\n"
+	.string "invoque la pluie.\p"
+	.string "Les archives montrent qu'un\p"
+	.string "baillement de RAMOLOSS a mis fin\n"
+	.string "à 400 ans de sécheresse.$"
 
 AzaleaTown_Text_CharcoalKilnSign:
-	.string "CHARCOAL KILN$"
+	.string "FOUR A CHARBON$"
 
 AzaleaTown_Text_IlexForestSign:
-	.string "ILEX FOREST\p"
-	.string "Enter through the gate.$"
+	.string "BOIS AUX CHENES\p"
+	.string "On y entre par la porte.$"

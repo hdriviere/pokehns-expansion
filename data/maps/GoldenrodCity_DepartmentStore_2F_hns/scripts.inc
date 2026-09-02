@@ -35,20 +35,22 @@ GoldenrodDeptStore2_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_2FYoungster:
-    .string "POKéGEAR can store up to 100 phone\n"
-    .string "numbers.\p"
-    .string "It's hard to decide which numbers\n"
-    .string "to keep.$"
+    .string "Le Pokématos peut enregistrer\n"
+    .string "jusqu'à dix numéros.\p"
+    .string "C'est difficile de décider quel\n"
+    .string "numéro garder.$"
 
 GoldenrodDeptStore_Text_2FCooltrainerF:
-    .string "I got my ABRA at the GAME CORNER.\p"
-    .string "Now it's my best partner.$"
+    .string "J'ai eu mon ABRA au CASINO.\p"
+    .string "Maintenant, c'est mon meilleur\n"
+    .string "ami.$"
 
 GoldenrodDeptStore_Text_2FGentleman:
-    .string "This DEPT.STORE makes me realize\n"
-    .string "that GOLDENROD is a big city.\p"
-    .string "The selection here is unmatched\n"
-    .string "anywhere else.$"
+    .string "Ce CENTRE COMMERCIAL montre que\p"
+    .string "DOUBLONVILLE est une grande\n"
+    .string "ville.\p"
+    .string "La marchandise est la meilleure\n"
+    .string "de la région.$"
 
 GoldenrodDeptStore2_EventScript_Clerk::
 	lock
@@ -206,24 +208,28 @@ GoldenrodDeptStore_EventScript_ExitVendingMachine::
 	end
 
 GoldenrodDeptStore_Text_WhichDrinkWouldYouLike:
-	.string "It's a VENDING MACHINE.\n"
-	.string "Which drink would you like?$"
+	.string "C'est un DISTRIBUTEUR.\n"
+	.string "Quelle boisson veux-tu?$"
 
 GoldenrodDeptStore_Text_DrinkClankedDown:
 	.string "Clang!\p"
-	.string "A can of {STR_VAR_1} dropped down.$"
+	.string "Une canette {STR_VAR_1} vient de\n"
+	.string "tomber.$"
 
 GoldenrodDeptStore_Text_ExtraDrinkClankedDown:
 	.string "Clang!\p"
-	.string "Score! An extra can of {STR_VAR_1}\n"
-	.string "dropped down!$"
+	.string "Une canette de {STR_VAR_1} en plus\n"
+	.string "est tombée!$"
 
 GoldenrodDeptStore_Text_NotEnoughMoney:
-	.string "Not enough money…$"
+	.string "Vous n’avez pas assez\n"
+	.string "d’argent...$"
 
 GoldenrodDeptStore_Text_DecidedAgainstBuyingDrink:
-	.string "Decided against buying a drink.$"
+	.string "Pas de boisson pour le moment.$"
 
 GoldenrodDeptStore_Text_2FDirectory:
-    .string "Your Travel Companion\p"
-    .string "2F TRAINER'S MARKET$"
+    .string "Votre compagnon\n"
+    .string "de voyage\p"
+    .string "1{SUPER_ER}:\n"
+    .string "Boutique du Dresseur$"

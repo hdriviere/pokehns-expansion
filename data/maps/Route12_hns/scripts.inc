@@ -73,74 +73,83 @@ Route12_EventScript_Tentacruel::
 	end
 
 Route12_Text_NewFisher:
-	.string "Careful, something vicious lives in\n"
-	.string "these waters.$"
+	.string "Attention, une bête féroce vit\n"
+	.string "dans ces eaux.$"
 
 Route12_Text_FisherMartinSeen:
-	.string "Patience is the key to both\n"
-	.string "fishing and POKéMON.$"
+	.string "Il faut de la patience\n"
+	.string "pour pêcher. Il\p"
+	.string "faut de la patience\n"
+	.string "pour les Pokémon.$"
 
 Route12_Text_FisherMartinBeaten:
 	.string "Gwaaah!$"
 
 Route12_Text_FisherMartinAfterBattle:
-	.string "I'm too impatient for fishing…$"
+	.string "Finalement, la\n"
+	.string "pêche, c’est pas\p"
+	.string "pour moi! Je manque\n"
+	.string "de patience...$"
 
 Route12_Text_FisherStephenSeen:
-	.string "I feel so content, fishing while\n"
-	.string "listening to some tunes on my\l"
-	.string "radio.$"
+	.string "C’est génial de pêcher en\n"
+	.string "écoutant la radio.$"
 
 Route12_Text_FisherStephenBeaten:
-	.string "My stupid radio distracted me!$"
+	.string "Ma radio m'a fait perdre!$"
 
 Route12_Text_FisherStephenAfterBattle:
-	.string "Have you checked out KANTO's radio\n"
-	.string "programs? We get a good variety\l"
-	.string "here.$"
+	.string "Quand on écoute\n"
+	.string "la radio de Johto\p"
+	.string "depuis Kanto,\n"
+	.string "il y a plein de\p"
+	.string "programmes locaux.\p"
+	.string "Ils sont plein d’attentions pour\n"
+	.string "leurs auditeurs!$"
 
 Route12_Text_FisherBarneySeen:
-	.string "What's most important in our\n"
-	.string "everyday lives?$"
+	.string "Quelle est la\n"
+	.string "chose la plus\p"
+	.string "importante dans nos\n"
+	.string "vies quotidiennes?$"
 
 Route12_Text_FisherBarneyBeaten:
-	.string "The answer is coming up next!$"
+	.string "La réponse va suivre!$"
 
 Route12_Text_FisherBarneyAfterBattle:
-	.string "I think electricity is the most\n"
-	.string "important thing in our daily\l"
-	.string "lives.\p"
-	.string "If it weren't, people wouldn't\n"
-	.string "have made such a fuss when the\l"
-	.string "POWER PLANT went out of\l"
-	.string "commission.$"
+	.string "Je crois que l'électricité est\p"
+	.string "la chose la plus importante.\p"
+	.string "Et c'est pour ça qu'on a fait\n"
+	.string "tant\p"
+	.string "d'histoires à propos de la panne\n"
+	.string "de la CENTRALE.$"
 
 Route12_Text_KyleRegister:
-	.string "I'll remember this.\n"
-	.string "Give me your number!$"
+	.string "Je m'en souviendrai.\n"
+	.string "Donne-moi ton numéro!$"
 
 Route12_Text_KyleRematchIntro:
-	.string "Did you forget?\n"
-	.string "Let's see!$"
+	.string "Tu as oublié?\n"
+	.string "Voyons ça!$"
 
 Route12_Text_KyleRematchDefeat:
-	.string "You remembered.$"
+	.string "Tu t'en es souvenu.$"
 
 Route12_Text_KylePostRematch:
-	.string "The thrill of battle is almost\n"
-	.string "as good as a big catch!$"
+	.string "Combattre procure presque autant\n"
+	.string "de frissons qu'une grosse prise!$"
 
 Route12_Text_FisherKyleSeen:
-	.string "Do you remember?$"
+	.string "Tu t'en souviens?$"
 
 Route12_Text_FisherKyleBeaten:
-	.string "You do remember?$"
+	.string "Tu t'en souviens?$"
 
 Route12_Text_FisherKyleAfterBattle:
-	.string "The tug you feel on the ROD when\n"
-	.string "you hook a POKéMON…\p"
-	.string "That's the best feeling ever for\n"
-	.string "an angler like me.$"
+	.string "La p'tite secousse que l'on sent\p"
+	.string "quand on ferre un Pokémon...\p"
+	.string "C'est la plus belle des\n"
+	.string "sensations!!!$"
 
 Route12_EventScript_Sign::
 	msgbox Route12_Text_Sign, MSGBOX_SIGN
@@ -151,9 +160,7 @@ Route12_EventScript_FishingSign::
 	end
 
 Route12_Text_Sign:
-	.string "ROUTE 12\p"
-	.string "NORTH TO LAVENDER TOWN$"
+	.string "ROUTE 12 NORD: LAVANVILLE$"
 
 Route12_Text_FishingSpotSign:
-	.string "FISHING SPOT$"
-
+	.string "COIN PECHE$"

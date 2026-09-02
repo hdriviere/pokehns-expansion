@@ -24,20 +24,23 @@ ViridianCity_PokemonCenter_EventScript_BugCatcher::
 	end
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM:
-	.string "Where in the world is VIRIDIAN's GYM\n"
-	.string "LEADER? I wanted to challenge him.$"
+	.string "Où est donc le\n"
+	.string "CHAMPION de l'ARENE\p"
+	.string "de JADIELLE? Je\n"
+	.string "veux l'affronter.$"
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM_BlueReturned:
-	.string "There are no GYM TRAINERS at the\n"
-	.string "VIRIDIAN GYM.\p"
-	.string "The LEADER claims his policy is to\n"
-	.string "win without having any underlings.$"
+	.string "Il n'y a pas de dresseurs dans\n"
+	.string "l'ARENE de JADIELLE.\p"
+	.string "Le CHAMPION dit qu'il n'en a pas\n"
+	.string "besoin.$"
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerF:
-	.string "I heard that the GYM in CINNABAR is\n"
-	.string "gone.\p"
-	.string "I wonder what became of BLAINE, the\n"
-	.string "GYM LEADER.$"
+	.string "On dit que l’Arène de\n"
+	.string "Cramois’Ile a disparu...\p"
+	.string "Mais qu’est-il arrivé à Auguste,\n"
+	.string "le Champion?$"
 
 ViridianCity_PokemonCenter_Text_1FBugCatcher:
-	.string "My dream is to become a GYM LEADER.$"
+	.string "Je rêve de devenir Champion\n"
+	.string "d’Arène!$"

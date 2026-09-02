@@ -46,19 +46,24 @@ RadioTower1F_EventScript_Whitney::
 	end
 
 RadioTower1F_Text_Whitney1::
-	.string "WHITNEY: Hi!\p"
-	.string "My name is WHITNEY!\p"
-	.string "I heard about the QUIZ to win a\n"
-	.string "RADIO CARD, so I came here to get\l"
-	.string "one...\p"
-	.string "But this QUIZ is so hard!$"
+	.string "Blanche: Ouuuuuuuiiii! C’est\n"
+	.string "Blanche!\p"
+	.string "J’ai entendu dire\n"
+	.string "qu’ils organisaient\p"
+	.string "un quiz et je suis\n"
+	.string "venue tenter ma chance\p"
+	.string "moi aussi!\p"
+	.string "Mais la vache, il est trop dur\n"
+	.string "leur quiz!$"
 
 RadioTower1F_Text_Whitney2::
-	.string "WHITNEY: Wow, you did it!\p"
-	.string "I thought the answer to the third\n"
-	.string "question was surely apricorns!\l"
-	.string "Oops!\p"
-	.string "It's time to go back to the GYM!$"
+	.string "Blanche: Wah,\n"
+	.string "tu déchires toi!\p"
+	.string "J’étais allée\n"
+	.string "jusqu’à la troisième\p"
+	.string "question. J’pensais trop qu’on\p"
+	.string "utilisait des Noigrom! Trop dur!\p"
+	.string "J’vais m’rentrer à l’Arène...$"
 
 RadioTower1F_EventScript_Reception::
 	lock
@@ -164,105 +169,110 @@ GoldenrodCity_RadioTower_1F_EventScript_Sign::
 	end
 
 RadioTower1F_Text_ReceptionistWelcome:
-    .string "Welcome!$"
+    .string "Bienvenue!$"
 
 RadioTower1F_Text_ReceptionistNoTours:
-    .string "Hello. I'm sorry, but we're not\n"
-    .string "offering any tours today.$"
+    .string "Bonjour. Il n'y a pas de visite\n"
+    .string "prévue aujourd'hui.$"
 
 RadioTower1F_Text_RadioCardWomanOfferQuiz:
-    .string "We have a special QUIZ campaign on\n"
-    .string "right now.\p"
-    .string "Answer five questions correctly to\n"
-    .string "win a POKéGEAR RADIO CARD.\p"
-    .string "You and your POKéMON can use it to\n"
-    .string "play music anytime, anywhere.\p"
-    .string "Would you like to take the QUIZ?$"
+    .string "Nous organisons un QUIZ spécial.\p"
+    .string "Répondez juste à cinq questions\n"
+    .string "pour gagner un COUPON RADIO.\p"
+    .string "Vous écouterez de la musique\n"
+    .string "partout avec vos Pokémon.\p"
+    .string "Voulez-vous tenter le QUIZ?$"
 
 RadioTower1F_Text_QuizQuestion1:
     .string "Question 1:\p"
-    .string "Is there a POKéMON that appears only\n"
-    .string "in the daytime?$"
+    .string "Un Pokémon apparaît-il seulement\n"
+    .string "le jour?$"
 
 RadioTower1F_Text_QuizQuestion2:
-    .string "Correct!\n"
-    .string "Question 2:\p"
-    .string "Is this statement correct?\p"
-    .string "You can't buy a BERRY at a MART.$"
+    .string "C'est exact! Question 2:\p"
+    .string "Cette proposition est-elle\n"
+    .string "correcte?\p"
+    .string "On ne peut pas acheter de BAIE à\n"
+    .string "la BOUTIQUE.$"
 
 RadioTower1F_Text_QuizQuestion3:
-    .string "Bull's-eye!\n"
+    .string "Dans le mille!\n"
     .string "Question 3:\p"
-    .string "KURT, the POKéBALL creator, uses\n"
-	.string "apricorns as ingredients?$"
+    .string "FARGAS fabrique-t-il ses BALLS\n"
+	.string "avec des NOIGRUMES?$"
 
 RadioTower1F_Text_QuizQuestion4:
-    .string "So far so good!\n"
-    .string "Question 4:\p"
-    .string "Is FALKNER the VIOLET GYM LEADER\n"
-    .string "who uses bird POKéMON?$"
+    .string "Tout va bien! Question 4:\p"
+    .string "ALBERT est-il le\n"
+    .string "CHAMPION de MAUVILLE\p"
+    .string "et un utilisateur\n"
+    .string "de Pokémon oiseaux?$"
 
 RadioTower1F_Text_QuizQuestion5:
-    .string "Wow! Right again!\n"
-    .string "Here's the final question:\p"
-    .string "Do GOLDENROD GAME CORNER's slots\n"
-    .string "have CHARMANDER on their reels?$"
+    .string "Encore gagné! Voici la dernière\n"
+    .string "question:\p"
+    .string "SALAMECHE apparaît-il sur les\p"
+    .string "machines à sous au CASINO de\n"
+    .string "DOUBLONVILLE?$"
 
 RadioTower1F_Text_QuizWin:
-    .string "Bingo! You got it!\n"
-    .string "Congratulations!\p"
-    .string "Here's your prize, a RADIO CARD!$"
+    .string "C’est un sans-faute!\n"
+    .string "Félicitations!\p"
+    .string "Voici votre Coupon Radio!$"
 
 RadioTower1F_Text_PokegearRadio:
-    .string "{PLAYER}'s POKéGEAR can now double as\n"
-    .string "a RADIO!$"
+    .string "Le Pokématos de {PLAYER} peut\n"
+    .string "maintenant servir de radio!$"
 
 RadioTower1F_Text_TuneIn:
-    .string "Please tune in to our RADIO shows.$"
+    .string "Ecoute bien nos émissions!!!$"
 
 RadioTower1F_Text_WrongAnswer:
-    .string "Oh, dear.\n"
-    .string "Sorry, but you got it wrong.\p"
-    .string "Please try again!$"
+    .string "Oh non! Mauvaise réponse! Quel\n"
+    .string "dommage!\p"
+    .string "Tentez votre chance une nouvelle\n"
+    .string "fois!$"
 
 RadioTower1F_Text_DeclineQuiz:
-    .string "Oh. I see. Please see me if you\n"
-    .string "change your mind.$"
+    .string "Oh? Très bien! Revenez si vous\n"
+    .string "changez d’avis!$"
 
 RadioTower1F_Text_Lass:
-    .string "BEN is a fabulous DJ.\p"
-    .string "His sweet voice makes me melt!$"
+    .string "BEN est un super DJ!!!\p"
+    .string "Sa voix me fait super craquer!$"
 
 RadioTower1F_Text_Youngster:
-    .string "I love MARY, from POKéMON TALK.\p"
-    .string "I only know what she sounds like,\n"
-    .string "though.$"
+    .string "J'adore LULA de la CHRONIQUE\n"
+    .string "Pokémon.\p"
+    .string "En tout cas j'adore sa voix...\n"
+    .string "C'est déjà ça.$"
 
 RadioTower1F_Text_GruntM3Seen:
-    .string "We've finally taken over the\n"
-    .string "RADIO TOWER!\p"
-    .string "Now everyone will get to experience\n"
-    .string "the true terror of TEAM ROCKET!\p"
-    .string "We'll show you how scary we are!$"
+    .string "Nous avons enfin envahi la TOUR\n"
+    .string "RADIO!\p"
+    .string "Vous allez tous trembler devant\n"
+    .string "la\p"
+    .string "puissance de la TEAM ROCKET!\p"
+    .string "Ya ha ha ah ah! On est méchant!$"
 
 RadioTower1F_Text_GruntM3Beaten:
-    .string "Too strong! I'm sorry boss…$"
+    .string "Trop fort! Désolé, boss…$"
 
 RadioTower1F_Text_GruntM3After:
-    .string "You're too strong.\p"
-    .string "Our plan could be ruined. I must\n"
-    .string "warn the others…$"
+    .string "Trop balèze.\p"
+    .string "Je dois prévenir les autres. Tu\n"
+    .string "es un danger...$"
 
 RadioTower1F_Text_Directory:
-    .string "1F RECEPTION\n"
-    .string "2F SALES\p"
-    .string "3F PERSONNEL\n"
-    .string "4F PRODUCTION\p"
-    .string "5F DIRECTOR'S OFFICE$"
+    .string "RC: Réception 1{SUPER_ER}:\n"
+    .string "Produits dérivés\p"
+    .string "2{SUPER_E}: Personnel\p"
+    .string "3{SUPER_E}: Production\p"
+    .string "4{SUPER_E}: Bureau du Directeur$"
 
 RadioTower1F_Text_GotRadio:
-	.string "{PLAYER} got the RADIO CARD\n"
-	.string "for the POKéGEAR!$"
+	.string "{PLAYER} obtient le COUPON RADIO\n"
+	.string "pour le Pokématos!$"
 
 GoldenrodCity_RadioTower_1F_EventScript_LotteryClerk::
 	lock
@@ -368,79 +378,74 @@ GoldenrodCity_RadioTower_1F_EventScript_GivePrizeFromEarlier::
 	end
 
 GoldenrodCity_RadioTower_1F_Text_LotteryCornerDrawTicket:
-	.string "This is the POKéMON LOTTERY CORNER.\p"
-	.string "If the LOTO TICKET's number matches\n"
-	.string "the ID number of any of your POKéMON,\l"
-	.string "you will receive a fabulous gift.\p"
-	.string "Would you like to draw a POKéMON\n"
-	.string "LOTO TICKET?$"
+	.string "Bienvenue à la LOTERIE Pokémon.\p"
+	.string "Si le numéro du TICKET LOTO\n"
+	.string "correspond à l'ID d'un de vos\p"
+	.string "Pokémon, un beau cadeau à la clé.\p"
+	.string "Tirer un TICKET LOTO?$"
 
 GoldenrodCity_RadioTower_1F_Text_ComeBackTomorrow:
-	.string "Please come back tomorrow.$"
+	.string "Revenez demain, s'il vous plaît.$"
 
 GoldenrodCity_RadioTower_1F_Text_PleaseVisitAgain:
-	.string "Please do visit again.$"
+	.string "Revenez nous voir.$"
 
 GoldenrodCity_RadioTower_1F_Text_PleasePickTicket:
-	.string "Please pick a LOTO TICKET.\n"
+	.string "Tirez un TICKET LOTO.\n"
 	.string "…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 GoldenrodCity_RadioTower_1F_Text_TicketNumberIsXPleaseWait:
-	.string "The LOTO TICKET number is {STR_VAR_1}.\p"
-	.string "I need to run a check on this number\n"
-	.string "to see if it matches any of your\l"
-	.string "POKéMON's ID numbers. Please wait.$"
+	.string "Le numéro tiré est {STR_VAR_1}.\p"
+	.string "Je dois vérifier s'il correspond\n"
+	.string "à l'ID d'un de vos Pokémon.\p"
+	.string "Veuillez patienter.$"
 
 GoldenrodCity_RadioTower_1F_Text_TicketMatchesPartyMon:
-	.string "Congratulations!\p"
-	.string "The ID number of your team's\n"
-	.string "{STR_VAR_1} matches your\l"
-	.string "LOTO TICKET's number!$"
+	.string "Félicitations!\p"
+	.string "L'ID du {STR_VAR_1} de votre équipe\n"
+	.string "correspond au TICKET LOTO!$"
 
 GoldenrodCity_RadioTower_1F_Text_TicketMatchesPCMon:
-	.string "Congratulations!\p"
-	.string "The ID number of your PC-boxed\n"
-	.string "{STR_VAR_1} matches your\l"
-	.string "LOTO TICKET's number!$"
+	.string "Félicitations!\p"
+	.string "L'ID du {STR_VAR_1} stocké sur PC\n"
+	.string "correspond au TICKET LOTO!$"
 
 GoldenrodCity_RadioTower_1F_Text_NoNumbersMatched:
-	.string "I'm sorry.\n"
-	.string "None of the numbers matched.$"
+	.string "Désolé.\n"
+	.string "Aucun numéro ne correspond.$"
 
 GoldenrodCity_RadioTower_1F_Text_TwoDigitsMatched:
-	.string "Two digits matched, so you win the\n"
-	.string "third prize!\l"
-	.string "You've won the {STR_VAR_1}!$"
+	.string "Deux chiffres correspondent.\p"
+	.string "Vous gagnez le troisième prix!\p"
+	.string "Vous remportez {STR_VAR_1}!$"
 
 GoldenrodCity_RadioTower_1F_Text_ThreeDigitsMatched:
-	.string "Three digits matched, so you win the\n"
-	.string "second prize!\l"
-	.string "You've won the {STR_VAR_1}!$"
+	.string "Trois chiffres correspondent.\p"
+	.string "Vous gagnez le deuxième prix!\p"
+	.string "Vous remportez {STR_VAR_1}!$"
 
 GoldenrodCity_RadioTower_1F_Text_FourDigitsMatched:
-	.string "Four digits matched, so you win the\n"
-	.string "first prize!\l"
-	.string "You've won the {STR_VAR_1}!$"
+	.string "Quatre chiffres correspondent.\p"
+	.string "Vous gagnez le premier prix!\p"
+	.string "Vous remportez {STR_VAR_1}!$"
 
 GoldenrodCity_RadioTower_1F_Text_AllFiveDigitsMatched:
-	.string "Oh, my goodness, all five digits\n"
-	.string "matched!\p"
-	.string "You've won the jackpot prize!\n"
-	.string "You've won the {STR_VAR_1}!$"
+	.string "Incroyable, les cinq chiffres\n"
+	.string "correspondent!\p"
+	.string "Vous gagnez le gros lot!\n"
+	.string "Vous remportez {STR_VAR_1}!$"
 
 GoldenrodCity_RadioTower_1F_Text_NoRoomForThis:
 	.string "Oh?\n"
-	.string "You seem to have no room for this.\p"
-	.string "Please make room in your BAG and\n"
-	.string "let me know.$"
+	.string "Vous n'avez pas de place.\p"
+	.string "Libérez de la place dans le SAC\n"
+	.string "et revenez me voir.$"
 
 GoldenrodCity_RadioTower_1F_Text_PrizeWeveBeenHolding:
 	.string "{PLAYER}?\n"
-	.string "Yes, I've been expecting you.\p"
-	.string "This is the prize we've been holding\n"
-	.string "for you.$"
+	.string "Oui, je vous attendais.\p"
+	.string "Voici le prix que nous gardions\n"
+	.string "pour vous.$"
 
 GoldenrodCity_RadioTower_1F_Text_PleaseVisitAgain2:
-	.string "Please do visit again.$"
-
-
+	.string "Revenez nous voir.$"

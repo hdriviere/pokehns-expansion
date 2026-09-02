@@ -13,16 +13,16 @@ CeladonDept_EventScript_Directory::
 	end
 
 CeladonDeptStore4F_Text_SuperNerd:
-	.string "I'm here to buy SURF MAIL to send\n"
-	.string "to my girlfriend.\p"
-	.string "Wait, they're out of stock?$"
+	.string "Je viens acheter une LETR SURF\n"
+	.string "pour l'envoyer à ma copine.\p"
+	.string "Quoi, ils sont en rupture?$"
 
 CeladonDeptStore4F_Text_Youngster:
-	.string "This is the only place where you\n"
-	.string "can buy LOVELY MAIL.\p"
-	.string "At least it was. They are saying\n"
-	.string "they are out of stock.$"
+	.string "C'est le seul endroit où acheter\n"
+	.string "une LETR JOLIE.\p"
+	.string "Enfin, c'était le cas. Ils sont\n"
+	.string "en rupture de stock.$"
 
 CeladonDeptStore4F_Text_Directory:
-	.string "Express Yourself With Gifts!\p"
-	.string "4F: WISEMAN GIFTS$"
+	.string "Offrir, c'est merveilleux!\p"
+	.string "3EME: CADEAUX DU       SAGE$"

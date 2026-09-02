@@ -33,41 +33,35 @@ TEST("Move names fit on Pokemon Summary Screen")
 TEST("Move names fit on Battle Screen")
 {
     u32 i;
-    const u32 fontId = FONT_NARROWER, widthPx = 64;
+    const u32 widthPx = 64;
+    u32 fitFontId;
     enum Move move = MOVE_NONE;
     for (i = 1; i < MOVES_COUNT; i++)
     {
         PARAMETRIZE_LABEL("%S", GetMoveName(i)) { move = i; }
     }
-    EXPECT_LE(GetStringWidth(fontId, GetMoveName(move), 0), widthPx);
+    fitFontId = GetFontIdToFit(GetMoveName(move), FONT_NARROW, 0, widthPx);
+    EXPECT_LE(GetStringWidth(fitFontId, GetMoveName(move), 0), widthPx);
 }
 
 TEST("Move names fit on Contest Screen")
 {
     u32 i;
-    const u32 fontId = FONT_NARROWER, widthPx = 59;
+    const u32 widthPx = 66;
+    u32 fitFontId;
     enum Move move = MOVE_NONE;
     for (i = 1; i < MOVES_COUNT; i++)
     {
         PARAMETRIZE_LABEL("%S", GetMoveName(i)) { move = i; }
     }
-    // All moves explicitly listed here are too big to fit.
-    switch (move)
-    {
-    case MOVE_STOMPING_TANTRUM:
-    case MOVE_NATURES_MADNESS:
-    case MOVE_DOUBLE_IRON_BASH:
-        EXPECT_GT(GetStringWidth(fontId, GetMoveName(move), 0), widthPx);
-        break;
-    default:
-        EXPECT_LE(GetStringWidth(fontId, GetMoveName(move), 0), widthPx);
-        break;
-    }
+    fitFontId = GetFontIdToFit(GetMoveName(move), FONT_NARROW, 0, widthPx);
+    EXPECT_LE(GetStringWidth(fitFontId, GetMoveName(move), 0), widthPx);
 }
 
 TEST("Move names fit on TMs & HMs Bag Screen")
 {
-    const u32 fontId = FONT_NARROWER, widthPx = 61;
+    const u32 widthPx = 61;
+    u32 fitFontId;
     enum Move move = MOVE_NONE;
 
     for (enum TMHMIndex tm = 1; tm <= NUM_ALL_MACHINES; tm++)
@@ -75,7 +69,8 @@ TEST("Move names fit on TMs & HMs Bag Screen")
         u32 tmMove = GetTMHMMoveId(tm);
         PARAMETRIZE_LABEL("%S", GetMoveName(tmMove)) { move = tmMove; }
     }
-    EXPECT_LE(GetStringWidth(fontId, GetMoveName(move), 0), widthPx);
+    fitFontId = GetFontIdToFit(GetMoveName(move), FONT_NARROW, 0, widthPx);
+    EXPECT_LE(GetStringWidth(fitFontId, GetMoveName(move), 0), widthPx);
 }
 
 TEST("Move names fit on Move Relearner Screen")
@@ -93,12 +88,14 @@ TEST("Move names fit on Move Relearner Screen")
 TEST("Move descriptions fit on Pokemon Summary Screen")
 {
     u32 i;
-    const u32 fontId = FONT_NORMAL, widthPx = 152;
+    const u32 widthPx = 152;
+    u32 fontId;
     enum Move move = MOVE_NONE;
     for (i = 1; i < MOVES_COUNT_ALL; i++)
     {
         PARAMETRIZE_LABEL("%S", GetMoveDescription(i)) { move = i; }
     }
+    fontId = GetFontIdToFit(GetMoveDescription(move), FONT_NORMAL, 0, widthPx);
     EXPECT_LE(GetStringWidth(fontId, GetMoveDescription(move), 0), widthPx);
 }
 
@@ -137,13 +134,15 @@ TEST("Item plural names fit on Bag Screen (left box)")
 TEST("Item names fit on PC Storage (list)")
 {
     u32 i;
-    const u32 fontId = FONT_NARROWER, widthPx = 73;
+    const u32 widthPx = 73;
+    u32 fitFontId;
     enum Item item = ITEM_NONE;
     for (i = 1; i < ITEMS_COUNT; i++)
     {
         PARAMETRIZE_LABEL("%S", gItemsInfo[i].name) { item = i; }
     }
-    EXPECT_LE(GetStringWidth(fontId, gItemsInfo[item].name, 0), widthPx);
+    fitFontId = GetFontIdToFit(gItemsInfo[item].name, FONT_NARROW, 0, widthPx);
+    EXPECT_LE(GetStringWidth(fitFontId, gItemsInfo[item].name, 0), widthPx);
 }
 
 TEST("Item plural names fit on PC storage (left box)")
@@ -164,50 +163,31 @@ TEST("Item plural names fit on PC storage (left box)")
 TEST("Item names fit on Pokemon Storage System")
 {
     u32 i;
-    const u32 fontId = FONT_SMALL_NARROWER, widthPx = 66;
+    const u32 widthPx = 66;
+    u32 fitFontId;
     enum Item item = ITEM_NONE;
     for (i = 1; i < ITEMS_COUNT; i++)
     {
         if (gItemsInfo[i].importance) continue;
         PARAMETRIZE_LABEL("%S", gItemsInfo[i].name) { item = i; }
     }
-    // All items explicitly listed here are too big to fit.
-    switch (item)
-    {
-    case ITEM_ELECTRIC_TERA_SHARD:
-    case ITEM_FIGHTING_TERA_SHARD:
-    case ITEM_PSYCHIC_TERA_SHARD:
-    case ITEM_UNREMARKABLE_TEACUP:
-    case ITEM_MASTERPIECE_TEACUP:
-    case ITEM_TWICE_SPICED_RADISH:
-        EXPECT_GT(GetStringWidth(fontId, gItemsInfo[item].name, 0), widthPx);
-        break;
-    default:
-        EXPECT_LE(GetStringWidth(fontId, gItemsInfo[item].name, 0), widthPx);
-        break;
-    }
+    fitFontId = GetFontIdToFit(gItemsInfo[item].name, FONT_SMALL, 0, widthPx);
+    EXPECT_LE(GetStringWidth(fitFontId, gItemsInfo[item].name, 0), widthPx);
 }
 
 TEST("Item names fit on Pokemon Summary Screen")
 {
     u32 i;
-    const u32 fontId = FONT_NARROWER, widthPx = 72;
+    const u32 widthPx = 72;
+    u32 fitFontId;
     enum Item item = ITEM_NONE;
     for (i = 1; i < ITEMS_COUNT; i++)
     {
         if (gItemsInfo[i].importance) continue;
         PARAMETRIZE_LABEL("%S", gItemsInfo[i].name) { item = i; }
     }
-    // All items explicitly listed here are too big to fit.
-    switch (item)
-    {
-    case ITEM_UNREMARKABLE_TEACUP:
-        EXPECT_GT(GetStringWidth(fontId, gItemsInfo[item].name, 0), widthPx);
-        break;
-    default:
-        EXPECT_LE(GetStringWidth(fontId, gItemsInfo[item].name, 0), widthPx);
-        break;
-    }
+    fitFontId = GetFontIdToFit(gItemsInfo[item].name, FONT_NORMAL, 0, widthPx);
+    EXPECT_LE(GetStringWidth(fitFontId, gItemsInfo[item].name, 0), widthPx);
 }
 
 TEST("Item names fit on Shop Screen")
@@ -225,7 +205,7 @@ TEST("Item names fit on Shop Screen")
 TEST("Item descriptions fit on Bag and Shop Screen")
 {
     u32 i;
-    const u32 fontId = FONT_NORMAL, widthPx = 102;
+    const u32 fontId = FONT_SMALL_NARROWER, widthPx = 102;
     enum Item item = ITEM_NONE;
     for (i = 1; i < ITEMS_COUNT; i++)
     {
@@ -524,12 +504,14 @@ TEST("Ability names fit on Ability Pop-Up")
 TEST("Ability descriptions fit on Pokemon Summary Screen")
 {
     u32 i;
-    const u32 fontId = FONT_NORMAL, widthPx = 146;
+    const u32 widthPx = 144;
+    u32 fontId;
     enum Ability ability = ABILITY_NONE;
     for (i = 1; i < ABILITIES_COUNT; i++)
     {
         PARAMETRIZE_LABEL("%S", gAbilitiesInfo[i].description) { ability = i; }
     }
+    fontId = GetFontIdToFit(gAbilitiesInfo[ability].description, FONT_NORMAL, 0, widthPx);
     EXPECT_LE(GetStringWidth(fontId, gAbilitiesInfo[ability].description, 0), widthPx);
 }
 

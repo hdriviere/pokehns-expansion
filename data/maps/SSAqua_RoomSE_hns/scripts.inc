@@ -19,34 +19,33 @@ SSAqua_RoomSE_EventScript_Peg::
 	end
 
 SSAqua_RoomSE_Text_PokefanmColinSeen:
-    .string "Hey, kid! Want to battle\n"
-    .string "with me?$"
+    .string "Un combat contre moi?$"
 
 SSAqua_RoomSE_Text_PokefanmColinBeaten:
-    .string "You're strong!$"
+    .string "T'es balèze!$"
 
 SSAqua_RoomSE_Text_PokefanmColinAfter:
-    .string "You're traveling all alone?\n"
-    .string "Isn't your mom worried?$"
+    .string "Tu voyages? Et ta maman, elle\n"
+    .string "s’inquiète pas?$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg1Seen:
-    .string "You think I'm a baby?\n"
-    .string "That's not fair!$"
+    .string "Tu nous prends pour des bébés?\n"
+    .string "Ça va pas la tête!$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg1Beaten:
-    .string "Oh! We lost!$"
+    .string "Oh! Perdu!$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg1After:
-    .string "Baby is a rude name to call\n"
-    .string "us girls!$"
+    .string "On est des filles! Pas des\n"
+    .string "bébés! Compris?$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg2Seen:
-    .string "I'm not a baby!\n"
-    .string "That's not nice to say to a lady!$"
+    .string "On n'est pas des bébés mais des\n"
+    .string "belles dames!$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg2Beaten:
-    .string "Oh! We lost!$"
+    .string "Oh! Perdu!$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg2After:
-    .string "Sometimes, kids are smarter\n"
-    .string "than grown-ups!$"
+    .string "Les enfants sont souvent plus\n"
+    .string "malins que les adultes!$"

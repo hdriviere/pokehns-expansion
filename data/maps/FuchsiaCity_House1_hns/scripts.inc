@@ -10,10 +10,12 @@ FuchsiaCity_House1_EventScript_Youngster::
 	end
 
 FuchsiaCity_House1_Text_BillsOlderSister:
-	.string "My grandpa is at my brother BILL's\n"
-	.string "on CERULEAN CAPE.$"
+	.string "Mon grand-père est chez mon\n"
+	.string "frère Léo au Cap d’Azuria.$"
 
 FuchsiaCity_House1_Text_Youngster:
-	.string "I saw these weird, slow POKéMON on\n"
-	.string "CYCLING ROAD.$"
+	.string "J’ai vu un Pokémon\n"
+	.string "qui bougeait\p"
+	.string "bizarrement sur la\n"
+	.string "Piste Cyclable...$"
 

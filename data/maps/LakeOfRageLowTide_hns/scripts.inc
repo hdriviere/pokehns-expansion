@@ -6,7 +6,6 @@ LakeOfRageLowTide_EventScript_Sage::
 	end
 
 LakeOfRageLowTide_Text_Sage::
-	.string "This cave contains a POKéMON\n"
-	.string "too strong for an ordinary\l"
-	.string "trainer.$"
-
+	.string "Cette grotte abrite un Pokémon\n"
+	.string "trop puissant pour un Dresseur\l"
+	.string "ordinaire.$"

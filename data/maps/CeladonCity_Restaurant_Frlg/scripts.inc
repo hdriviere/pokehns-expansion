@@ -40,39 +40,37 @@ CeladonCity_Restaurant_EventScript_FatMan::
 	end
 
 CeladonCity_Restaurant_Text_TakingBreakRightNow::
-	.string "Hi!\p"
-	.string "Sorry, but we're taking a break\n"
-	.string "right now.$"
+	.string "Salut!\p"
+	.string "On fait une p'tite pause là.$"
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
-	.string "My POKéMON are weak, so I often\n"
-	.string "have to go to the DRUGSTORE.$"
+	.string "Mes POKéMON sont faibles alors\n"
+	.string "je vais souvent acheter des\p"
+	.string "accélérateurs.$"
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
-	.string "Psst! There's a basement under the\n"
-	.string "GAME CORNER, I hear.$"
+	.string "Pssst! Il y a un truc sous le\n"
+	.string "CASINO.$"
 
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
-	.string "Munch…\p"
-	.string "The man at that table lost it all\n"
-	.string "at the slots.$"
+	.string "Miam…\p"
+	.string "Le type à cette table a tout\n"
+	.string "perdu…$"
 
 CeladonCity_Restaurant_Text_TakeThisImBusted::
-	.string "Go ahead! Laugh!\n"
-	.string "I'm flat-out busted!\p"
-	.string "No more slots for me!\n"
-	.string "I'm going straight!\p"
-	.string "Here!\n"
-	.string "I won't be needing this anymore!$"
+	.string "Vas-y! Rigole! J'ai plus une\n"
+	.string "thune!\p"
+	.string "C'est marrant, hein? Pfff… Je te\n"
+	.string "hais!\p"
+	.string "Prends ça tiens! Et surtout,\n"
+	.string "perds tout ton blé!$"
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
-	.string "{PLAYER} received a COIN CASE\n"
-	.string "from the man.$"
+	.string "{PLAYER} reçoit BOITE JETONS!$"
 
 CeladonCity_Restaurant_Text_MakeRoomForThis::
-	.string "Make room for this!$"
+	.string "T'as plus de place!$"
 
 CeladonCity_Restaurant_Text_ThoughtIdWinItBack::
-	.string "I always thought I was going to\n"
-	.string "win it back…$"
+	.string "Faut qu'j'me refasse…$"
 

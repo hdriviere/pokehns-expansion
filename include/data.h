@@ -144,7 +144,8 @@ struct TrainerClass
 struct TypeInfo
 {
     u8 name[TYPE_NAME_LENGTH + 1];
-    u8 generic[17];
+    // French type descriptions can be as long as "une capacité STELLAIRE".
+    u8 generic[23];
     u8 palette;
     u16 zMove;
     u16 maxMove;

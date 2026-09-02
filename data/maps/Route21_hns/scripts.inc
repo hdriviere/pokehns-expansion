@@ -23,32 +23,36 @@ Route21_EventScript_Arnold::
 	end
 
 Route21_Text_SwimmermSethSeen:
-	.string "Land ho! Gotta keep going!$"
+	.string "Haahahahahhaa! C'est la fête!$"
 
 Route21_Text_SwimmermSethBeaten:
-	.string "Glug…$"
+	.string "Glug...$"
 
 Route21_Text_SwimmermSethAfterBattle:
-	.string "This arrogant guy was at CINNABAR's\n"
-	.string "volcano.$"
+	.string "Il y avait ce type arrogant près\n"
+	.string "du volcan de Cramois’Ile.$"
 
 Route21_Text_SwimmerfNikkiSeen:
-	.string "If I win, you have to help me with\n"
-	.string "my suntan lotion!$"
+	.string "Si je gagne, tu me passes de la\n"
+	.string "crème!$"
 
 Route21_Text_SwimmerfNikkiBeaten:
-	.string "I'm worried about sunburn…$"
+	.string "Je fais attention aux coups de\n"
+	.string "soleil!$"
 
 Route21_Text_SwimmerfNikkiAfterBattle:
-	.string "I have to watch out for blemishes\n"
-	.string "caused by the sun.$"
+	.string "Les rides, les taches,\n"
+	.string "quelle horreur!\p"
+	.string "C’est que je suis en\n"
+	.string "âge de me marier...$"
 
 Route21_Text_FisherArnoldSeen:
-	.string "I'm bored by fishing. Let's battle!$"
+	.string "Ras-le-bol de la pêche! Allez\n"
+	.string "hop, combat!$"
 
 Route21_Text_FisherArnoldBeaten:
-	.string "Utter failure…$"
+	.string "Tout perdu...$"
 
 Route21_Text_FisherArnoldAfterBattle:
-	.string "I'll just go back to fishing…$"
+	.string "J'vais pêcher plutôt...$"
 

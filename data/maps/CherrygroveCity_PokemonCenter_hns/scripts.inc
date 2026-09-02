@@ -41,17 +41,23 @@ CherryGrove_Pokecenter_Chansey::
 	end
 
 CherryGrove_Pokecenter_Text_Fisher:
-	.string "It's great. I can store any number\n"
-	.string "of POKéMON, and it's all free.$"
+	.string "Heureusement qu’on\n"
+	.string "peut laisser autant\p"
+	.string "de Pokémon qu’on\n"
+	.string "veut gratuitement!$"
 
 CherryGrove_Pokecenter_Text_Gentleman:
-	.string "That PC is free for any\n"
-	.string "trainer to use.$"
+	.string "Le PC posé là-bas\n"
+	.string "peut être utilisé\p"
+	.string "par n’importe quel\n"
+	.string "Dresseur, alors\p"
+	.string "ne te gêne pas!$"
 
 CherryGrove_Pokecenter_Text_Lass:
-	.string "They say a watched pot never\n"
-	.string "boils. But watching the clock\l"
-	.string "in the POKéCENTER makes time fly!$"
+	.string "On dit qu'une casserole sous\n"
+	.string "surveillance ne bout jamais.\p"
+	.string "Au Centre Pokémon, l'horloge\n"
+	.string "fait filer le temps!$"
 
 CherryGrove_Pokecenter_Text_Chansey:
-	.string "CHANSEY: Chaan! Sii!$"
+	.string "LEVEINARD: Leveiiinard!$"

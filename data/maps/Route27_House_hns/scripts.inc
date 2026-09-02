@@ -44,30 +44,36 @@ Route27_Movement_FollowerJump:
 	step_end
 
 SandstormHouse_Text_Woman1:
-    .string "Where are you off to with\n"
-    .string "POKéMON?\p"
-    .string "POKéMON LEAGUE?\p"
-    .string "Are your POKéMON loyal enough for\n"
-    .string "you to win?\p"
-    .string "Let me see…$"
+    .string "Où tu vas toi avec tes Pokémon?\p"
+    .string "La LIGUE Pokémon?\p"
+    .string "Tes Pokémon sont assez confiants\n"
+    .string "pour y aller?\p"
+    .string "On va voir...$"
 
 SandstormHouse_Text_LoyalMon:
-    .string "Ah! Your POKéMON trusts you very\n"
-    .string "much.\p"
-    .string "It's nice to see a good trainer.\p"
-    .string "Here. A gift for your journey.$"
+    .string "Oh! Ton Pokémon te fait vraiment\n"
+    .string "confiance!\p"
+    .string "C’est agréable\n"
+    .string "de voir un bon\p"
+    .string "Dresseur. Tiens!\n"
+    .string "Un cadeau pour toi!$"
 
 SandstormHouse_Text_TM37Description:
-    .string "TM37 happens to be SANDSTORM.\p"
-    .string "It's a move that inflicts damage\n"
-    .string "on both battlers.\p"
-    .string "It's for advanced trainers only.\p"
-    .string "Use it if you dare. Good luck!$"
+    .string "CT37 apprend TEMPETESABLE.\p"
+    .string "Elle inflige des dégâts aux deux\n"
+    .string "combattants.\p"
+    .string "Seuls les experts savent bien\n"
+    .string "s'en servir.\p"
+    .string "A toi de peaufiner une\n"
+    .string "technique!$"
 
 SandstormHouse_Text_DisloyalMon:
-    .string "If it doesn't come to trust you\n"
-    .string "some more, it could be tough going.\p"
-    .string "Trust is the tie that binds POKéMON\n"
-    .string "and trainers.$"
+    .string "Ton Pokémon doit\n"
+    .string "avoir davantage\p"
+    .string "confiance en toi,\n"
+    .string "ou tu auras du mal\p"
+    .string "à remporter la victoire.\p"
+    .string "C’est la confiance qui unit\n"
+    .string "Dresseurs et Pokémon.$"
 
 

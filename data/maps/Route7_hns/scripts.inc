@@ -16,15 +16,15 @@ Route7_EventScript_Door::
 	end
 
 Route7_Text_UndergroundPathSign:
-	.string "What's this flyer?\p"
-	.string "… Uncouth trainers have been\n"
-	.string "holding battles in the\l"
-	.string "UNDERGROUND PATH.\p"
-	.string "Because of rising complaints by\n"
-	.string "local residents, the UNDERGROUND\l"
-	.string "PATH has been sealed indefinitely.\p"
-	.string "CELADON POLICE$"
+	.string "Une affiche?\p"
+	.string "De vilains dresseurs livrent\p"
+	.string "des combats dans le SOUTERRAIN.\p"
+	.string "Suite à de nombreuses\n"
+	.string "plaintes, le\p"
+	.string "SOUTERRAIN a été\n"
+	.string "fermé définitivement.\p"
+	.string "POLICE de CELADOPOLE$"
 
 Route7_Text_LockedDoor:
-	.string "It's locked…$"
+	.string "C'est fermé...$"
 
