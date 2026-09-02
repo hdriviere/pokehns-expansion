@@ -114,7 +114,7 @@ EcruteakCity_PokemonCenter1F_Text_Bill2:
 	.string "CENTRES Pokémon de JOHTO\n"
 	.string "et KANTO.\p"
 	.string "Je dois vite rentrer\n"
-	.string "à DOUBLONVILLEl"
+	.string "à DOUBLONVILLE\l"
 	.string "pour voir ma famille.\p"
 	.string "Passe quand tu veux!\p"
 	.string "Salut!$"

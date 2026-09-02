@@ -990,7 +990,7 @@ EcruteakCity_Theater_Text_ZukiSeen:
 	.string "M. POKéMON a confié l'OEUF au\n"
 	.string "PROF. ORME, qui te l'a remis.\p"
 	.string "Mais la pureté seule ne suffit\n"
-	.string "pasl"
+	.string "pas\l"
 	.string "pour affronter la puissance\l"
 	.string "de ce Pokémon.$"
 
@@ -1089,13 +1089,13 @@ EcruteakCity_Theater_Text_ZukiAfterAll:
 	.string "Merci pour ton aide précieuse.\p"
 	.string "Tu as prouvé que le lien entre\n"
 	.string "les humains peut s'étendre\n"
-	.string "à celuil"
+	.string "à celui\l"
 	.string "qui les unit aux Pokémon...\p"
 	.string "Merci d'avoir été à la hauteur\n"
 	.string "de nos espoirs, {PLAYER}!\p"
 	.string "Si cette expérience t'a appris\n"
 	.string "quelque chose, remercie\n"
-	.string "M. POKéMONl"
+	.string "M. POKéMON\l"
 	.string "et le PROF. ORME, pas nous...$"
 
 EcruteakCity_Theater_Text_KimonoGirlsBeforeBattle:

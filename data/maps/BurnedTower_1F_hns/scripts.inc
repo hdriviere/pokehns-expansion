@@ -156,7 +156,7 @@ BurnedTowerSilver_BeforeText:
 	.string "..............................\p"
 	.string "...Oh, c'est toi.\p"
 	.string "Je suis venu chercher les\n"
-	.string "Pokémonl"
+	.string "Pokémon\l"
 	.string "légendaires qui, paraît-il,\l"
 	.string "nichent ici.\p"
 	.string "Mais il n'y a rien!\p"

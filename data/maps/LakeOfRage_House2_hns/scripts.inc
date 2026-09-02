@@ -134,7 +134,7 @@ LakeOfRage_House2_Text_WorldsLargest:
 	.string "à la normale.\p"
 	.string "Les MAGICARPE sont revenus.\p"
 	.string "Je peux encore réaliser\n"
-	.string "mon rêve:l"
+	.string "mon rêve:\l"
 	.string "posséder le plus grand MAGICARPE\l"
 	.string "du monde.\p"
 	.string "Je paierai 2 000 ¥ pour chaque\n"

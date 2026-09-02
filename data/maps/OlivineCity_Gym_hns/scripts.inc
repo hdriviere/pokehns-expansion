@@ -199,17 +199,17 @@ OlivineCity_Gym_Text_GymGuideText:
 	.string "Elle est connue pour avoir\n"
 	.string "non pas un, mais deux atouts.\p"
 	.string "Le premier est un insecte\n"
-	.string "de métall"
+	.string "de métal\l"
 	.string "qui peut augmenter son ATTAQUE.\p"
 	.string "Le feu lui fait mal, mais\n"
 	.string "il peut parfois encaisser\l"
 	.string "de puissants coups.\p"
 	.string "Le second est un serpent\n"
-	.string "de fer géantl"
+	.string "de fer géant\l"
 	.string "doté de capacités redoutables.\p"
 	.string "Approche-le avec prudence.\p"
 	.string "Il paraît lent, mais je l'ai\n"
-	.string "déjà vul"
+	.string "déjà vu\l"
 	.string "frapper le premier grâce à une\l"
 	.string "VITESSE surprenante.$"
 
@@ -335,7 +335,7 @@ OlivineCity_Gym_Text_JasmineRematchText:
 
 OlivineCity_Gym_Text_JasmineRematchDefeatText:
 	.string "...Tu es meilleur Dresseur\n"
-	.string "que moi,l"
+	.string "que moi,\l"
 	.string "par ton talent comme ta bonté.$"
 
 OlivineCity_Gym_EventScript_Statue::

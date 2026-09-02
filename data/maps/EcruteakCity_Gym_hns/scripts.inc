@@ -82,7 +82,7 @@ EcruteakCity_Gym_Text_GymStatue:
 EcruteakCity_Gym_Text_GymStatueCertified:
 	.string "ARENE Pokémon DE ROSALIA\p"
 	.string "DRESSEURS CERTIFIÉS\n"
-	.string "PAR MORTIMER:l"
+	.string "PAR MORTIMER:\l"
 	.string "{PLAYER}$"
 
 MortyIntroText:
@@ -91,7 +91,7 @@ MortyIntroText:
 	.string "toujours été vénérés.\p"
 	.string "On raconte qu'un Pokémon aux\n"
 	.string "couleurs de l'arc-en-ciel\n"
-	.string "apparaîtl"
+	.string "apparaît\l"
 	.string "devant les vrais Dresseurs.\p"
 	.string "J'ai cru cette légende.\p"
 	.string "Je me suis entraîné ici,\n"

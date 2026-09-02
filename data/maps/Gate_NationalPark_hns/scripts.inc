@@ -231,7 +231,7 @@ Route35NationalParkGate_Text_OfficerExplainRules:
 	.string "Tu peux attraper jusqu'à\n"
 	.string "5 Pokémon.\p"
 	.string "Seul le dernier capturé sera\n"
-	.string "gardél"
+	.string "gardé\l"
 	.string "et présenté au concours.\p"
 	.string "Va attraper le Pokémon Insecte\n"
 	.string "le plus puissant possible!$"
@@ -263,7 +263,7 @@ Route35NationalParkGate_Text_TakePartInFuture:
 
 Route35NationalParkGate_Text_FirstMonCantBattle:
 	.string "Oh-oh... Le premier Pokémon\n"
-	.string "de tonl"
+	.string "de ton\l"
 	.string "équipe ne peut pas combattre.\p"
 	.string "Échange-le avec celui que tu\n"
 	.string "veux utiliser, puis reviens\l"
@@ -281,7 +281,7 @@ Route35NationalParkGate_Text_MakeRoom:
 
 Route35NationalParkGate_Text_EggAsFirstMon:
 	.string "Oh-oh... Le premier Pokémon\n"
-	.string "de tonl"
+	.string "de ton\l"
 	.string "équipe est un OEUF.\p"
 	.string "Échange-le avec celui que tu\n"
 	.string "veux utiliser, puis reviens\l"
@@ -334,7 +334,7 @@ Route35NationalParkGate_EventScript_Beauty::
 Route35NationalParkGate_Text_Rocker:
 	.string "J'adore les Pokémon oiseaux!\p"
 	.string "J'en ai vu un de type TÉNÈBRES\n"
-	.string "dans le parcl"
+	.string "dans le parc\l"
 	.string "la nuit dernière!$"
 
 Route35NationalParkGate_Text_BC2:

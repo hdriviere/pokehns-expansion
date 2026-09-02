@@ -271,7 +271,7 @@ Route36_Text_Lass1:
 	.string "cette route!\p"
 	.string "J'ai vu un Pokémon qui\n"
 	.string "ressemblait à CANINOS, mais\l"
-	.string "son aura étaitl"
+	.string "son aura était\l"
 	.string "terrifiante.$"
 
 Route36_Text_Lass2_ClearedSudowoodo:
@@ -324,7 +324,7 @@ Route36_Text_ArthurGaveGift:
 
 Route36_Text_ArthurThursday:
 	.string "JEROME: Moi, c'est JEROME\n"
-	.string "du jeudi,l"
+	.string "du jeudi,\l"
 	.string "le cinquième des sept enfants.$"
 
 Route36_Text_Sign:

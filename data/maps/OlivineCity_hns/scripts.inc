@@ -164,7 +164,7 @@ OlivineCity_Text_SilverEncounter:
 	.string "la Championne de cette ville\l"
 	.string "est absente.\p"
 	.string "Elle soignerait un Pokémon\n"
-	.string "maladel"
+	.string "malade\l"
 	.string "au PHARE.\p"
 	.string "Pfff! Quelle pleurnicheuse!\n"
 	.string "Qu'elle abandonne ce Pokémon!\p"

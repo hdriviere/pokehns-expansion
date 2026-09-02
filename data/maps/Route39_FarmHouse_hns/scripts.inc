@@ -144,7 +144,7 @@ Route39_Text_FarmerFSnatchSpeech:
 	.string "Ça, c'est SAISIE.\p"
 	.string "Cette capacité permet\n"
 	.string "à un Pokémon de voler\l"
-	.string "une capacité adversel"
+	.string "une capacité adverse\l"
 	.string "juste avant son utilisation.\p"
 	.string "Si plusieurs Pokémon utilisent\n"
 	.string "SAISIE, seul le plus lent finira\l"

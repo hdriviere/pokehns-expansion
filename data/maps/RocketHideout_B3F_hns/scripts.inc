@@ -83,7 +83,7 @@ RocketHideout_B3F_Movement_DragoniteLeave:
 
 RocketHideout_B3F_Text_LanceGetPassword:
 	.string "PETER: Il faut deux mots\n"
-	.string "de passel"
+	.string "de passe\l"
 	.string "pour entrer chez le boss.\p"
 	.string "Seuls quelques ROCKET les\n"
 	.string "connaissent.\p"

@@ -251,7 +251,7 @@ LakeOfRage_Text_LanceForcedToEvolve:
 LakeOfRage_Text_LanceIntro1:
 	.string "Tu es venu à cause des rumeurs?\p"
 	.string "Tu es {PLAYER}?\n"
-	.string "Moi, c'est PETER,l"
+	.string "Moi, c'est PETER,\l"
 	.string "un Dresseur comme toi.$"
 
 LakeOfRage_Text_LanceIntro2:
@@ -261,7 +261,7 @@ LakeOfRage_Text_LanceIntro2:
 
 LakeOfRage_Text_LanceIntro3:
 	.string "J'ai vu ton combat tout\n"
-	.string "à l'heure,l"
+	.string "à l'heure,\l"
 	.string "{PLAYER}.\p"
 	.string "Tu es un Dresseur\n"
 	.string "très talentueux.\p"

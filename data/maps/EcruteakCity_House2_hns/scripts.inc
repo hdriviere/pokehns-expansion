@@ -23,7 +23,7 @@ Ecruteak_Text_ItemfinderExplanation:
 	.string "exact.\p"
 	.string "Tu devras chercher toi-même.\p"
 	.string "Au fait, il paraît que\n"
-	.string "des objetsl"
+	.string "des objets\l"
 	.string "se trouvent dans la TOUR CENDREE\l"
 	.string "de ROSALIA.$"
 

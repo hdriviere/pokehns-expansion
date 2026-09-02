@@ -38,7 +38,7 @@ OlivineCity_PortOutside_EventScript_Fisherman2::
 
 OlivineCity_PortOutside_Text_PortFisherman1:
 	.string "Le BATEAU EXPRESS AQUARIA\n"
-	.string "partaitl"
+	.string "partait "
 	.string "autrefois pour KANTO les lundis\l"
 	.string "et vendredis.\p"
 	.string "Maintenant, il navigue presque\n"

@@ -298,7 +298,7 @@ BlackthornGym_Text_ClairRematchText:
 	.string "Tu es désormais\n"
 	.string "le Maître de JOHTO.\p"
 	.string "Tu as prouvé ta force,\n"
-	.string "mais peux-tul"
+	.string "mais peux-tu\l"
 	.string "encore me vaincre?\p"
 	.string "En tant que Maître Dragon,\n"
 	.string "je ne me retiendrai pas.\p"
@@ -309,7 +309,7 @@ BlackthornGym_Text_ClairRematchDefeatText:
 	.string "J'ai perdu?\p"
 	.string "Encore?\p"
 	.string "Je n'y crois pas.\n"
-	.string "Il doit y avoirl"
+	.string "Il doit y avoir\l"
 	.string "une erreur...$"
 
 BlackthornGym_Text_CooltrainermCodySeenText:

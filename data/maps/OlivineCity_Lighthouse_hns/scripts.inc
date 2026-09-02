@@ -48,7 +48,7 @@ OlivineLighthouse_Text_1FPokefanF:
 	.string "éclairaient la mer autour\l"
 	.string "d'OLIVILLE la nuit.\p"
 	.string "Le PHARE fut construit\n"
-	.string "en l'honneurl"
+	.string "en l'honneur\l"
 	.string "de ces nobles Pokémon.$"
 
 @2nd floor==============================================================================================================================

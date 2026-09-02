@@ -24,7 +24,7 @@ OlivineCity_EventScript_Teacher::
 
 OlivineCity_Text_PokecenterFisher:
 	.string "Le MARIN du CAFE D'OLIVILLE\n"
-	.string "voisinl"
+	.string "voisin\l"
 	.string "est vraiment généreux.\p"
 	.string "Il a appris FORCE à mon Pokémon.\p"
 	.string "Maintenant, il déplace d'énormes\n"

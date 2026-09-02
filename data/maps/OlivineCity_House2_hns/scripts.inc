@@ -25,5 +25,5 @@ OlivineCity_Text_PunishmentBro:
 
 OlivineCity_Text_PunishmentBoy:
 	.string "Chaque fois que je fais\n"
-	.string "une bêtise,l"
+	.string "une bêtise,\l"
 	.string "mon grand frère me fait peur.$"

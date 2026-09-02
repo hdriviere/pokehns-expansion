@@ -22,7 +22,7 @@ OlivineCity_Cafe_Text_Jasmine:
 	.string "En fait, la personne assise ici\n"
 	.string "avant moi a beaucoup mangé...\p"
 	.string "Si tu veux m'affronter\n"
-	.string "à nouveau,l"
+	.string "à nouveau,\l"
 	.string "retrouve-moi au DOJO\l"
 	.string "de SAFRANIA.$"
 
@@ -70,7 +70,7 @@ OlivineCity_Text_CafeSailorGotStrength:
 
 OlivineCity_Text_CafeFishingGuru:
 	.string "Le menu du CAFE D'OLIVILLE\n"
-	.string "regorgel"
+	.string "regorge\l"
 	.string "de plats nourrissants pour les\l"
 	.string "MARINS costauds comme moi!$"
 

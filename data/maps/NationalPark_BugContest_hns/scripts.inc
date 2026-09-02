@@ -224,5 +224,5 @@ NationalParkBugContest_Text_Sign_BattleNotice:
 NationalParkBugContest_Text_TrainerTips:
 	.string "Le PARC NATUREL abrite des\n"
 	.string "Pokémon différents pendant le\l"
-	.string "CONCOURS DEl"
+	.string "CONCOURS DE\l"
 	.string "CAPTURE D'INSECTE.$"

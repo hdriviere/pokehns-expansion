@@ -42,7 +42,7 @@ OlivineCity_Text_GiveGoodRod:
 OlivineCity_Text_GaveGoodRod:
 	.string "Les poissons ne vivent pas\n"
 	.string "seulement dans la mer, mais\l"
-	.string "partout où ill"
+	.string "partout où il\l"
 	.string "y a de l'eau.\p"
 	.string "Au fait, ton POKéDEX indique les\n"
 	.string "groupes de Pokémon à pêcher.\p"

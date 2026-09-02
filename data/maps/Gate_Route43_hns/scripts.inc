@@ -85,7 +85,7 @@ Gate_Route43_Rocket_Text_KickOut:
 	.string "J'en aurais presque pitié.\p"
 	.string "Bon, tu peux passer...\p"
 	.string "Mais ne le dis pas\n"
-	.string "à l'autre garde,l"
+	.string "à l'autre garde,\l"
 	.string "d'accord?$"
 
 Gate_Route43_Rocket_Text_MakingABundle:

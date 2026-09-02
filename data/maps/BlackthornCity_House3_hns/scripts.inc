@@ -212,7 +212,7 @@ BlackthornCity_MoveRelearnersHouse_Text_HandedOverHeartScale:
 BlackthornCity_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
 	.string "Si tes Pokémon doivent\n"
 	.string "réapprendre une capacité,\l"
-	.string "reviens avecl"
+	.string "reviens avec\l"
 	.string "une ÉCAILLE CŒUR.$"
 
 BlackthornCity_MoveRelearnersHouse_Text_CantTeachEgg:
