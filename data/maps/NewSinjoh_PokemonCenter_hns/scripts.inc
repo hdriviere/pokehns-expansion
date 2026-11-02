@@ -19,6 +19,32 @@ NewSinjoh_EventScript_Artist::
 	release
 	end
 
+NewSinjoh_PokemonCenter_EventScript_Skiier::
+	lock
+	faceplayer
+	msgbox NewSinjoh_PokemonCenter_Text_Skiier, MSGBOX_DEFAULT
+	closemessage
+	turnobject LOCALID_NEWSINJOH_POKEMONCENTER_SKIIER, DIR_NORTH
+	release
+	end
+
+NewSinjoh_PokemonCenter_hns_Map::
+	lockall
+	setvar VAR_0x8000, 1 @ SCREENSHOT_SINJOH_MAP
+	msgbox NewSinjoh_PokemonCenter_hns_Text_0, MSGBOX_DEFAULT
+	closemessage
+	callnative OpenScreenshotsFromScript
+	waitstate
+	releaseall
+	end
+
+NewSinjoh_PokemonCenter_Text_Skiier:
+	.string "La neige complique les\n"
+	.string "déplacements ici.\p"
+	.string "Tout se ressemble.\p"
+	.string "Cette carte est bien utile!\p"
+	.string "Quelle belle région!$"
+
 NewSinjoh_Text_Artist:
 	.string "Cette ville cachée m'inspire\n"
 	.string "énormément!\p"
@@ -60,3 +86,7 @@ NewSinjoh_Text_FemAce:
 	.string "modernes au NOUVEAU SINJOH.\p"
 	.string "Mais au moins, nous avons ce\n"
 	.string "CENTRE POKéMON.$"
+
+NewSinjoh_PokemonCenter_hns_Text_0:
+	.string "{PLAYER} regarde de plus près la\n"
+	.string "carte de SINJOH.$"

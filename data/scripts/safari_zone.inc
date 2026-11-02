@@ -109,6 +109,18 @@ SafariZone_EventScript_PokeblockPresent::
 	releaseall
 	end
 
+SafariZone_EventScript_PokeblockGone::
+	lockall
+	message SafariZone_Text_PokeblockGone
+	waitmessage
+	waitbuttonpress
+	releaseall
+	end
+
+SafariZone_Text_PokeblockGone:
+	.string "Le {STR_VAR_1} a été\n"
+	.string "entièrement mangé!$"
+
 SafariZone_Text_WouldYouLikeToExit:
 	.string "Voulez-vous quitter le PARC\n"
 	.string "SAFARI tout de suite?$"

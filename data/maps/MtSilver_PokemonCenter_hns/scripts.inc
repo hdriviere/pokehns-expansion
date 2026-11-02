@@ -63,13 +63,15 @@ MtSilver_PokemonCenter_EventScript_Meara_WarpToSinjoh::
 	end
 
 MtSilver_PokemonCenter_Text_Meara1:
-	.string "Je suis chercheuse au musée\n"
-	.string "d'ARGENTA.\p"
+	.string "Je suis chercheuse au... Euh...\n"
+	.string "au musée d’ARGENTA!\p"
 	.string "Une quantité inhabituelle\n"
-	.string "d'artefacts a été découverte\l"
+	.string "d’artefacts a été découverte\l"
 	.string "ici. Je suis venue enquêter.\p"
 	.string "As-tu trouvé quelque chose\n"
-	.string "d'étrange dans la montagne?$"
+	.string "d’étrange dans la montagne?\p"
+	.string "Une FLÛTE, par exemple?\p"
+	.string "Si oui, montre-la-moi.$"
 
 MtSilver_PokemonCenter_Text_Meara2:
 	.string "Cette flûte!\p"

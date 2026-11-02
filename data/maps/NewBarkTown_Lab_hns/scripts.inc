@@ -294,7 +294,10 @@ NewBarkTown_Lab_EventScript_ChoseStarter_NicknameStarter_Nuzlocke::
 NewBarkTown_Lab_EventScript_MrPokemon::
 	setvar VAR_NEWBARKTOWN_LABSTATE, 2
 	setvar VAR_NEWBARK_TOWN_STATE, 3
-	msgbox NewBarkTown_Lab_Text_ElmDirections1, MSGBOX_DEFAULT
+	msgbox NewBarkTown_Lab_Text_ElmDirections1_Register, MSGBOX_DEFAULT
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox NewBarkTown_Lab_Text_RegisteredElm, MSGBOX_DEFAULT
+	waitfanfare
 	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
 	msgbox NewBarkTown_Lab_Text_ElmDirections2, MSGBOX_DEFAULT
 	closemessage
@@ -750,6 +753,20 @@ NewBarkTown_Lab_Text_ElmDirections1:
 	.string "Au cas où, tu as mon numéro.\n"
 	.string "Appelle-moi s'il arrive quelque\p"
 	.string "chose!$"
+
+NewBarkTown_Lab_Text_ElmDirections1_Register:
+	.string "M. POKéMON habite un peu après\n"
+	.string "VILLE GRIOTTE, la prochaine\l"
+	.string "ville sur ton chemin.\p"
+	.string "Le trajet est presque direct,\n"
+	.string "tu ne peux pas le manquer.\p"
+	.string "Mais au cas où, voici mon\n"
+	.string "numéro. Appelle-moi s’il\l"
+	.string "arrive quelque chose!$"
+
+NewBarkTown_Lab_Text_RegisteredElm:
+	.string "Le numéro du PROF. ORME est\n"
+	.string "enregistré dans le POKéMATOS.$"
 
 
 NewBarkTown_Lab_Text_ElmLetYourMonBattle:

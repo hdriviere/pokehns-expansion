@@ -22,9 +22,15 @@ const struct HelpWindow gHelpWindowInfo[] =
     [HELP_TRADE_WINDOW] =
     {
         .header = COMPOUND_STRING("ATTENTION : COMPATIBILITÉ"),
-        .desc = COMPOUND_STRING("Une connexion avec un jeu autre que\nHeart & Soul peut endommager votre\nsauvegarde de façon irréversible.\nNe continuez qu'avec une copie de\nHeart & Soul utilisant exactement\nla même version que la vôtre."),
+        .desc = COMPOUND_STRING("Une mauvaise connexion peut abîmer\n"
+                                "votre sauvegarde définitivement.\n"
+                                "Connectez-vous uniquement si :\n"
+                                "Vous jouez tous deux à Heart & Soul.\n"
+                                "Vous utilisez la même version.\n"
+                                "Vos réglages de défi sont identiques.\n"
+                                "Aucun mode aléatoire n’est activé."),
         .headerFont = FONT_NORMAL,
-        .descFont = FONT_NORMAL,
+        .descFont = FONT_SMALL,
         .headerColor = {0, 4, 5},
     },
     [HELP_TELEPORTER_WINDOW] =
@@ -79,6 +85,38 @@ const struct HelpWindow gHelpWindowInfo[] =
     {
         .header = COMPOUND_STRING("ACTIONS DES BÉBÉS POKéMON"),
         .desc = COMPOUND_STRING("PICHU aime JOUER toute la journée.\nMÉLO REGARDE la lune.\nTOUDOUDOU les ENDORT.\nDEBUGANT S'ENTRAÎNE sans arrêt.\nLIPPOUTI aime se MONTRER.\nÉLEKID emmagasine de l'énergie.\nMAGBY se met souvent EN COLÈRE."),
+        .headerFont = FONT_NORMAL,
+        .descFont = FONT_SMALL,
+        .headerColor = {0, 8, 3},
+    },
+    [HELP_POKEBLOCK_WINDOW] =
+    {
+        .header = COMPOUND_STRING("MANGEOIRES : POKéBLOCS"),
+        .desc = COMPOUND_STRING("Couleurs et IV parfaits attirés :\n"
+                                "RGE: PV,ATQ,VIT   BLE: PV,ATS,VIT\n"
+                                "ROS: ATQ,ATS,VIT  VRT: PV,DÉF,DFS\n"
+                                "JNE: PV,ATQ,DÉF   VIO: ATQ,DÉF,DFS\n"
+                                "IND: PV,ATS,DFS   BRN: DÉF,VIT,DFS\n"
+                                "AZU: ATS,VIT,DFS  OLI: ATQ,DÉF,VIT\n"
+                                "GRI: PV,ATQ,ATS\n"
+                                "Chaque POKéBLOC attire un TALENT CACHÉ."
+
+                            ),
+        .headerFont = FONT_NORMAL,
+        .descFont = FONT_SMALL,
+        .headerColor = {0, 8, 3},
+    },
+    [HELP_GOLD_POKEBLOCK_WINDOW] =
+    {
+        .header = COMPOUND_STRING("MANGEOIRES : POKéBLOCS OR"),
+        .desc = COMPOUND_STRING("Les POKéBLOCS OR attirent des POKéMON\n"
+                                "avec 5 IV parfaits. La saveur détermine\n"
+                                "quel IV ne sera pas parfait.\n"
+                                "ÉPICÉ: sans ATQ SPÉ  SEC: sans ATTAQUE\n"
+                                "SUCRÉ: sans DÉF SPÉ  AMER: sans VITESSE\n"
+                                "ACIDE: sans PV\n"
+                                "Chaque POKéBLOC attire un TALENT CACHÉ."
+                            ),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_SMALL,
         .headerColor = {0, 8, 3},

@@ -493,7 +493,7 @@ VermilionCity_EventScript_TriggerStevenRight::
 
 VermilionCity_EventScript_LatiChoice::
 	applymovement2 LOCALID_VERMILIONCITY_STEVEN, VermilionCity_Movement_StevenWalkToPlayer
-	waitmovement 0	
+	waitmovement LOCALID_VERMILIONCITY_STEVEN
 	msgbox VermilionCity_Text_StevenIntro, MSGBOX_DEFAULT
 	multichoice 20, 8, MULTI_TV_LATI, TRUE
 	@goto_if_eq VAR_RESULT, MULTI_B_PRESSED, VermilionCity_EventScript_LatiCancel
@@ -512,6 +512,7 @@ VermilionCity_Movement_StevenWalkToPlayer:
 	walk_down
 	walk_down
 	walk_down
+	walk_in_place_down
 	step_end
 
 VermilionCity_Text_StevenIntro:
@@ -546,3 +547,64 @@ VermilionCity_Text_StevenOutro:
 	.string "Je dois partir.\n"
 	.string "J'espère que nos routes se\l"
 	.string "recroiseront.$"
+
+VermilionCity_EventScript_TriggerSamson::
+	lock
+	clearflag FLAG_HIDE_VERMILION_CITY_SAMSON
+	addobject LOCALID_VERMILION_CITY_SAMSON
+	playse SE_BANG
+	applymovement LOCALID_VERMILION_CITY_SAMSON, VermilionCity_Movement_SamsonEnter
+	applymovement LOCALID_PLAYER, VermilionCity_Movement_PlayerSlideback
+	waitmovement LOCALID_VERMILION_CITY_SAMSON
+	waitmovement LOCALID_PLAYER
+	msgbox VermilionCity_Text_Samson, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_VERMILION_CITY_SAMSON, VermilionCity_Movement_SamsonLeave
+	waitmovement LOCALID_VERMILION_CITY_SAMSON
+	removeobject LOCALID_VERMILION_CITY_SAMSON
+	setflag FLAG_HIDE_VERMILION_CITY_SAMSON
+	setvar VAR_VERMILION_CITY_SAMSON, 2
+	release
+	end
+
+VermilionCity_Movement_PlayerSlideback:
+	lock_facing_direction
+	walk_fast_down
+	walk_fast_down
+	unlock_facing_direction
+	step_end
+
+VermilionCity_Movement_SamsonEnter:
+	walk_fast_down
+	walk_fast_down
+	step_end
+
+VermilionCity_Movement_SamsonLeave:
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	step_end
+
+VermilionCity_Text_Samson:
+	.string "Ouah!\p"
+	.string "Pardon, petit, je suis pressé!\p"
+	.string "Le ferry de la ROUTE 13 part\n"
+	.string "bientôt pour les ÎLES, et je\l"
+	.string "dois absolument le prendre!\p"
+	.string "Ouf... Ouf...\p"
+	.string "J’ai couru jusqu’ici depuis\n"
+	.string "le MONT SÉLÉNITE.\p"
+	.string "Tu vois ce bibelot?\p"
+	.string "J’ai acheté cet ÉTRANGE SOUVENIR\n"
+	.string "à la BOUTIQUE DE SOUVENIRS.\p"
+	.string "C’est mon billet pour les ÎLES.\p"
+	.string "Bon, à bientôt!$"

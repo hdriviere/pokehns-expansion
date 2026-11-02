@@ -97,10 +97,8 @@ UnionCave_1F_Text_PokemaniacLarryBeaten:
 	.string "Non!!! Mon pauvre Pokémon...$"
 
 UnionCave_1F_Text_PokemaniacLarryAfter:
-	.string "Chaque vendredi on\n"
-	.string "peut entendre des\p"
-	.string "cris de Pokémon\n"
-	.string "venant du fond\p"
+	.string "Parfois, on entend des cris\n"
+	.string "de POKéMON venant du fond\l"
 	.string "de la grotte.$"
 
 UnionCave_1F_Text_HikerDanielSeen:

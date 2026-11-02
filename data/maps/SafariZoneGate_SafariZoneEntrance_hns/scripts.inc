@@ -322,6 +322,18 @@ SafariZoneGate_SafariZoneEntrance_EventScript_MovePlayerBackFromCounter::
 	releaseall
 	end
 
+SafariZoneGate_SafariZoneEntrance_EventScript_Chart1::
+	lock
+	helpwindow HELP_POKEBLOCK_WINDOW
+	release
+	end
+
+SafariZoneGate_SafariZoneEntrance_EventScript_Chart2::
+	lock
+	helpwindow HELP_GOLD_POKEBLOCK_WINDOW
+	release
+	end
+
 SafariZoneGate_SafariZoneEntrance_EventScript_Boy::
 	lock
 	faceplayer
@@ -395,9 +407,18 @@ SafariZoneGate_SafariZoneEntrance_Text_Baoba:
 	.string "La ZONE SAFARI te plaît?$"
 
 SafariZoneGate_SafariZoneEntrance_Text_Boy:
-	.string "J'ai entendu dire que la\n"
-	.string "nouvelle zone en construction\p"
-	.string "abritera des dragons!$"
+	.string "Tu connais les mangeoires\n"
+	.string "à POKéBLOCS?\p"
+	.string "En y plaçant un POKéBLOC, tu\n"
+	.string "attires des POKéMON dotés de\l"
+	.string "TALENTS CACHÉS!\p"
+	.string "Le type de POKéBLOC influence\n"
+	.string "aussi la nature du POKéMON.\p"
+	.string "Et surtout, le POKéBLOC utilisé\n"
+	.string "peut attirer des POKéMON\l"
+	.string "avec des IV parfaits!\p"
+	.string "Les tableaux au mur donnent\n"
+	.string "tous les détails.$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BoyGiveCase:
 	.string "Tiens, tu sembles avoir besoin\n"

@@ -7,6 +7,31 @@ Melemele_House_hns_MapScripts_MAP_SCRIPT_ON_TRANSITION:
 	end
 
 
+Alola_Melemele_Pokecenter_EventScript_Swimmer::
+	lock
+	faceplayer
+	msgbox Alola_Melemele_Pokecenter_Text_Swimmer, MSGBOX_DEFAULT
+	closemessage
+	turnobject LOCALID_MELEMELE_POKEMONCENTER_SWIMMER, DIR_NORTH
+	release
+	end
+
+Alola_Melemele_Pokecenter_Text_Swimmer:
+	.string "Ah, j’ai tant de mal à\n"
+	.string "distinguer toutes ces îles!\p"
+	.string "Je les confonds tout le temps!\p"
+	.string "Heureusement qu’il y a ce plan!$"
+
+Alola_Melemele_Pokecenter_Map::
+	lockall
+	setvar VAR_0x8000, 0 @ SCREENSHOT_ALOLA_MAP
+	msgbox Alola_Melemele_Pokecenter_Map_Text_0, MSGBOX_DEFAULT
+	closemessage
+	callnative OpenScreenshotsFromScript
+	waitstate
+	releaseall
+	end
+
 Alola_Melemele_Pokecenter_AceTrainer::
 	lock
 	faceplayer
@@ -146,3 +171,7 @@ Alola_Melemele_Pokecenter_Jessica_Text_DeclineTrade:
 Alola_Melemele_Pokecenter_Jessica_Text_TradeCompleted:
 	.string "Salut! Comment va mon ancien\n"
 	.string "TORY?$"
+
+Alola_Melemele_Pokecenter_Map_Text_0:
+	.string "{PLAYER} regarde de plus près la\n"
+	.string "carte des ÎLES ALOLA.$"

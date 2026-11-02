@@ -40,7 +40,21 @@ SaffronCity_FightingDojoVIP_EventScript_Falkner::
 	msgbox SaffronCity_FightingDojoVIP_Text_Falkner_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Falkner_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Falkner_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Falkner_Rematch::
 	trainerbattle_no_intro TRAINER_FALKNER_2_HNS, SaffronCity_FightingDojoVIP_Text_Falkner_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Falkner_PostOBC::
+	trainerbattle_no_intro TRAINER_FALKNER_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Falkner_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -55,7 +69,21 @@ SaffronCity_FightingDojoVIP_EventScript_Bugsy::
 	msgbox SaffronCity_FightingDojoVIP_Text_Bugsy_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Bugsy_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Bugsy_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Bugsy_Rematch::
 	trainerbattle_no_intro TRAINER_BUGSY_2_HNS, SaffronCity_FightingDojoVIP_Text_Bugsy_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Bugsy_PostOBC::
+	trainerbattle_no_intro TRAINER_BUGSY_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Bugsy_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -70,7 +98,21 @@ SaffronCity_FightingDojoVIP_EventScript_Whitney::
 	msgbox SaffronCity_FightingDojoVIP_Text_Whitney_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Whitney_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Whitney_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Whitney_Rematch::
 	trainerbattle_no_intro TRAINER_WHITNEY_2_HNS, SaffronCity_FightingDojoVIP_Text_Whitney_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Whitney_PostOBC::
+	trainerbattle_no_intro TRAINER_WHITNEY_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Whitney_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -85,7 +127,21 @@ SaffronCity_FightingDojoVIP_EventScript_Morty::
 	msgbox SaffronCity_FightingDojoVIP_Text_Morty_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Morty_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Morty_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Morty_Rematch::
 	trainerbattle_no_intro TRAINER_MORTY_2_HNS, SaffronCity_FightingDojoVIP_Text_Morty_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Morty_PostOBC::
+	trainerbattle_no_intro TRAINER_MORTY_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Morty_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -100,7 +156,21 @@ SaffronCity_FightingDojoVIP_EventScript_Chuck::
 	msgbox SaffronCity_FightingDojoVIP_Text_Chuck_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Chuck_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Chuck_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Chuck_Rematch::
 	trainerbattle_no_intro TRAINER_CHUCK_2_HNS, SaffronCity_FightingDojoVIP_Text_Chuck_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Chuck_PostOBC::
+	trainerbattle_no_intro TRAINER_CHUCK_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Chuck_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -115,7 +185,21 @@ SaffronCity_FightingDojoVIP_EventScript_Jasmine::
 	msgbox SaffronCity_FightingDojoVIP_Text_Jasmine_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Jasmine_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Jasmine_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Jasmine_Rematch::
 	trainerbattle_no_intro TRAINER_JASMINE_2_HNS, SaffronCity_FightingDojoVIP_Text_Jasmine_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Jasmine_PostOBC::
+	trainerbattle_no_intro TRAINER_JASMINE_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Jasmine_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -130,7 +214,21 @@ SaffronCity_FightingDojoVIP_EventScript_Pryce::
 	msgbox SaffronCity_FightingDojoVIP_Text_Pryce_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Pryce_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Pryce_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Pryce_Rematch::
 	trainerbattle_no_intro TRAINER_PRYCE_2_HNS, SaffronCity_FightingDojoVIP_Text_Pryce_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Pryce_PostOBC::
+	trainerbattle_no_intro TRAINER_PRYCE_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Pryce_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -145,7 +243,21 @@ SaffronCity_FightingDojoVIP_EventScript_Clair::
 	msgbox SaffronCity_FightingDojoVIP_Text_Clair_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Clair_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Clair_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Clair_Rematch::
 	trainerbattle_no_intro TRAINER_CLAIR_2_HNS, SaffronCity_FightingDojoVIP_Text_Clair_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Clair_PostOBC::
+	trainerbattle_no_intro TRAINER_CLAIR_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Clair_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -160,7 +272,21 @@ SaffronCity_FightingDojoVIP_EventScript_Brock::
 	msgbox SaffronCity_FightingDojoVIP_Text_Brock_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Brock_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Brock_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Brock_Rematch::
 	trainerbattle_no_intro TRAINER_BROCK_HNS, SaffronCity_FightingDojoVIP_Text_Brock_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Brock_PostOBC::
+	trainerbattle_no_intro TRAINER_BROCK_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Brock_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -175,7 +301,21 @@ SaffronCity_FightingDojoVIP_EventScript_Misty::
 	msgbox SaffronCity_FightingDojoVIP_Text_Misty_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Misty_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Misty_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Misty_Rematch::
 	trainerbattle_no_intro TRAINER_MISTY_HNS, SaffronCity_FightingDojoVIP_Text_Misty_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Misty_PostOBC::
+	trainerbattle_no_intro TRAINER_MISTY_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Misty_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -190,7 +330,21 @@ SaffronCity_FightingDojoVIP_EventScript_Surge::
 	msgbox SaffronCity_FightingDojoVIP_Text_Surge_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Surge_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Surge_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Surge_Rematch::
 	trainerbattle_no_intro TRAINER_LTSURGE_HNS, SaffronCity_FightingDojoVIP_Text_Surge_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Surge_PostOBC::
+	trainerbattle_no_intro TRAINER_LTSURGE_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Surge_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -205,7 +359,21 @@ SaffronCity_FightingDojoVIP_EventScript_Erika::
 	msgbox SaffronCity_FightingDojoVIP_Text_Erika_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Erika_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Erika_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Erika_Rematch::
 	trainerbattle_no_intro TRAINER_ERIKA_HNS, SaffronCity_FightingDojoVIP_Text_Erika_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Erika_PostOBC::
+	trainerbattle_no_intro TRAINER_ERIKA_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Erika_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -220,7 +388,21 @@ SaffronCity_FightingDojoVIP_EventScript_Janine::
 	msgbox SaffronCity_FightingDojoVIP_Text_Janine_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Janine_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Janine_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Janine_Rematch::
 	trainerbattle_no_intro TRAINER_JANINE_HNS, SaffronCity_FightingDojoVIP_Text_Janine_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Janine_PostOBC::
+	trainerbattle_no_intro TRAINER_JANINE_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Janine_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -235,7 +417,21 @@ SaffronCity_FightingDojoVIP_EventScript_Sabrina::
 	msgbox SaffronCity_FightingDojoVIP_Text_Sabrina_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Sabrina_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Sabrina_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Sabrina_Rematch::
 	trainerbattle_no_intro TRAINER_SABRINA_HNS, SaffronCity_FightingDojoVIP_Text_Sabrina_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Sabrina_PostOBC::
+	trainerbattle_no_intro TRAINER_SABRINA_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Sabrina_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -250,7 +446,21 @@ SaffronCity_FightingDojoVIP_EventScript_Blaine::
 	msgbox SaffronCity_FightingDojoVIP_Text_Blaine_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Blaine_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Blaine_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Blaine_Rematch::
 	trainerbattle_no_intro TRAINER_BLAINE_HNS, SaffronCity_FightingDojoVIP_Text_Blaine_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Blaine_PostOBC::
+	trainerbattle_no_intro TRAINER_BLAINE_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Blaine_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
@@ -265,7 +475,21 @@ SaffronCity_FightingDojoVIP_EventScript_Blue::
 	msgbox SaffronCity_FightingDojoVIP_Text_Blue_Rematch, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_FightingDojoVIP_EventScript_Declined
 	closemessage
+	goto_if_unset FLAG_IS_KANTO_CHAMPION, SaffronCity_FightingDojoVIP_EventScript_Blue_Rematch
+	goto_if_ge VAR_SINJOH_STORYLINE, 13, SaffronCity_FightingDojoVIP_EventScript_Blue_PostOBC
+
+SaffronCity_FightingDojoVIP_EventScript_Blue_Rematch::
 	trainerbattle_no_intro TRAINER_BLUE_HNS, SaffronCity_FightingDojoVIP_Text_Blue_RematchDefeat
+	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	givebp 10
+	msgbox BattleFrontier_Text_ObtainedXBattlePoints, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SaffronCity_FightingDojoVIP_EventScript_Blue_PostOBC::
+	trainerbattle_no_intro TRAINER_BLUE_POSTOBC_HNS, SaffronCity_FightingDojoVIP_Text_Blue_RematchDefeat
 	applymovement2 VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	givebp 10
